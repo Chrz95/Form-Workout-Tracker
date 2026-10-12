@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791825576165,
+      "tag": "0000_slow_the_hunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791832972504,
+      "tag": "0001_add_session_sets",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791833376286,
+      "tag": "0002_add_session_set_identifiers",
+      "breakpoints": true
+    }
+  ]
+}

@@ -5,6 +5,8 @@ import { loadEnvironment } from "../app/config/environment.js";
 import { createDatabase } from "./client.js";
 import { createLogger } from "../lib/logger/logger.js";
 import { exercises } from "./schema/tables.js";
+import { inArray } from "drizzle-orm";
+import { getExerciseNameKey } from "../../../shared/exerciseIdentity.js";
 /** Idempotently imports only public exercise reference data; no user/demo records are seeded.
  * @returns {Promise<void>} Seed completion.
  */
@@ -14,12 +16,32 @@ async function seedCatalog() {
   const { pool, database } = createDatabase(environment);
   try {
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
+    const retired = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/retiredExercises.json", "utf8")));
     await database.transaction(async (transaction) => {
-      for (const exercise of catalog) {
+      await transaction
+        .update(exercises)
+        .set({ nameKey: null })
+        .where(
+          inArray(
+            exercises.id,
+            [...catalog, ...retired].map((exercise) => exercise.id),
+          ),
+        );
+      for (const exercise of [...catalog, ...retired]) {
         await transaction
           .insert(exercises)
-          .values({ id: exercise.id, data: exercise })
-          .onConflictDoUpdate({ target: exercises.id, set: { data: exercise } });
+          .values({
+            id: exercise.id,
+            data: exercise,
+            nameKey: exercise.canonicalId ? null : getExerciseNameKey(exercise.name),
+          })
+          .onConflictDoUpdate({
+            target: exercises.id,
+            set: {
+              data: exercise,
+              nameKey: exercise.canonicalId ? null : getExerciseNameKey(exercise.name),
+            },
+          });
       }
     });
     logger.info({ exercises: catalog.length }, "Public exercise reference data seeded");

@@ -1,3 +1,4 @@
+import { workoutInputSchema } from "../../../../shared/contracts";
 import { Play, Save } from "lucide-react";
 import { ICON_SIZE } from "../../../../shared/constants";
 import type { StudioProps } from "../../app/useStudio";
@@ -9,18 +10,38 @@ import type { StudioProps } from "../../app/useStudio";
 export function WorkoutEditorActions({ studio }: StudioProps) {
   /** Begins training without implying the routine was saved. */
   function startDraft() {
+    const checked = workoutInputSchema.safeParse({
+      name: studio.draftName || "My training session",
+      notes: studio.draftNotes,
+      items: studio.draftItems,
+      ...(studio.draftWorkoutIds.length ? { includedWorkoutIds: studio.draftWorkoutIds } : {}),
+    });
+    if (!checked.success) {
+      studio.setApiError(checked.error.issues[0]?.message ?? "Check your workout targets.");
+      return;
+    }
     studio.setApiError("");
-    studio.live.startWorkout({ name: studio.draftName, notes: studio.draftNotes, items: studio.draftItems });
-    studio.setIsBuilderOpen(false);
+    if (studio.startWorkout({ ...checked.data, id: studio.editingWorkoutId })) {
+      studio.setIsBuilderOpen(false);
+    }
   }
   return (
     <div className="modal-actions builder-actions">
-      <span>{studio.draftItems.length} exercises · current draft</span>
+      <span>
+        {studio.draftItems.length} direct exercises · {studio.draftWorkoutIds.length} component workouts
+      </span>
       <div>
+        <button
+          type="button"
+          className="text-button"
+          onClick={() => studio.setWorkoutPreviewId("draft")}
+        >
+          Review full workout
+        </button>
         <button
           className="button secondary"
           type="button"
-          disabled={studio.draftItems.length === 0}
+          disabled={studio.draftItems.length === 0 && studio.draftWorkoutIds.length === 0}
           onClick={startDraft}
         >
           <Play size={ICON_SIZE.miniature} />

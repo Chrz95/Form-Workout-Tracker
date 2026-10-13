@@ -18,17 +18,24 @@ export interface ProgressPoint {
 /** Builds honest measurements from working sets, accepting uniform legacy entries.
  * @param {Session[]} sessions - Saved training history.
  * @param {string} exerciseId - Selected movement.
+ * @param {string[]} legacyIds - Consolidated historical references.
  * @returns {ProgressPoint[]} Chronological measurements.
  */
-export function buildProgressPoints(sessions: Session[], exerciseId: string): ProgressPoint[] {
+export function buildProgressPoints(
+  sessions: Session[],
+  exerciseId: string,
+  legacyIds: string[] = [],
+): ProgressPoint[] {
   return [...sessions]
     .sort((first, second) => first.date.localeCompare(second.date) || first.createdAt.localeCompare(second.createdAt))
     .flatMap((session) => {
-      const item = session.items.find((entry) => entry.exerciseId === exerciseId);
-      if (!item) {
+      const items = session.items.filter(
+        (entry) => entry.exerciseId === exerciseId || legacyIds.includes(entry.exerciseId),
+      );
+      if (!items.length) {
         return [];
       }
-      const working = getRecordedSets(item).filter((set) => set.kind === SET_KIND.working);
+      const working = items.flatMap(getRecordedSets).filter((set) => set.kind === SET_KIND.working);
       if (!working.length) {
         return [];
       }
@@ -41,7 +48,7 @@ export function buildProgressPoints(sessions: Session[], exerciseId: string): Pr
           reps: Math.max(...working.map((set) => set.reps)),
           volume: working.reduce((total, set) => total + set.weight * set.reps, 0),
           workingSets: working.length,
-          isLegacy: !item.performedSets,
+          isLegacy: items.some((item) => !item.performedSets),
         },
       ];
     });

@@ -1,12 +1,161 @@
 # Form — Workout Studio
 
-Form is a personal workout PWA with a searchable library of 3,201 exercises, real instructional images,
+Form is a personal workout PWA with a searchable library of 3,625 exercises, real instructional images,
 controllable frame demonstrations, custom routines, live per-set training, rest timers, a daily workout journal,
 and exercise progress charts calculated from saved sessions.
-Saved routines and date-filtered journal entries can also be downloaded as spreadsheet-safe CSV files.
+Saved routines and date-filtered journal entries can be exported as spreadsheet-safe CSV files and imported after review.
 The visual design uses soft olive surfaces, generous spacing, and an editorial training banner.
 
-## Release 2.2
+## Release 2.10.2 — Local build and credential initialization fix
+
+The standalone build no longer requires `API_ACCESS_TOKEN` or creates a server proxy at build time.
+Vite locates the root `.env` using its configuration file location, independent of the current working directory.
+`pnpm dev`, `pnpm start:local` and `pnpm db:setup:local` run `pnpm local:init` first. It generates a private local
+credential only when missing/blank or still the supplied example, preserving configured database settings and valid
+existing credentials. Missing `.env` files are created from the template; set `DATABASE_URL` to your running database.
+`pnpm local:init` can also prepare settings before running frontend/backend commands separately.
+
+## Release 2.10.1 — Automatic connection without Docker
+
+`pnpm dev` now automatically connects even if `.env` still contains an older local API URL such as
+`http://localhost:3001/api/v1`. The private proxy uses the configured backend `HOST`, `PORT` and `API_PREFIX`;
+the backend uses `DATABASE_URL`. Tokens remain server-side. No connection-dialog step is required after refreshing.
+
+For an already running, installed PostgreSQL instance, use `pnpm db:setup:local` and then `pnpm dev`.
+These commands do not invoke Docker. To run the built app locally, `pnpm start:local` builds both applications,
+starts the backend and serves the PWA at `http://localhost:8080` with the same protected automatic connection.
+See the [local setup guide](docs/LOCAL.md) for configuration, upgrade and troubleshooting details.
+
+## Release 2.10 — Automatic local database connection
+
+The Docker app and default `pnpm dev` setup now connect automatically to the configured Express/PostgreSQL backend,
+verify its capabilities and load saved training at startup. The local server proxy supplies authentication privately;
+no database password or API token enters the browser bundle. Refreshing reconnects without entering a token.
+If startup fails, open connection settings and retry after checking the backend/database readiness.
+
+Keep `.env.docker` and `workout_data`, then rebuild with `sh scripts/docker-up.sh` or `pnpm docker:up`.
+PostgreSQL remains on **5433**. No new database migration is required for this update.
+For host development, leave `VITE_API_BASE_URL` blank in `.env` to use the automatic local proxy.
+A separately hosted static preview still requires a reachable HTTPS workout API and manual bearer credentials.
+See [Docker setup](docs/DOCKER.md) for the trusted-local access boundary and remote hosting configuration.
+
+## Release 2.9.1 — Import module resolution fix
+
+The CSV import component and validator now have distinct module names: `TrainingImportReview.tsx` and
+`reviewImportRecords.ts`. This prevents extensionless imports from resolving the wrong module on case-insensitive
+filesystems. The structure check rejects future case-insensitive extensionless module collisions across source roots.
+If updating from an extracted ZIP, use a fresh source folder or remove the obsolete `ImportReview.tsx` and
+`importReview.ts` files. Restart the Vite dev server and reload the page after upgrading.
+
+## Release 2.9 — Find and duplicate saved routines
+
+The workout library now searches names, notes, nested component names, movement aliases and muscles. Searches ignore
+case, accents and punctuation and require all entered terms. Sort by creation date, natural name order, resolved
+exercise count or total planned sets. Filter routines with/without components or those used by other workouts.
+Matching counts, a no-results message and Reset view make the current selection explicit.
+
+Filtering changes the visible cards only. Preview resolution, reference validation, parent usage and CSV exports use
+the complete connected library, so hidden components remain available. CSV export continues to include all saved
+workouts; existing import bounds still apply.
+
+Duplicate opens a new unsaved builder draft with a bounded Copy of name, copied notes and independent direct per-set
+arrays. Component references and their order remain linked to the same saved routines. Review and Save creates a
+separate record through POST; duplication never overwrites the source or saves automatically. Use the existing
+Copy exercises instead builder action when you want to flatten component targets into an independent snapshot.
+
+No migration, dependency or new API capability is required. Rebuild with `sh scripts/docker-up.sh`, keeping
+`.env.docker` and the persistent `workout_data` volume. PostgreSQL remains on port 5433.
+See [release details](docs/RELEASE-2.9.md) and [verification limits](docs/VALIDATION.md).
+
+## Release 2.8 — Full workout preview and parent visibility
+
+Use Review on a saved workout card or Review full workout in the builder to inspect the complete resolved exercise
+order, component source path and exact reps/load for every planned set. Uniform older prescriptions expand into
+explicit read-only rows. The preview uses current connected records, validates the full draft and blocks starting
+invalid targets. Click a movement to open its instructional dialog above the preview; closing it returns to the
+preview and closing the preview preserves the builder draft. Start from the preview to create an independent session.
+
+Workout cards identify their direct parent routines and disable deletion while referenced, with an accessible
+explanation. Full previews list every direct parent and let you review those parents. Previewing an edited component
+also shows its saved parent relations. The server’s existing deletion restrictions remain authoritative after refresh.
+
+No additional migration or dependency is needed beyond release 2.7. Rebuild with `sh scripts/docker-up.sh` while keeping
+`.env.docker` and `workout_data`. PostgreSQL remains on port 5433. See [release details](docs/RELEASE-2.8.md).
+
+## Release 2.7 — Saved workouts inside workouts
+
+In the builder, choose Add another workout and Include workout to retain an ordered reference to a saved routine.
+Components can include other components. Direct exercises run first, followed by referenced routines in order.
+The builder previews component movements and opens their exercise instructions above the draft. Reorder or remove
+components, or choose Copy exercises instead for an independent snapshot. Both approaches preserve per-set targets.
+
+Saving rejects circular references, missing components and duplicate canonical movements throughout the resolved
+routine. A child edit is rejected atomically if it would invalidate an existing parent; deleting an in-use component
+returns an actionable conflict. Starting a saved or planned routine expands the current connected records into an
+independent live session, preserving completed history and workouts already in progress.
+
+Apply migration `0005_glorious_martin_li.sql` and reseed before starting the new API. Docker’s existing migration
+service handles this on `sh scripts/docker-up.sh`. PostgreSQL remains on port 5433 with the exact persistent volume
+`workout_data`. Keep your environment file and volume when upgrading. Existing release 2.6 copied routines stay copies.
+The API advertises `nested-workouts`; the client blocks reference saves/imports to older servers.
+
+CSV exports retain component UUIDs and order. Imports can restore a parent before its children within the same atomic
+batch, or reference routines already saved. Import review shows component identities and every planned/actual set.
+Old aggregate CSV files remain supported. Limits are eight total levels, 20 immediate components, 100 resolved
+exercises, 1,000 saved routines and the existing import bounds. See [release details](docs/RELEASE-2.7.md).
+
+## Release 2.6 — Workout targets, composition, motion and dark mode
+
+Choose System, Light or Dark appearance in the sidebar. In the workout builder, click an exercise name to review
+its instructions in a second dialog while the draft stays open. Expand Individual set targets to edit each set’s
+weight and repetitions. Saved targets survive API reloads, CSV transfer and starting a live workout.
+
+Use Add another workout to combine saved routines, including previously combined routines. Composition copies
+exercises and their targets into an independent snapshot; duplicate canonical movements are skipped, preserving the
+existing draft’s targets. Later source edits do not propagate. Release 2.7 adds live nested references as a separate option.
+
+Motion guides now prefer genuine GIF/animated WebP sources, then playable video, then photographs and instructions.
+Six GIFs and fourteen local muted H264 clips cover seventeen existing exercises; three earlier animated WebP guides
+remain. Playback is opt-in, with static posters, author credits and original source/license links.
+The catalog remains 3,625 entries with 2,147 image references and no additional movement records.
+
+Upgrade with `./scripts/docker-up.sh`: the migration service adds nullable `workout_items.planned_sets` and reseeds
+before the API starts. Existing aggregate routines and completed history remain compatible. Manual non-Docker upgrades:
+`pnpm db:migrate && pnpm db:seed`. Keep your existing `.env.docker` and `workout_data` volume.
+See [release details](docs/RELEASE-2.6.md) and [verification limits](docs/VALIDATION.md).
+
+## Release 2.5 — Docker application stack
+
+Run the frontend, backend and PostgreSQL together with `sh scripts/docker-up.sh` on Linux/macOS/WSL, or use
+`pnpm docker:init` followed by `pnpm docker:up`. No host Node/pnpm installation is needed for the shell launcher.
+Open http://localhost:8080; the app connects automatically using the private server proxy.
+Multi-stage images serve the production PWA through unprivileged Nginx and run compiled Express as the Node user.
+Compose waits for database health, a separate migration/seed job, then API health before starting the frontend.
+The database remains on 5433 with the exact persistent volume `workout_data`. Existing database-only commands still work.
+See [Docker setup](docs/DOCKER.md) for direct Compose/Windows instructions, upgrades, backups and verification limits.
+
+## Release 2.4
+
+CSV import restores saved routines and journal sessions with their IDs, timestamps and original training values.
+Select a Form export, review each record locally, then confirm one atomic PostgreSQL transaction. Unchanged saved IDs
+are skipped; conflicting IDs, missing exercise references and duplicate canonical movements block the whole file.
+Actual sets retain UUIDs, warmup/working classification, weights, reps and RPE. Legacy aggregates remain aggregates.
+Imports require the `atomic-csv-import` API capability. No new database migration is needed beyond release 2.3.
+See `docs/RELEASE-2.4.md` for limits and format compatibility.
+
+## Release 2.3 (catalog and calendar)
+
+The release 2.3 catalog had 3,625 visible exercises and 2,141 image references after consolidating 412 duplicate or
+alternate-name records from existing and candidate catalogs. 635 entries from the new rthepen/Everkinetic snapshots
+are retained, including 222 licensed SVG illustrations. Retired IDs remain valid for saved prescriptions and actual sets.
+`pnpm catalog:deduplicate` checks/consolidates normalized movement-name keys; reviewed mappings are separately retained
+in `docs/catalog-deduplication.json`. Do not claim that simple name matching proves anatomical uniqueness.
+
+Workout calendar adds month/day navigation, separate planned/logged counts, and protected plan create/reschedule/cancel
+operations. Starting a planned routine uses its current prescription and the actual training date; it does not fabricate
+history. Apply the new committed migration and reseed before starting release 2.3. See `docs/RELEASE-2.3.md`.
+
+## Release 2.2 (previous catalog expansion)
 
 The catalog adds 2,325 described records from licensed snapshots, for 3,201 exercises total. It includes 1,960 bundled
 image assets, three real animations with still posters, and 49 original video links. 1,041 exercises have images;
@@ -82,18 +231,25 @@ All other resolved dependency versions are recorded in the root manifest and the
 
 1. Copy `.env.example` to `.env`. Keep `.env` private and outside source control.
 2. Replace `API_ACCESS_TOKEN` with a random private value of at least 32 characters.
-3. Set `VITE_API_BASE_URL=http://localhost:3001/api/v1` for local development.
-4. Keep `CORS_ALLOWED_ORIGINS=http://localhost:5173` for the local Vite frontend.
-5. Start the database, apply migrations, seed reference data, and run the two processes:
+3. Leave `VITE_API_BASE_URL` blank or use your existing local `/api/v1` URL; Vite supplies the private proxy.
+4. Set `CORS_ALLOWED_ORIGINS=http://localhost:5173,http://localhost:8080` for development and the built local app.
+5. Start your installed PostgreSQL service and set its actual credentials/port/database in `DATABASE_URL`.
+   Apply migrations, seed reference data, and run the two processes without Docker:
 
 ```bash
 pnpm install
-pnpm db:setup
+pnpm db:setup:local
 pnpm dev
 ```
 
-Open the local Vite URL printed in the terminal. Choose **Connect workout API**, enter the API URL and the private
-token, and connect. Credentials remain in memory for the current tab. Refreshing requires reconnection.
+Open the local Vite URL printed in the terminal. Saved training loads automatically from the configured backend.
+The development proxy reads `API_ACCESS_TOKEN` privately from `.env` and forwards `/api/` to configured `HOST`/`PORT`
+(default 127.0.0.1:3001), mapping to `API_PREFIX` when needed. Restart both processes after changing configuration.
+Explicit remote `VITE_API_BASE_URL` uses manual token entry.
+
+`pnpm start:local` builds and runs the complete local app at `http://localhost:8080` without Docker.
+`pnpm start` alone remains the compiled backend-only command.
+If you prefer a Docker-managed database, use `pnpm db:setup` instead of `pnpm db:setup:local`.
 The catalog is immediately available without a backend; saved routines and history load after connection succeeds.
 
 ### Local PostgreSQL port and persistent storage
@@ -127,6 +283,11 @@ packages and does not introduce a monorepo or extra manifest.
 | `pnpm dev:frontend`    | Runs Vite using the frontend-specific configuration.                                     |
 | `pnpm dev:backend`     | Runs Node watch mode with the tsx TypeScript loader.                                     |
 | `pnpm db:up`           | Starts only the PostgreSQL 17 Compose service and waits for its health check.            |
+| `pnpm docker:init`     | Creates `.env.docker` with a random token; never replaces an existing file.              |
+| `pnpm docker:up`       | Builds/starts frontend, migration job, API and PostgreSQL and waits for health.          |
+| `pnpm docker:down`     | Stops the whole stack while preserving `workout_data`.                                   |
+| `pnpm docker:status`   | Shows running/healthy services and the completed migration job.                          |
+| `pnpm docker:logs`     | Follows recent stack logs.                                                               |
 | `pnpm db:down`         | Stops Compose without deleting the database volume.                                      |
 | `pnpm db:setup`        | Starts PostgreSQL on 5433 with `workout_data`, migrates, seeds, and checks connectivity. |
 | `pnpm db:test:prepare` | Creates the explicitly configured disposable test database if missing; never drops it.   |
@@ -172,7 +333,10 @@ backend/
   src/lib/                 safe errors and redacted structured logging
   src/constants/           operational bounds and process signals
 shared/                    dependency-light Zod HTTP contracts and domain constants
-scripts/                   build precache generation and source-convention verification
+scripts/                   build precache, source checks and Docker credential/start helpers
+docker/                    Nginx configuration and API container readiness probe
+Dockerfile                 multi-stage frontend/backend production image targets
+compose.app.yaml           full application overlay, separate migration/seed job and health ordering
 compose.yaml               local PostgreSQL service only
 ```
 
@@ -243,20 +407,20 @@ accounts, passwords, tokens, journal sessions or fake progress. Media paths refe
 All server environment reads belong to `backend/src/app/config/environment.ts`. Missing or invalid required
 configuration fails startup. Browser configuration belongs to `frontend/src/app/config/environment.ts`.
 
-| Variable                                      | Purpose                                                                                  |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `NODE_ENV`                                    | Development, test or production behavior.                                                |
-| `HOST`                                        | Bind address; local default is loopback. Set explicitly for your production platform.    |
-| `PORT`                                        | Express listening port; default 3001.                                                    |
-| `CORS_ALLOWED_ORIGINS`                        | Comma-separated exact frontend origins. Include the hosted Site URL for that deployment. |
-| `LOG_LEVEL`                                   | Pino severity.                                                                           |
-| `API_PREFIX`                                  | Versioned `/api/vN` prefix.                                                              |
-| `DATABASE_URL`                                | Required private PostgreSQL connection URL.                                              |
-| `DATABASE_POOL_MAX_CONNECTIONS`               | Per-process pool bound; default 10.                                                      |
-| `DATABASE_CONNECTION_TIMEOUT_IN_MILLISECONDS` | Connection timeout; default 5000.                                                        |
-| `API_ACCESS_TOKEN`                            | Private single-owner bearer token, at least 32 characters.                               |
-| `TEST_DATABASE_URL`                           | Optional dedicated disposable PostgreSQL database ending in `_test`.                     |
-| `VITE_API_BASE_URL`                           | Public API URL embedded in the static frontend; blank for a disconnected preview.        |
+| Variable                                      | Purpose                                                                                            |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `NODE_ENV`                                    | Development, test or production behavior.                                                          |
+| `HOST`                                        | Bind address; local default is loopback. Set explicitly for your production platform.              |
+| `PORT`                                        | Express listening port; default 3001.                                                              |
+| `CORS_ALLOWED_ORIGINS`                        | Comma-separated exact frontend origins. Include the hosted Site URL for that deployment.           |
+| `LOG_LEVEL`                                   | Pino severity.                                                                                     |
+| `API_PREFIX`                                  | Versioned `/api/vN` prefix.                                                                        |
+| `DATABASE_URL`                                | Required private PostgreSQL connection URL.                                                        |
+| `DATABASE_POOL_MAX_CONNECTIONS`               | Per-process pool bound; default 10.                                                                |
+| `DATABASE_CONNECTION_TIMEOUT_IN_MILLISECONDS` | Connection timeout; default 5000.                                                                  |
+| `API_ACCESS_TOKEN`                            | Private single-owner bearer token, at least 32 characters.                                         |
+| `TEST_DATABASE_URL`                           | Optional dedicated disposable PostgreSQL database ending in `_test`.                               |
+| `VITE_API_BASE_URL`                           | Public API URL; `/api/v1` resolves to the page origin in Docker; blank for a disconnected preview. |
 
 Never prefix server credentials with `VITE_`. Never add secrets to the repository, frontend build, access logs,
 or the hosting manifest. The static Site does not contain a token. The connection dialog retains it only in tab memory.
@@ -336,8 +500,27 @@ Files use UTF-8 with a BOM, quoted fields, and CRLF row endings. Columns include
 session date/duration, notes, exercise identity/name/order, set identity/order/classification, reps, kilograms and effort.
 Actual sets each get a row marked `performed`; routine prescriptions are marked `prescribed`. Legacy uniform session
 entries remain one aggregate row with `set_count` and `legacy_uniform`, without invented set IDs or classifications.
-Formula-like text is prefixed with an apostrophe for spreadsheet safety. CSV import is not implemented in this release.
+Formula-like text and leading apostrophes are prefixed with an apostrophe for spreadsheet safety. New exports include
+`text_encoding=apostrophe-v1` so import can remove that guard exactly, including literal apostrophes.
 Downloads contain personal training data and remain under the user's control.
+
+### CSV imports
+
+Choose **Import CSV** in My workouts or the Journal. Reading and reviewing the file happens locally, before any API
+request. Expand records to check names, notes, dates, prescriptions and actual sets. Confirm only after reviewing.
+Files must use the original Form headers and contain one record type, up to 50 records, 2,000 data rows and 1 MiB.
+The JSON transfer is separately limited to 900,000 bytes; larger histories must be split into valid smaller exports.
+
+Connect an API advertising `atomic-csv-import` to save. The server checks all references and canonical exercise aliases
+inside one transaction, and locks imported identities before comparing saved data. Any conflict rolls back the entire
+file. Identical record IDs are skipped, including after a lost network response; changed values never overwrite saved
+records. Duplicate protection is based on stable record/set IDs, not guesses about whether different IDs describe the
+same workout. Preserve IDs when retrying an export. Custom exercises must already exist under their original IDs.
+
+Older 18-column exports are accepted with their spreadsheet safety apostrophes kept as literal text and an explicit
+review notice, because those files cannot distinguish a guard from a literal apostrophe. New 19-column exports resolve
+that ambiguity. Calendar plans, custom exercise definitions and session submission retry tokens are not CSV fields.
+Imported files and credentials stay in tab memory until the API confirms PostgreSQL persistence; reconnect after reload.
 
 ## PWA and offline behavior
 
@@ -509,3 +692,29 @@ external original links. Source captions are unavailable; written guides remain 
 host and browser and is not cached offline. Browser playback, animation behavior and native modal focus still require QA.
 The PWA precache includes legal notices and versioning covers catalog/notice contents so catalog-only changes invalidate old
 static caches. PostgreSQL remains configured on 5433 with the persistent Docker volume workout_data; it could not run here.
+
+## Calendar API and duplicate-reference maintenance
+
+| Method/path                | Result                                                        |
+| -------------------------- | ------------------------------------------------------------- |
+| `GET /api/v1/plans`        | Protected chronological plans, bounded to 1,000 records.      |
+| `POST /api/v1/plans`       | Date plus saved routine; snapshot label; no session creation. |
+| `PUT /api/v1/plans/:id`    | Replace date/routine and retain plan identity.                |
+| `DELETE /api/v1/plans/:id` | Cancel intent without deleting workout/history records.       |
+
+The calendar feature follows controller → service → repository → PostgreSQL. Invalid dates/UUIDs fail before writes.
+A routine/date unique constraint prevents duplicate plans, and routine deletion sets its plan link to null while
+retaining the planned date/label. Calendar saving requires the `calendar-plans` capability. Dates use local calendar
+components and midday month anchors; no UTC conversion shifts the selected day. This feature does not send reminders.
+
+Visible public exercises are in `shared/exercises.json`; `shared/retiredExercises.json` preserves duplicate references.
+Canonical records list legacy IDs and alternate names. Database seeding upserts both groups, assigns unique name keys
+only to visible canonicals, and leaves custom identities alone. Migration 0003 adds the nullable unique name key and
+plan table. Existing actual values are never rewritten. The frontend resolves old names and comparison/progress groups.
+The API rejects repeated canonical references and known duplicate custom names/aliases; the database handles concurrent
+identical-key custom writes. Review existing private collisions before reseeding; failures roll back safely.
+
+New snapshots and their pinned hashes/rights are in `docs/catalog-expansion-2.3.json`; review decisions are in
+`docs/catalog-deduplication.json`. `/catalog-attribution.json` credits visible and retired public assets. Original
+Everkinetic SVGs are validated to reject active content/external resources and retained byte-for-byte. Source guidance
+is imported from the verified dist dataset; no technique instructions or exercise combinations are fabricated.

@@ -1,0 +1,72 @@
+# Add to compose.yaml to run the complete application without changing the database-only workflow.
+x-api: &api
+  image: form-workout-api:local
+  build:
+    context: .
+    dockerfile: Dockerfile
+    target: backend
+  environment:
+    NODE_ENV: production
+    HOST: 0.0.0.0
+    PORT: 3001
+    API_PREFIX: /api/v1
+    DATABASE_URL: ${FORM_DATABASE_URL:-postgresql://form_local:development_only@db:5433/form}
+    DATABASE_POOL_MAX_CONNECTIONS: 10
+    DATABASE_CONNECTION_TIMEOUT_IN_MILLISECONDS: 5000
+    CORS_ALLOWED_ORIGINS: ${FORM_FRONTEND_ORIGIN:-http://localhost:8080}
+    LOG_LEVEL: ${FORM_LOG_LEVEL:-info}
+    API_ACCESS_TOKEN: ${DOCKER_API_ACCESS_TOKEN:?Create .env.docker using pnpm docker:init or the Docker setup guide}
+  init: true
+  read_only: true
+  tmpfs:
+    - /tmp
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  stop_grace_period: 15s
+
+services:
+  migrate:
+    <<: *api
+    restart: "no"
+    # Explicit release task, separate from Express startup. A failed seed blocks the API.
+    command:
+      - sh
+      - -ec
+      - node backend/dist/backend/src/db/migrate.js && node backend/dist/backend/src/db/seed.js
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      disable: true
+
+  backend:
+    <<: *api
+    restart: unless-stopped
+    expose: ["3001"]
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+
+  frontend:
+    image: form-workout-web:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend
+    environment:
+      API_ACCESS_TOKEN: ${DOCKER_API_ACCESS_TOKEN:?Create .env.docker using pnpm docker:init}
+      FORM_AUTO_CONNECT: ${FORM_AUTO_CONNECT:-true}
+      FORM_FRONTEND_ORIGIN: ${FORM_FRONTEND_ORIGIN:-http://localhost:8080}
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    ports:
+      - "${FORM_BIND_ADDRESS:-127.0.0.1}:${FORM_HTTP_PORT:-8080}:8080"
+    depends_on:
+      backend:
+        condition: service_healthy

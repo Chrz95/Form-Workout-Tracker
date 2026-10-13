@@ -59,6 +59,7 @@ function buildApp(exerciseRepository: ExerciseRepository) {
     logger: pino({ level: "silent" }),
     repository,
     exerciseRepository,
+    planRepository: { list: async () => [], save: async () => null, remove: async () => false },
     checkReady: async () => {},
   });
 }

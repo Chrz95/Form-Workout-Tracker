@@ -1,3 +1,4 @@
+import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
 import { ICON_SIZE } from "../../../../shared/constants";
 import { Plus, Bookmark, ArrowUpRight, Images, Dumbbell } from "lucide-react";
 import type { Exercise } from "../../../../shared/contracts";
@@ -15,7 +16,7 @@ interface ExerciseCardProps {
  * @returns {JSX.Element} Exercise card.
  */
 export function ExerciseCard({ exercise, studio }: ExerciseCardProps) {
-  const isAdded = studio.draftItems.some((item) => item.exerciseId === exercise.id);
+  const isAdded = studio.draftSelectedItems.some((item) => matchesExerciseId(exercise, item.exerciseId));
   const isBookmarked = studio.favorites.includes(exercise.id);
   return (
     <article className="exercise-card">

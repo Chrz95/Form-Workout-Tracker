@@ -16,46 +16,58 @@ export function ExerciseVideos({ exercise }: ExerciseVideosProps) {
   if (!videos.length) {
     return null;
   }
-  const supported = videos.find((video) => video.codec === "h264");
+  const supported = videos.find((video) => video.localUrl) ?? videos.find((video) => video.codec === "h264");
   return (
-    <details className="exercise-videos">
-      <summary>Watch source technique videos ({videos.length})</summary>
-      <p>Streams from the original host when played and starts muted. Follow the written guide above.</p>
+    <section
+      className="exercise-videos"
+      aria-label="Exercise video"
+    >
+      <h3>Watch the movement</h3>
+      <p>
+        {supported
+          ? "Press play to watch. Starts muted; follow the instructions below."
+          : "Open an original source video below; this format is not available in the inline player."}
+      </p>
       {supported && !hasPlaybackError && (
         <video
           controls
           muted
           playsInline
           preload="none"
-          src={supported.url}
+          src={supported.localUrl ?? supported.url}
+          poster={supported.posterUrl}
           aria-label={`${exercise.name} technique video`}
           onError={() => setHasPlaybackError(true)}
         />
       )}
       {hasPlaybackError && <p role="alert">This browser could not play the video. Open its original link below.</p>}
-      {videos.map((video, index) => (
-        <p key={video.url}>
-          <a
-            href={video.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Original video {index + 1}
-          </a>
-          {" · "}
-          {video.author}
-          {" · "}
-          <a
-            href={video.licenseUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {video.license}
-          </a>
-          {" · "}
-          {video.codec.toUpperCase()}
-        </p>
-      ))}
-    </details>
+      <details>
+        <summary>Video credits and original sources ({videos.length})</summary>
+        {videos.map((video, index) => (
+          <p key={video.url}>
+            <a
+              href={video.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Original video {index + 1}
+            </a>
+            {" · "}
+            {video.author}
+            {" · "}
+            <a
+              href={video.licenseUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {video.license}
+            </a>
+            {" · "}
+            {video.codec.toUpperCase()}
+            {video.changes && <small>{video.changes}</small>}
+          </p>
+        ))}
+      </details>
+    </section>
   );
 }

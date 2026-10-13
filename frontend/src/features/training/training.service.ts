@@ -3,6 +3,15 @@ import { capabilitiesSchema, capabilitiesResponseSchema } from "../../../../shar
 import { z } from "zod";
 import { API_PATH, workoutSchema, sessionSchema, type Workout, type Session } from "../../../../shared/contracts";
 import { requestApi, ApiError, type ApiConnection } from "../../lib/api/client";
+import { IMPORT_PATH, importResultSchema, type ImportInput } from "../../../../shared/importContracts";
+/** Commits a reviewed transfer batch through the protected atomic import endpoint.
+ * @param {ApiConnection} connection - Verified server credentials.
+ * @param {ImportInput} input - Validated reviewed file.
+ * @returns {Promise<ImportResult>} Confirmed committed counts.
+ */
+export function importTrainingRecords(connection: ApiConnection, input: ImportInput) {
+  return requestApi(connection, IMPORT_PATH, importResultSchema, { method: "POST", body: JSON.stringify(input) });
+}
 /** Loads persisted routines.
  * @param {ApiConnection} connection - Server connection.
  * @returns {Promise<Workout[]>} Saved routines.

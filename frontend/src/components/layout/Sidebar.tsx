@@ -1,3 +1,4 @@
+import { ThemeControl } from "./ThemeControl";
 import { ICON_SIZE } from "../../../../shared/constants";
 import { Dumbbell, LayoutGrid, Layers, CalendarDays, ChartNoAxesCombined, ArrowUpRight, PlugZap } from "lucide-react";
 import { PAGE, PAGE_TITLES } from "../../app/app.constants";
@@ -6,6 +7,7 @@ const navigation = [
   { page: PAGE.library, icon: LayoutGrid },
   { page: PAGE.workouts, icon: Layers },
   { page: PAGE.journal, icon: CalendarDays },
+  { page: PAGE.calendar, icon: CalendarDays },
   { page: PAGE.progress, icon: ChartNoAxesCombined },
 ];
 /** Renders responsive primary navigation and server connection status.
@@ -66,6 +68,7 @@ export function Sidebar({ studio }: StudioProps) {
         </span>
         <span className={`status-dot ${studio.isConnected ? "online" : ""}`} />
       </button>
+      <ThemeControl />
       <div className="sidebar-footer">
         BUILT AROUND YOU <span>↗</span>
       </div>

@@ -1,4 +1,5 @@
 import type { Exercise, WorkoutItem } from "../../../../../shared/contracts";
+import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { WORKOUT_DEFAULTS } from "../../../../../shared/constants";
 import { ALTERNATIVE_RANK, ANY_EQUIPMENT } from "./alternatives.constants";
 /** Finds catalog candidates sharing an explicitly listed primary muscle, without claiming equivalence.
@@ -26,7 +27,7 @@ export function findAlternatives(
       ({ candidate, overlap }) =>
         overlap > 0 &&
         candidate.id !== exercise.id &&
-        !excludedIds.includes(candidate.id) &&
+        !excludedIds.some((id) => matchesExerciseId(candidate, id)) &&
         (equipment === ANY_EQUIPMENT || candidate.equipment === equipment) &&
         candidate.name.toLowerCase().includes(search.trim().toLowerCase()),
     )
@@ -62,6 +63,9 @@ export function substituteDraftExercise(
           ...item,
           exerciseId: replacementId,
           weight: WORKOUT_DEFAULTS.weight,
+          ...(item.plannedSets
+            ? { plannedSets: item.plannedSets.map((set) => ({ ...set, weight: WORKOUT_DEFAULTS.weight })) }
+            : {}),
         }
       : item,
   );

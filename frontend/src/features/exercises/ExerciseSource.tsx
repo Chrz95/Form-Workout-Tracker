@@ -61,7 +61,8 @@ export function ExerciseSource({ exercise }: ExerciseSourceProps) {
           >
             Original image
           </a>
-          {" · resized and converted to WebP"}
+          {" · "}
+          {asset.changes ?? "resized and converted to WebP"}
         </p>
       ))}
     </details>

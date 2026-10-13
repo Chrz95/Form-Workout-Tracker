@@ -24,3 +24,12 @@ Description/image adaptations retain their original ShareAlike licenses. Exact l
 Full translation credits and selected-media provenance are preserved in `docs/catalog-provenance.json`.
 `docs/CATALOG-SOURCES.md` documents import counts, transformations and exclusions. Exercise details and the publicly
 bundled `/catalog-licenses.html` show source/author/license links; copied legal texts are served under `/licenses/`.
+
+## Added sources in release 2.3
+
+rthepen/workout-database: whole-repository MIT guidance/metadata at pinned commit
+`ee61c50da94b60fd94b4a8fd5aefcc0fcaae28f7`. Exact notice is `licenses/rthepen-MIT.txt`.
+Everkinetic/data: Greg Priday's open exercise data and original SVG artwork under CC-BY-SA 4.0, pinned dist data
+at `446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6`. Exact source legal text is
+`licenses/everkinetic-CC-BY-SA-4.0.txt`. Guidance label adaptations retain ShareAlike; SVG artwork is unaltered.
+Public license copies, per-record credits and the complete `/catalog-attribution.json` index travel with the Site.

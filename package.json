@@ -1,7 +1,7 @@
 {
   "name": "form-workout-studio",
   "private": true,
-  "version": "2.2.0",
+  "version": "2.10.2",
   "type": "module",
   "engines": {
     "node": ">=24.19.0 <25",
@@ -9,11 +9,16 @@
   },
   "packageManager": "pnpm@11.25.0",
   "scripts": {
-    "dev": "concurrently --kill-others --names frontend,backend \"pnpm dev:frontend\" \"pnpm dev:backend\"",
+    "dev": "pnpm local:init && concurrently --kill-others --names frontend,backend \"pnpm dev:frontend\" \"pnpm dev:backend\"",
     "dev:frontend": "vite --config frontend/vite.config.ts",
     "dev:backend": "node --watch --import tsx backend/src/server.ts",
     "db:up": "docker compose up -d --wait db",
     "db:down": "docker compose down",
+    "docker:init": "node scripts/docker-init.mjs",
+    "docker:up": "docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml up --build -d --wait --wait-timeout 180",
+    "docker:down": "docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml down",
+    "docker:logs": "docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml logs --tail 100 -f",
+    "docker:status": "docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml ps -a",
     "db:setup": "pnpm db:up && pnpm db:migrate && pnpm db:seed && pnpm db:check",
     "db:test:prepare": "node --import tsx backend/src/db/prepareTestDatabase.ts",
     "db:generate": "drizzle-kit generate --config backend/drizzle.config.ts",
@@ -32,7 +37,12 @@
     "test:db": "vitest run backend/src/db/database.integration.test.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check:structure": "node scripts/check-structure.mjs"
+    "check:structure": "node scripts/check-structure.mjs",
+    "catalog:deduplicate": "node --import tsx scripts/consolidate-catalog.mjs",
+    "db:setup:local": "pnpm local:init && pnpm db:migrate && pnpm db:seed && pnpm db:check",
+    "build:local": "pnpm typecheck && vite build --config frontend/vite.config.ts --mode standalone && node scripts/generate-precache.mjs && pnpm build:backend",
+    "start:local": "pnpm local:init && pnpm build:local && concurrently --kill-others --names frontend,backend \"pnpm preview\" \"pnpm start\"",
+    "local:init": "node scripts/local-init.mjs"
   },
   "dependencies": {
     "cors": "2.8.6",

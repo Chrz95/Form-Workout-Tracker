@@ -4,6 +4,7 @@ import { createDatabase } from "./db/client.js";
 import { createLogger } from "./lib/logger/logger.js";
 import { createTrainingRepository } from "./features/training/training.repository.js";
 import { createExerciseRepository } from "./features/exercises/exercises.repository.js";
+import { createPlanRepository } from "./features/calendar/calendar.repository.js";
 import { HTTP_DEFAULTS, PROCESS_SIGNALS } from "./constants/http.constants.js";
 /** Verifies PostgreSQL before accepting traffic and installs bounded shutdown handlers.
  * @returns {Promise<void>} Server startup.
@@ -31,6 +32,7 @@ async function startServer() {
       await pool.query("SELECT 1");
     },
     exerciseRepository: createExerciseRepository(database),
+    planRepository: createPlanRepository(database),
   });
   const server = app.listen(environment.PORT, environment.HOST, () =>
     logger.info({ port: environment.PORT }, "Workout API ready"),

@@ -23,6 +23,7 @@ export function AnimationGuide({ asset, name }: AnimationGuideProps) {
         alt={`${name} ${isPlaying ? "animated guide" : "animation still frame"}`}
       />
       <button
+        type="button"
         className="button secondary"
         onClick={() => setIsPlaying(!isPlaying)}
         aria-pressed={isPlaying}

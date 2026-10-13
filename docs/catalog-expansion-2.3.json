@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "source": "rthepen/workout-database",
+      "commit": "ee61c50da94b60fd94b4a8fd5aefcc0fcaae28f7",
+      "datasetPath": "/workspace/scratch/77aed1cbae76/catalog-research-2/rthepen.json",
+      "licensePath": "/workspace/scratch/77aed1cbae76/catalog-research-2/rthepen-LICENSE.txt",
+      "datasetUrl": "https://raw.githubusercontent.com/rthepen/workout-database/ee61c50da94b60fd94b4a8fd5aefcc0fcaae28f7/dist/all_exercises.json",
+      "licenseUrl": "https://raw.githubusercontent.com/rthepen/workout-database/ee61c50da94b60fd94b4a8fd5aefcc0fcaae28f7/LICENSE",
+      "sourceRows": 1015,
+      "newNameCountBeforeSemanticReview": 556,
+      "license": "MIT",
+      "sha256": "b698953ecf41829a01870c106aebb73045498a3c08fdbc15cfda65ced046a5d6",
+      "licenseSha256": "e3bb912420170c61dc4dc07115ac034f46f962ba5de21ba751b9809e82e83411",
+      "blobVerified": true
+    },
+    {
+      "source": "everkinetic/data",
+      "commit": "446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6",
+      "datasetPath": "/workspace/scratch/77aed1cbae76/catalog-research-2/everkinetic.json",
+      "licensePath": "/workspace/scratch/77aed1cbae76/catalog-research-2/everkinetic-LICENSE.md",
+      "datasetUrl": "https://raw.githubusercontent.com/everkinetic/data/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/exercises.json",
+      "licenseUrl": "https://raw.githubusercontent.com/everkinetic/data/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/LICENSE.md",
+      "sourceRows": 289,
+      "newNameCountBeforeSemanticReview": 241,
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e37a10067bb7458539a63f3ae2c3c61437f1257dca6f7803ef893196dba9d47a",
+      "licenseSha256": "5049f48bb0fecbaa7974ac5d5f38ade23e829df637fa2f65c5fb3c74ec086a52",
+      "blobVerified": true
+    }
+  ],
+  "added": {
+    "rthepen": 717,
+    "everkinetic": 119
+  },
+  "skipped": {
+    "rthepen": 298,
+    "everkinetic": 170
+  },
+  "previousVisible": 3000,
+  "total": 3836
+}

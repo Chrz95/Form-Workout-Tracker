@@ -5,6 +5,7 @@ import { CUSTOM_EXERCISE_PREFIX, CUSTOM_EXERCISE_SOURCE } from "../../../../shar
 import { HTTP_STATUS } from "../../../../shared/constants.js";
 import { AppError } from "../../lib/errors/AppError.js";
 import type { ExerciseRepository } from "./exercises.types.js";
+import { getExerciseNameKey } from "../../../../shared/exerciseIdentity.js";
 /** Preserves imported references while allowing private authored catalog extensions. */
 export class ExerciseService {
   /** Injects the PostgreSQL persistence boundary.
@@ -15,7 +16,7 @@ export class ExerciseService {
    * @returns {Promise<Exercise[]>} References.
    */
   list() {
-    return this.repository.list();
+    return this.repository.list().then((records) => records.filter((exercise) => !exercise.canonicalId));
   }
   /** Returns authored entries for private catalog merging.
    * @returns {Promise<Exercise[]>} Owner exercises.
@@ -32,6 +33,21 @@ export class ExerciseService {
     if (id) {
       customExerciseIdentifierSchema.parse({ id });
     }
+    const key = getExerciseNameKey(input.name);
+    if (
+      (await this.repository.list()).some(
+        (record) =>
+          record.id !== id &&
+          !record.canonicalId &&
+          [record.name, ...(record.aliases ?? [])].some((name) => getExerciseNameKey(name) === key),
+      )
+    ) {
+      throw new AppError(
+        "DUPLICATE_EXERCISE",
+        "This movement already exists in your library. Use its existing entry.",
+        HTTP_STATUS.conflict,
+      );
+    }
     const { imageUrl, ...content } = input;
     const exercise = {
       ...content,
@@ -39,7 +55,20 @@ export class ExerciseService {
       images: imageUrl ? [imageUrl] : [],
       source: CUSTOM_EXERCISE_SOURCE,
     };
-    const saved = id ? await this.repository.update(exercise) : await this.repository.create(exercise);
+    let saved;
+    try {
+      saved = id ? await this.repository.update(exercise) : await this.repository.create(exercise);
+    } catch (error) {
+      const cause = error instanceof Error && "cause" in error ? error.cause : error;
+      if (cause && typeof cause === "object" && "code" in cause && cause.code === "23505") {
+        throw new AppError(
+          "DUPLICATE_EXERCISE",
+          "This movement already exists in your library. Use its existing entry.",
+          HTTP_STATUS.conflict,
+        );
+      }
+      throw error;
+    }
     if (!saved) {
       throw new AppError("NOT_FOUND", "This custom exercise could not be found.", HTTP_STATUS.notFound);
     }

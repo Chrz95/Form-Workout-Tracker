@@ -26,7 +26,7 @@ export function useLiveWorkout(dependencies: LiveDependencies) {
       setError("Add at least one exercise before starting a workout.");
       return;
     }
-    setWorkout(createLiveWorkout(input, dependencies.sessions, Date.now()));
+    setWorkout(createLiveWorkout(input, dependencies.sessions, Date.now(), dependencies.exercises));
     setError("");
     setIsOpen(true);
     rest.skipRest();

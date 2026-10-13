@@ -3,10 +3,13 @@ import request from "supertest";
 import pino from "pino";
 import { createApp } from "../../app/createApp.js";
 import { environmentSchema } from "../../app/config/environment.js";
+import { AppError } from "../../lib/errors/AppError.js";
 import { TrainingService } from "./training.service.js";
 import type { TrainingRepository } from "./training.types.js";
+import type { PlanRepository } from "../calendar/calendar.types.js";
 import { WORKOUT_DEFAULTS, HTTP_STATUS } from "../../../../shared/constants.js";
 import { API_PATH, sessionInputSchema } from "../../../../shared/contracts.js";
+import { IMPORT_PATH } from "../../../../shared/importContracts.js";
 const token = "test_private_access_token_more_than_32_chars";
 const prefix = "/api/v1";
 const id = "7c4f72b7-0114-4e9d-9b44-f45d9e23ff0b";
@@ -40,9 +43,14 @@ function createRepository(): TrainingRepository {
 /** Builds a HTTP-test application without starting its process entry point.
  * @param {TrainingRepository} [repository] - Service double.
  * @param {() => Promise<void>} [checkReady] - Database probe behavior.
+ * @param {PlanRepository} planRepository - Schedule boundary.
  * @returns {Express} Configured test application.
  */
-function buildTestApp(repository = createRepository(), checkReady: () => Promise<void> = async () => {}) {
+function buildTestApp(
+  repository = createRepository(),
+  checkReady: () => Promise<void> = async () => {},
+  planRepository: PlanRepository = { list: async () => [], save: async () => null, remove: async () => false },
+) {
   return createApp({
     environment: environmentSchema.parse({
       NODE_ENV: "test",
@@ -53,6 +61,7 @@ function buildTestApp(repository = createRepository(), checkReady: () => Promise
     logger: pino({ level: "silent" }),
     repository,
     checkReady,
+    planRepository,
     exerciseRepository: {
       list: async () => [],
       listCustom: async () => [],
@@ -63,6 +72,71 @@ function buildTestApp(repository = createRepository(), checkReady: () => Promise
   });
 }
 describe("Workout API contracts", () => {
+  it("accepts reference-only workouts and rejects repeated component IDs before saving", async () => {
+    const repository = createRepository();
+    const input = { name: "Combined", notes: "", items: [], includedWorkoutIds: [id] };
+    repository.saveWorkout = vi.fn(async (record) => ({
+      ...record,
+      id: "7c4f72b7-0114-4e9d-9b44-f45d9e23ff0c",
+      createdAt: persisted.createdAt,
+    }));
+    const app = buildTestApp(repository);
+    const response = await request(app)
+      .post(`${prefix}${API_PATH.workouts}`)
+      .set("Authorization", `Bearer ${token}`)
+      .send(input)
+      .expect(HTTP_STATUS.created);
+    expect(response.body.data.includedWorkoutIds).toEqual([id]);
+    await request(app)
+      .post(`${prefix}${API_PATH.workouts}`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ ...input, includedWorkoutIds: [id, id] })
+      .expect(HTTP_STATUS.badRequest);
+    expect(repository.saveWorkout).toHaveBeenCalledTimes(1);
+  });
+  it("surfaces component-in-use deletion conflicts without leaking database details", async () => {
+    const repository = createRepository();
+    repository.deleteWorkout = vi.fn(async () => {
+      throw new AppError("WORKOUT_IN_USE", "Remove this workout from its parent routines first.", HTTP_STATUS.conflict);
+    });
+    const response = await request(buildTestApp(repository))
+      .delete(`${prefix}${API_PATH.workouts}/${id}`)
+      .set("Authorization", `Bearer ${token}`)
+      .expect(HTTP_STATUS.conflict);
+    expect(response.body.error.code).toBe("WORKOUT_IN_USE");
+  });
+  it("protects the import endpoint and returns committed counts", async () => {
+    const repository = { ...createRepository(), importRecords: vi.fn(async () => ({ inserted: 1, skipped: 0 })) };
+    const app = buildTestApp(repository);
+    await request(app)
+      .post(`${prefix}${IMPORT_PATH}`)
+      .send({ kind: "workouts", records: [persisted] })
+      .expect(HTTP_STATUS.unauthorized);
+    const response = await request(app)
+      .post(`${prefix}${IMPORT_PATH}`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ kind: "workouts", records: [persisted] })
+      .expect(HTTP_STATUS.ok);
+    expect(response.body.data).toEqual({ inserted: 1, skipped: 0 });
+    expect(repository.importRecords).toHaveBeenCalledExactlyOnceWith({ kind: "workouts", records: [persisted] });
+  });
+  it("validates import payloads before persistence", async () => {
+    const repository = { ...createRepository(), importRecords: vi.fn(async () => ({ inserted: 1, skipped: 0 })) };
+    const app = buildTestApp(repository);
+    for (const records of [
+      [],
+      [persisted, persisted],
+      [{ ...persisted, createdAt: "invalid" }],
+      [{ ...persisted, items: [...persisted.items, ...persisted.items] }],
+    ]) {
+      await request(app)
+        .post(`${prefix}${IMPORT_PATH}`)
+        .set("Authorization", `Bearer ${token}`)
+        .send({ kind: "workouts", records })
+        .expect(HTTP_STATUS.badRequest);
+    }
+    expect(repository.importRecords).not.toHaveBeenCalled();
+  });
   it("keeps liveness independent from unavailable PostgreSQL", async () => {
     const app = buildTestApp(undefined, async () => {
       throw new Error("private database details");
@@ -251,5 +325,60 @@ describe("Training business rules", () => {
     const repository = createRepository();
     const session = { ...draft, date: "2026-10-12", duration: WORKOUT_DEFAULTS.duration };
     expect(await new TrainingService(repository).saveSession(session)).toMatchObject(session);
+  });
+});
+describe("Calendar intent API", () => {
+  it("authenticates plan reads and rejects invalid dates before saving", async () => {
+    const plans: PlanRepository = { list: async () => [], save: vi.fn(async () => null), remove: async () => false };
+    const app = buildTestApp(undefined, undefined, plans);
+    await request(app).get(`${prefix}/plans`).expect(401);
+    await request(app)
+      .post(`${prefix}/plans`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ date: "2026-02-30", workoutId: id })
+      .expect(400);
+    expect(plans.save).not.toHaveBeenCalled();
+  });
+  it("creates and reschedules intent without fabricating a session", async () => {
+    const repository = createRepository();
+    const saved = { id, date: "2026-10-15", workoutId: id, name: "Upper body", createdAt: persisted.createdAt };
+    const plans: PlanRepository = {
+      list: async () => [saved],
+      save: vi.fn(async (input) => ({ ...saved, ...input })),
+      remove: async () => true,
+    };
+    const app = buildTestApp(repository, undefined, plans);
+    const response = await request(app)
+      .post(`${prefix}/plans`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ date: saved.date, workoutId: id })
+      .expect(201);
+    expect(response.body.data.date).toBe(saved.date);
+    await request(app)
+      .put(`${prefix}/plans/${id}`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ date: "2026-10-16", workoutId: id })
+      .expect(200);
+    expect(repository.saveSession).not.toHaveBeenCalled();
+  });
+  it("cancels only intent and translates duplicate routine/date conflicts safely", async () => {
+    const repository = createRepository();
+    const plans: PlanRepository = {
+      list: async () => [],
+      save: async () => {
+        throw new Error("private constraint", { cause: Object.assign(new Error("secret"), { code: "23505" }) });
+      },
+      remove: async () => true,
+    };
+    const app = buildTestApp(repository, undefined, plans);
+    const failure = await request(app)
+      .post(`${prefix}/plans`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ date: "2026-10-15", workoutId: id })
+      .expect(409);
+    expect(failure.body.error.code).toBe("DUPLICATE_PLAN");
+    expect(JSON.stringify(failure.body)).not.toContain("secret");
+    await request(app).delete(`${prefix}/plans/${id}`).set("Authorization", `Bearer ${token}`).expect(200);
+    expect(repository.deleteSession).not.toHaveBeenCalled();
   });
 });

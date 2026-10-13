@@ -1,43 +1,38 @@
-import { asc, desc, eq } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import { workouts, workoutItems } from "../../db/schema/tables.js";
+import { workoutLinks } from "../../db/schema/workoutLinks.js";
 import type { Database } from "../../db/client.js";
 import type { WorkoutInput } from "./training.types.js";
-import { HTTP_DEFAULTS } from "../../constants/http.constants.js";
-/** Encapsulates routine queries and atomic list replacement.
+import {
+  lockWorkoutGraph,
+  readWorkoutGraph,
+  replaceWorkoutLinks,
+  validateWorkoutGraph,
+} from "./workoutGraph.repository.js";
+import { AppError } from "../../lib/errors/AppError.js";
+import { HTTP_STATUS } from "../../../../shared/constants.js";
+/** Encapsulates routine queries and atomic composition replacement.
  * @param {Database} database - Pooled Drizzle connection.
  * @returns {object} Routine repository methods.
  */
 export function createWorkoutsRepository(database: Database) {
-  /** Loads bounded routines with stable item order.
+  /** Loads a consistent complete graph with every component dependency.
    * @returns {Promise<Workout[]>} Saved routines.
    */
   async function listWorkouts() {
-    const records = await database
-      .select()
-      .from(workouts)
-      .orderBy(desc(workouts.createdAt))
-      .limit(HTTP_DEFAULTS.maxRecords);
-    return Promise.all(
-      records.map(async (record) => ({
-        ...record,
-        createdAt: record.createdAt.toISOString(),
-        items: (
-          await database
-            .select()
-            .from(workoutItems)
-            .where(eq(workoutItems.workoutId, record.id))
-            .orderBy(asc(workoutItems.position))
-        ).map(({ exerciseId, sets, reps, weight }) => ({ exerciseId, sets, reps, weight })),
-      })),
-    );
+    return database.transaction(async (transaction) => {
+      await lockWorkoutGraph(transaction);
+      return readWorkoutGraph(transaction);
+    });
   }
-  /** Atomically creates or replaces a complete prescription.
+  /** Atomically replaces a prescription and validates all affected parents.
    * @param {WorkoutInput} input - Validated routine.
-   * @param {string} [id] - Existing routine identifier.
+   * @param {string} [id] - Existing identity.
    * @returns {Promise<Workout | null>} Saved record or missing routine.
    */
   async function saveWorkout(input: WorkoutInput, id?: string) {
     return database.transaction(async (transaction) => {
+      await lockWorkoutGraph(transaction);
       const [record] = id
         ? await transaction
             .update(workouts)
@@ -49,18 +44,33 @@ export function createWorkoutsRepository(database: Database) {
         return null;
       }
       await transaction.delete(workoutItems).where(eq(workoutItems.workoutId, record.id));
-      await transaction
-        .insert(workoutItems)
-        .values(input.items.map((item, position) => ({ ...item, workoutId: record.id, position })));
-      return { ...record, createdAt: record.createdAt.toISOString(), items: input.items };
+      if (input.items.length) {
+        await transaction
+          .insert(workoutItems)
+          .values(input.items.map((item, position) => ({ ...item, workoutId: record.id, position })));
+      }
+      await replaceWorkoutLinks(transaction, record.id, input.includedWorkoutIds);
+      await validateWorkoutGraph(transaction);
+      return { ...record, ...input, createdAt: record.createdAt.toISOString() };
     });
   }
-  /** Deletes a list with cascade cleanup.
-   * @param {string} id - Routine identifier.
-   * @returns {Promise<boolean>} Whether a row existed.
+  /** Prevents deleting a referenced component, preserving every parent.
+   * @param {string} id - Routine identity.
+   * @returns {Promise<boolean>} Whether a record existed.
    */
   async function deleteWorkout(id: string) {
-    return (await database.delete(workouts).where(eq(workouts.id, id)).returning({ id: workouts.id })).length > 0;
+    return database.transaction(async (transaction) => {
+      await lockWorkoutGraph(transaction);
+      const users = await transaction.select().from(workoutLinks).where(eq(workoutLinks.childId, id)).limit(1);
+      if (users.length) {
+        throw new AppError(
+          "WORKOUT_IN_USE",
+          "Remove this workout from its parent routines first.",
+          HTTP_STATUS.conflict,
+        );
+      }
+      return (await transaction.delete(workouts).where(eq(workouts.id, id)).returning({ id: workouts.id })).length > 0;
+    });
   }
   return { listWorkouts, saveWorkout, deleteWorkout };
 }

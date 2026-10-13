@@ -1,4 +1,5 @@
 import type { WorkoutItem } from "../../../../shared/contracts.js";
+import type { ImportInput } from "../../../../shared/importContracts.js";
 import { HTTP_STATUS } from "../../../../shared/constants.js";
 import { AppError } from "../../lib/errors/AppError.js";
 import type { TrainingRepository, WorkoutInput, SessionInput } from "./training.types.js";
@@ -13,6 +14,15 @@ export class TrainingService {
    * @returns {Promise<void>} Validation completion.
    */
   private async validateItems(items: WorkoutItem[]) {
+    if (this.repository.resolveExerciseIds) {
+      const canonicalIds = await this.repository.resolveExerciseIds(items);
+      if (new Set(canonicalIds).size !== canonicalIds.length) {
+        throw new AppError(
+          "DUPLICATE_EXERCISE",
+          "Choose one entry per movement; alternate names refer to the same exercise.",
+        );
+      }
+    }
     if (new Set(items.map((item) => item.exerciseId)).size !== items.length) {
       throw new AppError("DUPLICATE_EXERCISE", "Each exercise may appear once in a workout.");
     }
@@ -50,6 +60,17 @@ export class TrainingService {
   listWorkouts() {
     return this.repository.listWorkouts();
   }
+  /** Imports a whole validated file without replacing saved identities.
+   * @param {ImportInput} input - Bounded transfer batch.
+   * @returns {Promise<ImportResult>} Committed counts.
+   */
+  async importRecords(input: ImportInput) {
+    const operation = this.repository.importRecords;
+    if (!operation) {
+      throw new AppError("IMPORT_UNAVAILABLE", "Update this API before importing.", HTTP_STATUS.unavailable);
+    }
+    return this.persist(() => operation(input));
+  }
   /** Saves a validated routine atomically.
    * @param {WorkoutInput} input - Routine prescription.
    * @param {string} [id] - Existing identifier.
@@ -68,7 +89,7 @@ export class TrainingService {
    * @returns {Promise<null>} Successful deletion envelope.
    */
   async deleteWorkout(id: string) {
-    if (!(await this.repository.deleteWorkout(id))) {
+    if (!(await this.persist(() => this.repository.deleteWorkout(id)))) {
       throw new AppError("NOT_FOUND", "This workout could not be found.", HTTP_STATUS.notFound);
     }
     return null;

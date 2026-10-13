@@ -1,3 +1,4 @@
+import { WorkoutComposer } from "./WorkoutComposer";
 import { WorkoutEditorActions } from "./WorkoutEditorActions";
 import { useTrainingSubmission } from "./useTrainingSubmission";
 import { INPUT_LIMITS } from "../../../../shared/contracts";
@@ -40,6 +41,7 @@ export function WorkoutEditor({ studio }: StudioProps) {
           ))}
         </div>
         <ExercisePicker studio={studio} />
+        <WorkoutComposer studio={studio} />
         <label className="field-label">
           Notes <span>optional</span>
           <textarea

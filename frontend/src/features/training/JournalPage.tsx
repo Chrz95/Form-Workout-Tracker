@@ -17,6 +17,7 @@ export function JournalPage({ studio }: StudioProps) {
   return (
     <section>
       <JournalToolbar
+        studio={studio}
         dateFilter={dateFilter}
         onDateFilterChange={setDateFilter}
         sessions={sessions}

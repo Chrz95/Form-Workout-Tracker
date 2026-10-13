@@ -3,6 +3,8 @@ import { createRoot } from "react-dom/client";
 import { App } from "./app/App";
 import { ErrorBoundary } from "./components/ui/ErrorBoundary";
 import "./styles/globals.css";
+import "./styles/theme.css";
+import "./styles/workoutEditor.css";
 /** Starts the PWA with an explicit mount guard. */
 function mountApplication() {
   const root = document.getElementById("root");

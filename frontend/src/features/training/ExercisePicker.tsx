@@ -1,3 +1,4 @@
+import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
 import { ICON_SIZE } from "../../../../shared/constants";
 import { useState } from "react";
 import { Plus, Search } from "lucide-react";
@@ -14,7 +15,7 @@ export function ExercisePicker({ studio }: StudioProps) {
     .filter(
       (exercise) =>
         exercise.name.toLowerCase().includes(search.toLowerCase()) &&
-        !studio.draftItems.some((item) => item.exerciseId === exercise.id),
+        !studio.draftSelectedItems.some((item) => matchesExerciseId(exercise, item.exerciseId)),
     )
     .slice(0, WORKOUT_DEFAULTS.pageSize);
   return (

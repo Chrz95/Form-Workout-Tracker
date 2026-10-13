@@ -1,3 +1,4 @@
+import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { ProgressControls } from "./ProgressControls";
 import { ProgressRecords } from "./ProgressRecords";
 import { useState } from "react";
@@ -14,12 +15,25 @@ import { ProgressHistory } from "./ProgressHistory";
 export function ExerciseProgress({ studio }: StudioProps) {
   const [selectedId, setSelectedId] = useState("");
   const [metric, setMetric] = useState<ProgressMetric>("weight");
-  const ids = [...new Set(studio.sessions.flatMap((session) => session.items.map((item) => item.exerciseId)))];
+  const ids = [
+    ...new Set(
+      studio.sessions.flatMap((session) =>
+        session.items.map(
+          (item) =>
+            studio.exercises.find((exercise) => matchesExerciseId(exercise, item.exerciseId))?.id ?? item.exerciseId,
+        ),
+      ),
+    ),
+  ];
   const options = ids
-    .map((id) => ({ id, name: studio.exercises.find((exercise) => exercise.id === id)?.name ?? id }))
+    .map((id) => ({ id, name: studio.exercises.find((exercise) => matchesExerciseId(exercise, id))?.name ?? id }))
     .sort((first, second) => first.name.localeCompare(second.name));
   const exerciseId = ids.includes(selectedId) ? selectedId : (options[0]?.id ?? "");
-  const history = buildProgressPoints(studio.sessions, exerciseId);
+  const history = buildProgressPoints(
+    studio.sessions,
+    exerciseId,
+    studio.exercises.find((exercise) => exercise.id === exerciseId)?.legacyIds ?? [],
+  );
   const points = history.slice(-CHART_LAYOUT.maximumPoints);
   return (
     <section className="exercise-progress-panel">

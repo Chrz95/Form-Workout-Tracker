@@ -1,5 +1,5 @@
 import { ICON_SIZE } from "../../../../shared/constants";
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useId, type ReactNode } from "react";
 import { X } from "lucide-react";
 interface ModalProps {
   title: string;
@@ -16,6 +16,7 @@ interface ModalProps {
  * @returns {JSX.Element} Modal dialog.
  */
 export function Modal({ title, children, onClose, isWide = false }: ModalProps) {
+  const titleId = useId();
   const dialogRef = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -25,12 +26,14 @@ export function Modal({ title, children, onClose, isWide = false }: ModalProps) 
   return (
     <dialog
       ref={dialogRef}
+      aria-labelledby={titleId}
       className={`modal ${isWide ? "wide" : ""}`}
       onCancel={onClose}
     >
       <div className="modal-header">
         <span className="eyebrow">FORM / YOUR PERSONAL STUDIO</span>
         <button
+          type="button"
           className="icon-button"
           onClick={onClose}
           aria-label="Close dialog"
@@ -38,7 +41,12 @@ export function Modal({ title, children, onClose, isWide = false }: ModalProps) 
           <X size={ICON_SIZE.feature} />
         </button>
       </div>
-      <h2 className="modal-title">{title}</h2>
+      <h2
+        id={titleId}
+        className="modal-title"
+      >
+        {title}
+      </h2>
       {children}
     </dialog>
   );

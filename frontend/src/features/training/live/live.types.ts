@@ -26,6 +26,7 @@ export interface LiveWorkout {
 }
 /** Narrow persistence boundary prevents a hook depending on the entire app. */
 export interface LiveDependencies {
+  exercises?: import("../../../../../shared/contracts").Exercise[];
   sessions: Session[];
   isPending: boolean;
   apiError: string;

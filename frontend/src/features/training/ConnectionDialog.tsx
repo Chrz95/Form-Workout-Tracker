@@ -13,6 +13,7 @@ export function ConnectionDialog({ studio }: StudioProps) {
   const [baseUrl, setBaseUrl] = useState(studio.connection.baseUrl);
   const [token, setToken] = useState(studio.connection.token);
   const [error, setError] = useState("");
+  const usesProxy = studio.connection.authentication === "proxy" && baseUrl === studio.connection.baseUrl;
   /** Validates credentials and verifies the API before closing.
    * @param {FormEvent<HTMLFormElement>} event - Submit event.
    * @returns {Promise<void>} Connection completion.
@@ -30,7 +31,7 @@ export function ConnectionDialog({ studio }: StudioProps) {
       return;
     }
     setError("");
-    if (await studio.connectApi({ baseUrl, token })) {
+    if (await studio.connectApi({ baseUrl, token, authentication: usesProxy ? "proxy" : "bearer" })) {
       studio.setIsConnectionOpen(false);
     }
   }
@@ -40,8 +41,7 @@ export function ConnectionDialog({ studio }: StudioProps) {
       onClose={() => studio.setIsConnectionOpen(false)}
     >
       <p className="modal-description">
-        This preview includes the complete exercise library. Saving routines and journal entries requires the supplied
-        Express API with PostgreSQL.
+        Local training connects automatically. Retry here or configure a separately hosted API.
       </p>
       <form onSubmit={handleSubmit}>
         <label className="field-label">
@@ -58,15 +58,15 @@ export function ConnectionDialog({ studio }: StudioProps) {
           Private API access token
           <input
             type="password"
-            required
+            required={!usesProxy}
+            placeholder={usesProxy ? "Provided privately by your local server" : ""}
             autoComplete="off"
             value={token}
             onChange={(event) => setToken(event.target.value)}
           />
         </label>
         <p className="connection-notice">
-          Credentials stay in memory for this tab. No workout data is stored in browser storage. The API owns your saved
-          records.
+          Saved training lives in PostgreSQL. Remote API tokens stay in memory for this tab.
         </p>
         {(error || studio.apiError) && (
           <p

@@ -6,3 +6,4 @@ coverage
 .sites-runtime
 frontend/public
 shared/exercises.json
+shared/retiredExercises.json

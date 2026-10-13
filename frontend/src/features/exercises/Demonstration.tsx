@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ExerciseImage } from "./ExerciseImage";
 import { ImageGuideControls } from "./ImageGuideControls";
+import { ExerciseVideos } from "./ExerciseVideos";
 import { AnimationGuide } from "./AnimationGuide";
 import type { Exercise } from "../../../../shared/contracts";
 import { DEMONSTRATION_INTERVAL } from "./exercises.constants";
@@ -15,8 +16,8 @@ interface DemonstrationProps {
 export function Demonstration({ exercise }: DemonstrationProps) {
   const [frame, setFrame] = useState(0);
   const [isPlaying, setIsPlaying] = useState(!window.matchMedia("(prefers-reduced-motion: reduce)").matches);
-  const isSequence = exercise.images.length > 1 && !exercise.source;
-  const animatedAsset = exercise.media?.find((asset) => asset.url === exercise.images[frame] && asset.stillUrl);
+  const isSequence = exercise.images.length > 1 && !exercise.source && !exercise.media?.length;
+  const animatedAsset = exercise.media?.find((asset) => (asset.frameCount ?? 0) > 1 && asset.stillUrl);
   useEffect(() => {
     if (!isPlaying || !isSequence) {
       return;
@@ -27,6 +28,19 @@ export function Demonstration({ exercise }: DemonstrationProps) {
     );
     return () => window.clearInterval(timer);
   }, [isPlaying, isSequence, exercise.images.length]);
+  if (animatedAsset) {
+    return (
+      <div className="demonstration">
+        <AnimationGuide
+          asset={animatedAsset}
+          name={exercise.name}
+        />
+      </div>
+    );
+  }
+  if (exercise.videos?.some((video) => video.codec === "h264")) {
+    return <ExerciseVideos exercise={exercise} />;
+  }
   if (exercise.images.length === 0) {
     return (
       <div className="empty-state demonstration">
@@ -36,22 +50,14 @@ export function Demonstration({ exercise }: DemonstrationProps) {
   }
   return (
     <div className="demonstration">
-      {animatedAsset ? (
-        <AnimationGuide
-          asset={animatedAsset}
-          name={exercise.name}
-          key={animatedAsset.url}
-        />
-      ) : (
-        <ExerciseImage
-          src={exercise.images[frame]}
-          alt={
-            isSequence
-              ? `${exercise.name}, demonstration position ${frame + 1}`
-              : `${exercise.name}, instructional image ${frame + 1}`
-          }
-        />
-      )}
+      <ExerciseImage
+        src={exercise.images[frame]}
+        alt={
+          isSequence
+            ? `${exercise.name}, demonstration position ${frame + 1}`
+            : `${exercise.name}, instructional image ${frame + 1}`
+        }
+      />
       <ImageGuideControls
         count={exercise.images.length}
         frame={frame}

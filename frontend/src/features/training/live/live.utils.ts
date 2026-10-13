@@ -1,4 +1,5 @@
-import type { Session, SessionItem, WorkoutItem } from "../../../../../shared/contracts";
+import type { Session, SessionItem, WorkoutItem, Exercise } from "../../../../../shared/contracts";
+import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { SET_KIND, type PerformedSet } from "../../../../../shared/setContracts";
 import type { LiveWorkout, LiveSet } from "./live.types";
 import { LIVE_DEFAULTS, LIVE_PHASE } from "./live.constants";
@@ -20,14 +21,17 @@ export function getRecordedSets(item: SessionItem): Omit<PerformedSet, "id">[] {
 /** Finds the most recent training date, using creation time only to break ties.
  * @param {Session[]} sessions - Saved history.
  * @param {string} exerciseId - Catalog identifier.
+ * @param {string[]} referenceIds - Other IDs for the consolidated movement.
  * @returns {{date: string; item: SessionItem} | null} Latest performance.
  */
-export function findPreviousPerformance(sessions: Session[], exerciseId: string) {
+export function findPreviousPerformance(sessions: Session[], exerciseId: string, referenceIds: string[] = []) {
   const ordered = [...sessions].sort(
     (first, second) => second.date.localeCompare(first.date) || second.createdAt.localeCompare(first.createdAt),
   );
   for (const session of ordered) {
-    const item = session.items.find((entry) => entry.exerciseId === exerciseId);
+    const item = session.items.find(
+      (entry) => entry.exerciseId === exerciseId || referenceIds.includes(entry.exerciseId),
+    );
     if (item) {
       return { date: session.date, item };
     }
@@ -58,12 +62,14 @@ export function createLiveSet(
  * @param {{name: string; notes: string; items: WorkoutItem[]}} input - Routine or current draft.
  * @param {Session[]} sessions - Saved reference history.
  * @param {number} now - Start timestamp in milliseconds.
+ * @param {Exercise[]} catalog - Canonical identities for previous comparisons.
  * @returns {LiveWorkout} New in-memory training session.
  */
 export function createLiveWorkout(
   input: { name: string; notes: string; items: WorkoutItem[] },
   sessions: Session[],
   now: number,
+  catalog: Exercise[] = [],
 ): LiveWorkout {
   return {
     submissionId: crypto.randomUUID(),
@@ -76,8 +82,14 @@ export function createLiveWorkout(
     phase: LIVE_PHASE.training,
     exercises: input.items.map((item) => ({
       exerciseId: item.exerciseId,
-      previous: findPreviousPerformance(sessions, item.exerciseId),
-      sets: Array.from({ length: item.sets }, () => createLiveSet(item)),
+      previous: findPreviousPerformance(
+        sessions,
+        item.exerciseId,
+        catalog
+          .filter((exercise) => matchesExerciseId(exercise, item.exerciseId))
+          .flatMap((exercise) => [exercise.id, ...(exercise.legacyIds ?? [])]),
+      ),
+      sets: (item.plannedSets ?? Array.from({ length: item.sets }, () => item)).map((set) => createLiveSet(set)),
     })),
   };
 }

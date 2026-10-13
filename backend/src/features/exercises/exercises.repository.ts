@@ -4,6 +4,7 @@ import type { Database } from "../../db/client.js";
 import type { Exercise } from "../../../../shared/contracts.js";
 import type { ExerciseRepository } from "./exercises.types.js";
 import { CUSTOM_EXERCISE_PREFIX } from "../../../../shared/exerciseConstants.js";
+import { getExerciseNameKey } from "../../../../shared/exerciseIdentity.js";
 /** Creates catalog reads and private exercise writes over the existing PostgreSQL table.
  * @param {Database} database - Database connection.
  * @returns {ExerciseRepository} Typed persistence operations.
@@ -29,7 +30,9 @@ export function createExerciseRepository(database: Database): ExerciseRepository
    * @returns {Promise<Exercise>} Created reference.
    */
   async function create(exercise: Exercise): Promise<Exercise> {
-    await database.insert(exercises).values({ id: exercise.id, data: exercise });
+    await database
+      .insert(exercises)
+      .values({ id: exercise.id, data: exercise, nameKey: getExerciseNameKey(exercise.name) });
     return exercise;
   }
   /** Replaces only the data of an existing custom identity.
@@ -39,7 +42,7 @@ export function createExerciseRepository(database: Database): ExerciseRepository
   async function update(exercise: Exercise): Promise<Exercise | null> {
     const [record] = await database
       .update(exercises)
-      .set({ data: exercise })
+      .set({ data: exercise, nameKey: getExerciseNameKey(exercise.name) })
       .where(eq(exercises.id, exercise.id))
       .returning();
     return record?.data ?? null;

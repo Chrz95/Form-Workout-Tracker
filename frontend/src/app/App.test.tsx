@@ -1,6 +1,6 @@
 import { Demonstration } from "../features/exercises/Demonstration";
 import { beforeEach, afterEach, describe, it, expect, vi } from "vitest";
-import { render, screen, waitFor, cleanup } from "@testing-library/react";
+import { render, screen, waitFor, cleanup, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { App } from "./App";
 import { exerciseSchema } from "../../../shared/contracts";
@@ -30,7 +30,7 @@ beforeEach(() => {
   );
   vi.stubGlobal(
     "matchMedia",
-    vi.fn(() => ({ matches: true })),
+    vi.fn(() => ({ matches: true, addEventListener: vi.fn(), removeEventListener: vi.fn() })),
   );
   /** Mimics native dialog opening in the DOM-only test environment. */
   HTMLDialogElement.prototype.showModal = function showModal() {
@@ -113,5 +113,38 @@ describe("Live workout entry points", () => {
     await waitFor(() => expect(screen.getByRole("alert")).toHaveTextContent("Connect your workout API"));
     expect(screen.getByRole("textbox", { name: "Session name" })).toHaveValue("Live push day");
     expect(screen.queryByText("Your effort, recorded.")).not.toBeInTheDocument();
+  });
+});
+
+describe("Builder review and appearance", () => {
+  it("opens details above an intact builder and carries distinct targets into training", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(await screen.findByRole("button", { name: "Add Pushups to workout" }));
+    await user.click(screen.getByRole("button", { name: /Review workout/ }));
+    const builder = screen.getByRole("dialog", { name: "Build your workout" });
+    await user.type(within(builder).getByLabelText("Workout name"), "Pyramid day");
+    await user.click(within(builder).getByText(/Individual set targets/));
+    const reps = within(builder).getByLabelText("Set 1 repetitions");
+    await user.clear(reps);
+    await user.type(reps, "12");
+    await user.click(within(builder).getByRole("button", { name: /Pushups.*Review exercise/ }));
+    const detail = screen.getByRole("dialog", { name: "Pushups" });
+    expect(screen.getAllByRole("dialog")).toHaveLength(2);
+    await user.click(within(detail).getByRole("button", { name: "Close dialog" }));
+    expect(within(builder).getByLabelText("Workout name")).toHaveValue("Pyramid day");
+    expect(within(builder).getByLabelText("Set 1 repetitions")).toHaveValue(12);
+    await user.click(within(builder).getByRole("button", { name: "Start workout" }));
+    expect(screen.getByRole("heading", { name: "Pyramid day" })).toBeInTheDocument();
+  });
+  it("switches dark and light appearance without changing the exercise draft", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(await screen.findByRole("button", { name: "Add Pushups to workout" }));
+    await user.selectOptions(screen.getByLabelText("Appearance"), "dark");
+    expect(document.documentElement.dataset.theme).toBe("dark");
+    await user.selectOptions(screen.getByLabelText("Appearance"), "light");
+    expect(document.documentElement.dataset.theme).toBe("light");
+    expect(screen.getByRole("button", { name: "Add Pushups to workout" })).toBeDisabled();
   });
 });

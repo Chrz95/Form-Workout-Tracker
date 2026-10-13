@@ -1,5 +1,5 @@
 /** Stable CSV columns for routines, actual sets and legacy uniform session entries. */
-export const CSV_COLUMNS = [
+export const LEGACY_CSV_COLUMNS = [
   "record_type",
   "record_id",
   "name",
@@ -19,6 +19,10 @@ export const CSV_COLUMNS = [
   "rpe",
   "source",
 ] as const;
+/** Explicit text encoding removes ambiguity between a formula guard and a literal apostrophe. */
+export const CSV_TEXT_ENCODING = "apostrophe-v1";
+/** Current exports carry their reversible text encoding marker. */
+export const CSV_COLUMNS = [...LEGACY_CSV_COLUMNS, "text_encoding"] as const;
 /** CSV syntax and browser download conventions. */
 export const CSV_FORMAT = {
   separator: ",",
@@ -32,6 +36,8 @@ export const CSV_FORMAT = {
 export const CSV_RECORD = {
   workouts: "routine",
   sessions: "session",
+  reference: "workout_reference",
+  planned: "planned_set",
   prescribed: "prescribed",
   performed: "performed",
   uniform: "legacy_uniform",

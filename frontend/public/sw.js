@@ -7,9 +7,9 @@ self.addEventListener("activate", (event) => { event.waitUntil(caches.keys().the
 /** Caches same-origin static GETs; API writes and authenticated responses are never cached. */
 self.addEventListener("fetch", (event) => {
  const requestUrl = new URL(event.request.url);
- if (event.request.method !== "GET" || requestUrl.origin !== self.location.origin || requestUrl.pathname.startsWith("/api/") || event.request.headers.has("authorization")) { return; }
+ if (event.request.method !== "GET" || event.request.headers.has("range") || requestUrl.pathname.endsWith(".mp4") || requestUrl.origin !== self.location.origin || requestUrl.pathname.startsWith("/api/") || event.request.headers.has("authorization")) { return; }
  event.respondWith(caches.open(CACHE_NAME).then(async (cache) => {
-  try { const response = await fetch(event.request); if (response.ok) { await cache.put(event.request, response.clone()); } return response; }
+  try { const response = await fetch(event.request); if (response.ok) { await cache.put(event.request, response.clone()).catch(() => {}); } return response; }
   catch { return (await cache.match(event.request)) || (event.request.mode === "navigate" ? await cache.match("/") : Response.error()); }
  }));
 });

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f08a3be-7dd1-44fe-b00b-4f3dce4bc73a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THIRD_PARTY_NOTICES.md" beforeDir="false" afterPath="$PROJECT_DIR$/THIRD_PARTY_NOTICES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app/createApp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app/createApp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/db/database.integration.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/db/database.integration.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/db/migrations/meta/_journal.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/db/migrations/meta/_journal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/db/schema/tables.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/db/schema/tables.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/db/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/db/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/exercises/catalog.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/exercises/catalog.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/exercises/exercises.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/exercises/exercises.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/exercises/exercises.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/exercises/exercises.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/exercises/exercises.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/exercises/exercises.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/workouts.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/workouts.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CATALOG-SOURCES.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CATALOG-SOURCES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/VALIDATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/VALIDATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/catalog-licenses.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/catalog-licenses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/exercises.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/exercises.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/exercises/Spider_Crawl/0.webp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/exercises/Spider_Crawl/0.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/setup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/StudioDialogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/StudioDialogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/config/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/config/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/useStudio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/useStudio.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/layout/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/layout/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/AnimationGuide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/AnimationGuide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/Demonstration.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/Demonstration.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseDetail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseSource.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseSource.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseVideos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/ExerciseVideos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/alternatives/SubstitutionDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/alternatives/SubstitutionDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/alternatives/alternatives.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/alternatives/alternatives.utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/custom/customExercise.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/custom/customExercise.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/exerciseImage.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/exerciseImage.utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/ConnectionDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/ConnectionDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/ExercisePicker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/ExercisePicker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/JournalPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/JournalPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/JournalToolbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/JournalToolbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/PrescriptionRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/PrescriptionRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/WorkoutEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/WorkoutEditor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/WorkoutEditorActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/WorkoutEditorActions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/WorkoutsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/WorkoutsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/WorkoutsToolbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/WorkoutsToolbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/export/export.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/export/export.constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/export/exportCsv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/export/exportCsv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/CompletedSetList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/CompletedSetList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/LiveExerciseCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/LiveExerciseCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/live.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/live.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/live.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/live.utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/useLiveWorkout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/useLiveWorkout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/progress/ExerciseProgress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/progress/ExerciseProgress.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/progress/progress.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/progress/progress.utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/training.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/training.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/useRecords.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/useRecords.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/useTrainingSubmission.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/useTrainingSubmission.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/lib/api/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/lib/api/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/check-structure.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check-structure.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/capabilities.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/capabilities.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/contracts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/contracts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/exercises.json" beforeDir="false" afterPath="$PROJECT_DIR$/shared/exercises.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3KemY3Lda1sNjA6KsbuXmyVXFcU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Shell Script.docker-up.sh.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.db:setup.executor": "Run",
+    "npm.db:setup:local.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.docker:init.executor": "Run",
+    "npm.docker:up.executor": "Run",
+    "npm.local:init.executor": "Run",
+    "npm.start:local.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Files\\Software\\Development\\JavaScript\\React\\Personal\\Form\\node_modules\\prettier",
+    "ts.external.directory.path": "D:\\Files\\Software\\Development\\JavaScript\\React\\Personal\\Form\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.start:local">
+    <configuration name="db:setup" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="db:setup" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:setup:local" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="db:setup:local" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker:up" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docker:up" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="local:init" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="local:init" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:local" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:local" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start:local" />
+        <item itemvalue="npm.db:setup" />
+        <item itemvalue="npm.db:setup:local" />
+        <item itemvalue="npm.local:init" />
+        <item itemvalue="npm.docker:up" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f08a3be-7dd1-44fe-b00b-4f3dce4bc73a" name="Changes" comment="" />
+      <created>1791926461476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791926461476</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

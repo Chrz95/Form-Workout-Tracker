@@ -22,6 +22,27 @@
       "when": 1791833376286,
       "tag": "0002_add_session_set_identifiers",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791839097232,
+      "tag": "0003_stiff_robbie_robertson",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791878540651,
+      "tag": "0004_absent_luckman",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791889664512,
+      "tag": "0005_glorious_martin_li",
+      "breakpoints": true
     }
   ]
 }

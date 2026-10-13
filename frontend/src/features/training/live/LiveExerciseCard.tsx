@@ -1,3 +1,4 @@
+import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { Plus, ArrowUpRight } from "lucide-react";
 import { ICON_SIZE, INPUT_LIMITS } from "../../../../../shared/constants";
 import { SET_KIND } from "../../../../../shared/setContracts";
@@ -17,7 +18,7 @@ interface LiveExerciseCardProps {
  * @returns {JSX.Element} Live movement card.
  */
 export function LiveExerciseCard({ exercise, studio }: LiveExerciseCardProps) {
-  const catalogEntry = studio.exercises.find((entry) => entry.id === exercise.exerciseId);
+  const catalogEntry = studio.exercises.find((entry) => matchesExerciseId(entry, exercise.exerciseId));
   return (
     <section className="live-exercise-card">
       <header>

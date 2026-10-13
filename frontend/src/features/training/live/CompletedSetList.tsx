@@ -1,3 +1,4 @@
+import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import type { Exercise, SessionItem } from "../../../../../shared/contracts";
 import { SET_KIND } from "../../../../../shared/setContracts";
 interface CompletedSetListProps {
@@ -15,7 +16,7 @@ export function CompletedSetList({ items, exercises }: CompletedSetListProps) {
     <div className="completed-set-list">
       {items.map((item) => (
         <section key={item.exerciseId}>
-          <h4>{exercises.find((exercise) => exercise.id === item.exerciseId)?.name ?? item.exerciseId}</h4>
+          <h4>{exercises.find((exercise) => matchesExerciseId(exercise, item.exerciseId))?.name ?? item.exerciseId}</h4>
           {item.performedSets ? (
             <ul>
               {item.performedSets.map((set, position) => (

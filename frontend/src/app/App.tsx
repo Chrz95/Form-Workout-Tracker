@@ -9,6 +9,7 @@ import { JournalPage } from "../features/training/JournalPage";
 import { ProgressPage } from "../features/training/ProgressPage";
 import { InstallPrompt } from "../components/layout/InstallPrompt";
 import { StudioDialogs } from "./StudioDialogs";
+import { CalendarPage } from "../features/calendar/CalendarPage";
 /** Composes the studio screens while hooks own domain state.
  * @returns {JSX.Element} Workout PWA.
  */
@@ -42,6 +43,7 @@ export function App() {
         {studio.page === PAGE.workouts && <WorkoutsPage studio={studio} />}{" "}
         {studio.page === PAGE.journal && <JournalPage studio={studio} />}{" "}
         {studio.page === PAGE.progress && <ProgressPage studio={studio} />}
+        {studio.page === PAGE.calendar && <CalendarPage studio={studio} />}
         <footer className="page-footer">
           <span>Made for the way you move.</span>
           <span>

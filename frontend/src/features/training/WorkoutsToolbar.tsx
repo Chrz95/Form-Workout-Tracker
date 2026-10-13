@@ -2,6 +2,7 @@ import { Plus } from "lucide-react";
 import { ICON_SIZE } from "../../../../shared/constants";
 import type { StudioProps } from "../../app/useStudio";
 import { ExportCsvButton } from "./export/ExportCsvButton";
+import { ImportCsvButton } from "./import/ImportCsvButton";
 /** Combines routine creation and export of saved prescriptions.
  * @param {StudioProps} props - Saved routine model.
  * @param {Studio} props.studio - Routines, catalog and create action.
@@ -12,6 +13,10 @@ export function WorkoutsToolbar({ studio }: StudioProps) {
     <div className="section-toolbar">
       <p>{studio.workouts.length} saved workouts · built by you</p>
       <ExportCsvButton input={{ kind: "workouts", records: studio.workouts, exercises: studio.exercises }} />
+      <ImportCsvButton
+        studio={studio}
+        kind="workouts"
+      />
       <button
         className="button primary"
         onClick={studio.createWorkout}

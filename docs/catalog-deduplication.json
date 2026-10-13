@@ -1,0 +1,2886 @@
+[
+  {
+    "retiredId": "Squats_-_With_Bands",
+    "retiredName": "Squats - With Bands",
+    "canonicalId": "Squat_with_Bands",
+    "canonicalName": "Squat with Bands",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:43",
+    "retiredName": "Barbell Hack Squats",
+    "canonicalId": "Barbell_Hack_Squat",
+    "canonicalName": "Barbell Hack Squat",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:92",
+    "retiredName": "Biceps Curls With Dumbbell",
+    "canonicalId": "Dumbbell_Bicep_Curl",
+    "canonicalName": "Dumbbell Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:142",
+    "retiredName": "Cable External Rotation",
+    "canonicalId": "External_Rotation_with_Cable",
+    "canonicalName": "External Rotation with Cable",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:146",
+    "retiredName": "Calf Press Using Leg Press Machine",
+    "canonicalId": "Calf_Press_On_The_Leg_Press_Machine",
+    "canonicalName": "Calf Press On The Leg Press Machine",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:173",
+    "retiredName": "Crunches With Cable",
+    "canonicalId": "Cable_Crunch",
+    "canonicalName": "Cable Crunch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:185",
+    "retiredName": "Decline Bench Press Barbell",
+    "canonicalId": "Decline_Barbell_Bench_Press",
+    "canonicalName": "Decline Barbell Bench Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:186",
+    "retiredName": "Decline Bench Press Dumbbell",
+    "canonicalId": "Decline_Dumbbell_Bench_Press",
+    "canonicalName": "Decline Dumbbell Bench Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:204",
+    "retiredName": "Dumbbell Incline Curl",
+    "canonicalId": "Incline_Dumbbell_Curl",
+    "canonicalName": "Incline Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:238",
+    "retiredName": "Fly With Dumbbells",
+    "canonicalId": "Dumbbell_Flyes",
+    "canonicalName": "Dumbbell Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:282",
+    "retiredName": "Handstand Pushup",
+    "canonicalId": "Handstand_Push-Ups",
+    "canonicalName": "Handstand Push-Ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:283",
+    "retiredName": "Hanging Leg Raises",
+    "canonicalId": "Hanging_Leg_Raise",
+    "canonicalName": "Hanging Leg Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:308",
+    "retiredName": "Incline Dumbbell Fly",
+    "canonicalId": "Incline_Dumbbell_Flyes",
+    "canonicalName": "Incline Dumbbell Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:310",
+    "retiredName": "Incline Dumbbell Row",
+    "canonicalId": "Dumbbell_Incline_Row",
+    "canonicalName": "Dumbbell Incline Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:369",
+    "retiredName": "Leg Extension",
+    "canonicalId": "Leg_Extensions",
+    "canonicalName": "Leg Extensions",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:465",
+    "retiredName": "Preacher Curls",
+    "canonicalId": "Preacher_Curl",
+    "canonicalName": "Preacher Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:566",
+    "retiredName": "Shoulder Press, Barbell",
+    "canonicalId": "Barbell_Shoulder_Press",
+    "canonicalName": "Barbell Shoulder Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:567",
+    "retiredName": "Shoulder Press, Dumbbells",
+    "canonicalId": "Dumbbell_Shoulder_Press",
+    "canonicalName": "Dumbbell Shoulder Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:571",
+    "retiredName": "Shrugs, Barbells",
+    "canonicalId": "Barbell_Shrug",
+    "canonicalName": "Barbell Shrug",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:572",
+    "retiredName": "Shrugs, Dumbbells",
+    "canonicalId": "Dumbbell_Shrug",
+    "canonicalName": "Dumbbell Shrug",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:591",
+    "retiredName": "Sit-ups",
+    "canonicalId": "Sit-Up",
+    "canonicalName": "Sit-Up",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:960",
+    "retiredName": "Kettlebell Swing",
+    "canonicalId": "wger:331",
+    "canonicalName": "Kettlebell Swings",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1111",
+    "retiredName": "Push-Ups | Incline",
+    "canonicalId": "Incline_Push-Up",
+    "canonicalName": "Incline Push-Up",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1112",
+    "retiredName": "Push-Ups | Decline",
+    "canonicalId": "Decline_Push-Up",
+    "canonicalName": "Decline Push-Up",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1117",
+    "retiredName": "Seated Cable Row",
+    "canonicalId": "Seated_Cable_Rows",
+    "canonicalName": "Seated Cable Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1192",
+    "retiredName": "Alternating Biceps Curls With Dumbbell",
+    "canonicalId": "Dumbbell_Alternate_Bicep_Curl",
+    "canonicalName": "Dumbbell Alternate Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1198",
+    "retiredName": "Inverted Rows",
+    "canonicalId": "Inverted_Row",
+    "canonicalName": "Inverted Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1289",
+    "retiredName": "Seated Dumbbell Curls",
+    "canonicalId": "Seated_Dumbbell_Curl",
+    "canonicalName": "Seated Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1366",
+    "retiredName": "Dumbbell Split Squat",
+    "canonicalId": "Split_Squat_with_Dumbbells",
+    "canonicalName": "Split Squat with Dumbbells",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1414",
+    "retiredName": "Hack Squats",
+    "canonicalId": "Hack_Squat",
+    "canonicalName": "Hack Squat",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1424",
+    "retiredName": "Biceps Curl Machine",
+    "canonicalId": "Machine_Bicep_Curl",
+    "canonicalName": "Machine Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1551",
+    "retiredName": "Push-Up",
+    "canonicalId": "Pushups",
+    "canonicalName": "Pushups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1648",
+    "retiredName": "Weighted Crunch",
+    "canonicalId": "Weighted_Crunches",
+    "canonicalName": "Weighted Crunches",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1660",
+    "retiredName": "Cable Chest Press - Incline",
+    "canonicalId": "Incline_Cable_Chest_Press",
+    "canonicalName": "Incline Cable Chest Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1731",
+    "retiredName": "Front Raise (Cable)",
+    "canonicalId": "Front_Cable_Raise",
+    "canonicalName": "Front Cable Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1771",
+    "retiredName": "Wrist curl, cable",
+    "canonicalId": "Cable_Wrist_Curl",
+    "canonicalName": "Cable Wrist Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1964",
+    "retiredName": "Wide Push-Up",
+    "canonicalId": "Push-Up_Wide",
+    "canonicalName": "Push-Up Wide",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1968",
+    "retiredName": "Single-arm dumbbell shoulder press",
+    "canonicalId": "Dumbbell_One-Arm_Shoulder_Press",
+    "canonicalName": "Dumbbell One-Arm Shoulder Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1972",
+    "retiredName": "Single-Arm Lat Pulldown",
+    "canonicalId": "One_Arm_Lat_Pulldown",
+    "canonicalName": "One Arm Lat Pulldown",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:2683",
+    "retiredName": "Dumbbell single arm row",
+    "canonicalId": "One-Arm_Dumbbell_Row",
+    "canonicalName": "One-Arm Dumbbell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1408",
+    "retiredName": "band hip lift",
+    "canonicalId": "Hip_Lift_with_Band",
+    "canonicalName": "Hip Lift with Band",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1316",
+    "retiredName": "barbell bent arm pullover",
+    "canonicalId": "Bent-Arm_Barbell_Pullover",
+    "canonicalName": "Bent-Arm Barbell Pullover",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0027",
+    "retiredName": "barbell bent over row",
+    "canonicalId": "Bent_Over_Barbell_Row",
+    "canonicalName": "Bent Over Barbell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0030",
+    "retiredName": "barbell close-grip bench press",
+    "canonicalId": "Close-Grip_Barbell_Bench_Press",
+    "canonicalName": "Close-Grip Barbell Bench Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0033",
+    "retiredName": "barbell decline bench press",
+    "canonicalId": "Decline_Barbell_Bench_Press",
+    "canonicalName": "Decline Barbell Bench Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0037",
+    "retiredName": "barbell decline wide-grip pullover",
+    "canonicalId": "Wide-Grip_Decline_Barbell_Pullover",
+    "canonicalName": "Wide-Grip Decline Barbell Pullover",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0042",
+    "retiredName": "barbell front squat",
+    "canonicalId": "Front_Barbell_Squat",
+    "canonicalName": "Front Barbell Squat",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0047",
+    "retiredName": "barbell incline bench press",
+    "canonicalId": "wger:538",
+    "canonicalName": "Incline Bench Press - Barbell",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1719",
+    "retiredName": "barbell incline close grip bench press",
+    "canonicalId": "wger:1467",
+    "canonicalName": "Incline Close Grip Barbell Bench Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0068",
+    "retiredName": "barbell one leg squat",
+    "canonicalId": "One_Leg_Barbell_Squat",
+    "canonicalName": "One Leg Barbell Squat",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1412",
+    "retiredName": "barbell palms up wrist curl over a bench",
+    "canonicalId": "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench",
+    "canonicalName": "Palms-Up Barbell Wrist Curl Over A Bench",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0080",
+    "retiredName": "barbell reverse curl",
+    "canonicalId": "Reverse_Barbell_Curl",
+    "canonicalName": "Reverse Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0081",
+    "retiredName": "barbell reverse preacher curl",
+    "canonicalId": "Reverse_Barbell_Preacher_Curls",
+    "canonicalName": "Reverse Barbell Preacher Curls",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0089",
+    "retiredName": "barbell seated close-grip concentration curl",
+    "canonicalId": "Seated_Close-Grip_Concentration_Barbell_Curl",
+    "canonicalName": "Seated Close-Grip Concentration Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0094",
+    "retiredName": "barbell seated twist",
+    "canonicalId": "Seated_Barbell_Twist",
+    "canonicalName": "Seated Barbell Twist",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1372",
+    "retiredName": "barbell standing calf raise",
+    "canonicalId": "Standing_Barbell_Calf_Raise",
+    "canonicalName": "Standing Barbell Calf Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0106",
+    "retiredName": "barbell standing close grip curl",
+    "canonicalId": "Close-Grip_Standing_Barbell_Curl",
+    "canonicalName": "Close-Grip Standing Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0107",
+    "retiredName": "barbell standing front raise over head",
+    "canonicalId": "Standing_Front_Barbell_Raise_Over_Head",
+    "canonicalName": "Standing Front Barbell Raise Over Head",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0109",
+    "retiredName": "barbell standing overhead triceps extension",
+    "canonicalId": "Standing_Overhead_Barbell_Triceps_Extension",
+    "canonicalName": "Standing Overhead Barbell Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0113",
+    "retiredName": "barbell standing wide-grip curl",
+    "canonicalId": "Wide-Grip_Standing_Barbell_Curl",
+    "canonicalName": "Wide-Grip Standing Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0115",
+    "retiredName": "barbell stiff leg good morning",
+    "canonicalId": "Stiff_Leg_Barbell_Good_Morning",
+    "canonicalName": "Stiff Leg Barbell Good Morning",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0120",
+    "retiredName": "barbell upright row",
+    "canonicalId": "Upright_Barbell_Row",
+    "canonicalName": "Upright Barbell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0148",
+    "retiredName": "cable alternate shoulder press",
+    "canonicalId": "Alternating_Cable_Shoulder_Press",
+    "canonicalName": "Alternating Cable Shoulder Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0868",
+    "retiredName": "cable curl",
+    "canonicalId": "wger:1531",
+    "canonicalName": "Cable Curls",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0157",
+    "retiredName": "cable deadlift",
+    "canonicalId": "Cable_Deadlifts",
+    "canonicalName": "Cable Deadlifts",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0162",
+    "retiredName": "cable front raise",
+    "canonicalId": "Front_Cable_Raise",
+    "canonicalName": "Front Cable Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0176",
+    "retiredName": "cable kneeling triceps extension",
+    "canonicalId": "Kneeling_Cable_Triceps_Extension",
+    "canonicalName": "Kneeling Cable Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0192",
+    "retiredName": "cable one arm lateral raise",
+    "canonicalId": "wger:1378",
+    "canonicalName": "Cable Lateral Raises (Single Arm)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1636",
+    "retiredName": "cable overhead curl",
+    "canonicalId": "Overhead_Cable_Curl",
+    "canonicalName": "Overhead Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0203",
+    "retiredName": "cable rear delt row (with rope)",
+    "canonicalId": "Cable_Rope_Rear-Delt_Rows",
+    "canonicalName": "Cable Rope Rear-Delt Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0206",
+    "retiredName": "cable reverse curl",
+    "canonicalId": "Reverse_Cable_Curl",
+    "canonicalName": "Reverse Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0861",
+    "retiredName": "cable seated row",
+    "canonicalId": "Seated_Cable_Rows",
+    "canonicalName": "Seated Cable Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0220",
+    "retiredName": "cable shrug",
+    "canonicalId": "Cable_Shrugs",
+    "canonicalName": "Cable Shrugs",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0230",
+    "retiredName": "cable standing lift",
+    "canonicalId": "Standing_Cable_Lift",
+    "canonicalName": "Standing Cable Lift",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0238",
+    "retiredName": "cable straight arm pulldown",
+    "canonicalId": "wger:1726",
+    "canonicalName": "Straight-Arm Pulldown (Cable)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0246",
+    "retiredName": "cable upright row",
+    "canonicalId": "Upright_Cable_Row",
+    "canonicalName": "Upright Cable Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1377",
+    "retiredName": "calf stretch with hands against wall",
+    "canonicalId": "Calf_Stretch_Hands_Against_Wall",
+    "canonicalName": "Calf Stretch Hands Against Wall",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0283",
+    "retiredName": "diamond push-up",
+    "canonicalId": "wger:386",
+    "canonicalName": "Diamond push ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0284",
+    "retiredName": "donkey calf raise",
+    "canonicalId": "Donkey_Calf_Raises",
+    "canonicalName": "Donkey Calf Raises",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0285",
+    "retiredName": "dumbbell alternate biceps curl",
+    "canonicalId": "Dumbbell_Alternate_Bicep_Curl",
+    "canonicalName": "Dumbbell Alternate Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:2137",
+    "retiredName": "dumbbell arnold press",
+    "canonicalId": "Arnold_Dumbbell_Press",
+    "canonicalName": "Arnold Dumbbell Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0294",
+    "retiredName": "dumbbell biceps curl",
+    "canonicalId": "Dumbbell_Bicep_Curl",
+    "canonicalName": "Dumbbell Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1731",
+    "retiredName": "dumbbell close grip press",
+    "canonicalId": "Close-Grip_Dumbbell_Press",
+    "canonicalName": "Close-Grip Dumbbell Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0301",
+    "retiredName": "dumbbell decline bench press",
+    "canonicalId": "Decline_Dumbbell_Bench_Press",
+    "canonicalName": "Decline Dumbbell Bench Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0302",
+    "retiredName": "dumbbell decline fly",
+    "canonicalId": "Decline_Dumbbell_Flyes",
+    "canonicalName": "Decline Dumbbell Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0306",
+    "retiredName": "dumbbell decline triceps extension",
+    "canonicalId": "Decline_Dumbbell_Triceps_Extension",
+    "canonicalName": "Decline Dumbbell Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0308",
+    "retiredName": "dumbbell fly",
+    "canonicalId": "Dumbbell_Flyes",
+    "canonicalName": "Dumbbell Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0310",
+    "retiredName": "dumbbell front raise",
+    "canonicalId": "Front_Dumbbell_Raise",
+    "canonicalName": "Front Dumbbell Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0314",
+    "retiredName": "dumbbell incline bench press",
+    "canonicalId": "wger:537",
+    "canonicalName": "Incline Bench Press - Dumbbell",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0319",
+    "retiredName": "dumbbell incline fly",
+    "canonicalId": "Incline_Dumbbell_Flyes",
+    "canonicalName": "Incline Dumbbell Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0336",
+    "retiredName": "dumbbell lunge",
+    "canonicalId": "Dumbbell_Lunges",
+    "canonicalName": "Dumbbell Lunges",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0350",
+    "retiredName": "dumbbell lying supine curl",
+    "canonicalId": "Lying_Supine_Dumbbell_Curl",
+    "canonicalName": "Lying Supine Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0351",
+    "retiredName": "dumbbell lying triceps extension",
+    "canonicalId": "Lying_Dumbbell_Tricep_Extension",
+    "canonicalName": "Lying Dumbbell Tricep Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0352",
+    "retiredName": "dumbbell neutral grip bench press",
+    "canonicalId": "Dumbbell_Bench_Press_with_Neutral_Grip",
+    "canonicalName": "Dumbbell Bench Press with Neutral Grip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0292",
+    "retiredName": "dumbbell one arm bent-over row",
+    "canonicalId": "wger:81",
+    "canonicalName": "Bent Over Dumbbell Rows (Single Arm)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1379",
+    "retiredName": "dumbbell seated calf raise",
+    "canonicalId": "wger:1620",
+    "canonicalName": "Seated Dumbbell Calf Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0391",
+    "retiredName": "dumbbell seated curl",
+    "canonicalId": "Seated_Dumbbell_Curl",
+    "canonicalName": "Seated Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0393",
+    "retiredName": "dumbbell seated inner biceps curl",
+    "canonicalId": "Seated_Dumbbell_Inner_Biceps_Curl",
+    "canonicalName": "Seated Dumbbell Inner Biceps Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0401",
+    "retiredName": "dumbbell seated palms up wrist curl",
+    "canonicalId": "Seated_Dumbbell_Palms-Up_Wrist_Curl",
+    "canonicalName": "Seated Dumbbell Palms-Up Wrist Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1757",
+    "retiredName": "dumbbell single leg deadlift",
+    "canonicalId": "wger:1736",
+    "canonicalName": "Single-Leg Deadlift with Dumbbell",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1740",
+    "retiredName": "dumbbell standing bent over one arm triceps extension",
+    "canonicalId": "Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension",
+    "canonicalName": "Standing Bent-Over One-Arm Dumbbell Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1741",
+    "retiredName": "dumbbell standing bent over two arm triceps extension",
+    "canonicalId": "Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension",
+    "canonicalName": "Standing Bent-Over Two-Arm Dumbbell Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0417",
+    "retiredName": "dumbbell standing calf raise",
+    "canonicalId": "Standing_Dumbbell_Calf_Raise",
+    "canonicalName": "Standing Dumbbell Calf Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0422",
+    "retiredName": "dumbbell standing one arm curl (over incline bench)",
+    "canonicalId": "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench",
+    "canonicalName": "Standing One-Arm Dumbbell Curl Over Incline Bench",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0424",
+    "retiredName": "dumbbell standing one arm palm in press",
+    "canonicalId": "Standing_Palm-In_One-Arm_Dumbbell_Press",
+    "canonicalName": "Standing Palm-In One-Arm Dumbbell Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0427",
+    "retiredName": "dumbbell standing palms in press",
+    "canonicalId": "Standing_Palms-In_Dumbbell_Press",
+    "canonicalName": "Standing Palms-In Dumbbell Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0429",
+    "retiredName": "dumbbell standing reverse curl",
+    "canonicalId": "Standing_Dumbbell_Reverse_Curl",
+    "canonicalName": "Standing Dumbbell Reverse Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0430",
+    "retiredName": "dumbbell standing triceps extension",
+    "canonicalId": "Standing_Dumbbell_Triceps_Extension",
+    "canonicalName": "Standing Dumbbell Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0433",
+    "retiredName": "dumbbell straight arm pullover",
+    "canonicalId": "Straight-Arm_Dumbbell_Pullover",
+    "canonicalName": "Straight-Arm Dumbbell Pullover",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:2189",
+    "retiredName": "dumbbells seated triceps extension",
+    "canonicalId": "hasan:2188",
+    "canonicalName": "dumbbell seated triceps extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1338",
+    "retiredName": "exercise ball hug",
+    "canonicalId": "Hug_A_Ball",
+    "canonicalName": "Hug A Ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0484",
+    "retiredName": "hip raise (bent knee)",
+    "canonicalId": "Bent-Knee_Hip_Raise",
+    "canonicalName": "Bent-Knee Hip Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0490",
+    "retiredName": "incline close-grip push-up",
+    "canonicalId": "Incline_Push-Up_Close-Grip",
+    "canonicalName": "Incline Push-Up Close-Grip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0494",
+    "retiredName": "incline reverse grip push-up",
+    "canonicalId": "Incline_Push-Up_Reverse_Grip",
+    "canonicalName": "Incline Push-Up Reverse Grip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0517",
+    "retiredName": "kettlebell advanced windmill",
+    "canonicalId": "Advanced_Kettlebell_Windmill",
+    "canonicalName": "Advanced Kettlebell Windmill",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0520",
+    "retiredName": "kettlebell alternating press",
+    "canonicalId": "Alternating_Kettlebell_Press",
+    "canonicalName": "Alternating Kettlebell Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0522",
+    "retiredName": "kettlebell alternating row",
+    "canonicalId": "Alternating_Kettlebell_Row",
+    "canonicalName": "Alternating Kettlebell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0526",
+    "retiredName": "kettlebell double alternating hang clean",
+    "canonicalId": "Double_Kettlebell_Alternating_Hang_Clean",
+    "canonicalName": "Double Kettlebell Alternating Hang Clean",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0527",
+    "retiredName": "kettlebell double jerk",
+    "canonicalId": "Double_Kettlebell_Jerk",
+    "canonicalName": "Double Kettlebell Jerk",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0528",
+    "retiredName": "kettlebell double push press",
+    "canonicalId": "Double_Kettlebell_Push_Press",
+    "canonicalName": "Double Kettlebell Push Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0529",
+    "retiredName": "kettlebell double snatch",
+    "canonicalId": "Double_Kettlebell_Snatch",
+    "canonicalName": "Double Kettlebell Snatch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0530",
+    "retiredName": "kettlebell double windmill",
+    "canonicalId": "Double_Kettlebell_Windmill",
+    "canonicalName": "Double Kettlebell Windmill",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0531",
+    "retiredName": "kettlebell extended range one arm press on floor",
+    "canonicalId": "Extended_Range_One-Arm_Kettlebell_Floor_Press",
+    "canonicalName": "Extended Range One-Arm Kettlebell Floor Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0537",
+    "retiredName": "kettlebell one arm clean and jerk",
+    "canonicalId": "One-Arm_Kettlebell_Clean_and_Jerk",
+    "canonicalName": "One-Arm Kettlebell Clean and Jerk",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1298",
+    "retiredName": "kettlebell one arm floor press",
+    "canonicalId": "One-Arm_Kettlebell_Floor_Press",
+    "canonicalName": "One-Arm Kettlebell Floor Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0538",
+    "retiredName": "kettlebell one arm jerk",
+    "canonicalId": "One-Arm_Kettlebell_Jerk",
+    "canonicalName": "One-Arm Kettlebell Jerk",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0539",
+    "retiredName": "kettlebell one arm military press to the side",
+    "canonicalId": "One-Arm_Kettlebell_Military_Press_To_The_Side",
+    "canonicalName": "One-Arm Kettlebell Military Press To The Side",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0540",
+    "retiredName": "kettlebell one arm push press",
+    "canonicalId": "One-Arm_Kettlebell_Push_Press",
+    "canonicalName": "One-Arm Kettlebell Push Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0541",
+    "retiredName": "kettlebell one arm row",
+    "canonicalId": "One-Arm_Kettlebell_Row",
+    "canonicalName": "One-Arm Kettlebell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0542",
+    "retiredName": "kettlebell one arm snatch",
+    "canonicalId": "One-Arm_Kettlebell_Snatch",
+    "canonicalName": "One-Arm Kettlebell Snatch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0545",
+    "retiredName": "kettlebell plyo push-up",
+    "canonicalId": "Plyo_Kettlebell_Pushups",
+    "canonicalName": "Plyo Kettlebell Pushups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0552",
+    "retiredName": "kettlebell two arm clean",
+    "canonicalId": "Two-Arm_Kettlebell_Clean",
+    "canonicalName": "Two-Arm Kettlebell Clean",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0553",
+    "retiredName": "kettlebell two arm military press",
+    "canonicalId": "Two-Arm_Kettlebell_Military_Press",
+    "canonicalName": "Two-Arm Kettlebell Military Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1345",
+    "retiredName": "kettlebell two arm row",
+    "canonicalId": "Two-Arm_Kettlebell_Row",
+    "canonicalName": "Two-Arm Kettlebell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0570",
+    "retiredName": "leg pull in flat bench",
+    "canonicalId": "Flat_Bench_Leg_Pull-In",
+    "canonicalName": "Flat Bench Leg Pull-In",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0620",
+    "retiredName": "lying leg raise flat bench",
+    "canonicalId": "Flat_Bench_Lying_Leg_Raise",
+    "canonicalName": "Flat Bench Lying Leg Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1403",
+    "retiredName": "neck side stretch",
+    "canonicalId": "Side_Neck_Stretch",
+    "canonicalName": "Side Neck Stretch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0634",
+    "retiredName": "negative crunch",
+    "canonicalId": "wger:427",
+    "canonicalName": "Negative Crunches",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0635",
+    "retiredName": "oblique crunches floor",
+    "canonicalId": "Oblique_Crunches_-_On_The_Floor",
+    "canonicalName": "Oblique Crunches - On The Floor",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0640",
+    "retiredName": "one arm slam (with medicine ball)",
+    "canonicalId": "One-Arm_Medicine_Ball_Slam",
+    "canonicalName": "One-Arm Medicine Ball Slam",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0651",
+    "retiredName": "pull up (neutral grip)",
+    "canonicalId": "wger:1696",
+    "canonicalName": "Pull-Ups (Neutral Grip)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0652",
+    "retiredName": "pull-up",
+    "canonicalId": "Pullups",
+    "canonicalName": "Pullups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0653",
+    "retiredName": "push-up (bosu ball)",
+    "canonicalId": "hasan:1307",
+    "canonicalName": "push up on bosu ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0659",
+    "retiredName": "push-up (wall)",
+    "canonicalId": "wger:713",
+    "canonicalName": "Wall Pushup",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0674",
+    "retiredName": "reverse grip pull-up",
+    "canonicalId": "wger:1292",
+    "canonicalName": "Reverse-grip pull-ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0759",
+    "retiredName": "smith incline shoulder raises",
+    "canonicalId": "Smith_Incline_Shoulder_Raise",
+    "canonicalName": "Smith Incline Shoulder Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0841",
+    "retiredName": "weighted pull-up",
+    "canonicalId": "Weighted_Pull_Ups",
+    "canonicalName": "Weighted Pull Ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1429",
+    "retiredName": "wide grip pull-up",
+    "canonicalId": "wger:1695",
+    "canonicalName": "Pull-Ups (Wide Grip)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:alternate_hammer_curl_seated_dumbbells",
+    "retiredName": "alternate hammer curl seated dumbbells",
+    "canonicalId": "hasan:1648",
+    "canonicalName": "dumbbell alternate seated hammer curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:alternating_superman",
+    "retiredName": "alternating superman",
+    "canonicalId": "glow:alternate_superman",
+    "canonicalName": "alternate superman",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:arnold_press_dumbbell",
+    "retiredName": "arnold press dumbbell",
+    "canonicalId": "Arnold_Dumbbell_Press",
+    "canonicalName": "Arnold Dumbbell Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:barbell_biceps_curl",
+    "retiredName": "barbell biceps curl",
+    "canonicalId": "wger:91",
+    "canonicalName": "Biceps Curls With Barbell",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:barbell_shrugs",
+    "retiredName": "barbell shrugs",
+    "canonicalId": "Barbell_Shrug",
+    "canonicalName": "Barbell Shrug",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:biceps_curl_cable",
+    "retiredName": "biceps curl cable",
+    "canonicalId": "wger:95",
+    "canonicalName": "Biceps Curl With Cable",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:commando_pull_up",
+    "retiredName": "commando pull-up",
+    "canonicalId": "wger:980",
+    "canonicalName": "commando pull-ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_curls",
+    "retiredName": "dumbbell curls",
+    "canonicalId": "wger:1931",
+    "canonicalName": "Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_incline_alternate_curl",
+    "retiredName": "dumbbell incline alternate curl",
+    "canonicalId": "Alternate_Incline_Dumbbell_Curl",
+    "canonicalName": "Alternate Incline Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_incline_twisted_fly",
+    "retiredName": "dumbbell incline twisted fly",
+    "canonicalId": "hasan:0331",
+    "canonicalName": "dumbbell incline twisted flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_shrugs",
+    "retiredName": "dumbbell shrugs",
+    "canonicalId": "Dumbbell_Shrug",
+    "canonicalName": "Dumbbell Shrug",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_squats",
+    "retiredName": "dumbbell squats",
+    "canonicalId": "Dumbbell_Squat",
+    "canonicalName": "Dumbbell Squat",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:front_raises_barbell",
+    "retiredName": "front raises barbell",
+    "canonicalId": "hasan:0041",
+    "canonicalName": "barbell front raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:lying_leg_raise",
+    "retiredName": "lying leg raise",
+    "canonicalId": "wger:377",
+    "canonicalName": "Leg Raises, Lying",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:oblique_crunch",
+    "retiredName": "oblique crunch",
+    "canonicalId": "Oblique_Crunches",
+    "canonicalName": "Oblique Crunches",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:pike_push_up",
+    "retiredName": "pike push up",
+    "canonicalId": "wger:454",
+    "canonicalName": "Pike Push Ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:plate_front_raise",
+    "retiredName": "plate front raise",
+    "canonicalId": "Front_Plate_Raise",
+    "canonicalName": "Front Plate Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:pull_up_wide_grip",
+    "retiredName": "pull up wide grip",
+    "canonicalId": "wger:1695",
+    "canonicalName": "Pull-Ups (Wide Grip)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:romanian_deadlift_barbell",
+    "retiredName": "romanian deadlift barbell",
+    "canonicalId": "hasan:0085",
+    "canonicalName": "barbell romanian deadlift",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:side_to_side_push_up",
+    "retiredName": "side to side push up",
+    "canonicalId": "wger:583",
+    "canonicalName": "Side to Side Push Ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:tricep_extension_machine",
+    "retiredName": "tricep extension machine",
+    "canonicalId": "Machine_Triceps_Extension",
+    "canonicalName": "Machine Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:upright_row_barbell",
+    "retiredName": "upright row barbell",
+    "canonicalId": "Upright_Barbell_Row",
+    "canonicalName": "Upright Barbell Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:wrist_curl_barbell",
+    "retiredName": "wrist curl barbell",
+    "canonicalId": "wger:51",
+    "canonicalName": "Barbell Wrist Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:wrist_curl_dumbbell",
+    "retiredName": "wrist curl dumbbell",
+    "canonicalId": "wger:1205",
+    "canonicalName": "Wrist curl, dumbbells",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "kinetic:ff8899b2-64d0-4ad7-b729-747c29ab17af",
+    "retiredName": "Squat",
+    "canonicalId": "wger:615",
+    "canonicalName": "Squats",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "kinetic:a4f69c7a-3e1c-40fa-b4e6-9b9b7487fd82",
+    "retiredName": "Dumbbell Skullcrusher",
+    "canonicalId": "wger:245",
+    "canonicalName": "Skullcrusher Dumbbells",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "kinetic:13a0f0b4-8dc3-49fd-8cc8-984ed8864684",
+    "retiredName": "Deadlift",
+    "canonicalId": "wger:184",
+    "canonicalName": "Deadlifts",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "kinetic:a9107762-bcb4-4de9-a4ce-600fb717dca9",
+    "retiredName": "Dip",
+    "canonicalId": "wger:194",
+    "canonicalName": "Dips",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "kinetic:7f9a7c86-55ae-4725-b44b-9c8b6398191b",
+    "retiredName": "Dumbbell Preacher Curls",
+    "canonicalId": "hasan:0372",
+    "canonicalName": "dumbbell preacher curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0990",
+    "retiredName": "Band Seated Row",
+    "canonicalId": "wger:2635",
+    "canonicalName": "Seated Band Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0570",
+    "retiredName": "Bench Pull-Up",
+    "canonicalId": "hasan:3019",
+    "canonicalName": "bench pull-ups",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:1723",
+    "retiredName": "Cable Triceps Pushdown",
+    "canonicalId": "wger:805",
+    "canonicalName": "Tricep Pushdown on Cable",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:drv-chest-dips",
+    "retiredName": "Chest Dips",
+    "canonicalId": "hasan:0251",
+    "canonicalName": "chest dip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0302",
+    "retiredName": "Decline Dumbbell Fly",
+    "canonicalId": "Decline_Dumbbell_Flyes",
+    "canonicalName": "Decline Dumbbell Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0620",
+    "retiredName": "Flat Bench Cable Fly",
+    "canonicalId": "Flat_Bench_Cable_Flyes",
+    "canonicalName": "Flat Bench Cable Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0274",
+    "retiredName": "Floor Crunch",
+    "canonicalId": "hasan:0274",
+    "canonicalName": "crunch floor",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:drv-kettlebell-deadlift",
+    "retiredName": "Kettlebell Deadlift",
+    "canonicalId": "wger:1003",
+    "canonicalName": "Kettlebell deadlifts",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0218",
+    "retiredName": "Seated Cable Row (Wide-Grip)",
+    "canonicalId": "hasan:0218",
+    "canonicalName": "cable seated wide-grip row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0289",
+    "retiredName": "Seated Dumbbell Shoulder Press",
+    "canonicalId": "hasan:0405",
+    "canonicalName": "dumbbell seated shoulder press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:drv-treadmill-running",
+    "retiredName": "Treadmill Running",
+    "canonicalId": "Running_Treadmill",
+    "canonicalName": "Running, Treadmill",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:drv-triceps-dips",
+    "retiredName": "Triceps Dips",
+    "canonicalId": "hasan:0814",
+    "canonicalName": "triceps dip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:91",
+    "retiredName": "Biceps Curls With Barbell",
+    "canonicalId": "Barbell_Curl",
+    "canonicalName": "Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1531",
+    "retiredName": "Cable Curls",
+    "canonicalId": "wger:95",
+    "canonicalName": "Biceps Curl With Cable",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1931",
+    "retiredName": "Dumbbell Curl",
+    "canonicalId": "Dumbbell_Bicep_Curl",
+    "canonicalName": "Dumbbell Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1629",
+    "retiredName": "barbell standing wide grip biceps curl",
+    "canonicalId": "Wide-Grip_Standing_Barbell_Curl",
+    "canonicalName": "Wide-Grip Standing Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1634",
+    "retiredName": "cable lying bicep curl",
+    "canonicalId": "Lying_Cable_Curl",
+    "canonicalName": "Lying Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0315",
+    "retiredName": "dumbbell incline biceps curl",
+    "canonicalId": "Incline_Dumbbell_Curl",
+    "canonicalName": "Incline Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1661",
+    "retiredName": "dumbbell lying supine biceps curl",
+    "canonicalId": "Lying_Supine_Dumbbell_Curl",
+    "canonicalName": "Lying Supine Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1677",
+    "retiredName": "dumbbell seated bicep curl",
+    "canonicalId": "Seated_Dumbbell_Curl",
+    "canonicalName": "Seated Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:barbell_reverse_biceps_curl",
+    "retiredName": "barbell reverse biceps curl",
+    "canonicalId": "Reverse_Barbell_Curl",
+    "canonicalName": "Reverse Barbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_curls_alternating",
+    "retiredName": "dumbbell curls alternating",
+    "canonicalId": "Dumbbell_Alternate_Bicep_Curl",
+    "canonicalName": "Dumbbell Alternate Bicep Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "glow:dumbbell_incline_alternate_bicep_curl",
+    "retiredName": "dumbbell incline alternate bicep curl",
+    "canonicalId": "Alternate_Incline_Dumbbell_Curl",
+    "canonicalName": "Alternate Incline Dumbbell Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0285",
+    "retiredName": "Seated Alternating Dumbbell Curl",
+    "canonicalId": "glow:alternating_biceps_curl_seated_dumbbells",
+    "canonicalName": "alternating biceps curl seated dumbbells",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1854",
+    "retiredName": "Calves foam roller",
+    "canonicalId": "Calves-SMR",
+    "canonicalName": "Calves-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1855",
+    "retiredName": "Hamstring Foam roller",
+    "canonicalId": "Hamstring-SMR",
+    "canonicalName": "Hamstring-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1856",
+    "retiredName": "Foam Roller Anterior tibialis",
+    "canonicalId": "Anterior_Tibialis-SMR",
+    "canonicalName": "Anterior Tibialis-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "wger:1858",
+    "retiredName": "Foam Roller quadriceps",
+    "canonicalId": "Quadriceps-SMR",
+    "canonicalName": "Quadriceps-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:1272",
+    "retiredName": "chest stretch with exercise ball",
+    "canonicalId": "Chest_Stretch_on_Stability_Ball",
+    "canonicalName": "Chest Stretch on Stability Ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0271",
+    "retiredName": "crunch (on stability ball)",
+    "canonicalId": "Exercise_Ball_Crunch",
+    "canonicalName": "Exercise Ball Crunch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0650",
+    "retiredName": "pull-in (on stability ball)",
+    "canonicalId": "Exercise_Ball_Pull-In",
+    "canonicalName": "Exercise Ball Pull-In",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0835",
+    "retiredName": "weighted hyperextension (on stability ball)",
+    "canonicalId": "Weighted_Ball_Hyperextension",
+    "canonicalName": "Weighted Ball Hyperextension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "hasan:0850",
+    "retiredName": "weighted side bend (on stability ball)",
+    "canonicalId": "Weighted_Ball_Side_Bend",
+    "canonicalName": "Weighted Ball Side Bend",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "zenith:0353",
+    "retiredName": "Stability Ball Leg Curl",
+    "canonicalId": "Ball_Leg_Curl",
+    "canonicalName": "Ball Leg Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_high_cable_curls",
+    "retiredName": "High Cable Curls",
+    "canonicalId": "High_Cable_Curls",
+    "canonicalName": "High Cable Curls",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:stability_ball_hug_a_ball",
+    "retiredName": "Hug A Ball",
+    "canonicalId": "Hug_A_Ball",
+    "canonicalName": "Hug A Ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_adductor_stretch",
+    "retiredName": "Adductor Foam Roll",
+    "canonicalId": "wger:1860",
+    "canonicalName": "Foam Roller Adductors",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_brachialis_smr",
+    "retiredName": "Brachialis Foam Roll",
+    "canonicalId": "Brachialis-SMR",
+    "canonicalName": "Brachialis-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_calves_smr",
+    "retiredName": "Calves Foam Roll",
+    "canonicalId": "Calves-SMR",
+    "canonicalName": "Calves-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_hamstring_smr",
+    "retiredName": "Hamstring Foam Roll",
+    "canonicalId": "Hamstring-SMR",
+    "canonicalName": "Hamstring-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_iliotibial_tract_smr",
+    "retiredName": "IT Band Foam Roll",
+    "canonicalId": "wger:1950",
+    "canonicalName": "Foam Roll IT Band",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_latissimus_dorsi_smr",
+    "retiredName": "Latissimus Dorsi-SMR",
+    "canonicalId": "Latissimus_Dorsi-SMR",
+    "canonicalName": "Latissimus Dorsi-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_lower_back_smr",
+    "retiredName": "Lower Back-SMR",
+    "canonicalId": "Lower_Back-SMR",
+    "canonicalName": "Lower Back-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_peroneals_smr",
+    "retiredName": "Peroneals-SMR",
+    "canonicalId": "Peroneals-SMR",
+    "canonicalName": "Peroneals-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_piriformis_smr",
+    "retiredName": "Piriformis-SMR",
+    "canonicalId": "Piriformis-SMR",
+    "canonicalName": "Piriformis-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_quadriceps_smr",
+    "retiredName": "Quadriceps-SMR",
+    "canonicalId": "Quadriceps-SMR",
+    "canonicalName": "Quadriceps-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:foam_roller_rhomboids_smr",
+    "retiredName": "Rhomboids-SMR",
+    "canonicalId": "Rhomboids-SMR",
+    "canonicalName": "Rhomboids-SMR",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_box_skip",
+    "retiredName": "Box Skip",
+    "canonicalId": "Box_Skip",
+    "canonicalName": "Box Skip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_box_jumps",
+    "retiredName": "Box Jumps",
+    "canonicalId": "wger:1373",
+    "canonicalName": "box jumps",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:trx_suspension_row",
+    "retiredName": "TRX Row",
+    "canonicalId": "wger:959",
+    "canonicalName": "TRX Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_crossover",
+    "retiredName": "Cable Crossover",
+    "canonicalId": "Cable_Crossover",
+    "canonicalName": "Cable Crossover",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_crunch",
+    "retiredName": "Cable Kneeling Crunch",
+    "canonicalId": "hasan:0175",
+    "canonicalName": "cable kneeling crunch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_iron_cross",
+    "retiredName": "Cable Iron Cross",
+    "canonicalId": "Cable_Iron_Cross",
+    "canonicalName": "Cable Iron Cross",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_preacher_curl",
+    "retiredName": "Cable Preacher Curl",
+    "canonicalId": "Cable_Preacher_Curl",
+    "canonicalName": "Cable Preacher Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_chest_press",
+    "retiredName": "Cable Chest Press",
+    "canonicalId": "Cable_Chest_Press",
+    "canonicalName": "Cable Chest Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_hammer_curls_rope",
+    "retiredName": "Cable Hammer Curls (Rope Attachment)",
+    "canonicalId": "Cable_Hammer_Curls_-_Rope_Attachment",
+    "canonicalName": "Cable Hammer Curls - Rope Attachment",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_hip_adduction",
+    "retiredName": "Cable Hip Adduction",
+    "canonicalId": "Cable_Hip_Adduction",
+    "canonicalName": "Cable Hip Adduction",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_incline_triceps_extension",
+    "retiredName": "Cable Incline Triceps Extension",
+    "canonicalId": "Cable_Incline_Triceps_Extension",
+    "canonicalName": "Cable Incline Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_internal_rotation",
+    "retiredName": "Cable Internal Rotation",
+    "canonicalId": "Cable_Internal_Rotation",
+    "canonicalName": "Cable Internal Rotation",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_judo_flip",
+    "retiredName": "Cable Judo Flip",
+    "canonicalId": "Cable_Judo_Flip",
+    "canonicalName": "Cable Judo Flip",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_lying_triceps_extension",
+    "retiredName": "Cable Lying Triceps Extension",
+    "canonicalId": "Cable_Lying_Triceps_Extension",
+    "canonicalName": "Cable Lying Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_one_arm_tricep_extension",
+    "retiredName": "Cable One Arm Tricep Extension",
+    "canonicalId": "Cable_One_Arm_Tricep_Extension",
+    "canonicalName": "Cable One Arm Tricep Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_rear_delt_fly",
+    "retiredName": "Cable Rear Delt Fly",
+    "canonicalId": "Cable_Rear_Delt_Fly",
+    "canonicalName": "Cable Rear Delt Fly",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:stability_ball_ball_leg_curl",
+    "retiredName": "Ball Leg Curl",
+    "canonicalId": "Ball_Leg_Curl",
+    "canonicalName": "Ball Leg Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_box_squat",
+    "retiredName": "Box Squat",
+    "canonicalId": "Box_Squat",
+    "canonicalName": "Box Squat",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_lateral_box_jump",
+    "retiredName": "Lateral Box Jump",
+    "canonicalId": "Lateral_Box_Jump",
+    "canonicalName": "Lateral Box Jump",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_reverse_crunch",
+    "retiredName": "Cable Reverse Crunch",
+    "canonicalId": "Cable_Reverse_Crunch",
+    "canonicalName": "Cable Reverse Crunch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_rope_overhead_triceps_extension",
+    "retiredName": "Cable Rope Overhead Triceps Extension",
+    "canonicalId": "Cable_Rope_Overhead_Triceps_Extension",
+    "canonicalName": "Cable Rope Overhead Triceps Extension",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_rope_rear_delt_rows",
+    "retiredName": "Cable Rope Rear-Delt Rows",
+    "canonicalId": "Cable_Rope_Rear-Delt_Rows",
+    "canonicalName": "Cable Rope Rear-Delt Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_seated_crunch",
+    "retiredName": "Cable Seated Crunch",
+    "canonicalId": "Cable_Seated_Crunch",
+    "canonicalName": "Cable Seated Crunch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_seated_lateral_raise",
+    "retiredName": "Cable Seated Lateral Raise",
+    "canonicalId": "Cable_Seated_Lateral_Raise",
+    "canonicalName": "Cable Seated Lateral Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_shoulder_press",
+    "retiredName": "Cable Shoulder Press",
+    "canonicalId": "Cable_Shoulder_Press",
+    "canonicalName": "Cable Shoulder Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_shrugs",
+    "retiredName": "Cable Shrugs",
+    "canonicalId": "Cable_Shrugs",
+    "canonicalName": "Cable Shrugs",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_wrist_curl",
+    "retiredName": "Cable Wrist Curl",
+    "canonicalId": "Cable_Wrist_Curl",
+    "canonicalName": "Cable Wrist Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_elevated_cable_rows",
+    "retiredName": "Elevated Cable Rows",
+    "canonicalId": "Elevated_Cable_Rows",
+    "canonicalName": "Elevated Cable Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_flat_bench_cable_flyes",
+    "retiredName": "Flat Bench Cable Flyes",
+    "canonicalId": "Flat_Bench_Cable_Flyes",
+    "canonicalName": "Flat Bench Cable Flyes",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_full_rom_lat_pulldown",
+    "retiredName": "Cable Machine Full Range-Of-Motion Lat Pulldown",
+    "canonicalId": "hasan:2330",
+    "canonicalName": "cable lat pulldown full range of motion",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_incline_cable_chest_press",
+    "retiredName": "Incline Cable Chest Press",
+    "canonicalId": "Incline_Cable_Chest_Press",
+    "canonicalName": "Incline Cable Chest Press",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_incline_cable_flye",
+    "retiredName": "Incline Cable Flye",
+    "canonicalId": "Incline_Cable_Flye",
+    "canonicalName": "Incline Cable Flye",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_cable_deadlifts",
+    "retiredName": "Cable Deadlifts",
+    "canonicalId": "Cable_Deadlifts",
+    "canonicalName": "Cable Deadlifts",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_cable_russian_twists",
+    "retiredName": "Cable Russian Twists",
+    "canonicalId": "Cable_Russian_Twists",
+    "canonicalName": "Cable Russian Twists",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_external_rotation_with_cable",
+    "retiredName": "External Rotation with Cable",
+    "canonicalId": "External_Rotation_with_Cable",
+    "canonicalName": "External Rotation with Cable",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_front_cable_raise",
+    "retiredName": "Front Cable Raise",
+    "canonicalId": "Front_Cable_Raise",
+    "canonicalName": "Front Cable Raise",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_low_cable_crossover",
+    "retiredName": "Low Cable Crossover",
+    "canonicalId": "Low_Cable_Crossover",
+    "canonicalName": "Low Cable Crossover",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_lying_cable_curl",
+    "retiredName": "Lying Cable Curl",
+    "canonicalId": "Lying_Cable_Curl",
+    "canonicalName": "Lying Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_one_arm_high_pulley_cable_side_bends",
+    "retiredName": "One-Arm High-Pulley Cable Side Bends",
+    "canonicalId": "One-Arm_High-Pulley_Cable_Side_Bends",
+    "canonicalName": "One-Arm High-Pulley Cable Side Bends",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_one_legged_cable_kickback",
+    "retiredName": "One-Legged Cable Kickback",
+    "canonicalId": "One-Legged_Cable_Kickback",
+    "canonicalName": "One-Legged Cable Kickback",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_pull_through",
+    "retiredName": "Cable Machine Pull Through",
+    "canonicalId": "wger:1751",
+    "canonicalName": "Cable pull through",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_reverse_cable_curl",
+    "retiredName": "Reverse Cable Curl",
+    "canonicalId": "Reverse_Cable_Curl",
+    "canonicalName": "Reverse Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_seated_cable_rows",
+    "retiredName": "Seated Cable Rows",
+    "canonicalId": "Seated_Cable_Rows",
+    "canonicalName": "Seated Cable Rows",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_single_arm_cable_crossover",
+    "retiredName": "Single-Arm Cable Crossover",
+    "canonicalId": "Single-Arm_Cable_Crossover",
+    "canonicalName": "Single-Arm Cable Crossover",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_biceps_cable_curl",
+    "retiredName": "Standing Biceps Cable Curl",
+    "canonicalId": "Standing_Biceps_Cable_Curl",
+    "canonicalName": "Standing Biceps Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_cable_lift",
+    "retiredName": "Standing Cable Lift",
+    "canonicalId": "Standing_Cable_Lift",
+    "canonicalName": "Standing Cable Lift",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_cable_wood_chop",
+    "retiredName": "Standing Cable Wood Chop",
+    "canonicalId": "Standing_Cable_Wood_Chop",
+    "canonicalName": "Standing Cable Wood Chop",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_one_arm_cable_curl",
+    "retiredName": "Standing One-Arm Cable Curl",
+    "canonicalId": "Standing_One-Arm_Cable_Curl",
+    "canonicalName": "Standing One-Arm Cable Curl",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_straight_arm_pulldown",
+    "retiredName": "Cable Machine Straight-Arm Pulldown",
+    "canonicalId": "wger:1726",
+    "canonicalName": "Straight-Arm Pulldown (Cable)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_triceps_pushdown",
+    "retiredName": "Cable Machine Triceps Pushdown",
+    "canonicalId": "wger:805",
+    "canonicalName": "Tricep Pushdown on Cable",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_underhand_cable_pulldowns",
+    "retiredName": "Underhand Cable Pulldowns",
+    "canonicalId": "Underhand_Cable_Pulldowns",
+    "canonicalName": "Underhand Cable Pulldowns",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_upright_cable_row",
+    "retiredName": "Upright Cable Row",
+    "canonicalId": "Upright_Cable_Row",
+    "canonicalName": "Upright Cable Row",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:cable_wide_grip_lat_pulldown",
+    "retiredName": "Cable Machine Wide-Grip Lat Pulldown",
+    "canonicalId": "zenith:drv-cable-bar-lateral-pulldown-wide-shoulder-grip",
+    "canonicalName": "Wide Grip Cable Lat Pulldown",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:stability_ball_exercise_ball_crunch",
+    "retiredName": "Exercise Ball Crunch",
+    "canonicalId": "Exercise_Ball_Crunch",
+    "canonicalName": "Exercise Ball Crunch",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:stability_ball_push_ups_with_feet_on_an_exercise_ball",
+    "retiredName": "Push-Ups With Feet On An Exercise Ball",
+    "canonicalId": "Push-Ups_With_Feet_On_An_Exercise_Ball",
+    "canonicalName": "Push-Ups With Feet On An Exercise Ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "everkinetic:0076",
+    "retiredName": "Push Up: Exercise ball",
+    "canonicalId": "hasan:0655",
+    "canonicalName": "push-up (on stability ball)",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "everkinetic:0104",
+    "retiredName": "Back Extension on Stability Ball",
+    "canonicalId": "hasan:1314",
+    "canonicalName": "back extension on exercise ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "everkinetic:0263",
+    "retiredName": "Biceps Curl: Stability Ball with Dumbbell (leg raised)",
+    "canonicalId": "hasan:1652",
+    "canonicalName": "dumbbell bicep curl on exercise ball with leg raised",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "everkinetic:0290",
+    "retiredName": "Crunches with Legs on Stability Ball",
+    "canonicalId": "Crunch_-_Legs_On_Exercise_Ball",
+    "canonicalName": "Crunch - Legs On Exercise Ball",
+    "reason": "Reviewed equivalent name: spelling/plural/token order; qualifiers retained"
+  },
+  {
+    "retiredId": "rthepen:stability_ball_downward_facing_balance",
+    "canonicalId": "Downward_Facing_Balance",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Stability Ball Downward Facing Balance",
+    "canonicalName": "Downward Facing Balance"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_renegade_row",
+    "canonicalId": "wger:490",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Renegade Row",
+    "canonicalName": "Renegade Row"
+  },
+  {
+    "retiredId": "rthepen:barbell_push_press",
+    "canonicalId": "Push_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Push Press",
+    "canonicalName": "Push Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_anti_gravity_press",
+    "canonicalId": "Anti-Gravity_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Anti-Gravity Press",
+    "canonicalName": "Anti-Gravity Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_board_press",
+    "canonicalId": "Board_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Board Press",
+    "canonicalName": "Board Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_bradford_rocky_presses",
+    "canonicalId": "Bradford_Rocky_Presses",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Bradford / Rocky Presses",
+    "canonicalName": "Bradford/Rocky Presses"
+  },
+  {
+    "retiredId": "rthepen:barbell_clean_shrug",
+    "canonicalId": "Clean_Shrug",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Clean Shrug",
+    "canonicalName": "Clean Shrug"
+  },
+  {
+    "retiredId": "rthepen:barbell_clean_from_blocks",
+    "canonicalId": "Clean_from_Blocks",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell & Block Clean from Blocks",
+    "canonicalName": "Clean from Blocks"
+  },
+  {
+    "retiredId": "rthepen:barbell_decline_close_grip_bench_skull_crusher",
+    "canonicalId": "Decline_Close-Grip_Bench_To_Skull_Crusher",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Decline Close-Grip Bench To Skull Crusher",
+    "canonicalName": "Decline Close-Grip Bench To Skull Crusher"
+  },
+  {
+    "retiredId": "rthepen:barbell_deficit_deadlift",
+    "canonicalId": "Deficit_Deadlift",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell & Platform Deficit Deadlift",
+    "canonicalName": "Deficit Deadlift"
+  },
+  {
+    "retiredId": "rthepen:barbell_finger_curls",
+    "canonicalId": "Finger_Curls",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Finger Curls",
+    "canonicalName": "Finger Curls"
+  },
+  {
+    "retiredId": "rthepen:barbell_floor_press",
+    "canonicalId": "Floor_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Floor Press",
+    "canonicalName": "Floor Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_frankenstein_squat",
+    "canonicalId": "Frankenstein_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Frankenstein Squat",
+    "canonicalName": "Frankenstein Squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_good_morning_off_pins",
+    "canonicalId": "Good_Morning_off_Pins",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell & Rack Good Morning off Pins",
+    "canonicalName": "Good Morning off Pins"
+  },
+  {
+    "retiredId": "rthepen:barbell_hang_clean",
+    "canonicalId": "Hang_Clean",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Hang Clean",
+    "canonicalName": "Hang Clean"
+  },
+  {
+    "retiredId": "rthepen:barbell_hang_clean_below_knees",
+    "canonicalId": "Hang_Clean_-_Below_the_Knees",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Hang Clean - Below the Knees",
+    "canonicalName": "Hang Clean - Below the Knees"
+  },
+  {
+    "retiredId": "rthepen:barbell_hang_snatch",
+    "canonicalId": "Hang_Snatch",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Hang Snatch",
+    "canonicalName": "Hang Snatch"
+  },
+  {
+    "retiredId": "rthepen:barbell_hang_snatch_below_knees",
+    "canonicalId": "Hang_Snatch_-_Below_Knees",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Hang Snatch - Below Knees",
+    "canonicalName": "Hang Snatch - Below Knees"
+  },
+  {
+    "retiredId": "rthepen:barbell_heaving_snatch_balance",
+    "canonicalId": "Heaving_Snatch_Balance",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Heaving Snatch Balance",
+    "canonicalName": "Heaving Snatch Balance"
+  },
+  {
+    "retiredId": "rthepen:barbell_clean",
+    "canonicalId": "Clean",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Clean",
+    "canonicalName": "Clean"
+  },
+  {
+    "retiredId": "rthepen:barbell_elevated_back_lunge",
+    "canonicalId": "Elevated_Back_Lunge",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Elevated Back Lunge",
+    "canonicalName": "Elevated Back Lunge"
+  },
+  {
+    "retiredId": "rthepen:barbell_jm_press",
+    "canonicalId": "JM_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell JM Press",
+    "canonicalName": "JM Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_jerk_balance",
+    "canonicalId": "Jerk_Balance",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Jerk Balance",
+    "canonicalName": "Jerk Balance"
+  },
+  {
+    "retiredId": "rthepen:barbell_jerk_dip_squat",
+    "canonicalId": "Jerk_Dip_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Jerk Dip Squat",
+    "canonicalName": "Jerk Dip Squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_kneeling_jump_squat",
+    "canonicalId": "Kneeling_Jump_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Kneeling Jump Squat",
+    "canonicalName": "Kneeling Jump Squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_kneeling_squat",
+    "canonicalId": "Kneeling_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Kneeling Squat",
+    "canonicalName": "Kneeling Squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_muscle_snatch",
+    "canonicalId": "Muscle_Snatch",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Muscle Snatch",
+    "canonicalName": "Muscle Snatch"
+  },
+  {
+    "retiredId": "rthepen:barbell_power_clean",
+    "canonicalId": "Power_Clean",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Power Clean",
+    "canonicalName": "Power Clean"
+  },
+  {
+    "retiredId": "rthepen:barbell_power_jerk",
+    "canonicalId": "Power_Jerk",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Power Jerk",
+    "canonicalName": "Power Jerk"
+  },
+  {
+    "retiredId": "rthepen:barbell_power_snatch",
+    "canonicalId": "Power_Snatch",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Power Snatch",
+    "canonicalName": "Power Snatch"
+  },
+  {
+    "retiredId": "rthepen:barbell_rack_pulls",
+    "canonicalId": "Rack_Pulls",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Rack Pulls",
+    "canonicalName": "Rack Pulls"
+  },
+  {
+    "retiredId": "rthepen:barbell_reverse_triceps_bench_press",
+    "canonicalId": "Reverse_Triceps_Bench_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Reverse Triceps Bench Press",
+    "canonicalName": "Reverse Triceps Bench Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_seated_good_mornings",
+    "canonicalId": "Seated_Good_Mornings",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Seated Good Mornings",
+    "canonicalName": "Seated Good Mornings"
+  },
+  {
+    "retiredId": "rthepen:barbell_snatch",
+    "canonicalId": "Snatch",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Snatch",
+    "canonicalName": "Snatch"
+  },
+  {
+    "retiredId": "rthepen:barbell_snatch_balance",
+    "canonicalId": "Snatch_Balance",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Snatch Balance",
+    "canonicalName": "Snatch Balance"
+  },
+  {
+    "retiredId": "rthepen:barbell_snatch_deadlift",
+    "canonicalId": "Snatch_Deadlift",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Snatch Deadlift",
+    "canonicalName": "Snatch Deadlift"
+  },
+  {
+    "retiredId": "rthepen:barbell_snatch_pull",
+    "canonicalId": "Snatch_Pull",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Snatch Pull",
+    "canonicalName": "Snatch Pull"
+  },
+  {
+    "retiredId": "rthepen:barbell_split_clean",
+    "canonicalId": "Split_Clean",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Split Clean",
+    "canonicalName": "Split Clean"
+  },
+  {
+    "retiredId": "rthepen:barbell_split_jerk",
+    "canonicalId": "Split_Jerk",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Split Jerk",
+    "canonicalName": "Split Jerk"
+  },
+  {
+    "retiredId": "rthepen:barbell_split_snatch",
+    "canonicalId": "Split_Snatch",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Split Snatch",
+    "canonicalName": "Split Snatch"
+  },
+  {
+    "retiredId": "rthepen:barbell_squat_jerk",
+    "canonicalId": "Squat_Jerk",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Squat Jerk",
+    "canonicalName": "Squat Jerk"
+  },
+  {
+    "retiredId": "rthepen:barbell_weighted_jump_squat",
+    "canonicalId": "Weighted_Jump_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Weighted Jump Squat",
+    "canonicalName": "Weighted Jump Squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_weighted_sissy_squat",
+    "canonicalId": "Weighted_Sissy_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Weighted Sissy Squat",
+    "canonicalName": "Weighted Sissy Squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_wrist_rotations_with_straight_bar",
+    "canonicalId": "Wrist_Rotations_with_Straight_Bar",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Barbell Wrist Rotations with Straight Bar",
+    "canonicalName": "Wrist Rotations with Straight Bar"
+  },
+  {
+    "retiredId": "rthepen:cable_close_grip_front_lat_pulldown",
+    "canonicalId": "Close-Grip_Front_Lat_Pulldown",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Close-Grip Front Lat Pulldown",
+    "canonicalName": "Close-Grip Front Lat Pulldown"
+  },
+  {
+    "retiredId": "rthepen:cable_face_pull",
+    "canonicalId": "Face_Pull",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Face Pull",
+    "canonicalName": "Face Pull"
+  },
+  {
+    "retiredId": "rthepen:cable_one_arm_lat_pulldown",
+    "canonicalId": "One_Arm_Lat_Pulldown",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine One Arm Lat Pulldown",
+    "canonicalName": "One Arm Lat Pulldown"
+  },
+  {
+    "retiredId": "rthepen:cable_reverse_grip_triceps_pushdown",
+    "canonicalId": "Reverse_Grip_Triceps_Pushdown",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Reverse Grip Triceps Pushdown",
+    "canonicalName": "Reverse Grip Triceps Pushdown"
+  },
+  {
+    "retiredId": "rthepen:cable_seated_two_arm_palms_up_low_pulley_wrist_curl",
+    "canonicalId": "Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Seated Two-Arm Palms-Up Low-Pulley Wrist Curl",
+    "canonicalName": "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl"
+  },
+  {
+    "retiredId": "rthepen:cable_shotgun_row",
+    "canonicalId": "Shotgun_Row",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Shotgun Row",
+    "canonicalName": "Shotgun Row"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_low_pulley_deltoid_raise",
+    "canonicalId": "Standing_Low-Pulley_Deltoid_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Standing Low-Pulley Deltoid Raise",
+    "canonicalName": "Standing Low-Pulley Deltoid Raise"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_low_pulley_one_arm_triceps_extension",
+    "canonicalId": "Standing_Low-Pulley_One-Arm_Triceps_Extension",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Standing Low-Pulley One-Arm Triceps Extension",
+    "canonicalName": "Standing Low-Pulley One-Arm Triceps Extension"
+  },
+  {
+    "retiredId": "rthepen:cable_standing_rope_crunch",
+    "canonicalId": "Standing_Rope_Crunch",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Standing Rope Crunch",
+    "canonicalName": "Standing Rope Crunch"
+  },
+  {
+    "retiredId": "rthepen:cable_v_bar_pulldown",
+    "canonicalId": "V-Bar_Pulldown",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine V-Bar Pulldown",
+    "canonicalName": "V-Bar Pulldown"
+  },
+  {
+    "retiredId": "rthepen:cable_wide_grip_pulldown_behind_the_neck",
+    "canonicalId": "Wide-Grip_Pulldown_Behind_The_Neck",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Cable Machine Wide-Grip Pulldown Behind The Neck",
+    "canonicalName": "Wide-Grip Pulldown Behind The Neck"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_seated_box_jump",
+    "canonicalId": "Dumbbell_Seated_Box_Jump",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell & Box Dumbbell Seated Box Jump",
+    "canonicalName": "Dumbbell Seated Box Jump"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_around_the_worlds",
+    "canonicalId": "Around_The_Worlds",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Around The Worlds",
+    "canonicalName": "Around The Worlds"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_lying_one_arm_lateral_raise",
+    "canonicalId": "Lying_One-Arm_Lateral_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Lying One-Arm Lateral Raise",
+    "canonicalName": "Lying One-Arm Lateral Raise"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_lying_rear_delt_raise",
+    "canonicalId": "Lying_Rear_Delt_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Lying Rear Delt Raise",
+    "canonicalName": "Lying Rear Delt Raise"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_power_partials",
+    "canonicalId": "Power_Partials",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Power Partials",
+    "canonicalName": "Power Partials"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_seated_bent_over_rear_delt_raise",
+    "canonicalId": "Seated_Bent-Over_Rear_Delt_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Seated Bent-Over Rear Delt Raise",
+    "canonicalName": "Seated Bent-Over Rear Delt Raise"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_seated_side_lateral_raise",
+    "canonicalId": "Seated_Side_Lateral_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Seated Side Lateral Raise",
+    "canonicalName": "Seated Side Lateral Raise"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_seated_triceps_press",
+    "canonicalId": "Seated_Triceps_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Seated Triceps Press",
+    "canonicalName": "Seated Triceps Press"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_see_saw_press_alternating_side_press",
+    "canonicalId": "See-Saw_Press_Alternating_Side_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell See-Saw Press (Alternating Side Press)",
+    "canonicalName": "See-Saw Press (Alternating Side Press)"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_side_laterals_to_front_raise",
+    "canonicalId": "Side_Laterals_to_Front_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Side Laterals to Front Raise",
+    "canonicalName": "Side Laterals to Front Raise"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_spell_caster",
+    "canonicalId": "Spell_Caster",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Dumbbell Spell Caster",
+    "canonicalName": "Spell Caster"
+  },
+  {
+    "retiredId": "rthepen:machine_leg_extensions",
+    "canonicalId": "Leg_Extensions",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leg Extensions",
+    "canonicalName": "Leg Extensions"
+  },
+  {
+    "retiredId": "rthepen:machine_leg_press",
+    "canonicalId": "Leg_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leg Press",
+    "canonicalName": "Leg Press"
+  },
+  {
+    "retiredId": "rthepen:machine_leverage_deadlift",
+    "canonicalId": "Leverage_Deadlift",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leverage Deadlift",
+    "canonicalName": "Leverage Deadlift"
+  },
+  {
+    "retiredId": "rthepen:machine_leverage_decline_chest_press",
+    "canonicalId": "Leverage_Decline_Chest_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leverage Decline Chest Press",
+    "canonicalName": "Leverage Decline Chest Press"
+  },
+  {
+    "retiredId": "rthepen:machine_leverage_high_row",
+    "canonicalId": "Leverage_High_Row",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leverage High Row",
+    "canonicalName": "Leverage High Row"
+  },
+  {
+    "retiredId": "rthepen:machine_leverage_incline_chest_press",
+    "canonicalId": "Leverage_Incline_Chest_Press",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leverage Incline Chest Press",
+    "canonicalName": "Leverage Incline Chest Press"
+  },
+  {
+    "retiredId": "rthepen:machine_leverage_shrug",
+    "canonicalId": "Leverage_Shrug",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Leverage Shrug",
+    "canonicalName": "Leverage Shrug"
+  },
+  {
+    "retiredId": "rthepen:machine_lying_leg_curls",
+    "canonicalId": "Lying_Leg_Curls",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Lying Leg Curls",
+    "canonicalName": "Lying Leg Curls"
+  },
+  {
+    "retiredId": "rthepen:machine_lying_t_bar_row",
+    "canonicalId": "Lying_T-Bar_Row",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Lying T-Bar Row",
+    "canonicalName": "Lying T-Bar Row"
+  },
+  {
+    "retiredId": "rthepen:machine_reverse_hyperextension",
+    "canonicalId": "Reverse_Hyperextension",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Reverse Hyperextension",
+    "canonicalName": "Reverse Hyperextension"
+  },
+  {
+    "retiredId": "rthepen:machine_seated_calf_raise",
+    "canonicalId": "Seated_Calf_Raise",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Seated Calf Raise",
+    "canonicalName": "Seated Calf Raise"
+  },
+  {
+    "retiredId": "rthepen:machine_seated_leg_curl",
+    "canonicalId": "Seated_Leg_Curl",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Seated Leg Curl",
+    "canonicalName": "Seated Leg Curl"
+  },
+  {
+    "retiredId": "rthepen:machine_smith_single_leg_split_squat",
+    "canonicalId": "Smith_Single-Leg_Split_Squat",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Smith Single-Leg Split Squat",
+    "canonicalName": "Smith Single-Leg Split Squat"
+  },
+  {
+    "retiredId": "rthepen:machine_standing_calf_raises",
+    "canonicalId": "Standing_Calf_Raises",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Standing Calf Raises",
+    "canonicalName": "Standing Calf Raises"
+  },
+  {
+    "retiredId": "rthepen:machine_standing_leg_curl",
+    "canonicalId": "Standing_Leg_Curl",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Standing Leg Curl",
+    "canonicalName": "Standing Leg Curl"
+  },
+  {
+    "retiredId": "rthepen:machine_thigh_abductor",
+    "canonicalId": "Thigh_Abductor",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Thigh Abductor",
+    "canonicalName": "Thigh Abductor"
+  },
+  {
+    "retiredId": "rthepen:machine_thigh_adductor",
+    "canonicalId": "Thigh_Adductor",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Machine Thigh Adductor",
+    "canonicalName": "Thigh Adductor"
+  },
+  {
+    "retiredId": "rthepen:medicine_ball_weighted_crunches",
+    "canonicalId": "Weighted_Crunches",
+    "reason": "Source original display name matches existing movement; import added equipment prefix although existing equipment is identical.",
+    "retiredName": "Medicine Ball Weighted Crunches",
+    "canonicalName": "Weighted Crunches"
+  },
+  {
+    "retiredId": "rthepen:bodyweight_star_jumps",
+    "canonicalId": "Star_Jump",
+    "reason": "Both begin in squat and jump outward to an X/star shape with soft landing.",
+    "retiredName": "Star Jumps",
+    "canonicalName": "Star Jump"
+  },
+  {
+    "retiredId": "rthepen:bodyweight_shoulder_taps",
+    "canonicalId": "hasan:3699",
+    "reason": "Both high-plank alternating opposite-shoulder taps with stationary hips.",
+    "retiredName": "Shoulder Taps",
+    "canonicalName": "shoulder tap"
+  },
+  {
+    "retiredId": "rthepen:bodyweight_v_ups",
+    "canonicalId": "glow:v_up",
+    "reason": "Both supine straight-limb fold into V shape.",
+    "retiredName": "V-Ups",
+    "canonicalName": "v up"
+  },
+  {
+    "retiredId": "rthepen:medicine_ball_wall_balls",
+    "canonicalId": "wger:1100",
+    "reason": "Both medicine ball squat into overhead wall throw and catch; wger equipment label is inconsistent with its own explicit medicine-ball guidance.",
+    "retiredName": "Medicine Ball Wall Balls",
+    "canonicalName": "Wall balls"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_db_deadlift",
+    "canonicalId": "wger:1370",
+    "reason": "DB is abbreviation for dumbbell; both hold weights in front of thighs and hip hinge down the legs.",
+    "retiredName": "Dumbbell DB Deadlift",
+    "canonicalName": "Dumbbell Deadlift"
+  },
+  {
+    "retiredId": "rthepen:medicine_ball_ball_chest_pass",
+    "canonicalId": "Medicine_Ball_Chest_Pass",
+    "reason": "Both two-hand chest-level medicine-ball throw to partner or wall; repeated Ball token added by import.",
+    "retiredName": "Medicine Ball Ball Chest Pass",
+    "canonicalName": "Medicine Ball Chest Pass"
+  },
+  {
+    "retiredId": "rthepen:partner_medball_chest_pass",
+    "canonicalId": "Medicine_Ball_Chest_Pass",
+    "reason": "Both facing partner and stepping into two-hand medicine-ball chest throw; existing guidance explicitly uses partner.",
+    "retiredName": "Partner Medball Chest Pass",
+    "canonicalName": "Medicine Ball Chest Pass"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_power_stairs",
+    "canonicalId": "Power_Stairs",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Plyo Box Power Stairs",
+    "canonicalName": "Power Stairs"
+  },
+  {
+    "retiredId": "rthepen:barbell_axle_deadlift",
+    "canonicalId": "Axle_Deadlift",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Axle Deadlift",
+    "canonicalName": "Axle Deadlift"
+  },
+  {
+    "retiredId": "rthepen:barbell_log_lift",
+    "canonicalId": "Log_Lift",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Log Lift",
+    "canonicalName": "Log Lift"
+  },
+  {
+    "retiredId": "rthepen:barbell_reverse_plate_curls",
+    "canonicalId": "Reverse_Plate_Curls",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Weight Plate Reverse Plate Curls",
+    "canonicalName": "Reverse Plate Curls"
+  },
+  {
+    "retiredId": "rthepen:barbell_rickshaw_deadlift",
+    "canonicalId": "Rickshaw_Deadlift",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Rickshaw Deadlift",
+    "canonicalName": "Rickshaw Deadlift"
+  },
+  {
+    "retiredId": "rthepen:barbell_svend_press",
+    "canonicalId": "Svend_Press",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Svend Press",
+    "canonicalName": "Svend Press"
+  },
+  {
+    "retiredId": "rthepen:barbell_trap_bar_deadlift",
+    "canonicalId": "Trap_Bar_Deadlift",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Trap Bar Deadlift",
+    "canonicalName": "Trap Bar Deadlift"
+  },
+  {
+    "retiredId": "rthepen:barbell_yoke_walk",
+    "canonicalId": "Yoke_Walk",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Yoke Walk",
+    "canonicalName": "Yoke Walk"
+  },
+  {
+    "retiredId": "rthepen:barbell_plate_pinch",
+    "canonicalId": "Plate_Pinch",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Barbell Plate Pinch",
+    "canonicalName": "Plate Pinch"
+  },
+  {
+    "retiredId": "rthepen:ez_bar_close_grip_press",
+    "canonicalId": "Close-Grip_EZ-Bar_Press",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "EZ Bar Close-Grip EZ-Bar Press",
+    "canonicalName": "Close-Grip EZ-Bar Press"
+  },
+  {
+    "retiredId": "rthepen:ez_bar_curl",
+    "canonicalId": "EZ-Bar_Curl",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "EZ Bar EZ-Bar Curl",
+    "canonicalName": "EZ-Bar Curl"
+  },
+  {
+    "retiredId": "rthepen:cones_single_leg_lateral_hop",
+    "canonicalId": "Single-Leg_Lateral_Hop",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Cone Single-Leg Lateral Hop",
+    "canonicalName": "Single-Leg Lateral Hop"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_otis_up",
+    "canonicalId": "Otis-Up",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Dumbbell Otis-Up",
+    "canonicalName": "Otis-Up"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_weighted_bench_dip",
+    "canonicalId": "Weighted_Bench_Dip",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Dumbbell Weighted Bench Dip",
+    "canonicalName": "Weighted Bench Dip"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_wrist_roller",
+    "canonicalId": "Wrist_Roller",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Dumbbell Wrist Roller",
+    "canonicalName": "Wrist Roller"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_step_up_with_knee_raise",
+    "canonicalId": "Step-up_with_Knee_Raise",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Plyo Box Step-up with Knee Raise",
+    "canonicalName": "Step-up with Knee Raise"
+  },
+  {
+    "retiredId": "rthepen:resistance_band_pallof_press",
+    "canonicalId": "Pallof_Press",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Resistance Band Pallof Press",
+    "canonicalName": "Pallof Press"
+  },
+  {
+    "retiredId": "rthepen:resistance_band_pallof_press_with_rotation",
+    "canonicalId": "Pallof_Press_With_Rotation",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Resistance Band Pallof Press With Rotation",
+    "canonicalName": "Pallof Press With Rotation"
+  },
+  {
+    "retiredId": "rthepen:sandbag_keg_load",
+    "canonicalId": "Keg_Load",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Sandbag Keg Load",
+    "canonicalName": "Keg Load"
+  },
+  {
+    "retiredId": "rthepen:sprint_track_sled_drag_harness",
+    "canonicalId": "Sled_Drag_-_Harness",
+    "reason": "Source guidance is verbatim identical to existing movement; differing equipment label is a source categorization error or incidental hardware.",
+    "retiredName": "Sprint Track / Turf Sled Drag - Harness",
+    "canonicalName": "Sled Drag - Harness"
+  },
+  {
+    "retiredId": "rthepen:dumbbells_farmers_walk",
+    "canonicalId": "Farmers_Walk",
+    "reason": "Both two-hand heavy-weight carries with short steps; existing guide explicitly includes dumbbells.",
+    "retiredName": "Dumbbell Farmers Walk",
+    "canonicalName": "Farmer's Walk"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_bulgarian_split_squat",
+    "canonicalId": "glow:bulgarian_split_squat",
+    "reason": "Both unweighted split squats with rear foot laces-down elevated on a bench or box; setup hardware is incidental.",
+    "retiredName": "Plyo Box Bulgarian Split Squat",
+    "canonicalName": "bulgarian split squat"
+  },
+  {
+    "retiredId": "rthepen:barbell_front_plate_raise",
+    "canonicalId": "Front_Plate_Raise",
+    "reason": "Both two-hand 3/9-o-clock plate front raises; source category barbell does not match its explicit weight-plate guidance.",
+    "retiredName": "Weight Plate Front Plate Raise",
+    "canonicalName": "Front Plate Raise"
+  },
+  {
+    "retiredId": "rthepen:battle_rope_waves",
+    "canonicalId": "Battling_Ropes",
+    "reason": "Both alternate up/down waves holding the two ends of a centrally anchored battle rope.",
+    "retiredName": "Battle Rope Battling Ropes",
+    "canonicalName": "Battling Ropes"
+  },
+  {
+    "retiredId": "rthepen:bosu_ball_bosu_cable_crunch_side_bends",
+    "canonicalId": "Bosu_Ball_Cable_Crunch_With_Side_Bends",
+    "reason": "Both lie on BOSU dome before two low cables, perform arms-straight crunches, then alternating side bends.",
+    "retiredName": "BOSU Ball & Cable Bosu Ball Cable Crunch With Side Bends",
+    "canonicalName": "Bosu Ball Cable Crunch With Side Bends"
+  },
+  {
+    "retiredId": "rthepen:ez_bar_preacher_curl",
+    "canonicalId": "Preacher_Curl",
+    "reason": "Both explicitly use preacher bench and close inner grip of EZ bar; old general barbell equipment label hides the same hardware.",
+    "retiredName": "EZ Bar Preacher Curl",
+    "canonicalName": "Preacher Curl"
+  },
+  {
+    "retiredId": "rthepen:sprint_track_bear_crawl",
+    "canonicalId": "hasan:3360",
+    "reason": "Both forward contralateral bear crawl with knees just above floor and stable trunk; track label adds no movement.",
+    "retiredName": "Sprint Track / Sled Track Bear Crawl",
+    "canonicalName": "bear crawl"
+  },
+  {
+    "retiredId": "rthepen:sprint_track_inchworm",
+    "canonicalId": "Inchworm",
+    "reason": "Both walk hands from standing fold to plank then walk straight-legged feet towards hands; track adds no movement.",
+    "retiredName": "Sprint Track / Sled Track Inchworm",
+    "canonicalName": "Inchworm"
+  },
+  {
+    "retiredId": "rthepen:sprint_track_farmers_walk",
+    "canonicalId": "Farmers_Walk",
+    "reason": "Both two-hand short-step farmer carries; existing guide permits dumbbells and other implements, track is incidental.",
+    "retiredName": "Sprint Track / Sled Track Farmer's Walk",
+    "canonicalName": "Farmer's Walk"
+  },
+  {
+    "retiredId": "rthepen:sprint_track_suitcase_carry",
+    "canonicalId": "wger:1776",
+    "reason": "Both upright one-hand suitcase weight carry resisting lateral lean; track is incidental.",
+    "retiredName": "Sprint Track / Sled Track Suitcase Carry",
+    "canonicalName": "Suitcase Carry"
+  },
+  {
+    "retiredId": "rthepen:standing_punching_bag_heavy_bag_thrust",
+    "canonicalId": "Heavy_Bag_Thrust",
+    "reason": "Both staggered stance next to heavy bag, hip rotation and one-hand thrust at chest height, receiving return swing.",
+    "retiredName": "Standing Punching Bag Heavy Bag Thrust",
+    "canonicalName": "Heavy Bag Thrust"
+  },
+  {
+    "retiredId": "rthepen:ez_bar_bodyweight_flyes",
+    "canonicalId": "Bodyweight_Flyes",
+    "reason": "Both loaded rolling EZ bars support a push-up plank and roll apart in chest fly then together.",
+    "retiredName": "EZ Bar Bodyweight Flyes",
+    "canonicalName": "Bodyweight Flyes"
+  },
+  {
+    "retiredId": "rthepen:machine_hack_squat",
+    "canonicalId": "Hack_Squat",
+    "reason": "Both shoulder-pad/back-pad hack squat sled with shoulder-width platform stance.",
+    "retiredName": "Hack Squat Machine Hack Squat",
+    "canonicalName": "Hack Squat"
+  },
+  {
+    "retiredId": "rthepen:machine_calf_machine_shoulder_shrug",
+    "canonicalId": "Calf-Machine_Shoulder_Shrug",
+    "reason": "Both shoulder shrugs under standing calf machine shoulder pads with torso upright.",
+    "retiredName": "Standing Calf Machine Calf-Machine Shoulder Shrug",
+    "canonicalName": "Calf-Machine Shoulder Shrug"
+  },
+  {
+    "retiredId": "rthepen:machine_decline_smith_press",
+    "canonicalId": "Decline_Smith_Press",
+    "reason": "Both decline bench under Smith bar, wide overhand grip, lower to chest then press and re-rack.",
+    "retiredName": "Smith Machine Decline Smith Press",
+    "canonicalName": "Decline Smith Press"
+  },
+  {
+    "retiredId": "rthepen:machine_hyperextensions_back_extensions",
+    "canonicalId": "Hyperextensions_Back_Extensions",
+    "reason": "Both unweighted hip-hinge back extension with ankles anchored on hyperextension bench and arms crossed.",
+    "retiredName": "Hyperextension Bench Hyperextensions (Back Extensions)",
+    "canonicalName": "Hyperextensions (Back Extensions)"
+  },
+  {
+    "retiredId": "rthepen:bodyweight_bench_sprint",
+    "canonicalId": "Bench_Sprint",
+    "reason": "Both alternate explosive step-offs with one foot on bench or box, switching feet each landing.",
+    "retiredName": "Plyo Box Bench Sprint",
+    "canonicalName": "Bench Sprint"
+  },
+  {
+    "retiredId": "rthepen:plyo_box_depth_jump_leap",
+    "canonicalId": "Depth_Jump_Leap",
+    "reason": "Both drop from low box, two-foot rebound and leap to higher box two or three feet in front.",
+    "retiredName": "Plyo Box Depth Jump Leap",
+    "canonicalName": "Depth Jump Leap"
+  }
+]

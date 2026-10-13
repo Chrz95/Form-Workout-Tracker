@@ -1,5 +1,14 @@
+import { useMemo, useState } from "react";
+import { WorkoutLibraryControls } from "./WorkoutLibraryControls";
+import {
+  createWorkoutLibrary,
+  selectWorkoutLibrary,
+  type WorkoutSort,
+  type WorkoutFilter,
+} from "./workoutLibrary.utils";
+import { WorkoutCard } from "./WorkoutCard";
 import { ICON_SIZE } from "../../../../shared/constants";
-import { Layers, ArrowUpRight, Pencil, Trash2 } from "lucide-react";
+import { Layers, ArrowUpRight } from "lucide-react";
 import { WorkoutsToolbar } from "./WorkoutsToolbar";
 import type { StudioProps } from "../../app/useStudio";
 /** Shows durable custom routines with edit, delete and logging actions.
@@ -8,6 +17,14 @@ import type { StudioProps } from "../../app/useStudio";
  * @returns {JSX.Element} Routine library.
  */
 export function WorkoutsPage({ studio }: StudioProps) {
+  const [query, setQuery] = useState("");
+  const [sort, setSort] = useState<WorkoutSort>("newest");
+  const [filter, setFilter] = useState<WorkoutFilter>("all");
+  const library = useMemo(
+    () => createWorkoutLibrary(studio.workouts, studio.exercises),
+    [studio.workouts, studio.exercises],
+  );
+  const visible = selectWorkoutLibrary(library, { query, sort, filter });
   return (
     <section>
       <WorkoutsToolbar studio={studio} />
@@ -32,57 +49,29 @@ export function WorkoutsPage({ studio }: StudioProps) {
           {!studio.isConnected && <small>Connect your Express API to save and sync lists.</small>}
         </div>
       ) : (
-        <div className="workouts-grid">
-          {studio.workouts.map((workout) => (
-            <article
-              className="workout-card"
-              key={workout.id}
-            >
-              <span className="eyebrow">YOUR CUSTOM ROUTINE</span>
-              <h2>{workout.name}</h2>
-              <p>{workout.notes || "Your movements. Your intention."}</p>
-              <div className="workout-exercises">
-                {workout.items.map((item) => (
-                  <span key={item.exerciseId}>
-                    {studio.exercises.find((exercise) => exercise.id === item.exerciseId)?.name ?? item.exerciseId}
-                  </span>
-                ))}
-              </div>
-              <div className="workout-meta">
-                {workout.items.length} movements · {workout.items.reduce((total, item) => total + item.sets, 0)} sets
-              </div>
-              <div className="card-actions">
-                <button
-                  className="button primary"
-                  onClick={() => {
-                    studio.setApiError("");
-                    studio.live.startWorkout(workout);
-                  }}
-                >
-                  Start workout <ArrowUpRight size={ICON_SIZE.standard} />
-                </button>
-                <button
-                  className="icon-button"
-                  onClick={() => studio.openWorkout(workout, false)}
-                  aria-label={`Edit ${workout.name}`}
-                >
-                  <Pencil size={ICON_SIZE.standard} />
-                </button>
-                <button
-                  className="icon-button"
-                  disabled={studio.isPending}
-                  onClick={() => {
-                    if (window.confirm(`Delete “${workout.name}”?`)) {
-                      void studio.removeRecord("workouts", workout.id);
-                    }
-                  }}
-                  aria-label={`Delete ${workout.name}`}
-                >
-                  <Trash2 size={ICON_SIZE.standard} />
-                </button>
-              </div>
-            </article>
-          ))}
+        <div>
+          <WorkoutLibraryControls
+            query={query}
+            sort={sort}
+            filter={filter}
+            count={visible.length}
+            total={studio.workouts.length}
+            onQuery={setQuery}
+            onSort={setSort}
+            onFilter={setFilter}
+          />
+          {!visible.length && (
+            <p className="onboarding-empty">No workouts match this view. Try another search or reset it.</p>
+          )}
+          <div className="workouts-grid">
+            {visible.map((workout) => (
+              <WorkoutCard
+                key={workout.id}
+                workout={workout}
+                studio={studio}
+              />
+            ))}
+          </div>
         </div>
       )}
     </section>

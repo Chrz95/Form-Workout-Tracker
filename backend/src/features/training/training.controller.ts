@@ -3,6 +3,7 @@ import { z } from "zod";
 import { workoutInputSchema, sessionInputSchema } from "../../../../shared/contracts.js";
 import { HTTP_STATUS } from "../../../../shared/constants.js";
 import type { TrainingService } from "./training.service.js";
+import { importInputSchema } from "../../../../shared/importContracts.js";
 const identifierSchema = z.object({ id: z.uuid() });
 const emptyQuerySchema = z.object({}).strict();
 /** Translates HTTP input into validated service calls; contains no database queries.
@@ -10,6 +11,15 @@ const emptyQuerySchema = z.object({}).strict();
  * @returns {Record<string, RequestHandler>} Typed controllers.
  */
 export function createTrainingControllers(service: TrainingService) {
+  /** Validates a transfer file before starting its atomic persistence operation.
+   * @param {Request} request - Untrusted batch.
+   * @param {Response} response - Safe outcome envelope.
+   * @returns {Promise<void>} Request completion.
+   */
+  const importRecords: RequestHandler = async (request, response) => {
+    emptyQuerySchema.parse(request.query);
+    response.json({ data: await service.importRecords(importInputSchema.parse(request.body)) });
+  };
   /** Returns the saved routine collection.
    * @param {Request} request - Untrusted HTTP request.
    * @param {Response} response - Typed HTTP response.
@@ -75,5 +85,14 @@ export function createTrainingControllers(service: TrainingService) {
     const { id } = identifierSchema.parse(request.params);
     response.json({ data: await service.deleteSession(id) });
   };
-  return { listWorkouts, createWorkout, updateWorkout, deleteWorkout, listSessions, createSession, deleteSession };
+  return {
+    importRecords,
+    listWorkouts,
+    createWorkout,
+    updateWorkout,
+    deleteWorkout,
+    listSessions,
+    createSession,
+    deleteSession,
+  };
 }

@@ -1,11 +1,12 @@
+import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
 import { ICON_SIZE } from "../../../../shared/constants";
 import { Plus, ArrowUpRight } from "lucide-react";
 import type { Exercise } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
 import { Modal } from "../../components/ui/Modal";
 import { Demonstration } from "./Demonstration";
-import { ExerciseSource } from "./ExerciseSource";
 import { ExerciseVideos } from "./ExerciseVideos";
+import { ExerciseSource } from "./ExerciseSource";
 import { CustomExerciseActions } from "./custom/CustomExerciseActions";
 import { ExerciseAlternatives } from "./alternatives/ExerciseAlternatives";
 const VIDEO_SEARCH_URL = "https://www.youtube.com/results?search_query=";
@@ -20,7 +21,7 @@ interface ExerciseDetailProps {
  * @returns {JSX.Element} Exercise detail dialog.
  */
 export function ExerciseDetail({ exercise, studio }: ExerciseDetailProps) {
-  const isAdded = studio.draftItems.some((item) => item.exerciseId === exercise.id);
+  const isAdded = studio.draftSelectedItems.some((item) => matchesExerciseId(exercise, item.exerciseId));
   return (
     <Modal
       title={exercise.name}
@@ -33,7 +34,7 @@ export function ExerciseDetail({ exercise, studio }: ExerciseDetailProps) {
         <span>{exercise.category}</span>
       </div>
       <Demonstration exercise={exercise} />
-      <ExerciseVideos exercise={exercise} />
+      {!exercise.videos?.some((video) => video.codec === "h264") && <ExerciseVideos exercise={exercise} />}
       <div className="detail-columns">
         <section>
           <h3>How to move</h3>

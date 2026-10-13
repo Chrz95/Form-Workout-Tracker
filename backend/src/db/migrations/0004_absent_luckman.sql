@@ -1,0 +1,1 @@
+ALTER TABLE "workout_items" ADD COLUMN "planned_sets" jsonb;

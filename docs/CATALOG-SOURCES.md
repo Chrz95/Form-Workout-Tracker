@@ -67,3 +67,18 @@ Primary sources:
 - https://raw.githubusercontent.com/luisaraujoc/free-exercise-db-api/main/data/exercises.json
 - https://wger.de/api/v2/exerciseinfo/?limit=1000
 - https://wger.de/api/v2/license/?limit=100
+
+## Release 2.6 motion assets
+
+Catalog identities remain unchanged at 3,625 visible exercises. Six GIFs and fourteen locally bundled H264/yuv420p
+MP4 clips cover seventeen existing wger movements. Three GIFs are original animations; three are derivatives of
+actual footage. Video derivatives retain the full source duration, are resized to fit 640 pixels and omit audio.
+They retain CC BY-SA 4.0 licensing, original source URLs, authors and explicit conversion notes.
+GIFs never start in thumbnails; each has a static poster and an explicit Play animation/Stop motion control.
+Videos use native controls, no autoplay and preload none. MP4 requests bypass service-worker caching for reliable
+byte-range playback; local filenames do not imply guaranteed offline video availability.
+
+`frontend/public/motion-attribution.json` records exact source mappings, verified formats, dimensions, hashes,
+conversion notes and source license evidence. `/catalog-attribution.json` includes the updated per-exercise metadata.
+There are now 2,147 image references and nine animation posters. The three earlier animated WebP guides remain.
+The original license texts are still bundled. Browser codec/playback and mobile-device checks remain unperformed.

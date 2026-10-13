@@ -1,3 +1,4 @@
+import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { useState } from "react";
 import type { StudioProps } from "../../../app/useStudio";
 import { Modal } from "../../../components/ui/Modal";
@@ -11,7 +12,9 @@ import { ANY_EQUIPMENT } from "./alternatives.constants";
 export function SubstitutionDialog({ studio }: StudioProps) {
   const [equipment, setEquipment] = useState<string>(ANY_EQUIPMENT);
   const [search, setSearch] = useState("");
-  const selected = studio.exercises.find((exercise) => exercise.id === studio.substitutionExerciseId);
+  const selected = studio.exercises.find((exercise) =>
+    matchesExerciseId(exercise, studio.substitutionExerciseId ?? ""),
+  );
   if (!selected) {
     return null;
   }

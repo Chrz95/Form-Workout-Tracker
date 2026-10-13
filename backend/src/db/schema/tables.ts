@@ -1,9 +1,10 @@
 import { pgTable, text, integer, uuid, timestamp, date, numeric, jsonb, primaryKey, check } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
-import type { Exercise } from "../../../../shared/contracts.js";
+import type { Exercise, WorkoutItem } from "../../../../shared/contracts.js";
 /** Read-only catalog references keep workout items constrained to known exercises. */
 export const exercises = pgTable("exercises", {
   id: text("id").primaryKey(),
+  nameKey: text("name_key").unique(),
   data: jsonb("data").$type<Exercise>().notNull(),
 });
 /** Saved routine metadata. */
@@ -23,6 +24,7 @@ export const workoutItems = pgTable(
     exerciseId: text("exercise_id")
       .notNull()
       .references(() => exercises.id),
+    plannedSets: jsonb("planned_sets").$type<WorkoutItem["plannedSets"]>(),
     position: integer("position").notNull(),
     sets: integer("sets").notNull(),
     reps: integer("reps").notNull(),

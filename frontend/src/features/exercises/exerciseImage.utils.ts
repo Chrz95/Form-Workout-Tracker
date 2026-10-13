@@ -5,5 +5,9 @@ import type { Exercise } from "../../../../shared/contracts";
  */
 export function getExerciseThumbnail(exercise?: Exercise): string | undefined {
   const source = exercise?.images[0];
-  return exercise?.media?.find((asset) => asset.url === source)?.stillUrl ?? source;
+  return (
+    exercise?.media?.find((asset) => asset.url === source)?.stillUrl ??
+    source ??
+    exercise?.videos?.find((video) => video.posterUrl)?.posterUrl
+  );
 }

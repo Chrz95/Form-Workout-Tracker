@@ -5,6 +5,7 @@ import { exerciseSchema } from "../../../../shared/contracts";
 export interface ApiConnection {
   baseUrl: string;
   token: string;
+  authentication?: "bearer" | "proxy";
 }
 /** Represents a safe, user-visible transport failure. */
 export class ApiError extends Error {
@@ -44,15 +45,21 @@ export async function requestApi<T>(
   schema: z.ZodType<T>,
   options: RequestInit = {},
 ): Promise<T> {
-  if (!connection.baseUrl || !connection.token) {
+  if (!connection.baseUrl || (!connection.token && connection.authentication !== "proxy")) {
     throw new ApiError("Connect your workout API to save and sync your training.");
+  }
+  if (connection.authentication === "proxy" && new URL(connection.baseUrl).origin !== window.location.origin) {
+    throw new ApiError("Automatic connection requires the configured same-origin server proxy.");
   }
   let response: Response;
   try {
     response = await fetch(`${connection.baseUrl.replace(/\/$/, "")}${path}`, {
       ...options,
       signal: options.signal ?? AbortSignal.timeout(API_REQUEST_DEFAULTS.timeoutMilliseconds),
-      headers: { "Content-Type": "application/json", Authorization: `Bearer ${connection.token}` },
+      headers: {
+        "Content-Type": "application/json",
+        ...(connection.token ? { Authorization: `Bearer ${connection.token}` } : {}),
+      },
     });
   } catch (error) {
     if (error instanceof DOMException && error.name === "AbortError") {

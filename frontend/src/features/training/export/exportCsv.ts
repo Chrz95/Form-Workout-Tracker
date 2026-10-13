@@ -1,5 +1,5 @@
 import type { Exercise, Session, Workout } from "../../../../../shared/contracts";
-import { CSV_COLUMNS, CSV_FORMAT, CSV_RECORD } from "./export.constants";
+import { CSV_COLUMNS, CSV_FORMAT, CSV_RECORD, CSV_TEXT_ENCODING } from "./export.constants";
 /** Allowed CSV value types keep numeric values separate from untrusted text. */
 type CsvValue = string | number;
 /** Export inputs couple the selected kind with the correct persisted record type. */
@@ -12,7 +12,8 @@ export type ExportInput =
  */
 export function escapeCsvCell(value: CsvValue): string {
   const text = String(value);
-  const needsProtection = typeof value === "string" && /^(?:[\s\p{Cc}]*[=+\-@]|[\t\r\n])/u.test(text);
+  const needsProtection =
+    typeof value === "string" && (text.startsWith("'") || /^(?:[\s\p{Cc}]*[=+\-@]|[\t\r\n])/u.test(text));
   const safeText = needsProtection ? CSV_FORMAT.formulaPrefix + text : text;
   return `"${safeText.replaceAll('"', '""')}"`;
 }
@@ -21,7 +22,11 @@ export function escapeCsvCell(value: CsvValue): string {
  * @returns {string} UTF-8 CSV with BOM, stable headers and CRLF rows.
  */
 export function createTrainingCsv(input: ExportInput): string {
-  const exerciseNames = new Map(input.exercises.map((exercise) => [exercise.id, exercise.name]));
+  const exerciseNames = new Map(
+    input.exercises.flatMap((exercise) =>
+      [exercise.id, ...(exercise.legacyIds ?? [])].map((id) => [id, exercise.name] as const),
+    ),
+  );
   const rows: CsvValue[][] = [];
   for (const record of input.records) {
     const session = input.kind === "sessions" ? (record as Session) : undefined;
@@ -34,6 +39,24 @@ export function createTrainingCsv(input: ExportInput): string {
       record.notes,
       record.createdAt,
     ];
+    if (!session && "includedWorkoutIds" in record) {
+      record.includedWorkoutIds?.forEach((childId, index) =>
+        rows.push([
+          ...metadata,
+          childId,
+          input.records.find((entry) => entry.id === childId)?.name ?? "Component workout",
+          index + 1,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          CSV_RECORD.reference,
+        ]),
+      );
+    }
     record.items.forEach((item, exerciseIndex) => {
       const exerciseValues = [
         item.exerciseId,
@@ -41,7 +64,23 @@ export function createTrainingCsv(input: ExportInput): string {
         exerciseIndex + 1,
       ];
       const performedSets = session?.items[exerciseIndex]?.performedSets;
-      if (performedSets?.length) {
+      const plannedSets = !session && "plannedSets" in item ? item.plannedSets : undefined;
+      if (plannedSets?.length) {
+        plannedSets.forEach((set, index) =>
+          rows.push([
+            ...metadata,
+            ...exerciseValues,
+            index + 1,
+            "",
+            "",
+            1,
+            set.reps,
+            set.weight,
+            "",
+            CSV_RECORD.planned,
+          ]),
+        );
+      } else if (performedSets?.length) {
         performedSets.forEach((set, setIndex) => {
           rows.push([
             ...metadata,
@@ -74,7 +113,9 @@ export function createTrainingCsv(input: ExportInput): string {
   }
   return (
     CSV_FORMAT.byteOrderMark +
-    [CSV_COLUMNS, ...rows].map((row) => row.map(escapeCsvCell).join(CSV_FORMAT.separator)).join(CSV_FORMAT.lineEnding) +
+    [CSV_COLUMNS, ...rows.map((row) => [...row, CSV_TEXT_ENCODING])]
+      .map((row) => row.map(escapeCsvCell).join(CSV_FORMAT.separator))
+      .join(CSV_FORMAT.lineEnding) +
     CSV_FORMAT.lineEnding
   );
 }

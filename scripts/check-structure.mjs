@@ -2,8 +2,10 @@ import { readdir, readFile } from "node:fs/promises";
 import ts from "typescript";
 const MAXIMUM_COMPONENT_LINES = 100;
 const MAXIMUM_SOURCE_LINE_LENGTH = 120;
-const ROOT_DIRECTORIES = ["frontend/src", "backend/src", "shared", "scripts"];
+const ROOT_DIRECTORIES = ["frontend/src", "frontend/server", "backend/src", "shared", "scripts", "docker"];
 const SOURCE_PATTERN = /\.(?:tsx?|m?js|css)$/;
+const MODULE_PATTERN = /\.(?:tsx?|m?js)$/;
+const modulePaths = new Map();
 const COMPONENT_PATTERN = /\.tsx$/;
 const TEST_PATTERN = /\.test\.tsx?$/;
 const NAMING_PATTERN = /^(?:[a-z][A-Za-z0-9]*|[A-Z][A-Za-z0-9]*|[A-Z][A-Z0-9_]*|_[a-z][A-Za-z0-9]*)$/;
@@ -71,6 +73,15 @@ function inspectDocumentation(path, content) {
 }
 for (const directory of ROOT_DIRECTORIES) {
   for (const path of await collectSourceFiles(directory)) {
+    if (MODULE_PATTERN.test(path)) {
+      const moduleKey = path.replace(MODULE_PATTERN, "").toLowerCase();
+      const previous = modulePaths.get(moduleKey);
+      if (previous) {
+        problems.push(`Case-insensitive module collision: ${previous} and ${path}`);
+      } else {
+        modulePaths.set(moduleKey, path);
+      }
+    }
     const content = await readFile(path, "utf8");
     const lines = content.trimEnd().split("\n");
     if (COMPONENT_PATTERN.test(path) && !TEST_PATTERN.test(path)) {

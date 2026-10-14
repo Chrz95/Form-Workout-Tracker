@@ -1,0 +1,75 @@
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #20261f;
+  --surface-raised: #262d24;
+  --surface-soft: #30392b;
+  --text-main: #edf1e8;
+  --text-muted: #bac6af;
+  --text-danger: #ffb4a8;
+  --olive: #b6ce8b;
+  --lime: #d7e7a3;
+  --muted: #bac6af;
+  --border: #46503f;
+  color: var(--text-main);
+  background: #171c17;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+:root[data-theme="dark"] .button.primary,
+:root[data-theme="dark"] .brand-symbol {
+  color: #202b16;
+}
+:root[data-theme="dark"] .button.primary:hover {
+  background: #cadfa5;
+}
+:root[data-theme="dark"] .sidebar {
+  background: #1c221b;
+  border-color: var(--border);
+}
+:root[data-theme="dark"] :is(.exercise-card img, .demonstration img, .prescription-row img) {
+  mix-blend-mode: normal;
+  background: #e9eddf;
+}
+:root[data-theme="dark"] :is(input, select, textarea) {
+  background: var(--surface-raised);
+  color: var(--text-main);
+  border-color: var(--border);
+}
+:root[data-theme="dark"] :is(.nav-item.active, .nav-item:hover) {
+  background: #35452b;
+  color: #d7e7a3;
+}
+:root[data-theme="dark"] :is(.exercise-card, .modal, .workout-card, .session-card) {
+  border-color: var(--border);
+}
+.theme-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  margin: 20px 0;
+}
+.theme-control select {
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 8px;
+  font: inherit;
+}
+@media (max-width: 760px) {
+  .theme-control {
+    margin: 8px 0;
+  }
+}
+
+:root[data-theme="dark"] .button.secondary {
+  background: #30392b;
+  color: #d7e7a3;
+}
+
+:root[data-theme] img[src^="/exercises/workout-guide/"],
+:root img[src^="/exercises/workout-guide/"] {
+  background: #26362f;
+  mix-blend-mode: normal;
+}

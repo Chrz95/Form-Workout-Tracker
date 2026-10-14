@@ -1,0 +1,196 @@
+Wikimedia Commons photograph notices — Form release 2.13
+
+Photographs remain under their individual source licenses. Form instructions are original and shared under CC BY-SA 4.0. Original files or Commons-supplied thumbnails are bundled unchanged; original framing and upstream notices remain.
+
+File:Trikonasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Trikonasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/triangle.jpg
+SHA-256: d4f458fb201f16eedc602f3520f6952f3f14c9b680fe7a08274266801c3cd533
+
+File:Virabhadrasana I - Warrior Pose I.jpg
+Author: OrenBochman
+License: CC BY-SA 3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Virabhadrasana_I_-_Warrior_Pose_I.jpg
+Bundled file: /exercises/commons/warrior-one.jpg
+SHA-256: 815bb33e397e4208cd1d859c33f84c40d9d0c28b974b40028a7bcb5d2b6fb1ac
+
+File:Virabhadrasana II - Warrior II Pose.jpg
+Author: lululemon athletica
+License: CC BY 2.0
+License URL: https://creativecommons.org/licenses/by/2.0
+File and history: https://commons.wikimedia.org/wiki/File:Virabhadrasana_II_-_Warrior_II_Pose.jpg
+Bundled file: /exercises/commons/warrior-two.jpg
+SHA-256: c01d9cdaf70b7b1d6a58a781b76b6a0dcf78b4e3e92ad8e808faf664c30a4afb
+
+File:Tuladandasana - Virabhadrasana III (cropped).jpg
+Author: Robert Lindermayr
+License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0
+File and history: https://commons.wikimedia.org/wiki/File:Tuladandasana_-_Virabhadrasana_III_(cropped).jpg
+Bundled file: /exercises/commons/warrior-three.jpg
+SHA-256: 44dc09a4bb3d6af3d5e97742b187083de6f3bec0d616971f32b4b0811855f45c
+
+File:Ardha-Chandrasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Ardha-Chandrasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/half-moon.jpg
+SHA-256: ae0369e2aa9504ec4609ac60f0902cf66b311f68b4b70f823c321155afcc6f8a
+
+File:Vriksasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Vriksasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/tree.jpg
+SHA-256: b1f1c65c94d96a20b2e751f9c25e313e3eeaec01a9ff864c75f05ca886442ec4
+
+File:Garudasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Garudasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/eagle.jpg
+SHA-256: d89c99176dd411fc7845046c1ba6b9e3a9e4d1f9833903bdd47aaabcfcd7ba91
+
+File:Utkatasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Utkatasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/chair.jpg
+SHA-256: f476d6b3f883d22c904751e4e870744dfa3e4077d6d09a861510e21c1347db02
+
+File:Paripurna-Navasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Paripurna-Navasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/boat.jpg
+SHA-256: cac02ef73a20695f818cee81fd64b5c052e1ad9c27516180f818707407313156
+
+File:Dhanurasana.jpg
+Author: Joseph RENGER
+License: CC BY-SA 3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0/
+File and history: https://commons.wikimedia.org/wiki/File:Dhanurasana.jpg
+Bundled file: /exercises/commons/bow.jpg
+SHA-256: da3c1c733d560c0825e66fe401a4aaf9c8496339bda4d9d2619a1e54a6116a07
+
+File:Ustrasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Ustrasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/camel.jpg
+SHA-256: 628625447093b71a4ba19010418555751d21d21ed720a532c2d31e290ad7cd4b
+
+File:Urdhva mukha shvanasana.jpg
+Author: UmaPrykhodko
+License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0
+File and history: https://commons.wikimedia.org/wiki/File:Urdhva_mukha_shvanasana.jpg
+Bundled file: /exercises/commons/upward-dog.jpg
+SHA-256: eeb2ff83861656fc8869daf9ed464c9cf445ff72c678517073ef752f45089a41
+
+File:Adho mukha svanasana zamkovoi.jpg
+Author: Sezam777
+License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0
+File and history: https://commons.wikimedia.org/wiki/File:Adho_mukha_svanasana_zamkovoi.jpg
+Bundled file: /exercises/commons/downward-dog.jpg
+SHA-256: bfdfb57676016297ef8697dc08ee8057d0da05f1f1c525536e8eff7e73299d77
+
+File:Utthita-Hasta-Padangusthasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Utthita-Hasta-Padangusthasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/standing-big-toe.jpg
+SHA-256: 3c0f748b6fb6afc0d05a5a08d4fc1746b13de683abca159eec1b1998f5b62adb
+
+File:Gomukhasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Gomukhasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/cow-face.jpg
+SHA-256: 9426829fbd7e972a57dbfedd6b1a710eeceec9377f7184de935fa8b7beb747a7
+
+File:Virasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Virasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/hero.jpg
+SHA-256: f747ddd0894aeb282327b72a496cb2050cc16ec697889007bc4e633eab77594c
+
+File:Gate Pose.jpg
+Author: Nikiwiki242
+License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0
+File and history: https://commons.wikimedia.org/wiki/File:Gate_Pose.jpg
+Bundled file: /exercises/commons/gate.jpg
+SHA-256: b9295ea132e8f7cc92710208e46707c17ff7dfbc9ea73812706af3a77d7ed855
+
+File:Natarajasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Natarajasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/dancer.jpg
+SHA-256: 7ea9d1bfb3e79ec421c87212754c1ad09b76ab88b43a23d0a15fbda2bbc3cab9
+
+File:Ardha-Matsyendrasana Yoga-Asana Nina-Mel.jpg
+Author: Kennguru
+License: CC BY 3.0
+License URL: https://creativecommons.org/licenses/by/3.0
+File and history: https://commons.wikimedia.org/wiki/File:Ardha-Matsyendrasana_Yoga-Asana_Nina-Mel.jpg
+Bundled file: /exercises/commons/half-lord-fishes.jpg
+SHA-256: 8391f116814c8f085b8c50d752963a5409643b17eac71bf8a248f04c23c2475e
+
+File:Practice (1) (16383984312).jpg
+Author: Nicholas A. Tonelli  from Northeast Pennsylvania, USA
+License: CC BY 2.0
+License URL: https://creativecommons.org/licenses/by/2.0
+File and history: https://commons.wikimedia.org/wiki/File:Practice_(1)_(16383984312).jpg
+Bundled file: /exercises/commons/wide-standing-fold.jpg
+SHA-256: 208f7accf8f1fc97c2ad46ca8af45690caf259ea1a7f2bdddd1e23e778cb507c
+
+File:IMG 0549 2 Sphinx.jpg
+Author: Christy Collins, photographer
+License: CC BY-SA 3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0
+File and history: https://commons.wikimedia.org/wiki/File:IMG_0549_2_Sphinx.jpg
+Bundled file: /exercises/commons/sphinx.jpg
+SHA-256: 81bca220bce3105ac14cca3753432c1e4122df07a51037cd8252b7379f44582c
+
+File:Purvottanasana.jpg
+Author: Joseph RENGER
+License: CC BY-SA 3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0/
+File and history: https://commons.wikimedia.org/wiki/File:Purvottanasana.jpg
+Bundled file: /exercises/commons/reverse-plank.jpg
+SHA-256: 6cc48719f78059e0be3afd0c09156f9330dde156dee14b1ee5ba124eede0991e
+
+File:Reverse warrior pose (white background).jpg
+Author: MilenaGlebova1989
+License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0
+File and history: https://commons.wikimedia.org/wiki/File:Reverse_warrior_pose_(white_background).jpg
+Bundled file: /exercises/commons/reverse-warrior.jpg
+SHA-256: ba5b516d19e1d7dbc3a86b060e1adaed08ae559d430b36e554f55cba4eeee5c1
+
+File:IMG 0377 2 Happy Baby.jpg
+Author: Christy Collins, photographer
+License: CC BY-SA 3.0
+License URL: https://creativecommons.org/licenses/by-sa/3.0
+File and history: https://commons.wikimedia.org/wiki/File:IMG_0377_2_Happy_Baby.jpg
+Bundled file: /exercises/commons/happy-baby.jpg
+SHA-256: b29cc77161c939ff8b3529dfb87de09ccabab8003a85114424fdd68890f50181
+

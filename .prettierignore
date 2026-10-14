@@ -7,3 +7,5 @@ coverage
 frontend/public
 shared/exercises.json
 shared/retiredExercises.json
+
+shared/archivedExercises.json

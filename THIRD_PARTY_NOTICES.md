@@ -33,3 +33,24 @@ Everkinetic/data: Greg Priday's open exercise data and original SVG artwork unde
 at `446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6`. Exact source legal text is
 `licenses/everkinetic-CC-BY-SA-4.0.txt`. Guidance label adaptations retain ShareAlike; SVG artwork is unaltered.
 Public license copies, per-record credits and the complete `/catalog-attribution.json` index travel with the Site.
+
+## Added illustrations in release 2.12
+
+Workout Guide by Bryl Lim, pinned at `aac599224bb9780305239607ef98540b7e0ce389`, provides unmodified
+SVG poses under CC BY-SA 4.0. Its original Everkinetic artwork (Greg Priday) and traced first-frame adaptations
+retain per-frame upstream URLs and change descriptions. Code/metadata is MIT; new Form movement instructions
+are original and distributed under CC BY-SA 4.0. Existing enriched exercise descriptions retain their prior licenses.
+Source notices are copied in `licenses/workout-guide-MIT.txt`, `workout-guide-ASSETS.txt` and
+`workout-guide-ATTRIBUTION.md`; full CC BY-SA legal text is also bundled.
+See `docs/catalog-image-review-2.12.json` for exact matches, additions, pinned provenance and asset SHA-256 hashes.
+
+## Added illustrations in release 2.13
+
+Twenty-four Wikimedia Commons photographs retain their individual CC BY 2.0/3.0 or CC BY-SA 3.0/4.0 licenses,
+photographer credits, original file pages and upstream history links. Original files or Commons-provided thumbnails
+are bundled unchanged. New Form instructions are original and shared under CC BY-SA 4.0; image licenses are independent.
+`licenses/commons-MEDIA-notices.txt` lists every credit and license link; public copies and per-exercise credits are included.
+
+Twelve additional unmodified Everkinetic/Greg Priday SVG poses and their source instructions use CC BY-SA 4.0,
+at pinned commit `446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6`. Existing legal texts remain in `licenses/`.
+`docs/catalog-expansion-2.13.json` records source URLs, asset hashes, reviewed exclusions and identity decisions.

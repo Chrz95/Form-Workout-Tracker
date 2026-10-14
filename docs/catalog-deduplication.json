@@ -2882,5 +2882,54 @@
     "reason": "Both drop from low box, two-foot rebound and leap to higher box two or three feet in front.",
     "retiredName": "Plyo Box Depth Jump Leap",
     "canonicalName": "Depth Jump Leap"
+  },
+  {
+    "retiredId": "wger:73",
+    "retiredName": "Bench Press",
+    "canonicalId": "Barbell_Bench_Press_-_Medium_Grip",
+    "canonicalName": "Barbell Bench Press - Medium Grip",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
+  },
+  {
+    "retiredId": "wger:76",
+    "retiredName": "Bench Press Narrow Grip",
+    "canonicalId": "Close-Grip_Barbell_Bench_Press",
+    "canonicalName": "Close-Grip Barbell Bench Press",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
+  },
+  {
+    "retiredId": "wger:537",
+    "retiredName": "Incline Bench Press - Dumbbell",
+    "canonicalId": "Incline_Dumbbell_Press",
+    "canonicalName": "Incline Dumbbell Press",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
+  },
+  {
+    "retiredId": "wger:495",
+    "retiredName": "Reverse Curl",
+    "canonicalId": "Reverse_Barbell_Curl",
+    "canonicalName": "Reverse Barbell Curl",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
+  },
+  {
+    "retiredId": "wger:962",
+    "retiredName": "Elliptical",
+    "canonicalId": "Elliptical_Trainer",
+    "canonicalName": "Elliptical Trainer",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
+  },
+  {
+    "retiredId": "wger:1093",
+    "retiredName": "Rowing Machine",
+    "canonicalId": "Rowing_Stationary",
+    "canonicalName": "Rowing, Stationary",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
+  },
+  {
+    "retiredId": "rthepen:bodyweight_donkey_kicks",
+    "retiredName": "Donkey Kicks",
+    "canonicalId": "Glute_Kickback",
+    "canonicalName": "Glute Kickback",
+    "reason": "Reviewed equivalent movement and apparatus; existing guidance, media credits and legacy identities preserved"
   }
 ]

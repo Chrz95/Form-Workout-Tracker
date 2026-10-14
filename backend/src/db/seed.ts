@@ -17,6 +17,8 @@ async function seedCatalog() {
   try {
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
     const retired = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/retiredExercises.json", "utf8")));
+    const archived = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/archivedExercises.json", "utf8")));
+    const references = [...catalog, ...archived, ...retired];
     await database.transaction(async (transaction) => {
       await transaction
         .update(exercises)
@@ -24,22 +26,22 @@ async function seedCatalog() {
         .where(
           inArray(
             exercises.id,
-            [...catalog, ...retired].map((exercise) => exercise.id),
+            references.map((exercise) => exercise.id),
           ),
         );
-      for (const exercise of [...catalog, ...retired]) {
+      for (const exercise of references) {
         await transaction
           .insert(exercises)
           .values({
             id: exercise.id,
             data: exercise,
-            nameKey: exercise.canonicalId ? null : getExerciseNameKey(exercise.name),
+            nameKey: exercise.canonicalId || exercise.isArchived ? null : getExerciseNameKey(exercise.name),
           })
           .onConflictDoUpdate({
             target: exercises.id,
             set: {
               data: exercise,
-              nameKey: exercise.canonicalId ? null : getExerciseNameKey(exercise.name),
+              nameKey: exercise.canonicalId || exercise.isArchived ? null : getExerciseNameKey(exercise.name),
             },
           });
       }

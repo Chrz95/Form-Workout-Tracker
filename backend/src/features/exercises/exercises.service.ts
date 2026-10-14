@@ -12,11 +12,13 @@ export class ExerciseService {
    * @param {ExerciseRepository} repository - Exercise persistence.
    */
   constructor(private readonly repository: ExerciseRepository) {}
-  /** Returns the complete stored catalog.
+  /** Returns discovery entries while preserving historical references in storage.
    * @returns {Promise<Exercise[]>} References.
    */
   list() {
-    return this.repository.list().then((records) => records.filter((exercise) => !exercise.canonicalId));
+    return this.repository
+      .list()
+      .then((records) => records.filter((exercise) => !exercise.canonicalId && !exercise.isArchived));
   }
   /** Returns authored entries for private catalog merging.
    * @returns {Promise<Exercise[]>} Owner exercises.

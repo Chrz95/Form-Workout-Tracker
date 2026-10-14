@@ -64,6 +64,16 @@ function buildApp(exerciseRepository: ExerciseRepository) {
   });
 }
 describe("Authenticated custom exercise contracts", () => {
+  it("excludes archived and alias cards without deleting their persistence references", async () => {
+    const repository = createExerciseDouble();
+    const movement = { ...input, id: "public-press", images: ["/press.webp"] };
+    const archived = { ...movement, id: "historical-row", isArchived: true, images: [] };
+    const alias = { ...movement, id: "old-press", canonicalId: movement.id };
+    repository.list = vi.fn(async () => [movement, archived, alias]);
+    expect(await new ExerciseService(repository).list()).toEqual([movement]);
+    expect(repository.remove).not.toHaveBeenCalled();
+    expect(await repository.list()).toContain(archived);
+  });
   it("requires authentication for authored catalog reads and writes", async () => {
     const repository = createExerciseDouble();
     const app = buildApp(repository);

@@ -1,0 +1,1533 @@
+{
+  "baseline": 3625,
+  "visible": 1242,
+  "added": 24,
+  "enriched": 90,
+  "posters": 4,
+  "duplicatesConsolidated": 7,
+  "archivedWithoutImages": 2400,
+  "historicalAliases": 419,
+  "source": {
+    "repository": "https://github.com/bryllim/workout-guide",
+    "commit": "aac599224bb9780305239607ef98540b7e0ce389",
+    "manifestSha256": "b3d110d680a7d6cb94731b8b41ee3f82bfdbd2f9a358038f8c17d453b5fb632b"
+  },
+  "selected": [
+    {
+      "slug": "seated-dumbbell-press",
+      "targetId": "hasan:0405"
+    },
+    {
+      "slug": "lateral-raise",
+      "targetId": "hasan:0334"
+    },
+    {
+      "slug": "cable-lateral-raise",
+      "targetId": "hasan:0178"
+    },
+    {
+      "slug": "romanian-deadlift",
+      "targetId": "hasan:0085"
+    },
+    {
+      "slug": "dumbbell-bent-over-row",
+      "targetId": "hasan:0293"
+    },
+    {
+      "slug": "machine-row",
+      "targetId": "kinetic:daebe8a5-3a9b-4a64-acb1-c097260acb43"
+    },
+    {
+      "slug": "close-grip-lat-pulldown",
+      "targetId": "zenith:0974"
+    },
+    {
+      "slug": "assisted-pull-up",
+      "targetId": "wger:1929"
+    },
+    {
+      "slug": "bulgarian-split-squat",
+      "targetId": "glow:dumbbell_bulgarian_split_squat"
+    },
+    {
+      "slug": "step-up",
+      "targetId": "hasan:0431"
+    },
+    {
+      "slug": "glute-bridge",
+      "targetId": "wger:265"
+    },
+    {
+      "slug": "good-morning",
+      "targetId": "hasan:0044"
+    },
+    {
+      "slug": "hammer-curl",
+      "targetId": "hasan:0313"
+    },
+    {
+      "slug": "tricep-pushdown",
+      "targetId": "wger:805"
+    },
+    {
+      "slug": "overhead-tricep-extension",
+      "targetId": "wger:1513"
+    },
+    {
+      "slug": "side-plank",
+      "targetId": "wger:580"
+    },
+    {
+      "slug": "running",
+      "targetId": "glow:running"
+    },
+    {
+      "slug": "walking",
+      "targetId": "glow:walking"
+    },
+    {
+      "slug": "cycling",
+      "targetId": "wger:177"
+    },
+    {
+      "slug": "incline-cable-fly",
+      "targetId": "hasan:0171"
+    },
+    {
+      "slug": "pendlay-row",
+      "targetId": "hasan:3017"
+    },
+    {
+      "slug": "meadows-row",
+      "targetId": "wger:1304"
+    },
+    {
+      "slug": "wide-grip-lat-pulldown",
+      "targetId": "zenith:drv-cable-bar-lateral-pulldown-wide-shoulder-grip"
+    },
+    {
+      "slug": "neutral-grip-pull-up",
+      "targetId": "wger:1696"
+    },
+    {
+      "slug": "sumo-deadlift",
+      "targetId": "hasan:0117"
+    },
+    {
+      "slug": "nordic-hamstring-curl",
+      "targetId": "rthepen:partner_nordic_hamstring_curl"
+    },
+    {
+      "slug": "cable-kickback",
+      "targetId": "hasan:0860"
+    },
+    {
+      "slug": "hip-abduction-machine",
+      "targetId": "wger:1748"
+    },
+    {
+      "slug": "kettlebell-romanian-deadlift",
+      "name": "Kettlebell Romanian Deadlift",
+      "instructions": [
+        "Stand holding a kettlebell in front of your thighs with knees slightly bent.",
+        "Push your hips back and lower the bell close to your legs while keeping your back steady.",
+        "Stop at a comfortable hamstring stretch, then drive your hips forward to stand."
+      ]
+    },
+    {
+      "slug": "cable-pull-through",
+      "targetId": "wger:1751"
+    },
+    {
+      "slug": "machine-glute-kickback",
+      "targetId": "wger:1723"
+    },
+    {
+      "slug": "cable-standing-hip-abduction",
+      "name": "Cable Standing Hip Abduction",
+      "instructions": [
+        "Attach a low cable to the outside ankle and stand side-on, holding a stable support.",
+        "Keep your pelvis level as you move the working leg sideways away from your body.",
+        "Return slowly without leaning or swinging your trunk."
+      ]
+    },
+    {
+      "slug": "cable-standing-hip-adduction",
+      "targetId": "wger:1724"
+    },
+    {
+      "slug": "hip-adduction-machine",
+      "targetId": "wger:12"
+    },
+    {
+      "slug": "smith-machine-bulgarian-split-squat",
+      "targetId": "glow:smith_machine_bulgarian_split_squat"
+    },
+    {
+      "slug": "smith-machine-reverse-lunge",
+      "name": "Smith Machine Reverse Lunge",
+      "instructions": [
+        "Set the bar across your upper back and position your feet for a comfortable step back.",
+        "Step one foot backward and bend both knees, keeping the front foot planted.",
+        "Press through the front leg to stand; reset your feet before the next repetition."
+      ]
+    },
+    {
+      "slug": "dumbbell-sumo-squat",
+      "targetId": "zenith:new-dumbbell-sumo-squat"
+    },
+    {
+      "slug": "front-foot-elevated-split-squat",
+      "name": "Dumbbell Front-Foot-Elevated Split Squat",
+      "instructions": [
+        "Hold dumbbells at your sides and place your front foot on a stable low step.",
+        "Bend both knees to lower vertically, keeping your front heel down.",
+        "Drive through your front foot to rise while maintaining your split stance."
+      ]
+    },
+    {
+      "slug": "landmine-romanian-deadlift",
+      "name": "Landmine Romanian Deadlift",
+      "instructions": [
+        "Secure one end of a barbell in a landmine and hold the free end in front of your hips.",
+        "Soften your knees and hinge your hips backward, following the bar\u2019s arc.",
+        "Keep your spine steady and drive through your feet to return upright."
+      ]
+    },
+    {
+      "slug": "kettlebell-swing",
+      "targetId": "wger:331"
+    },
+    {
+      "slug": "leg-press-calf-raise",
+      "targetId": "glow:calf_raise_leg_press_machine"
+    },
+    {
+      "slug": "wall-sit",
+      "targetId": "wger:1408"
+    },
+    {
+      "slug": "jump-squat",
+      "targetId": "hasan:0514"
+    },
+    {
+      "slug": "concentration-curl",
+      "targetId": "wger:202"
+    },
+    {
+      "slug": "rope-hammer-curl",
+      "targetId": "hasan:0165"
+    },
+    {
+      "slug": "drag-curl",
+      "targetId": "hasan:0038"
+    },
+    {
+      "slug": "rope-tricep-pushdown",
+      "targetId": "zenith:0200"
+    },
+    {
+      "slug": "dumbbell-overhead-tricep-extension",
+      "targetId": "rthepen:dumbbells_db_overhead_tricep_extension"
+    },
+    {
+      "slug": "bicycle-crunch",
+      "targetId": "wger:1412"
+    },
+    {
+      "slug": "mountain-climber",
+      "targetId": "hasan:0630"
+    },
+    {
+      "slug": "cable-woodchop",
+      "targetId": "wger:145"
+    },
+    {
+      "slug": "half-kneeling-pallof-press",
+      "name": "Cable Half-Kneeling Pallof Press",
+      "instructions": [
+        "Kneel with one knee down, side-on to a chest-height cable, holding the handle at your sternum.",
+        "Brace and press the handle straight ahead without rotating your pelvis or shoulders.",
+        "Return the handle slowly and repeat before switching sides."
+      ]
+    },
+    {
+      "slug": "cable-pallof-hold",
+      "name": "Cable Pallof Hold",
+      "instructions": [
+        "Stand side-on to a chest-height cable and hold the handle with both hands.",
+        "Extend your arms in front of your chest and resist the cable\u2019s pull without twisting.",
+        "Hold while breathing normally, then bring your hands back and switch sides."
+      ]
+    },
+    {
+      "slug": "hanging-knee-raise",
+      "targetId": "glow:hanging_knee_raises"
+    },
+    {
+      "slug": "decline-sit-up",
+      "targetId": "hasan:0282"
+    },
+    {
+      "slug": "jump-rope",
+      "targetId": "hasan:2612"
+    },
+    {
+      "slug": "assault-bike",
+      "name": "Air Bike Machine",
+      "instructions": [
+        "Adjust the seat so your knee stays slightly bent at the bottom of the pedal stroke.",
+        "Pedal while alternately pushing and pulling the moving handles.",
+        "Keep your trunk steady and choose a pace you can sustain with control."
+      ]
+    },
+    {
+      "slug": "battle-ropes",
+      "targetId": "wger:1524"
+    },
+    {
+      "slug": "knee-push-up",
+      "targetId": "wger:1218"
+    },
+    {
+      "slug": "diamond-push-up",
+      "targetId": "wger:386"
+    },
+    {
+      "slug": "pike-push-up",
+      "targetId": "wger:454"
+    },
+    {
+      "slug": "feet-elevated-pike-push-up",
+      "name": "Feet-Elevated Pike Push-Up",
+      "instructions": [
+        "Place your feet on a stable low bench, hands on the floor, and lift your hips into a pike.",
+        "Bend your elbows and lower your head toward the floor between your hands.",
+        "Press back up while maintaining control; use a lower support if needed."
+      ]
+    },
+    {
+      "slug": "archer-push-up",
+      "targetId": "hasan:3294"
+    },
+    {
+      "slug": "typewriter-push-up",
+      "name": "Typewriter Push-Up",
+      "instructions": [
+        "Start in a wide-hand push-up position with a braced trunk.",
+        "Lower toward one hand, then shift your chest toward the opposite hand while staying low.",
+        "Press back up and alternate the direction without letting your hips sag."
+      ]
+    },
+    {
+      "slug": "scapular-push-up",
+      "targetId": "wger:2681"
+    },
+    {
+      "slug": "push-up-shoulder-tap",
+      "targetId": "hasan:0699"
+    },
+    {
+      "slug": "wall-push-up",
+      "targetId": "wger:713"
+    },
+    {
+      "slug": "wall-walk",
+      "name": "Wall Walk",
+      "instructions": [
+        "Begin in a plank with your feet at a clear wall and hands on the floor.",
+        "Walk your feet up the wall and hands toward it only as far as you can control.",
+        "Reverse the steps slowly to the floor, keeping your trunk braced throughout."
+      ]
+    },
+    {
+      "slug": "chair-dip",
+      "targetId": "wger:1774"
+    },
+    {
+      "slug": "prone-y-raise",
+      "name": "Prone Y Raise",
+      "instructions": [
+        "Lie face down with arms extended diagonally overhead to form a Y, thumbs pointing up.",
+        "Draw your shoulder blades gently down and lift your arms slightly from the floor.",
+        "Lower slowly without lifting your chest or arching your lower back."
+      ]
+    },
+    {
+      "slug": "reverse-snow-angel",
+      "targetId": "wger:1215"
+    },
+    {
+      "slug": "dead-hang",
+      "targetId": "rthepen:monkey_bars_dead_hang"
+    },
+    {
+      "slug": "active-hang",
+      "name": "Active Hang",
+      "instructions": [
+        "Grip a secure pull-up bar and hang with straight arms.",
+        "Without bending your elbows, draw your shoulders down away from your ears.",
+        "Hold while breathing, then relax your shoulders under control before dismounting."
+      ]
+    },
+    {
+      "slug": "negative-pull-up",
+      "name": "Negative Pull-Up",
+      "instructions": [
+        "Use a stable step to reach the top of a pull-up with your chin above a secure bar.",
+        "Lift your feet from the support and lower slowly through a comfortable range.",
+        "Return to the step to reset instead of jumping into the next repetition."
+      ]
+    },
+    {
+      "slug": "l-sit-pull-up",
+      "targetId": "wger:1741"
+    },
+    {
+      "slug": "towel-pull-up",
+      "name": "Towel Pull-Up",
+      "instructions": [
+        "Loop two strong towels over a secure pull-up bar and grip one in each hand.",
+        "Brace your trunk and pull upward by bending your elbows and drawing your shoulders down.",
+        "Lower slowly; check the towels and bar before loading them."
+      ]
+    },
+    {
+      "slug": "cossack-squat",
+      "targetId": "wger:1407"
+    },
+    {
+      "slug": "sissy-squat",
+      "targetId": "hasan:1489"
+    },
+    {
+      "slug": "curtsy-lunge",
+      "targetId": "rthepen:bodyweight_curtsy_lunges"
+    },
+    {
+      "slug": "skater-squat",
+      "name": "Skater Squat",
+      "instructions": [
+        "Stand on one leg with the other knee bent behind you and arms forward for balance.",
+        "Bend the standing knee and hip, lowering your rear knee toward a pad.",
+        "Press through the standing foot to rise; use support or a shorter range if needed."
+      ]
+    },
+    {
+      "slug": "single-leg-box-squat",
+      "targetId": "wger:1948"
+    },
+    {
+      "slug": "calf-raise",
+      "targetId": "rthepen:bodyweight_calf_raises"
+    },
+    {
+      "slug": "single-leg-calf-raise",
+      "name": "Single-Leg Bodyweight Calf Raise",
+      "instructions": [
+        "Stand on one foot near a stable support with your knee straight but not locked.",
+        "Rise onto the ball of your foot without rolling your ankle outward.",
+        "Lower your heel slowly, then repeat before changing legs."
+      ]
+    },
+    {
+      "slug": "glute-bridge-march",
+      "targetId": "hasan:3561"
+    },
+    {
+      "slug": "frog-pump",
+      "name": "Frog Pump",
+      "instructions": [
+        "Lie on your back with the soles of your feet together and knees comfortably open.",
+        "Brace your trunk and squeeze your glutes to lift your hips.",
+        "Lower slowly without arching your lower back."
+      ]
+    },
+    {
+      "slug": "fire-hydrant",
+      "targetId": "glow:fire_hydrant_bodyweight"
+    },
+    {
+      "slug": "clamshell",
+      "targetId": "wger:1823"
+    },
+    {
+      "slug": "hip-airplane",
+      "targetId": "wger:2447"
+    },
+    {
+      "slug": "side-lying-hip-abduction",
+      "targetId": "wger:1202"
+    },
+    {
+      "slug": "banded-glute-bridge",
+      "name": "Band Glute Bridge",
+      "instructions": [
+        "Lie on your back with a loop band above your knees and feet flat.",
+        "Keep gentle outward pressure on the band and raise your hips by squeezing your glutes.",
+        "Lower slowly while keeping your knees aligned over your feet."
+      ]
+    },
+    {
+      "slug": "banded-clamshell",
+      "targetId": "wger:1842"
+    },
+    {
+      "slug": "banded-monster-walk",
+      "targetId": "wger:2665"
+    },
+    {
+      "slug": "banded-donkey-kick",
+      "name": "Band Donkey Kick",
+      "instructions": [
+        "Start on hands and knees with a secure loop band providing resistance between your legs.",
+        "Keep the working knee bent and press that foot backward and upward a short distance.",
+        "Return slowly without rotating your hips or arching your lower back."
+      ]
+    },
+    {
+      "slug": "banded-fire-hydrant",
+      "name": "Band Fire Hydrant",
+      "instructions": [
+        "Start on hands and knees with a loop band above both knees.",
+        "Keep your working knee bent and lift it sideways while keeping your pelvis level.",
+        "Lower slowly without shifting your trunk to the opposite side."
+      ]
+    },
+    {
+      "slug": "banded-face-pull",
+      "name": "Band Face Pull",
+      "instructions": [
+        "Anchor a resistance band securely at face height and hold it with both hands.",
+        "Pull toward your face, spreading your hands and keeping your elbows comfortably high.",
+        "Return slowly without shrugging or leaning backward."
+      ]
+    },
+    {
+      "slug": "banded-pallof-press",
+      "targetId": "hasan:0979"
+    },
+    {
+      "slug": "banded-woodchop",
+      "name": "Band Woodchop",
+      "instructions": [
+        "Anchor a band securely near floor level and stand side-on holding it with both hands.",
+        "Pull diagonally across your body toward the opposite shoulder, allowing your feet and hips to turn together.",
+        "Return under control and repeat on the other side."
+      ]
+    },
+    {
+      "slug": "hollow-body-hold",
+      "targetId": "wger:297"
+    },
+    {
+      "slug": "hollow-rock",
+      "targetId": "rthepen:bodyweight_hollow_rock"
+    },
+    {
+      "slug": "v-up",
+      "targetId": "glow:v_up"
+    },
+    {
+      "slug": "toe-touch",
+      "targetId": "wger:1390"
+    },
+    {
+      "slug": "plank-jack",
+      "targetId": "glow:plank_jack"
+    },
+    {
+      "slug": "bear-crawl",
+      "targetId": "hasan:3360"
+    },
+    {
+      "slug": "crab-walk",
+      "targetId": "rthepen:bodyweight_crab_walk"
+    },
+    {
+      "slug": "l-sit-hold",
+      "targetId": "glow:l_sit_hold"
+    },
+    {
+      "slug": "dragon-flag",
+      "targetId": "wger:1409"
+    },
+    {
+      "slug": "burpee",
+      "targetId": "hasan:1160"
+    },
+    {
+      "slug": "squat-thrust",
+      "targetId": "wger:616"
+    },
+    {
+      "slug": "high-knees",
+      "targetId": "wger:983"
+    },
+    {
+      "slug": "jumping-jack",
+      "targetId": "glow:jumping_jack"
+    },
+    {
+      "slug": "sprawl",
+      "name": "Sprawl",
+      "instructions": [
+        "Stand with room behind you, then bend to place both hands on the floor.",
+        "Step or hop both feet back into a braced plank.",
+        "Bring your feet back toward your hands and stand; use stepping for a lower-impact version."
+      ]
+    },
+    {
+      "slug": "cat-cow-stretch",
+      "targetId": "wger:1244"
+    },
+    {
+      "slug": "doorway-chest-stretch",
+      "targetId": "wger:1713"
+    },
+    {
+      "slug": "butterfly-stretch",
+      "targetId": "wger:1843"
+    }
+  ],
+  "excludedAfterVisualReview": [
+    {
+      "index": 1,
+      "slug": "bench-press",
+      "name": "barbell bench press",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 10,
+      "slug": "hack-squat",
+      "name": "hack squat machine",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 16,
+      "slug": "wrist-curl",
+      "name": "Barbell Wrist Curl",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 24,
+      "slug": "chest-dip",
+      "name": "chest dip",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 29,
+      "slug": "rack-pull",
+      "name": "barbell rack pull",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 30,
+      "slug": "belt-squat",
+      "name": "Machine Belt Squat",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 35,
+      "slug": "dumbbell-glute-bridge",
+      "name": "Dumbbell Glute Bridge",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 44,
+      "slug": "smith-machine-split-squat",
+      "name": "Smith Machine Split Squat",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 45,
+      "slug": "heel-elevated-goblet-squat",
+      "name": "Dumbbell Heel-Elevated Goblet Squat",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 48,
+      "slug": "deficit-reverse-lunge",
+      "name": "Dumbbell Deficit Reverse Lunge",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 58,
+      "slug": "dumbbell-skull-crusher",
+      "name": "Skullcrusher Dumbbells",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 69,
+      "slug": "hiking",
+      "name": "Hiking",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 82,
+      "slug": "doorway-row",
+      "name": "Doorway Row",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 84,
+      "slug": "prone-t-raise",
+      "name": "Prone T Raise",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 89,
+      "slug": "commando-pull-up",
+      "name": "commando pull-ups",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 92,
+      "slug": "shrimp-squat",
+      "name": "Shrimp Squat",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 106,
+      "slug": "lying-hamstring-walkout",
+      "name": "Lying Hamstring Walkout",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 108,
+      "slug": "banded-hip-thrust",
+      "name": "Band Hip Thrust",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 109,
+      "slug": "banded-frog-pump",
+      "name": "Band Frog Pump",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 117,
+      "slug": "banded-dead-bug",
+      "name": "Band Dead Bug",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 123,
+      "slug": "bear-plank",
+      "name": "Bear Plank",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 132,
+      "slug": "fast-feet",
+      "name": "Fast Feet",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    },
+    {
+      "index": 134,
+      "slug": "seal-jack",
+      "name": "Seal Jack",
+      "reason": "Visual review: pose, equipment, stance or apparatus does not reliably match the selected movement"
+    }
+  ],
+  "assets": [
+    {
+      "slug": "seated-dumbbell-press",
+      "path": "assets/seated-dumbbell-press/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/seated-dumbbell-press/frame-1.svg",
+      "sha256": "78d50c1ac770871a58d7637777f60e9b7fcb0c939415ca4c7e1fdd9919e7536e",
+      "bytes": 23640
+    },
+    {
+      "slug": "lateral-raise",
+      "path": "assets/lateral-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/lateral-raise/frame-1.svg",
+      "sha256": "51716817454492e555ac9796a030fc985b244c6b2b169e44ec51a9896902c34d",
+      "bytes": 14906
+    },
+    {
+      "slug": "cable-lateral-raise",
+      "path": "assets/cable-lateral-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-lateral-raise/frame-1.svg",
+      "sha256": "3303803e2b2b5a01496989e7e3cbf75e70c4324ef7e392ed9dbd4bebdbb071b0",
+      "bytes": 19499
+    },
+    {
+      "slug": "romanian-deadlift",
+      "path": "assets/romanian-deadlift/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/romanian-deadlift/frame-1.svg",
+      "sha256": "d7fc95623dc527caaaa0528aacc682f42c7c2c42fc4824fc27ad211eff242bc5",
+      "bytes": 11965
+    },
+    {
+      "slug": "dumbbell-bent-over-row",
+      "path": "assets/dumbbell-bent-over-row/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/dumbbell-bent-over-row/frame-1.svg",
+      "sha256": "bf3875d52b4414fddda35c66f2b151531cf27360b9102ccf655707889cca0a6a",
+      "bytes": 17348
+    },
+    {
+      "slug": "machine-row",
+      "path": "assets/machine-row/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/machine-row/frame-1.svg",
+      "sha256": "7c981719a63c592d970a468c5daf36e63815683a2e6ae276cae01808c3b9bd99",
+      "bytes": 33660
+    },
+    {
+      "slug": "close-grip-lat-pulldown",
+      "path": "assets/close-grip-lat-pulldown/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/close-grip-lat-pulldown/frame-1.svg",
+      "sha256": "c251fd11bdd8f11f590f2cafe3bea3f48c2f5d8700f656984c007f77ac82989d",
+      "bytes": 12383
+    },
+    {
+      "slug": "assisted-pull-up",
+      "path": "assets/assisted-pull-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/assisted-pull-up/frame-1.svg",
+      "sha256": "e9550d7e146e2b477aa942839edb9d0a2324c55b7cd4a55d8a234a38b84d9a1f",
+      "bytes": 27405
+    },
+    {
+      "slug": "bulgarian-split-squat",
+      "path": "assets/bulgarian-split-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/bulgarian-split-squat/frame-1.svg",
+      "sha256": "a4fcfffb3d8a51946329cb086c345b98d4bd2614dcdf99f04c358bb2361be017",
+      "bytes": 18571
+    },
+    {
+      "slug": "step-up",
+      "path": "assets/step-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/step-up/frame-1.svg",
+      "sha256": "3b0939930d327f874143577128f75d4ed979494bc0c554b6599610e0e4da4449",
+      "bytes": 13995
+    },
+    {
+      "slug": "glute-bridge",
+      "path": "assets/glute-bridge/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/glute-bridge/frame-1.svg",
+      "sha256": "64830d042d3ef122b54391cee0339f60d10dc05a79007893f56f6ba35c344e96",
+      "bytes": 9796
+    },
+    {
+      "slug": "good-morning",
+      "path": "assets/good-morning/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/good-morning/frame-1.svg",
+      "sha256": "d3481c059d553736d1f059f346a3b5821748f3bf9efd284f50fa6e081bf7cf77",
+      "bytes": 11168
+    },
+    {
+      "slug": "hammer-curl",
+      "path": "assets/hammer-curl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hammer-curl/frame-1.svg",
+      "sha256": "b1341a8df0d30d4f8d63700a5b879f47994fbd0825346528469c591276ea94d0",
+      "bytes": 13430
+    },
+    {
+      "slug": "tricep-pushdown",
+      "path": "assets/tricep-pushdown/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/tricep-pushdown/frame-1.svg",
+      "sha256": "db8b6297818d007d3243bd767fa65b478519ac4b1ed7aedc908ea297e36ddcaf",
+      "bytes": 14079
+    },
+    {
+      "slug": "overhead-tricep-extension",
+      "path": "assets/overhead-tricep-extension/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/overhead-tricep-extension/frame-1.svg",
+      "sha256": "480d6b597787087cec09d25e8ff671615f43a92265009ef8c721ef0ae97a5c45",
+      "bytes": 20629
+    },
+    {
+      "slug": "side-plank",
+      "path": "assets/side-plank/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/side-plank/frame-1.svg",
+      "sha256": "5a63eb2766074fc6a9f3d370496caf5e3e56c9b141cbd14c60939c7b9f86e36f",
+      "bytes": 12548
+    },
+    {
+      "slug": "running",
+      "path": "assets/running/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/running/frame-1.svg",
+      "sha256": "2c91eb272d6201d9a3f79dcd8aa6fdde8811c940146748b09050bf111ec131a2",
+      "bytes": 25654
+    },
+    {
+      "slug": "walking",
+      "path": "assets/walking/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/walking/frame-1.svg",
+      "sha256": "bfacc7f4c46f8f682b24f5e645e2e2a5262fc13aaee0a59f95cd8f195ac5ed95",
+      "bytes": 23537
+    },
+    {
+      "slug": "cycling",
+      "path": "assets/cycling/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cycling/frame-1.svg",
+      "sha256": "60a95a298f39c4c0ca9c0136dc67f9047032d6d21cc126853ef08e425ca8870a",
+      "bytes": 25833
+    },
+    {
+      "slug": "incline-cable-fly",
+      "path": "assets/incline-cable-fly/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/incline-cable-fly/frame-1.svg",
+      "sha256": "d9465094452acbd22b85ede64b0926eed531a9ae582666db7898f683f938c584",
+      "bytes": 15918
+    },
+    {
+      "slug": "pendlay-row",
+      "path": "assets/pendlay-row/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/pendlay-row/frame-1.svg",
+      "sha256": "e462be8e5f5b52b62e2b41185ef404bf8919a7525ff17d34343b2ce411f328b9",
+      "bytes": 17613
+    },
+    {
+      "slug": "meadows-row",
+      "path": "assets/meadows-row/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/meadows-row/frame-1.svg",
+      "sha256": "b38098dd04a7f32e831126413ecdce4040fca4cb3629e78c29b416d2e590be78",
+      "bytes": 18182
+    },
+    {
+      "slug": "wide-grip-lat-pulldown",
+      "path": "assets/wide-grip-lat-pulldown/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/wide-grip-lat-pulldown/frame-1.svg",
+      "sha256": "80eee58862fc305f357987d147cadaba12613699fffcdb22df13d4816aeba512",
+      "bytes": 35155
+    },
+    {
+      "slug": "neutral-grip-pull-up",
+      "path": "assets/neutral-grip-pull-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/neutral-grip-pull-up/frame-1.svg",
+      "sha256": "26cf91b771d937b68d120954e88644aba2c9bf127c16dea4f8ef68cc3d410f5a",
+      "bytes": 11213
+    },
+    {
+      "slug": "sumo-deadlift",
+      "path": "assets/sumo-deadlift/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/sumo-deadlift/frame-1.svg",
+      "sha256": "360f8e8c6c584f66cad3689ffdbce04289c1265d403db04b05f89166a77a2bb9",
+      "bytes": 21939
+    },
+    {
+      "slug": "nordic-hamstring-curl",
+      "path": "assets/nordic-hamstring-curl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/nordic-hamstring-curl/frame-1.svg",
+      "sha256": "5f6896e96757755f220b8277baca5358a29aee9f526d11cdade2d49011e23c96",
+      "bytes": 18426
+    },
+    {
+      "slug": "cable-kickback",
+      "path": "assets/cable-kickback/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-kickback/frame-1.svg",
+      "sha256": "75443d546ae3d0c5ef96f6d734fe12da0cd48b2d60bf8663222c703facec1754",
+      "bytes": 10141
+    },
+    {
+      "slug": "hip-abduction-machine",
+      "path": "assets/hip-abduction-machine/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hip-abduction-machine/frame-1.svg",
+      "sha256": "f5baec20ecd8eec625b8e9f62ff7c0d419d45d879d8741e9ca5f350a1b978b35",
+      "bytes": 33144
+    },
+    {
+      "slug": "kettlebell-romanian-deadlift",
+      "path": "assets/kettlebell-romanian-deadlift/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/kettlebell-romanian-deadlift/frame-1.svg",
+      "sha256": "10fde0c2d16f9aab7a7b4304488b01e09ebb89de26727b3cf4e61b374ef31e14",
+      "bytes": 14887
+    },
+    {
+      "slug": "cable-pull-through",
+      "path": "assets/cable-pull-through/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-pull-through/frame-1.svg",
+      "sha256": "03a7e4599f4c0e915d56e92231c27940f94c58ca7b907b53b7625abc25ea7570",
+      "bytes": 23709
+    },
+    {
+      "slug": "machine-glute-kickback",
+      "path": "assets/machine-glute-kickback/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/machine-glute-kickback/frame-1.svg",
+      "sha256": "d1da626d93a82f278e195d63ffe7fb8dd6b0815729a4a3d3f0d86b719418fbe5",
+      "bytes": 30707
+    },
+    {
+      "slug": "cable-standing-hip-abduction",
+      "path": "assets/cable-standing-hip-abduction/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-standing-hip-abduction/frame-1.svg",
+      "sha256": "436a0fc1266b911c9bf89b041c31caf2d6464c82cd84b361e3726cedd2bed952",
+      "bytes": 32777
+    },
+    {
+      "slug": "cable-standing-hip-adduction",
+      "path": "assets/cable-standing-hip-adduction/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-standing-hip-adduction/frame-1.svg",
+      "sha256": "126b439baf1317227ae2916b152860309d02cde9673a90e4ff21382bc90e20f9",
+      "bytes": 28714
+    },
+    {
+      "slug": "hip-adduction-machine",
+      "path": "assets/hip-adduction-machine/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hip-adduction-machine/frame-1.svg",
+      "sha256": "b7c3de2af7b28277a4fcea478de3e525fcadcae1b322e8b255d182e40cba3bbd",
+      "bytes": 21555
+    },
+    {
+      "slug": "smith-machine-bulgarian-split-squat",
+      "path": "assets/smith-machine-bulgarian-split-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/smith-machine-bulgarian-split-squat/frame-1.svg",
+      "sha256": "ded4fa9c43c411a94f9978431bd27d570c83293e9246ebbc3d5deceff924dbb1",
+      "bytes": 36610
+    },
+    {
+      "slug": "smith-machine-reverse-lunge",
+      "path": "assets/smith-machine-reverse-lunge/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/smith-machine-reverse-lunge/frame-1.svg",
+      "sha256": "c01314ac98c6b216a0333c682017a5c9ef2e7db5acfda50f3bcd1d2b6ec9dd27",
+      "bytes": 37841
+    },
+    {
+      "slug": "dumbbell-sumo-squat",
+      "path": "assets/dumbbell-sumo-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/dumbbell-sumo-squat/frame-1.svg",
+      "sha256": "97d883d97d94d0391b1744e5b6c881866cb39caa1a4ed8f5c395767e10ef7b18",
+      "bytes": 17100
+    },
+    {
+      "slug": "front-foot-elevated-split-squat",
+      "path": "assets/front-foot-elevated-split-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/front-foot-elevated-split-squat/frame-1.svg",
+      "sha256": "42ea3505d24c4e69d3ae44e04a94a21d3e6cd6242d7dc66e2ad496fe98e4fae0",
+      "bytes": 22180
+    },
+    {
+      "slug": "landmine-romanian-deadlift",
+      "path": "assets/landmine-romanian-deadlift/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/landmine-romanian-deadlift/frame-1.svg",
+      "sha256": "c54d32e644d595f2f7743f9fc18bfe9a5fb5610747ecd091c812351348950183",
+      "bytes": 18485
+    },
+    {
+      "slug": "kettlebell-swing",
+      "path": "assets/kettlebell-swing/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/kettlebell-swing/frame-1.svg",
+      "sha256": "bbb5e30cb126ce2c81c67eb54e04ee2fd80fcc25403034172d66ed86a8b7b7a3",
+      "bytes": 15206
+    },
+    {
+      "slug": "leg-press-calf-raise",
+      "path": "assets/leg-press-calf-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/leg-press-calf-raise/frame-1.svg",
+      "sha256": "11846c56cae7cad4a53802ac9f602119f84f5b7a225e099dc113e2ba395708d9",
+      "bytes": 15900
+    },
+    {
+      "slug": "wall-sit",
+      "path": "assets/wall-sit/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/wall-sit/frame-1.svg",
+      "sha256": "5a29013951a2c91bf063f36c37ae9ce5341df3111b6c02703f4c94cc6116f8fd",
+      "bytes": 15202
+    },
+    {
+      "slug": "jump-squat",
+      "path": "assets/jump-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/jump-squat/frame-1.svg",
+      "sha256": "1d338ececf854eeefc59a81269b736c69ba37c907fcbf755f0620476ac75c5ba",
+      "bytes": 15665
+    },
+    {
+      "slug": "concentration-curl",
+      "path": "assets/concentration-curl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/concentration-curl/frame-1.svg",
+      "sha256": "3313275bb481cdad3588e613f96215c014e9f75c115be7635a2101a1f74a1fed",
+      "bytes": 12860
+    },
+    {
+      "slug": "rope-hammer-curl",
+      "path": "assets/rope-hammer-curl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/rope-hammer-curl/frame-1.svg",
+      "sha256": "7345aa635bab27b782555b0d8c88ae8c5a6b09015478a0a80b2ef834bee39098",
+      "bytes": 14440
+    },
+    {
+      "slug": "drag-curl",
+      "path": "assets/drag-curl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/drag-curl/frame-1.svg",
+      "sha256": "51aecd6b61c2d1fb0b52c5fd6c7420a507c934222416eb7a481bd7df3aba0179",
+      "bytes": 17336
+    },
+    {
+      "slug": "rope-tricep-pushdown",
+      "path": "assets/rope-tricep-pushdown/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/rope-tricep-pushdown/frame-1.svg",
+      "sha256": "e3a9eb0b51a258b75753c34ad7268216bf1a4038c05407ae1c7d16c04ef2c095",
+      "bytes": 15091
+    },
+    {
+      "slug": "dumbbell-overhead-tricep-extension",
+      "path": "assets/dumbbell-overhead-tricep-extension/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/dumbbell-overhead-tricep-extension/frame-1.svg",
+      "sha256": "87ca26b4e51574a83a9824be3fd018661990f81943ef2284f70a8126857bfd27",
+      "bytes": 14723
+    },
+    {
+      "slug": "bicycle-crunch",
+      "path": "assets/bicycle-crunch/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/bicycle-crunch/frame-1.svg",
+      "sha256": "a88ca6176d3390346c386c9ed33720e13c196674d99f582c3388d732fc972dc2",
+      "bytes": 9968
+    },
+    {
+      "slug": "mountain-climber",
+      "path": "assets/mountain-climber/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/mountain-climber/frame-1.svg",
+      "sha256": "0ccc0b219fd082d7451f548e989458520fb7959130e3fbc69926860c4f6a0bed",
+      "bytes": 13070
+    },
+    {
+      "slug": "cable-woodchop",
+      "path": "assets/cable-woodchop/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-woodchop/frame-1.svg",
+      "sha256": "4e9a7684432ba9293a0ff620b31cb0b985d5460f52ea697a863efe35fd9153de",
+      "bytes": 29836
+    },
+    {
+      "slug": "half-kneeling-pallof-press",
+      "path": "assets/half-kneeling-pallof-press/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/half-kneeling-pallof-press/frame-1.svg",
+      "sha256": "0da726e3cd28522bf0d7c3038132e6f9233c6a5caa2450fb753ad885ee7608cd",
+      "bytes": 28161
+    },
+    {
+      "slug": "cable-pallof-hold",
+      "path": "assets/cable-pallof-hold/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cable-pallof-hold/frame-1.svg",
+      "sha256": "e05876db234c63ca298a2959e0e63868eef8529796765ede354d6f2ee2370ca3",
+      "bytes": 23891
+    },
+    {
+      "slug": "hanging-knee-raise",
+      "path": "assets/hanging-knee-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hanging-knee-raise/frame-1.svg",
+      "sha256": "9c1d00d9967c87b294385c7fbf5160049de8d4870106ddb08646250b0a94201c",
+      "bytes": 14919
+    },
+    {
+      "slug": "decline-sit-up",
+      "path": "assets/decline-sit-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/decline-sit-up/frame-1.svg",
+      "sha256": "4143ef5506c9a83f03e34af8fc7579a74bbb0617db4ff7fe5301396ed117917c",
+      "bytes": 21161
+    },
+    {
+      "slug": "jump-rope",
+      "path": "assets/jump-rope/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/jump-rope/frame-1.svg",
+      "sha256": "281e0e35bbbcc5279fc9e7bb21c883a6e653308f12ba2119a123583153e88790",
+      "bytes": 21348
+    },
+    {
+      "slug": "assault-bike",
+      "path": "assets/assault-bike/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/assault-bike/frame-1.svg",
+      "sha256": "6230adf8fd5a32b9f894c567c94f7d5f5ff2b44a16405ef9b937847c3132821c",
+      "bytes": 50684
+    },
+    {
+      "slug": "battle-ropes",
+      "path": "assets/battle-ropes/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/battle-ropes/frame-1.svg",
+      "sha256": "24fd07a9f203d8f39920c3e9e7c5b7c1b46694d0ce3dc8fe07b31118e62c380e",
+      "bytes": 27705
+    },
+    {
+      "slug": "knee-push-up",
+      "path": "assets/knee-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/knee-push-up/frame-1.svg",
+      "sha256": "2065c6496a55b48d0b1bc360758ee61b7d742a057b07b431acb4416334e8ba94",
+      "bytes": 14048
+    },
+    {
+      "slug": "diamond-push-up",
+      "path": "assets/diamond-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/diamond-push-up/frame-1.svg",
+      "sha256": "cdad9a6bd4c55785b0cda57b81d1b4d2e3799ce9b52479f95cd1dff2b8588890",
+      "bytes": 14326
+    },
+    {
+      "slug": "pike-push-up",
+      "path": "assets/pike-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/pike-push-up/frame-1.svg",
+      "sha256": "b739586b439b5841ef80b25d4cd240b8d6560c86e08a022535dbfaf8a9ecd11e",
+      "bytes": 15309
+    },
+    {
+      "slug": "feet-elevated-pike-push-up",
+      "path": "assets/feet-elevated-pike-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/feet-elevated-pike-push-up/frame-1.svg",
+      "sha256": "5dbd48c1abc5721be35cb45cbbde55c13fa035615a9508eae724c03a7aceff74",
+      "bytes": 18638
+    },
+    {
+      "slug": "archer-push-up",
+      "path": "assets/archer-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/archer-push-up/frame-1.svg",
+      "sha256": "1e79ba813f72eafafa931631f035fc7ac8c66922d8d88c416d8fc80e361d32f2",
+      "bytes": 11411
+    },
+    {
+      "slug": "typewriter-push-up",
+      "path": "assets/typewriter-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/typewriter-push-up/frame-1.svg",
+      "sha256": "35f454a81207b6d8ef36c489992525bf365d7c813bcf846bb4ab235af5f77dcf",
+      "bytes": 16733
+    },
+    {
+      "slug": "scapular-push-up",
+      "path": "assets/scapular-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/scapular-push-up/frame-1.svg",
+      "sha256": "fe5c800477bc31b23c7a14befb87ab9bf698e91dc05e696f5e8dad1fd583adab",
+      "bytes": 15437
+    },
+    {
+      "slug": "push-up-shoulder-tap",
+      "path": "assets/push-up-shoulder-tap/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/push-up-shoulder-tap/frame-1.svg",
+      "sha256": "90a298e6059dff2ee74db2059d91f69c5569f7f57209580b78684c385ddd2c5f",
+      "bytes": 16724
+    },
+    {
+      "slug": "wall-push-up",
+      "path": "assets/wall-push-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/wall-push-up/frame-1.svg",
+      "sha256": "e18de2dca32b31b9ca5a1341c4aa1ed37df9225b743c5251715895870c10f029",
+      "bytes": 12128
+    },
+    {
+      "slug": "wall-walk",
+      "path": "assets/wall-walk/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/wall-walk/frame-1.svg",
+      "sha256": "867bbdac572cd2b3867c90b991088be8fab27660be83ecc68c49a637f14cf526",
+      "bytes": 15424
+    },
+    {
+      "slug": "chair-dip",
+      "path": "assets/chair-dip/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/chair-dip/frame-1.svg",
+      "sha256": "25fe91ffcd34ca2c344ec21ba94622aaefa9c431e82c78352649ec71dc3a38cc",
+      "bytes": 15833
+    },
+    {
+      "slug": "prone-y-raise",
+      "path": "assets/prone-y-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/prone-y-raise/frame-1.svg",
+      "sha256": "81ce00e19a060cb3005323b301f51d3b5e5e000deae6da3851cb382b5b937b2c",
+      "bytes": 12574
+    },
+    {
+      "slug": "reverse-snow-angel",
+      "path": "assets/reverse-snow-angel/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/reverse-snow-angel/frame-1.svg",
+      "sha256": "2bf6593ec7c6cf4e01cc702226d8d1eeac5ea215876399563f7728cebf8e17fe",
+      "bytes": 15532
+    },
+    {
+      "slug": "dead-hang",
+      "path": "assets/dead-hang/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/dead-hang/frame-1.svg",
+      "sha256": "1c4426d126d7264a5b5564712880f1203dff410c014566ef134f42f85d382df4",
+      "bytes": 15572
+    },
+    {
+      "slug": "active-hang",
+      "path": "assets/active-hang/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/active-hang/frame-1.svg",
+      "sha256": "961dfaeb92bc3551dee27ca57bee4a172777da3c2c788632205dd7cac8970b1f",
+      "bytes": 16704
+    },
+    {
+      "slug": "negative-pull-up",
+      "path": "assets/negative-pull-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/negative-pull-up/frame-1.svg",
+      "sha256": "89795404487d9e8e36b78d9b19c752921d04ad53b2646550d7ece3162831fd09",
+      "bytes": 19254
+    },
+    {
+      "slug": "l-sit-pull-up",
+      "path": "assets/l-sit-pull-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/l-sit-pull-up/frame-1.svg",
+      "sha256": "408189ff7045dfb1a402e5393d78794d6b4601a97009ba232f4ea8578c4bd131",
+      "bytes": 17977
+    },
+    {
+      "slug": "towel-pull-up",
+      "path": "assets/towel-pull-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/towel-pull-up/frame-1.svg",
+      "sha256": "5f816b9340d23e223c564ad3b33c7b9cb23ebd3b5866fb044ebfa4b2075d2451",
+      "bytes": 17928
+    },
+    {
+      "slug": "cossack-squat",
+      "path": "assets/cossack-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cossack-squat/frame-1.svg",
+      "sha256": "8903fb0468bba53f3dd460a34b1f5b5cf9d9a5a87862594cf141a8f787b4a4d3",
+      "bytes": 19455
+    },
+    {
+      "slug": "sissy-squat",
+      "path": "assets/sissy-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/sissy-squat/frame-1.svg",
+      "sha256": "b4ca4b16d8f5107e5e8c78de9e841191e7b91251e3f9d37ec08f9fb23bcdfbc4",
+      "bytes": 17596
+    },
+    {
+      "slug": "curtsy-lunge",
+      "path": "assets/curtsy-lunge/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/curtsy-lunge/frame-1.svg",
+      "sha256": "d9ca2c0fc06c40141249001abfbafd57ac74197930a2a09f5f7e1bffb11d90bd",
+      "bytes": 16392
+    },
+    {
+      "slug": "skater-squat",
+      "path": "assets/skater-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/skater-squat/frame-1.svg",
+      "sha256": "092762bc21aca4326690a76d796738e41d16d3e3ad2ea8ffa913f20b26a76f1b",
+      "bytes": 13539
+    },
+    {
+      "slug": "single-leg-box-squat",
+      "path": "assets/single-leg-box-squat/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/single-leg-box-squat/frame-1.svg",
+      "sha256": "70c3b893772f062106f8517b971d50248982459176eabf6dd4b20520d29f201a",
+      "bytes": 18674
+    },
+    {
+      "slug": "calf-raise",
+      "path": "assets/calf-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/calf-raise/frame-1.svg",
+      "sha256": "9a933f3705dd8825d0a4aa1151248ef7445be00714cd59c56017b75e1455f74b",
+      "bytes": 17580
+    },
+    {
+      "slug": "single-leg-calf-raise",
+      "path": "assets/single-leg-calf-raise/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/single-leg-calf-raise/frame-1.svg",
+      "sha256": "445b33e98b591aa844524110afab0c1bc3a51d9977204dcf9cc70d6e998191f4",
+      "bytes": 14443
+    },
+    {
+      "slug": "glute-bridge-march",
+      "path": "assets/glute-bridge-march/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/glute-bridge-march/frame-1.svg",
+      "sha256": "45c3eaced70d11384a343b9ad10da6fa1ee913c1cffc00c6366c7e3c11c40962",
+      "bytes": 14502
+    },
+    {
+      "slug": "frog-pump",
+      "path": "assets/frog-pump/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/frog-pump/frame-1.svg",
+      "sha256": "2ac2badaf925afc9c573db7408131ff54e3f19eca7b595a44025ef471ab789f6",
+      "bytes": 14586
+    },
+    {
+      "slug": "fire-hydrant",
+      "path": "assets/fire-hydrant/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/fire-hydrant/frame-1.svg",
+      "sha256": "33df11dc4a33122ea58d546e137dcb2ab5657a8c5526b7430d0d21282c2049bc",
+      "bytes": 15677
+    },
+    {
+      "slug": "clamshell",
+      "path": "assets/clamshell/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/clamshell/frame-1.svg",
+      "sha256": "a5eddb4ac026119492b7e59e063db2c25749a16f85a28f5a86cc1070c933f21e",
+      "bytes": 16397
+    },
+    {
+      "slug": "hip-airplane",
+      "path": "assets/hip-airplane/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hip-airplane/frame-1.svg",
+      "sha256": "1e1d17783e4c968cca12c8e65fb36a5ee7122da97c2e59e89ddcc294af0b5856",
+      "bytes": 15396
+    },
+    {
+      "slug": "side-lying-hip-abduction",
+      "path": "assets/side-lying-hip-abduction/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/side-lying-hip-abduction/frame-1.svg",
+      "sha256": "68533f05be8236f4fb3bc1c6930a6450cd8eb2d8c00f2709f2b45c874d8bd87b",
+      "bytes": 15302
+    },
+    {
+      "slug": "banded-glute-bridge",
+      "path": "assets/banded-glute-bridge/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-glute-bridge/frame-1.svg",
+      "sha256": "8c596eecab101a9732f6102481b1069258c1f1814566c100834f9cf61836902b",
+      "bytes": 14070
+    },
+    {
+      "slug": "banded-clamshell",
+      "path": "assets/banded-clamshell/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-clamshell/frame-1.svg",
+      "sha256": "1344086ed57bd485562d88332cea05d9fb5554d44fce066dc29f255cd0e20f8b",
+      "bytes": 16660
+    },
+    {
+      "slug": "banded-monster-walk",
+      "path": "assets/banded-monster-walk/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-monster-walk/frame-1.svg",
+      "sha256": "8cdb6d16ea8b9f949399a3670d2dc1244a36c1a85e7d14f7ff0dce4de858d295",
+      "bytes": 17997
+    },
+    {
+      "slug": "banded-donkey-kick",
+      "path": "assets/banded-donkey-kick/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-donkey-kick/frame-1.svg",
+      "sha256": "e58fddaec2584d848e0cd1b3fea88e67e5162e7b3d2c8b62e9aeae6c3d9a38c4",
+      "bytes": 17882
+    },
+    {
+      "slug": "banded-fire-hydrant",
+      "path": "assets/banded-fire-hydrant/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-fire-hydrant/frame-1.svg",
+      "sha256": "99ae47fdfaf4c18077b79a092b3ffa18fcdc3b8f67921ec09c9a360827fee281",
+      "bytes": 14377
+    },
+    {
+      "slug": "banded-face-pull",
+      "path": "assets/banded-face-pull/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-face-pull/frame-1.svg",
+      "sha256": "43d98a9d1283ea97fbdb682d33098fcebe66231214624af8c7b2c6cfd0dfef31",
+      "bytes": 18872
+    },
+    {
+      "slug": "banded-pallof-press",
+      "path": "assets/banded-pallof-press/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-pallof-press/frame-1.svg",
+      "sha256": "f2874b62395b7c3724d50c440cce9b1d6d3182ea6d46632a866c66c5677527e8",
+      "bytes": 15686
+    },
+    {
+      "slug": "banded-woodchop",
+      "path": "assets/banded-woodchop/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/banded-woodchop/frame-1.svg",
+      "sha256": "f89546a5c3bfe711a174cba8a34efef585d4f8de2a43d9c5e4aae6cc3625ec3b",
+      "bytes": 17485
+    },
+    {
+      "slug": "hollow-body-hold",
+      "path": "assets/hollow-body-hold/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hollow-body-hold/frame-1.svg",
+      "sha256": "e7e768cd0d0fcc2d6413ad0d55440f50194bd14e850d75a57153657c23432f87",
+      "bytes": 16178
+    },
+    {
+      "slug": "hollow-rock",
+      "path": "assets/hollow-rock/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/hollow-rock/frame-1.svg",
+      "sha256": "0a507d9a2def1727ad8a9857333dad0a6af589b0e36624be91d10a43eadf49fb",
+      "bytes": 14085
+    },
+    {
+      "slug": "v-up",
+      "path": "assets/v-up/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/v-up/frame-1.svg",
+      "sha256": "651af3c40bfa1362997794788236c7a82f7959a672aba03bc1d55dbca429c45e",
+      "bytes": 12317
+    },
+    {
+      "slug": "toe-touch",
+      "path": "assets/toe-touch/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/toe-touch/frame-1.svg",
+      "sha256": "698b24b0ac9f62cb2ad090d320c498098463baf90943d72abafacaeec8a9e2a4",
+      "bytes": 16204
+    },
+    {
+      "slug": "plank-jack",
+      "path": "assets/plank-jack/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/plank-jack/frame-1.svg",
+      "sha256": "e93a1d587fc17a3aa658bb9bca48d8eeb3ca915f7005bc833130d8a15d993259",
+      "bytes": 14160
+    },
+    {
+      "slug": "bear-crawl",
+      "path": "assets/bear-crawl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/bear-crawl/frame-1.svg",
+      "sha256": "ae5862e2d8a8b5f4a63e65a51f9bb867be7fecc8dd39aebd122594070aaea0ec",
+      "bytes": 14815
+    },
+    {
+      "slug": "crab-walk",
+      "path": "assets/crab-walk/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/crab-walk/frame-1.svg",
+      "sha256": "0cc3f893cf136337197eae2c2244257ef58c06453717bdda448d6dba3d43bda9",
+      "bytes": 14018
+    },
+    {
+      "slug": "l-sit-hold",
+      "path": "assets/l-sit-hold/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/l-sit-hold/frame-1.svg",
+      "sha256": "32cfcdddaeb845e8da8b25b7066838e5a81ec7b50179fe1bffc982bdb7e5d5ca",
+      "bytes": 19313
+    },
+    {
+      "slug": "dragon-flag",
+      "path": "assets/dragon-flag/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/dragon-flag/frame-1.svg",
+      "sha256": "fc948fbddf8de7890ac18c0446717d89c6fe658c651d3751a8cb492bd28caf0e",
+      "bytes": 19325
+    },
+    {
+      "slug": "burpee",
+      "path": "assets/burpee/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/burpee/frame-1.svg",
+      "sha256": "043442c1bd2ed73f387951f335a80ee2b01ddd9f8e9f8c2261886a7eeca21ed3",
+      "bytes": 13673
+    },
+    {
+      "slug": "squat-thrust",
+      "path": "assets/squat-thrust/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/squat-thrust/frame-1.svg",
+      "sha256": "1b0b0e1738377908b7ae95996cfc7203057a8aaac3273c4b7f3c677fd8d2ab00",
+      "bytes": 17420
+    },
+    {
+      "slug": "high-knees",
+      "path": "assets/high-knees/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/high-knees/frame-1.svg",
+      "sha256": "bb809a2074aa31806ad4481b01ef11f7c4f569442464840a8980c6b5962fe3a7",
+      "bytes": 17330
+    },
+    {
+      "slug": "jumping-jack",
+      "path": "assets/jumping-jack/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/jumping-jack/frame-1.svg",
+      "sha256": "98fb9a29a8401ba9db367f62db7fb415b1233fd0cc7c40e1f7c634d3481d9d31",
+      "bytes": 16366
+    },
+    {
+      "slug": "sprawl",
+      "path": "assets/sprawl/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/sprawl/frame-1.svg",
+      "sha256": "b184cefce93dbe7485ac8a765df3ff14a0c70764a04b73e9bbee4a654de3e598",
+      "bytes": 14940
+    },
+    {
+      "slug": "cat-cow-stretch",
+      "path": "assets/cat-cow-stretch/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/cat-cow-stretch/frame-1.svg",
+      "sha256": "710c002be440b3bb2b01c4a3b04158acbe1aace8fda0d00b1e0da0b7224be0a4",
+      "bytes": 13979
+    },
+    {
+      "slug": "doorway-chest-stretch",
+      "path": "assets/doorway-chest-stretch/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/doorway-chest-stretch/frame-1.svg",
+      "sha256": "c8ccf7339662784df89a363ed9fe7acfb4d739b55a0cfc66b92f986ddc036b75",
+      "bytes": 15613
+    },
+    {
+      "slug": "butterfly-stretch",
+      "path": "assets/butterfly-stretch/frame-1.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/bryllim/workout-guide/aac599224bb9780305239607ef98540b7e0ce389/packages/workout-guide/assets/butterfly-stretch/frame-1.svg",
+      "sha256": "e7963c1e652f3ab23a3a9222f90332252eb63086cef87e803a55f0eda03d04b3",
+      "bytes": 17947
+    }
+  ]
+}

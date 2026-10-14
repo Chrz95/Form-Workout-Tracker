@@ -1,10 +1,53 @@
 # Form — Workout Studio
 
-Form is a personal workout PWA with a searchable library of 3,625 exercises, real instructional images,
+Form is a personal workout PWA with a searchable library of 1,272 image-backed exercises, real instructional images,
 controllable frame demonstrations, custom routines, live per-set training, rest timers, a daily workout journal,
 and exercise progress charts calculated from saved sessions.
 Saved routines and date-filtered journal entries can be exported as spreadsheet-safe CSV files and imported after review.
 The visual design uses soft olive surfaces, generous spacing, and an editorial training banner.
+
+## Release 2.13 — More exercises with verified images
+
+The public library now contains **1,272 image-backed exercises**, adding 30 distinct entries to discovery:
+21 new yoga/mobility movements, eight previously image-free entries with new guides, and one standing curl
+restored as a separate movement from a seated curl. Examples include BOSU dome push-ups, dumbbell squat curls,
+step-ups with curls, tree and warrior poses, happy baby, and reverse planks.
+
+Twenty-four independently credited Commons photographs and twelve original Everkinetic SVG poses are bundled locally.
+Every candidate was visually reviewed; mislabeled poses and an already-present ball push-up were excluded.
+Muscle groups, equipment and instructions accompany every addition. No workout/session data is rewritten.
+
+Run **`pnpm db:seed`** for an existing local database and restart the API/refresh the PWA. Docker’s startup seed
+imports the same metadata. No database migration or storage change is needed. See [release notes](docs/RELEASE-2.13.md).
+
+## Release 2.12 — Illustrated catalog cleanup
+
+The public library now contains **1,242 distinct image-backed entries**. This release adds 24 reviewed movements,
+adds licensed illustrations to 90 existing entries, uses four real video posters as image guides, and merges seven
+reviewed equivalent movements. All images are bundled; no remote exercise-image dependency is introduced.
+Transparent illustrations use a dark background in both appearance modes.
+
+The 2,400 entries still lacking images are removed from discovery and replacement suggestions. Their names, instructions,
+IDs and aliases remain in separate compatibility metadata so saved routines, session logs and imports continue to resolve.
+No workout data is deleted. Private owner-created exercises remain managed by the authenticated API.
+
+For an existing local database, run **`pnpm db:seed`** and restart/refresh the application. Docker’s migration service
+already seeds on startup; rebuild using the documented Docker commands. PostgreSQL stays on port 5433 with
+persistent `workout_data` storage. See [release notes](docs/RELEASE-2.12.md) for counts, attribution and validation.
+
+## Release 2.11 — Mobile navigation and training controls
+
+Phones and tablets up to 900px now use persistent five-tab bottom navigation, short visible labels and full accessible
+page names. Page changes focus/scroll to the main content while preserving workout drafts. Appearance and connection
+settings remain available in a compact header. The content and selection tray reserve space for navigation and safe areas.
+
+Phone layouts up to 600px use full-screen native dialogs, reachable close/save controls, single-column exercise cards,
+stacked forms and readable instructions. Set targets and live logging use two-column value fields, 44px touch actions
+and numeric/decimal keyboard hints. Inputs use 16px type to reduce mobile focus zoom. Calendar columns and long routine
+names stay within their containers; progress tables can scroll independently.
+
+Dark mode, nested exercise review dialogs, automatic local PostgreSQL connection and existing persistence remain intact.
+No database migration is required. See [mobile release notes](docs/RELEASE-2.11.md) for validation and device QA limits.
 
 ## Release 2.10.2 — Local build and credential initialization fix
 

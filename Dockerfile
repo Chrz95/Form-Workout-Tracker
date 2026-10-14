@@ -33,7 +33,7 @@ COPY --chown=node:node package.json ./
 COPY --from=backend-build --chown=node:node /app/backend/dist ./backend/dist
 COPY --from=backend-build --chown=node:node /app/backend/src/db/migrations ./backend/src/db/migrations
 COPY --from=backend-build --chown=node:node \
-    /app/shared/exercises.json /app/shared/retiredExercises.json ./shared/
+    /app/shared/exercises.json /app/shared/retiredExercises.json /app/shared/archivedExercises.json ./shared/
 COPY --chown=node:node docker/backend-healthcheck.mjs ./docker/backend-healthcheck.mjs
 USER node
 EXPOSE 3001

@@ -1,6 +1,7 @@
 import { ThemeControl } from "./ThemeControl";
 import { ICON_SIZE } from "../../../../shared/constants";
-import { Dumbbell, ArrowUpRight, PlugZap } from "lucide-react";
+import { ApiConnectionControl } from "./ApiConnectionControl";
+import { Dumbbell, ArrowUpRight } from "lucide-react";
 import { StudioNavigation } from "./StudioNavigation";
 import type { StudioProps } from "../../app/useStudio";
 /** Renders responsive primary navigation and server connection status.
@@ -35,17 +36,7 @@ export function Sidebar({ studio }: StudioProps) {
           Make today count <ArrowUpRight size={ICON_SIZE.standard} />
         </button>
       </div>
-      <button
-        className="connection-button"
-        onClick={() => studio.setIsConnectionOpen(true)}
-      >
-        <PlugZap size={ICON_SIZE.standard} />
-        <span>
-          {studio.isConnected ? "API connected" : "Connect workout API"}
-          <small>{studio.isConnected ? "PostgreSQL sync enabled" : "Enable saving & sync"}</small>
-        </span>
-        <span className={`status-dot ${studio.isConnected ? "online" : ""}`} />
-      </button>
+      <ApiConnectionControl studio={studio} />
       <ThemeControl />
       <div className="sidebar-footer">
         BUILT AROUND YOU <span>↗</span>

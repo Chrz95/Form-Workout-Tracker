@@ -73,15 +73,32 @@ export async function requestApi<T>(
     if (error instanceof DOMException && error.name === "TimeoutError") {
       throw new ApiError("The API did not respond in time. Your draft is preserved; try again.");
     }
-    throw new ApiError("Your workout API is unreachable. Check the URL and your connection.");
+    throw new ApiError(
+      connection.authentication === "proxy"
+        ? "Your workout server is unavailable. Reconnecting automatically; your draft is preserved."
+        : "Your workout API is unreachable. Check the URL and your connection.",
+    );
   }
   const envelope = await response.json().catch(() => null);
   if (!response.ok) {
     const failure = z.object({ error: z.object({ message: z.string() }) }).safeParse(envelope);
-    throw new ApiError(
-      failure.success ? failure.data.error.message : "The API request could not be completed.",
-      response.status,
-    );
+    const proxyFailure =
+      connection.authentication === "proxy"
+        ? response.status === 403
+          ? "The server rejected this site address. Check the configured app address."
+          : response.status === 401
+            ? "The server connection credentials do not match. Restart the app services together."
+            : response.status >= 500
+              ? "The workout server is not ready. Reconnecting automatically; your draft is preserved."
+              : "The API request could not be completed."
+        : "The API request could not be completed.";
+    const message =
+      connection.authentication === "proxy" && [401, 403].includes(response.status)
+        ? proxyFailure
+        : failure.success
+          ? failure.data.error.message
+          : proxyFailure;
+    throw new ApiError(message, response.status);
   }
   const parsed = z.object({ data: schema }).safeParse(envelope);
   if (!parsed.success) {

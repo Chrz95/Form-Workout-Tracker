@@ -1,3 +1,4 @@
+import { ConnectionBanner } from "../features/training/ConnectionBanner";
 import { ActiveWorkoutBanner } from "../features/training/live/ActiveWorkoutBanner";
 import { useStudio } from "./useStudio";
 import { PAGE } from "./app.constants";
@@ -30,15 +31,7 @@ export function App() {
         tabIndex={-1}
       >
         <Header studio={studio} />
-        {!studio.isConnected && (
-          <div className="preview-notice">
-            <span className="status-dot" />
-            Training preview · connect your API to save workouts, history and custom exercises.
-            <button onClick={() => studio.setIsConnectionOpen(true)}>
-              Connect <span>↗</span>
-            </button>
-          </div>
-        )}
+        <ConnectionBanner studio={studio} />
         <ActiveWorkoutBanner studio={studio} />
         {studio.page === PAGE.library && <ExerciseLibrary studio={studio} />}{" "}
         {studio.page === PAGE.workouts && <WorkoutsPage studio={studio} />}{" "}

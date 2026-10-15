@@ -1,3 +1,4 @@
+import { TrainingConnectionNotice } from "../TrainingConnectionNotice";
 import type { Studio } from "../../../app/useStudio";
 import React from "react";
 import { Modal } from "../../../components/ui/Modal";
@@ -71,7 +72,9 @@ export function ImportCsvDialog({ studio, kind, onClose }: ImportCsvDialogProps)
         </React.Fragment>
       )}
       {!studio.isConnected || !studio.hasImportSupport ? (
-        <p className="connection-notice">Connect your API with CSV import support to save this file.</p>
+        <TrainingConnectionNotice studio={studio}>
+          Connect your API with CSV import support to save this file.
+        </TrainingConnectionNotice>
       ) : null}
       {studio.apiError && (
         <p

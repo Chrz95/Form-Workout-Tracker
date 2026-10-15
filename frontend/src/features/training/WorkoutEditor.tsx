@@ -1,3 +1,4 @@
+import { TrainingConnectionNotice } from "./TrainingConnectionNotice";
 import { WorkoutComposer } from "./WorkoutComposer";
 import { WorkoutEditorActions } from "./WorkoutEditorActions";
 import { useTrainingSubmission } from "./useTrainingSubmission";
@@ -60,7 +61,7 @@ export function WorkoutEditor({ studio }: StudioProps) {
           </p>
         )}
         {!studio.isConnected && (
-          <p className="connection-notice">
+          <TrainingConnectionNotice studio={studio}>
             This is an unsaved draft.{" "}
             <button
               type="button"
@@ -70,7 +71,7 @@ export function WorkoutEditor({ studio }: StudioProps) {
               Connect your API
             </button>{" "}
             to save it to PostgreSQL.
-          </p>
+          </TrainingConnectionNotice>
         )}
         <WorkoutEditorActions studio={studio} />
       </form>

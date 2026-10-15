@@ -1,3 +1,4 @@
+import { createUuid } from "../../../../shared/createUuid";
 import { useState } from "react";
 import { PlannedSetInput } from "./PlannedSetInput";
 import { getPlannedSets, withPlannedSets } from "../../../../shared/prescriptions";
@@ -17,7 +18,7 @@ interface PlannedSetsEditorProps {
  */
 export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
   const sets = getPlannedSets(item);
-  const [keys, setKeys] = useState(() => sets.map(() => crypto.randomUUID()));
+  const [keys, setKeys] = useState(() => sets.map(() => createUuid()));
   /** Replaces only this exercise's set targets.
    * @param {typeof sets} next - Updated ordered targets.
    * @param {number} [removedIndex] - Removed row identity.
@@ -25,10 +26,7 @@ export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
   function update(next: typeof sets, removedIndex?: number) {
     setKeys((previous) =>
       removedIndex === undefined
-        ? [
-            ...previous,
-            ...Array.from({ length: Math.max(0, next.length - previous.length) }, () => crypto.randomUUID()),
-          ]
+        ? [...previous, ...Array.from({ length: Math.max(0, next.length - previous.length) }, () => createUuid())]
         : previous.filter((_, position) => position !== removedIndex),
     );
     studio.setDraftItems((previous) =>

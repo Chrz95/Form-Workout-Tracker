@@ -1,4 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="ChangeListManager">
+    <list default="true" id="82531908-dae4-4eeb-9f52-81f94f02bec1" name="Changes" comment="More fixes">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/layout/ApiConnectionControl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/training/ConnectionBanner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/training/TrainingConnectionNotice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/training/useAutomaticConnection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/identity/createUuid.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/createUuid.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.docker.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.docker.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT-FILE-INVENTORY.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT-FILE-INVENTORY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/START-HERE.md" beforeDir="false" afterPath="$PROJECT_DIR$/START-HERE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app/config/dockerProxy.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app/config/dockerProxy.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/features/training/training.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/features/training/training.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/web-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/web-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/DOCKER.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DOCKER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/LOCAL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/LOCAL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/StudioDialogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/StudioDialogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/layout/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/layout/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/calendar/CalendarPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/calendar/CalendarPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/exercises/custom/CustomExerciseEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/exercises/custom/CustomExerciseEditor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/JournalPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/JournalPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/PlannedSetsEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/PlannedSetsEditor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/SessionEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/SessionEditor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/WorkoutEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/WorkoutEditor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/WorkoutsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/WorkoutsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/automaticConnection.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/automaticConnection.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/import/ImportCsvDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/import/ImportCsvDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/WorkoutReview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/WorkoutReview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/live/live.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/live/live.utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/useRecords.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/useRecords.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/training/useTrainingSubmission.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/training/useTrainingSubmission.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/lib/api/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/lib/api/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/docker-init.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/docker-init.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/prescriptions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/prescriptions.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3KjF54fdDNIndJKwtaWsXHlHQFF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "pnpm",
+    "ts.external.directory.path": "D:\\Files\\Software\\Development\\JavaScript\\React\\Personal\\Form\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82531908-dae4-4eeb-9f52-81f94f02bec1" name="Changes" comment="" />
+      <created>1792062884248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792062884248</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated configuration files" />
+    <MESSAGE value="More fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="More fixes" />
+  </component>
 </project>

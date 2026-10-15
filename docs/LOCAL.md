@@ -45,6 +45,9 @@ pnpm dev
 Open the Vite URL printed in the terminal, normally `http://localhost:5173`.
 The command starts both frontend and backend; stopping either stops the other.
 Saved training loads automatically after the API capability check succeeds. Reloading reconnects automatically.
+The UI shows server status without an API setup prompt. Startup failures and detected transport outages trigger
+read-only connection retries every five seconds; browser online events retry immediately. Drafts and confirmed
+records are preserved, and failed writes are never replayed automatically.
 
 ## Built local application
 
@@ -61,6 +64,12 @@ You do not need Docker or a token-entry step. This is a personal local runner, n
 The web server binds to `127.0.0.1`; keep this trusted-local access boundary. Anyone with access to the local
 web port can use the owner's data. Public/shared hosting requires authenticated ingress or manual bearer access.
 
+## Browser compatibility
+
+Draft, set and submission UUIDs use `crypto.getRandomValues` when `crypto.randomUUID` is unavailable on a
+plain HTTP origin. This covers the logger, individual-set editing and live training. HTTPS is still needed
+for PWA service workers and installation from a non-localhost device.
+
 ## Upgrade and troubleshooting
 
 Keep your private `.env` and existing PostgreSQL data directory. Stop the old app processes, update the source,
@@ -75,7 +84,7 @@ If upgrading by extracting a ZIP, use a fresh source directory and copy only you
 - Environment file location: keep `.env` beside the root `package.json`, not inside `frontend/`.
   Vite resolves this location from its config file, including when invoked from another working directory.
 - Port 8080 already used: stop the old frontend process. The built local runner refuses to silently change its port.
-- Connection failed during startup: restore backend/database availability, then retry in connection settings.
+- Connection failed during startup: restore backend/database availability; the app retries automatically.
 
 PostgreSQL owns persistent records. Unsaved drafts and remote credentials remain in tab memory.
 Your operating system's PostgreSQL data directory controls persistence; `workout_data` remains the named volume

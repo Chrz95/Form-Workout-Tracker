@@ -1,3 +1,4 @@
+import { TrainingConnectionNotice } from "../TrainingConnectionNotice";
 import { ReviewActions } from "./ReviewActions";
 import { INPUT_LIMITS } from "../../../../../shared/constants";
 import type { StudioProps } from "../../../app/useStudio";
@@ -57,7 +58,7 @@ export function WorkoutReview({ studio }: StudioProps) {
         </label>
       )}
       {!studio.isConnected && !isSaved && (
-        <p className="connection-notice">
+        <TrainingConnectionNotice studio={studio}>
           Your completed sets are still an unsaved draft.{" "}
           <button
             className="text-button"
@@ -66,7 +67,7 @@ export function WorkoutReview({ studio }: StudioProps) {
             Connect your workout API
           </button>{" "}
           to save this session.
-        </p>
+        </TrainingConnectionNotice>
       )}
       {studio.live.error && !isSaved && (
         <p

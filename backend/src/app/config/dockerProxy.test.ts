@@ -27,14 +27,22 @@ function renderProxy(settings: Record<string, string>): string {
 describe("Docker private proxy runtime configuration", () => {
   it("injects the configured credential server-side with strict host and cross-site guards", () => {
     const token = "a".repeat(64);
-    const configuration = renderProxy({ API_ACCESS_TOKEN: token });
+    const configuration = renderProxy({ API_ACCESS_TOKEN: token, FORM_FRONTEND_ORIGIN: "http://localhost:2324" });
     expect(configuration).toContain(`proxy_set_header Authorization "Bearer ${token}";`);
-    expect(configuration).toContain("$http_host != 'localhost:8080'");
-    expect(configuration).toContain("$http_origin = 'http://localhost:8080'");
+    expect(configuration).toContain("$http_host != 'localhost:2324'");
+    expect(configuration).toContain("$http_origin = 'http://localhost:2324'");
     expect(configuration).toContain("$http_sec_fetch_site = 'cross-site'");
     expect(configuration).not.toContain("__LOCAL_GUARD__");
     expect(configuration).toContain("proxy_pass $api_upstream");
     expect(configuration).toContain("try_files $uri $uri/ /index.html");
+  });
+  it("uses private LAN host and same-origin guards by default without pinning localhost", () => {
+    const configuration = renderProxy({ API_ACCESS_TOKEN: "a".repeat(64) });
+    expect(configuration).toContain("if ($form_private_host = 0) { return 403; }");
+    expect(configuration).toContain('$http_origin = "$scheme://$http_host"');
+    expect(configuration).toContain('map "$form_valid_ipv4:$host" $form_private_host');
+    expect(configuration).not.toContain("$http_host != 'localhost:2324'");
+    expect(configuration).toContain("The server rejected this site address.");
   });
   it("keeps browser bearer authentication when automatic local access is disabled", () => {
     const configuration = renderProxy({ FORM_AUTO_CONNECT: "false", API_ACCESS_TOKEN: "a".repeat(64) });
@@ -48,9 +56,15 @@ describe("Docker private proxy runtime configuration", () => {
     const token = "b".repeat(64);
     writeFileSync(filename, token);
     try {
-      const configuration = renderProxy({ API_ACCESS_TOKEN_FILE: filename, FORM_API_UPSTREAM: "form-backend:3001" });
+      const configuration = renderProxy({
+        API_ACCESS_TOKEN_FILE: filename,
+        FORM_API_UPSTREAM: "form-backend:3001",
+        FORM_FRONTEND_ORIGIN: "http://192.168.1.50:2324",
+      });
       expect(configuration).toContain(`proxy_set_header Authorization "Bearer ${token}";`);
       expect(configuration).toContain("set $api_upstream http://form-backend:3001;");
+      expect(configuration).toContain("$http_host != '192.168.1.50:2324'");
+      expect(configuration).toContain("$http_origin = 'http://192.168.1.50:2324'");
       expect(configuration).not.toContain("__API_UPSTREAM__");
     } finally {
       rmSync(temporary, { recursive: true, force: true });

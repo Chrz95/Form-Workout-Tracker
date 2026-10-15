@@ -1,3 +1,4 @@
+import { TrainingConnectionNotice } from "../training/TrainingConnectionNotice";
 import { useState } from "react";
 import type { StudioProps } from "../../app/useStudio";
 import { CalendarGrid } from "./CalendarGrid";
@@ -40,7 +41,9 @@ export function CalendarPage({ studio }: StudioProps) {
         </button>
       </div>
       {!studio.hasCalendarSupport && (
-        <p className="connection-notice">Connect an API with calendar support to save plans.</p>
+        <TrainingConnectionNotice studio={studio}>
+          Connect an API with calendar support to save plans.
+        </TrainingConnectionNotice>
       )}
       <CalendarGrid
         month={month}

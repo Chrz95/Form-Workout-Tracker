@@ -4,6 +4,7 @@ import { render, screen, waitFor, cleanup, within } from "@testing-library/react
 import userEvent from "@testing-library/user-event";
 import { App } from "./App";
 import { exerciseSchema } from "../../../shared/contracts";
+const browserCrypto = globalThis.crypto;
 const exercise = exerciseSchema.parse({
   id: "Pushups",
   name: "Pushups",
@@ -24,6 +25,8 @@ const squat = {
   primaryMuscles: ["quadriceps"],
 };
 beforeEach(() => {
+  // HTTP LAN browsers expose getRandomValues, but not randomUUID.
+  vi.stubGlobal("crypto", { getRandomValues: browserCrypto.getRandomValues.bind(browserCrypto) });
   vi.stubGlobal(
     "fetch",
     vi.fn(async () => new Response(JSON.stringify([exercise, squat]))),
@@ -46,6 +49,13 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 describe("Exercise discovery and draft behavior", () => {
+  it("opens the workout logger without randomUUID on an HTTP LAN browser", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole("button", { name: "Log a workout" }));
+    expect(screen.getByRole("dialog", { name: "Make today count" })).toBeInTheDocument();
+    expect(screen.getByRole("textbox", { name: "Session name" })).toBeInTheDocument();
+  });
   it("keeps navigation accessible, focuses the new page and preserves a workout draft across sections", async () => {
     const user = userEvent.setup();
     render(<App />);

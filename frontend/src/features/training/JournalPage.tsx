@@ -38,7 +38,13 @@ export function JournalPage({ studio }: StudioProps) {
             <Plus size={ICON_SIZE.standard} />
             Log a workout
           </button>
-          {!studio.isConnected && <small>Connect your API to view and save your training history.</small>}
+          {!studio.isConnected && (
+            <small>
+              {studio.isAutomaticConnection
+                ? "Your saved training loads automatically when the server is ready."
+                : "Connect your API to view and save your training history."}
+            </small>
+          )}
         </div>
       ) : (
         <div className="journal-list">

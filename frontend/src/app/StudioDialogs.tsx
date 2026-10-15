@@ -27,7 +27,7 @@ export function StudioDialogs({ studio }: StudioProps) {
         />
       )}
       {studio.substitutionExerciseId && <SubstitutionDialog studio={studio} />}
-      {studio.isConnectionOpen && <ConnectionDialog studio={studio} />}
+      {studio.isConnectionOpen && !studio.isAutomaticConnection && <ConnectionDialog studio={studio} />}
       {studio.planEditor && (
         <PlanEditor
           key={studio.planEditor.plan?.id ?? studio.planEditor.date}

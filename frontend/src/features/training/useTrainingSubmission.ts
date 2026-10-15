@@ -1,3 +1,4 @@
+import { createUuid } from "../../../../shared/createUuid";
 import { resolveWorkout, workoutIdentities } from "../../../../shared/workoutGraph";
 import { prescriptionToSession } from "../../../../shared/prescriptions";
 import { useMemo, useState, type FormEvent } from "react";
@@ -14,7 +15,7 @@ export function useTrainingSubmission(studio: Studio, mode: "workout" | "session
   const [duration, setDuration] = useState<number>(WORKOUT_DEFAULTS.duration);
   const [error, setError] = useState("");
   const completedItems = useMemo(() => studio.draftItems.map(prescriptionToSession), [studio.draftItems]);
-  const [submissionId] = useState(() => crypto.randomUUID());
+  const [submissionId] = useState(() => createUuid());
   /** Validates the appropriate contract and preserves drafts on transport failure.
    * @param {FormEvent<HTMLFormElement>} event - Submit event.
    * @returns {Promise<void>} Completed save attempt.

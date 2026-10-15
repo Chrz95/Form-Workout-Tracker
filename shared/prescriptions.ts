@@ -1,3 +1,4 @@
+import { createUuid } from "./createUuid.js";
 import type { Exercise, SessionItem, WorkoutItem } from "./contracts.js";
 import { INPUT_LIMITS } from "./constants.js";
 import { matchesExerciseId } from "./exerciseIdentity.js";
@@ -58,7 +59,7 @@ export function prescriptionToSession(item: WorkoutItem): SessionItem {
       ? {
           performedSets: plannedSets.map((set) => ({
             ...set,
-            id: crypto.randomUUID(),
+            id: createUuid(),
             rpe: null,
             kind: "working" as const,
           })),

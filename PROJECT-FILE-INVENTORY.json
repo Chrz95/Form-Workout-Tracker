@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "4d44877d84406ab1f52adc23b605317bfab6dcd5",
+  "sourceCommit": "a0828780d92f6b8b766f3b1c9d6406c844f2e95f",
   "files": [
     {
       "path": ".dockerignore",
@@ -8,8 +8,8 @@
     },
     {
       "path": ".env.docker.example",
-      "size": 582,
-      "sha256": "d67c87022aa4516672a9467d9eb2af0879e976d711d643dc8c98c6c6982919f5"
+      "size": 551,
+      "sha256": "be1f7f0d06999b2f89d45308281ee07557d11cf12a513efa9ff4b6c372c2beb9"
     },
     {
       "path": ".env.example",
@@ -53,8 +53,8 @@
     },
     {
       "path": "README.md",
-      "size": 62204,
-      "sha256": "a31b76dbe8c947f1b541f0e9187f13e7373e8a83b130ac8f9f6352812c32d0a8"
+      "size": 62419,
+      "sha256": "54bbb944ecc5d56f72b9bfe2698a6e6a405cd05dd9d9a783be4f762859b8d831"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -73,8 +73,8 @@
     },
     {
       "path": "backend/src/app/config/dockerProxy.test.ts",
-      "size": 3697,
-      "sha256": "2bbceb9e4688046445e4798028409fe0c213e5af2653777eda44645204bea2ca"
+      "size": 4570,
+      "sha256": "4decd3217d1362ccf1e94ef8e15d0627f7490715f668f5bb3c19bf13eee9af39"
     },
     {
       "path": "backend/src/app/config/environment.ts",
@@ -338,8 +338,8 @@
     },
     {
       "path": "backend/src/features/training/training.test.ts",
-      "size": 16866,
-      "sha256": "8db81055f55aebea646b330c28eccc8fc1385299ccf51d057f447332a31efc2e"
+      "size": 17163,
+      "sha256": "ac0d8440de39fba0c53541b0616db73c0f7b3dfd6dbcdacaf916d40305bb7610"
     },
     {
       "path": "backend/src/features/training/training.types.ts",
@@ -378,8 +378,8 @@
     },
     {
       "path": "compose.app.yaml",
-      "size": 3621,
-      "sha256": "9beb9a8313ecb01ce9d03a6f6a98cb01440a7c03d531d9a2f2c62e4d70083caa"
+      "size": 3659,
+      "sha256": "84e9bea4cadbd5579b3916f27359eeb0487ae883726a5b62cf6f61f73b63baaf"
     },
     {
       "path": "compose.db.yaml",
@@ -408,13 +408,13 @@
     },
     {
       "path": "docker/nginx.conf",
-      "size": 1951,
-      "sha256": "5a652e64d0c290fbe57947bb072dcb565950e19ac521205765cabcd999061aa1"
+      "size": 2831,
+      "sha256": "421c8f0a96b6889682c5c2b54fee14838c89fb63008e21fbf3e46e13ddbb686b"
     },
     {
       "path": "docker/web-entrypoint.sh",
-      "size": 1915,
-      "sha256": "c5e3b87623e68dd4330b5e518338e7161cf356fed34720f3ea86afd9f2861aaf"
+      "size": 2236,
+      "sha256": "8d759b648b50ec925c58eae6ee45c0a7a7b78a1c7e3e6417d066ebd59c30c29e"
     },
     {
       "path": "docs/CATALOG-SOURCES.md",
@@ -423,13 +423,13 @@
     },
     {
       "path": "docs/DOCKER.md",
-      "size": 8415,
-      "sha256": "fd9b6b95d4a25add14c8a7187a6d56722eb46d6a72e9daeecfb1e123fa36bd20"
+      "size": 11494,
+      "sha256": "87bea5630162de89121fc500ad8a0e38efe799f90f409df54c4a4505343025c9"
     },
     {
       "path": "docs/LOCAL.md",
-      "size": 5471,
-      "sha256": "7c54a4561bdd90b93e707557be405bf7ca5b4b8eaa6999a8da75df617ce8ee7c"
+      "size": 6075,
+      "sha256": "50d5f482f05787b62a2453cd39ae0013fb51a1b1025365871d742d318d915fb8"
     },
     {
       "path": "docs/RELEASE-2.0.md",
@@ -12533,18 +12533,18 @@
     },
     {
       "path": "frontend/src/app/App.test.tsx",
-      "size": 9155,
-      "sha256": "4b946194aad68a85f00f94ed8d826c5774321d61f856bbba6e40b1802be18c7d"
+      "size": 9768,
+      "sha256": "6b04e6941a754b737e7d5212ef6c34fbb543c9e3b578b9b1469b9b48ecfd04f3"
     },
     {
       "path": "frontend/src/app/App.tsx",
-      "size": 2612,
-      "sha256": "f30be17c5c37099eca2303350cef1069814f523838f5ed6cca4ca0eb34b71a6d"
+      "size": 2354,
+      "sha256": "aae68ae643e3bdba8e0ebd73163fb10477d52ce2b76adef7db5555076c85b5a8"
     },
     {
       "path": "frontend/src/app/StudioDialogs.tsx",
-      "size": 2210,
-      "sha256": "4b35149fe661d796e4dd28e3c88c9a819ced26fe87b3627ba54cc97c9ecd3925"
+      "size": 2243,
+      "sha256": "44551e0b45233d1f3d56da24068a480a58dda3cafe0bf697aadc3aa6da26c87b"
     },
     {
       "path": "frontend/src/app/app.constants.ts",
@@ -12572,6 +12572,11 @@
       "sha256": "bdde1b64964f9f875e4a9ce66560752646b4f15b0ea569357461c096bb68efc6"
     },
     {
+      "path": "frontend/src/components/layout/ApiConnectionControl.tsx",
+      "size": 1539,
+      "sha256": "3054182810bee05c9aa12727ee097939b503dd1cec9b6c55b0f6e708b48d32b8"
+    },
+    {
       "path": "frontend/src/components/layout/Header.tsx",
       "size": 1245,
       "sha256": "0b5f281a54afa159f198b985d6d8a1d484b0eff5f7dd8b71eeafa991edb05a6f"
@@ -12583,8 +12588,8 @@
     },
     {
       "path": "frontend/src/components/layout/Sidebar.tsx",
-      "size": 1965,
-      "sha256": "197a4731483ba92bed59f4914cf6ed7b8a535929647d010c651af57b8e7ef322"
+      "size": 1604,
+      "sha256": "be47b18130dddd92c6968bf5d1ac17f1b05a39c5bba7524e100edd311f7e5aa8"
     },
     {
       "path": "frontend/src/components/layout/StudioNavigation.tsx",
@@ -12618,8 +12623,8 @@
     },
     {
       "path": "frontend/src/features/calendar/CalendarPage.tsx",
-      "size": 1842,
-      "sha256": "7e5611bb9404dd73c98dfc6a6dc4292ca7c38ba81f096c71b6bc053382414bc2"
+      "size": 1975,
+      "sha256": "e968cacceb0f80d357f2d71c0a15fe86a4a8bd59b3bd5d3047be00bdb3bd47a4"
     },
     {
       "path": "frontend/src/features/calendar/PlanEditor.tsx",
@@ -12753,8 +12758,8 @@
     },
     {
       "path": "frontend/src/features/exercises/custom/CustomExerciseEditor.tsx",
-      "size": 2655,
-      "sha256": "906bb9a9b27b3306e173b62d7a0f3a5102bab274213e3b789059cc9d4df97a13"
+      "size": 2771,
+      "sha256": "3bb247134fd81a87bbe6153a18c18ec81ec8a7aba42ffaca63c3ed34e720a328"
     },
     {
       "path": "frontend/src/features/exercises/custom/CustomExerciseGuideFields.tsx",
@@ -12807,6 +12812,11 @@
       "sha256": "f4637539945189c589717db50581fdaa47c1e423a216ea3b2c4ab0a634becf88"
     },
     {
+      "path": "frontend/src/features/training/ConnectionBanner.tsx",
+      "size": 1330,
+      "sha256": "5ba4a13f4fffd8c51301122f590f61cbc7db52bb70bbddadb504de352f4cd0cb"
+    },
+    {
       "path": "frontend/src/features/training/ConnectionDialog.tsx",
       "size": 3666,
       "sha256": "d34c567d15350b099441019659ce44b620bd7fdf5f099519ce74492fc1df4692"
@@ -12828,8 +12838,8 @@
     },
     {
       "path": "frontend/src/features/training/JournalPage.tsx",
-      "size": 3391,
-      "sha256": "99eff8671192cec511e7fc2b4968a17f4af55d0445e34ff3daaf3fc1bd08d8a7"
+      "size": 3582,
+      "sha256": "baad30f245ecc50a3bae0edfc5c865f7cc56e14df0dbbdbf08a1e87d070c7814"
     },
     {
       "path": "frontend/src/features/training/JournalToolbar.tsx",
@@ -12843,8 +12853,8 @@
     },
     {
       "path": "frontend/src/features/training/PlannedSetsEditor.tsx",
-      "size": 3111,
-      "sha256": "c2b26cb83735501d6226b4603613192dd74c7a97824f2fe51c5cd2b880ef4f5e"
+      "size": 3120,
+      "sha256": "b8c82a495fa2b8f0307d5ce9a6f98ea921a230d406f9370b0faeb9e55c0f669d"
     },
     {
       "path": "frontend/src/features/training/PrescriptionOrder.tsx",
@@ -12863,13 +12873,18 @@
     },
     {
       "path": "frontend/src/features/training/SessionEditor.tsx",
-      "size": 3112,
-      "sha256": "ad0fa2c0b79a5f5dd254586b80152de0264de52f0d07162ce7f9850c68b2023c"
+      "size": 3215,
+      "sha256": "aff309a59d24a5e92eaf5a367c899c0e6862965131f7fbb448667b013c1cda8a"
     },
     {
       "path": "frontend/src/features/training/SessionTimingFields.tsx",
       "size": 1423,
       "sha256": "c3acb29373281b505a67762a1280c6de67444c773d624a54655a13d3a09bb78b"
+    },
+    {
+      "path": "frontend/src/features/training/TrainingConnectionNotice.tsx",
+      "size": 1038,
+      "sha256": "69f85f987b4d65f37558759dcc0bed742abb5b22a41304f627138b27634c6628"
     },
     {
       "path": "frontend/src/features/training/WorkoutCard.tsx",
@@ -12888,8 +12903,8 @@
     },
     {
       "path": "frontend/src/features/training/WorkoutEditor.tsx",
-      "size": 2872,
-      "sha256": "ac00b3a09835cb80f5770cae274ac128f682b3234d89ed098074d34ce74be823"
+      "size": 2975,
+      "sha256": "04aca230c07f9a24009578c997bcfb252d5460b484b961545a4b543822b95048"
     },
     {
       "path": "frontend/src/features/training/WorkoutEditorActions.tsx",
@@ -12928,8 +12943,8 @@
     },
     {
       "path": "frontend/src/features/training/WorkoutsPage.tsx",
-      "size": 2832,
-      "sha256": "e25420e2c60ca9e29e69eba117b42da8e978220017dd75ec824dc89b8bcbae80"
+      "size": 3023,
+      "sha256": "420bc446bb1eacf91de0dc8ba6d00fd63bb52d61ab04b56fcf0dd5d5395df61d"
     },
     {
       "path": "frontend/src/features/training/WorkoutsToolbar.tsx",
@@ -12938,8 +12953,8 @@
     },
     {
       "path": "frontend/src/features/training/automaticConnection.test.tsx",
-      "size": 4683,
-      "sha256": "56d2bf3586fb528969d925851a6447bb61c3d821481d9ce3481c4548420a23e7"
+      "size": 9985,
+      "sha256": "912db264adc21f91c6efe94bffe84b4291cd0eb0bfa88d03ac2dacda3a689093"
     },
     {
       "path": "frontend/src/features/training/export/ExportCsvButton.tsx",
@@ -12978,8 +12993,8 @@
     },
     {
       "path": "frontend/src/features/training/import/ImportCsvDialog.tsx",
-      "size": 3351,
-      "sha256": "74c1d20454f8d46f5ed925962373659edda80cd841905f56d9eb5d09cea1baca"
+      "size": 3475,
+      "sha256": "0370e1e97cdff7c57ea0f0ca315139c6ae14edf40dd5d33a425e7fb4a3e8fefa"
     },
     {
       "path": "frontend/src/features/training/import/ImportItemReview.tsx",
@@ -13068,8 +13083,8 @@
     },
     {
       "path": "frontend/src/features/training/live/WorkoutReview.tsx",
-      "size": 2861,
-      "sha256": "53e429f24e2a835d0f3edb996aac0f721731e89fda3f2461bdd4974d2fd5f37f"
+      "size": 2965,
+      "sha256": "c66c05cd85c01e4413f35ee41ed8f14bb0ea887b0f54841545d8442b53373425"
     },
     {
       "path": "frontend/src/features/training/live/live.constants.ts",
@@ -13093,8 +13108,8 @@
     },
     {
       "path": "frontend/src/features/training/live/live.utils.ts",
-      "size": 5975,
-      "sha256": "b118942c83a311ec9723b2ecee8ce53f75895b76b60123909f288b2314dd09f6"
+      "size": 6024,
+      "sha256": "1c9818b3036237fde03d6800c7a6dcc509a15d806e2a00ad685c0e1dd3de783f"
     },
     {
       "path": "frontend/src/features/training/live/useClock.ts",
@@ -13177,14 +13192,19 @@
       "sha256": "5ba58c904d872fed27e51d2cdb86b77c1358fec8af8b04fee54621f9c7335cb9"
     },
     {
+      "path": "frontend/src/features/training/useAutomaticConnection.ts",
+      "size": 2739,
+      "sha256": "388688da6e95db25df0d495bc2a1c59d7fab590f3f61fd888eca2a3b5b571c16"
+    },
+    {
       "path": "frontend/src/features/training/useRecords.ts",
-      "size": 11109,
-      "sha256": "67833b40503c57eb6d9ea22b257fe0bea91424ad025cca91849d84a887f5c4ef"
+      "size": 11535,
+      "sha256": "298808431226eba18c673ef5a08a24b0c93a2e0eb0d107b32a8b3a49ccb63c7e"
     },
     {
       "path": "frontend/src/features/training/useTrainingSubmission.ts",
-      "size": 2944,
-      "sha256": "5cf50004a06ded97fce50f70cc7d84fc7360cffa47843976a958bb88e69a0f47"
+      "size": 2997,
+      "sha256": "e7cc7add8c803a03e7c877013fda794737126533399e44891f6e91b6333c82ef"
     },
     {
       "path": "frontend/src/features/training/workoutGraph.test.tsx",
@@ -13208,8 +13228,13 @@
     },
     {
       "path": "frontend/src/lib/api/client.ts",
-      "size": 3718,
-      "sha256": "51513ddbf99cf68fd574b4622e6846c9d4a222d9932a02ea00e1501987e55ead"
+      "size": 4575,
+      "sha256": "50c15da374f31f6bcd3dfc609d17aa0d7388ec87b69febd2b283064113303151"
+    },
+    {
+      "path": "frontend/src/lib/identity/createUuid.test.tsx",
+      "size": 1446,
+      "sha256": "4710d34276aedce2cbbbb5c6f8d294ec1634fe65143e203fb7242441580b13dc"
     },
     {
       "path": "frontend/src/lib/logger/logger.ts",
@@ -13373,8 +13398,8 @@
     },
     {
       "path": "scripts/docker-init.mjs",
-      "size": 1112,
-      "sha256": "911d05d5b03e45e5efdbab90b6cfd0552573cd9d19f78d2cf347367c039602d8"
+      "size": 1095,
+      "sha256": "57040f18ef13735e1fb5ce52e0fc95dec96e09c68309afa71d7095a1f3cd88c0"
     },
     {
       "path": "scripts/docker-up.sh",
@@ -13437,6 +13462,11 @@
       "sha256": "a13799cbe3d470aa6d80a20c2a02eae95cb1ad5482aaa0698434188a674c08a2"
     },
     {
+      "path": "shared/createUuid.ts",
+      "size": 764,
+      "sha256": "111d40d0fea32843445fde502f0e9ef08a56bd6048c14a3f85eced1c1c8062ed"
+    },
+    {
       "path": "shared/customExerciseContracts.ts",
       "size": 1822,
       "sha256": "999ab11a9e3e4765074ca6d877799a4fd6e04dd2cb845f62521aa62fa4f50271"
@@ -13468,8 +13498,8 @@
     },
     {
       "path": "shared/prescriptions.ts",
-      "size": 3776,
-      "sha256": "24754b9bfc0332b9f10d2a60864bc0106c43e4b70496223ab7bcaae0effbeedc"
+      "size": 3815,
+      "sha256": "12161533098b1dda6fca619e61c3ccf3be53b6d3331c3b45a0d70a4f90c3ccf8"
     },
     {
       "path": "shared/retiredExercises.json",

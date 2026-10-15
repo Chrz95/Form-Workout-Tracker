@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import { useAutomaticConnection } from "./useAutomaticConnection";
 import type { Workout, Session, Exercise } from "../../../../shared/contracts";
 import type { CustomExerciseInput } from "../../../../shared/customExerciseContracts";
 import { API_FEATURE } from "../../../../shared/capabilities";
@@ -14,7 +15,7 @@ import {
   importTrainingRecords,
 } from "./training.service";
 import { API_PATH } from "../../../../shared/contracts";
-import type { ApiConnection } from "../../lib/api/client";
+import { ApiError, type ApiConnection } from "../../lib/api/client";
 import { fetchPlans, savePlan, deletePlan } from "../calendar";
 import type { Plan, PlanInput } from "../../../../shared/calendarContracts";
 import type { ImportInput } from "../../../../shared/importContracts";
@@ -27,7 +28,6 @@ export function useRecords() {
     baseUrl: frontendEnvironment.apiBaseUrl,
     token: "",
   });
-  const automaticAttempted = useRef(false);
   const [isConnected, setIsConnected] = useState(false);
   const [isPending, setIsPending] = useState(false);
   const [workouts, setWorkouts] = useState<Workout[]>([]);
@@ -43,19 +43,31 @@ export function useRecords() {
   const [apiError, setApiError] = useState("");
   /** Runs an operation and surfaces failures.
    * @param {() => Promise<void>} operation - Asynchronous work.
+   * @param {boolean} [background] - Whether connection probing should avoid notification toasts.
    * @returns {Promise<boolean>} Whether the operation succeeded.
    */
-  async function runOperation(operation: () => Promise<void>) {
+  async function runOperation(operation: () => Promise<void>, background = false) {
     setIsPending(true);
     setApiError("");
-    setMessage("");
+    if (!background) {
+      setMessage("");
+    }
     try {
       await operation();
       return true;
     } catch (error) {
       const failureMessage = error instanceof Error ? error.message : "The request could not be completed.";
-      setMessage(failureMessage);
+      if (!background) {
+        setMessage(failureMessage);
+      }
       setApiError(failureMessage);
+      if (
+        connection.authentication === "proxy" &&
+        error instanceof ApiError &&
+        (!error.status || error.status >= 500 || error.status === 401 || error.status === 403)
+      ) {
+        setIsConnected(false);
+      }
       return false;
     } finally {
       setIsPending(false);
@@ -87,15 +99,10 @@ export function useRecords() {
       setHasNestedSupport(capabilities.features.includes(API_FEATURE.nestedWorkouts));
       setHasPlannedSetsSupport(capabilities.features.includes(API_FEATURE.plannedSets));
       setIsConnected(true);
-      setMessage("Your training API is connected.");
-    });
+      setMessage(nextConnection.authentication === "proxy" ? "" : "Your training API is connected.");
+    }, nextConnection.authentication === "proxy");
   }
-  useEffect(() => {
-    if (!automaticAttempted.current && connection.baseUrl && connection.authentication === "proxy") {
-      automaticAttempted.current = true;
-      void connectApi(connection);
-    }
-  }, [connection]);
+  const automaticConnection = useAutomaticConnection(connection, isConnected, connectApi);
   /** Persists a routine and updates the current collection.
    * @param {Omit<Workout, "id" | "createdAt">} workout - Draft list.
    * @param {string} [id] - Existing routine.
@@ -232,6 +239,7 @@ export function useRecords() {
     });
   }
   return {
+    ...automaticConnection,
     hasImportSupport,
     persistImport,
     plans,

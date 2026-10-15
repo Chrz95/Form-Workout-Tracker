@@ -1,3 +1,4 @@
+import { createUuid } from "../../../../../shared/createUuid";
 import type { Session, SessionItem, WorkoutItem, Exercise } from "../../../../../shared/contracts";
 import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { SET_KIND, type PerformedSet } from "../../../../../shared/setContracts";
@@ -47,7 +48,7 @@ export function createLiveSet(
   prescription: Pick<WorkoutItem, "reps" | "weight">,
   kind: PerformedSet["kind"] = SET_KIND.working,
 ): LiveSet {
-  const id = crypto.randomUUID();
+  const id = createUuid();
   return {
     id,
     localId: id,
@@ -72,7 +73,7 @@ export function createLiveWorkout(
   catalog: Exercise[] = [],
 ): LiveWorkout {
   return {
-    submissionId: crypto.randomUUID(),
+    submissionId: createUuid(),
     name: input.name || "My training session",
     notes: input.notes,
     date: new Date(now).toLocaleDateString("en-CA"),

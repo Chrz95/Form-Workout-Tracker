@@ -207,6 +207,12 @@ describe("Workout API contracts", () => {
     expect(allowed.headers["x-content-type-options"]).toBe("nosniff");
     const denied = await request(app).get(`${prefix}${API_PATH.health}`).set("Origin", "https://untrusted.example");
     expect(denied.headers["access-control-allow-origin"]).toBeUndefined();
+    // Same-origin proxy traffic is accepted with server authentication even without a CORS allow-list entry.
+    await request(app)
+      .get(`${prefix}/capabilities`)
+      .set("Origin", "http://192.168.1.50:2324")
+      .set("Authorization", `Bearer ${token}`)
+      .expect(HTTP_STATUS.ok);
   });
   it("hides unexpected persistence details", async () => {
     const repository = createRepository();

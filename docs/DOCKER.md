@@ -16,17 +16,28 @@ Use `sudo docker compose up -d` to run in the background. The root `compose.yaml
 standalone `compose.app.yaml`. Compose builds missing images automatically. After changing source, use
 `sudo docker compose up --build -d` to rebuild existing images.
 
-Set the browser URL once before using the app from your phone or laptop. Edit the single `x-form-origin`
-setting near the top of `compose.app.yaml`, replacing the default with your Pi's address, for example:
+The default `x-form-origin` is `auto`. Open `http://<pi-address>:2324` or
+`http://raspberrypi.local:2324`; no address needs to be entered into the frontend or Compose file.
+Automatic mode accepts private IPv4 addresses, loopback, local IPv6 addresses and `.local` names. It checks
+browser Origin/Host consistency and rejects public DNS hostnames and cross-site requests before supplying
+the private API credential. The frontend listens on all Pi interfaces on port 2324 by default.
+
+For a custom DNS name or HTTPS reverse proxy, set an explicit browser origin instead:
 
 ```yaml
-x-form-origin: &form-origin http://192.168.1.50:8080
+x-form-origin: &form-origin https://fitness.example
 ```
 
-Then open that exact URL. This value is shared by the API origin allow-list and the private web proxy's
-host/origin guard. The frontend listens on all Pi interfaces on port 8080 by default. Find your Pi's address
-with `hostname -I`; a DHCP reservation keeps it stable. The browser connects and saves automatically through
-`/api/v1`. No API token needs to be copied into the browser.
+An explicit origin remains pinned to that exact host/port. Existing `FORM_FRONTEND_ORIGIN` overrides take
+precedence: remove an old `http://localhost:2324` override when accessing the Pi from another device, or set
+it to `auto`. The backend's separate `FORM_CORS_ALLOWED_ORIGINS` only configures direct cross-origin API
+clients; normal frontend requests use the same-origin web proxy and require no CORS origin entry.
+The browser connects and saves automatically through `/api/v1`; credentials stay private to the proxy.
+Docker always enables the managed proxy.
+The UI shows connection status instead of a Connect workout API button or credential form. If the API is
+not ready or a request detects an outage, it retries the read-only connection handshake every five seconds,
+and immediately when the browser reports that it is online. Drafts and confirmed records stay in memory;
+failed save requests are never replayed automatically. Saving still requires a confirmed API response.
 
 This is a single-owner app. Devices that can reach this web port can use the owner's workouts. Keep it on a
 trusted LAN or behind an authenticated reverse proxy. Host/origin checks prevent cross-site browser access;
@@ -54,8 +65,8 @@ include:
   - ./form/compose.yaml
 ```
 
-If it already has an `include` list, append the path there. Set `x-form-origin` in `form/compose.app.yaml`
-once as shown above. From `rpi-stack/`, start all applications with:
+If it already has an `include` list, append the path there. Leave `x-form-origin` on `auto` for LAN access.
+From `rpi-stack/`, start all applications with:
 
 ```sh
 sudo docker compose up
@@ -69,7 +80,38 @@ If you prefer copying the YAML directly, copy all `x-form-*`, `services`, `volum
 from `compose.app.yaml` into the matching top-level sections of your generic file. Change **all three**
 `build.context: .` values to `build.context: ./form` (or your actual source path), and keep the anchors.
 Do not create duplicate top-level `services`/`volumes`/`networks` keys. No container names or project name
-are hard-coded. If port 8080 is already used, change its host port and the origin together.
+are hard-coded. If port 2324 is already used, change its host port; update any explicitly pinned origin too.
+
+Existing `FORM_HTTP_PORT` overrides must be 2324 for the default app URL. Set an old
+`FORM_FRONTEND_ORIGIN=http://localhost:2324` override to `auto`, or to your exact browser URL. Compose now publishes host port 2324 to the web container's internal 8080;
+container healthchecks still use the internal port. For example, the default port mapping is `2324:8080`.
+
+After installing this frontend update, rebuild it from your main Compose directory:
+
+```sh
+sudo docker compose up --build -d form-frontend
+```
+
+Then reload the app at `http://<pi-address>:2324`. A 403 response means the configured host/origin guard
+rejected the request: use `auto` for a private LAN IP/`.local` address, or pin the correct origin for other
+hostnames, then recreate the affected containers. No frontend connection dialog is required.
+
+The workout logger, per-set editor and live workouts also work on plain HTTP LAN URLs. UUIDs use the
+browser's cryptographically random `getRandomValues` fallback when `randomUUID` requires HTTPS.
+PWA installation/offline service workers still require a secure context away from localhost.
+
+If the status still waits for the backend, the banner now shows the actual API failure. On the Pi, run:
+
+```sh
+sudo docker compose ps -a
+sudo docker compose logs --tail 80 form-backend form-migrate form-frontend
+curl -i http://127.0.0.1:2324/api/v1/ready
+curl -i http://127.0.0.1:2324/api/v1/capabilities
+```
+
+In automatic LAN mode, readiness and capabilities should return 200 JSON. A 401 indicates mismatched API
+credentials; a 502/503 means the API/database is unavailable or not ready. Check migration/database logs
+instead of deleting the `workout_data` volume.
 
 ## Services, startup and persistence
 
@@ -84,6 +126,8 @@ are hard-coded. If port 8080 is already used, change its host port and the origi
 `form-init` and `form-migrate` exiting with code 0 is expected. The app network and service names are
 prefixed to avoid collisions with other applications named `db`, `backend` or `frontend`. Other apps are
 not attached to this network automatically. The database and backend have no published host ports.
+The private database also retains the old `db` network alias, so older container database URLs keep resolving
+without colliding with other applications' default networks.
 
 The database uses the exact named volume **`workout_data`**, preserving existing workout data. The generated
 credential uses the named volume **`form_credentials`**, mounted read-only by the API, migration job and web
@@ -145,7 +189,10 @@ runtime token before launching the server or migration command; both still requi
 ## Verification boundary
 
 Credential creation/preservation, real shell entrypoints, proxy configuration rendering, type checking and
-application tests are checked locally. Compose YAML and path references are validated. This environment has
+application tests are checked locally, including logger, builder and live training without `randomUUID`.
+The proxy was executed against a test API using official Ubuntu Nginx 1.24: 28 HTTP checks covered private
+IPs, mDNS, IPv6, pinned HTTP/HTTPS origins, credential forwarding and cross-site/DNS-rebinding rejection.
+Compose YAML and path references are validated. This environment has
 no Docker daemon, so image builds, actual Compose startup, PostgreSQL migrations and ARM64 execution still
-need verification on your Pi. Use `curl --fail http://localhost:8080/healthz` for the web healthcheck; open the
+need verification on your Pi. Use `curl --fail http://localhost:2324/healthz` for the web healthcheck; open the
 configured origin to test saving and persistence.

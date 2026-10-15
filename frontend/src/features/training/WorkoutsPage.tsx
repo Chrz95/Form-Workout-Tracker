@@ -46,7 +46,13 @@ export function WorkoutsPage({ studio }: StudioProps) {
           >
             Build your first workout <ArrowUpRight size={ICON_SIZE.standard} />
           </button>
-          {!studio.isConnected && <small>Connect your Express API to save and sync lists.</small>}
+          {!studio.isConnected && (
+            <small>
+              {studio.isAutomaticConnection
+                ? "Your saved training loads automatically when the server is ready."
+                : "Connect your Express API to save and sync lists."}
+            </small>
+          )}
         </div>
       ) : (
         <div>

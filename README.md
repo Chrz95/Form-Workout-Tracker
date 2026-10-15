@@ -10,9 +10,11 @@ The visual design uses soft olive surfaces, generous spacing, and an editorial t
 
 Run the complete application with `sudo docker compose up` from the project root. For your existing Raspberry Pi
 Compose stack, add `include: [./form/compose.yaml]` and keep the complete source in the sibling `form/` folder.
-Set `x-form-origin` in `compose.app.yaml` to the Pi's browser URL once. Startup generates and retains private
+Leave `x-form-origin` on `auto` for private LAN IPs and `.local` names. Docker publishes web port **2324** by default. Startup generates and retains private
 proxy credentials, migrates and seeds PostgreSQL, and connects the browser automatically; no `.env.docker`,
-manual token generation or additional startup flags are required. The exact database volume remains `workout_data`.
+manual token generation or additional startup flags are required. The frontend shows managed backend status,
+loads records on startup and retries automatically if the backend is unavailable; no Connect workout API action
+is required. The exact database volume remains `workout_data`.
 See [Docker setup](docs/DOCKER.md) for inclusion, direct YAML copying, existing-data upgrades and backups.
 The database-only developer stack now lives in `compose.db.yaml`; never run both against the same volume.
 
@@ -181,7 +183,7 @@ See [release details](docs/RELEASE-2.6.md) and [verification limits](docs/VALIDA
 
 Run the frontend, backend and PostgreSQL together with `sudo docker compose up`, or use
 `pnpm docker:up`. No host Node/pnpm installation is needed for the shell launcher.
-Open http://localhost:8080; the app connects automatically using the private server proxy.
+Open http://localhost:2324; the app connects automatically using the private server proxy.
 Multi-stage images serve the production PWA through unprivileged Nginx and run compiled Express as the Node user.
 Compose waits for database health, a separate migration/seed job, then API health before starting the frontend.
 The database remains on 5433 with the exact persistent volume `workout_data`. Existing database-only commands still work.

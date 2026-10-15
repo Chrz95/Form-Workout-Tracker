@@ -1,3 +1,4 @@
+import { TrainingConnectionNotice } from "./TrainingConnectionNotice";
 import { SessionTimingFields } from "./SessionTimingFields";
 import { useTrainingSubmission } from "./useTrainingSubmission";
 import { ICON_SIZE } from "../../../../shared/constants";
@@ -66,9 +67,9 @@ export function SessionEditor({ studio }: StudioProps) {
           </p>
         )}
         {!studio.isConnected && (
-          <p className="connection-notice">
+          <TrainingConnectionNotice studio={studio}>
             Connect your workout API to save this session. Your draft stays in this tab.
-          </p>
+          </TrainingConnectionNotice>
         )}
         <div className="modal-actions">
           <span>{studio.draftItems.length} exercises completed</span>

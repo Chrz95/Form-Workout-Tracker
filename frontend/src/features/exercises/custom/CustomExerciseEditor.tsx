@@ -1,3 +1,4 @@
+import { TrainingConnectionNotice } from "../../training/TrainingConnectionNotice";
 import type { Exercise } from "../../../../../shared/contracts";
 import type { StudioProps } from "../../../app/useStudio";
 import { Modal } from "../../../components/ui/Modal";
@@ -38,7 +39,7 @@ export function CustomExerciseEditor({ studio, exercise }: CustomExerciseEditorP
         />
         {(form.errorMessage || studio.apiError) && <p role="alert">{form.errorMessage || studio.apiError}</p>}
         {!canSave && !studio.isPending && (
-          <p className="connection-notice">
+          <TrainingConnectionNotice studio={studio}>
             Connect an API with the custom exercise update to save this draft.
             <button
               type="button"
@@ -47,7 +48,7 @@ export function CustomExerciseEditor({ studio, exercise }: CustomExerciseEditorP
             >
               Connect API
             </button>
-          </p>
+          </TrainingConnectionNotice>
         )}
         <div className="modal-actions">
           <small>Private to your training API · unsaved until confirmed</small>

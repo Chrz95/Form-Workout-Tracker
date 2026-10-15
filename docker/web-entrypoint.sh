@@ -4,8 +4,16 @@ set -eu
 umask 077
 authorization='$http_authorization'
 guard=''
+upstream=${FORM_API_UPSTREAM:-backend:3001}
+if ! printf '%s\n' "$upstream" | grep -Eq '^[a-zA-Z0-9][a-zA-Z0-9_.-]*:[0-9]{1,5}$'; then
+  printf '%s\n' 'FORM_API_UPSTREAM must be a container hostname and port.' >&2
+  exit 1
+fi
 if [ "${FORM_AUTO_CONNECT:-true}" = true ]; then
   token=${API_ACCESS_TOKEN:-}
+  if [ -z "$token" ] && [ -n "${API_ACCESS_TOKEN_FILE:-}" ]; then
+    token=$(cat "$API_ACCESS_TOKEN_FILE")
+  fi
   if [ "${#token}" -lt 32 ] || [ "${#token}" -gt 512 ]; then
     printf '%s\n' 'A private API token of 32–512 characters is required.' >&2
     exit 1
@@ -30,6 +38,7 @@ if [ "${FORM_AUTO_CONNECT:-true}" = true ]; then
   guard="$guard if (\$http_host != '$authority') { return 403; }"
 fi
 sed -e "s|__AUTHORIZATION__|$authorization|" -e "s|__LOCAL_GUARD__|$guard|" \
+  -e "s|__API_UPSTREAM__|$upstream|" \
   /etc/nginx/nginx.conf > /tmp/form-nginx.conf
 unset API_ACCESS_TOKEN token authorization guard
 exec nginx -c /tmp/form-nginx.conf "$@"

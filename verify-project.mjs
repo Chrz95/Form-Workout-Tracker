@@ -1,24 +1,14 @@
 import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
-import { fileURLToPath } from "node:url";
-import { join } from "node:path";
-const root = fileURLToPath(new URL("./", import.meta.url));
-const inventory = JSON.parse(await readFile(join(root, "PROJECT-FILE-INVENTORY.json"), "utf8"));
-const errors = [];
-for (const entry of inventory.files) {
+const inventory = JSON.parse(await readFile(new URL("./PROJECT-FILE-INVENTORY.json", import.meta.url), "utf8"));
+let errors = 0;
+for (const file of inventory.files) {
   try {
-    const filename = join(root, entry.path);
-    const data = await readFile(filename);
-    if (data.length !== entry.bytes || createHash("sha256").update(data).digest("hex") !== entry.sha256) {
-      errors.push(`Changed or incomplete: ${entry.path}`);
+    const bytes = await readFile(new URL(file.path, import.meta.url));
+    if (bytes.length !== file.size || createHash("sha256").update(bytes).digest("hex") !== file.sha256) {
+      process.stderr.write(`Changed: ${file.path}\n`); errors++;
     }
-  } catch {
-    errors.push(`Missing: ${entry.path}`);
-  }
+  } catch { process.stderr.write(`Missing: ${file.path}\n`); errors++; }
 }
-if (errors.length) {
-  process.stderr.write(errors.join("\n") + "\n");
-  process.exitCode = 1;
-} else {
-  process.stdout.write(`Verified all ${inventory.sourceFileCount} source files, including scripts, configuration and media.\n`);
-}
+process.stdout.write(`${inventory.files.length} source files checked; ${errors} missing or changed.\n`);
+process.exitCode = errors ? 1 : 0;

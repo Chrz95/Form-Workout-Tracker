@@ -34,11 +34,13 @@ COPY --from=backend-build --chown=node:node /app/backend/dist ./backend/dist
 COPY --from=backend-build --chown=node:node /app/backend/src/db/migrations ./backend/src/db/migrations
 COPY --from=backend-build --chown=node:node \
     /app/shared/exercises.json /app/shared/retiredExercises.json /app/shared/archivedExercises.json ./shared/
-COPY --chown=node:node docker/backend-healthcheck.mjs ./docker/backend-healthcheck.mjs
+COPY --chown=node:node docker ./docker
+RUN mkdir -p /run/form-credentials && chown node:node /run/form-credentials
 USER node
 EXPOSE 3001
 HEALTHCHECK --interval=10s --timeout=5s --start-period=20s --retries=6 \
     CMD ["node", "docker/backend-healthcheck.mjs"]
+ENTRYPOINT ["sh", "docker/backend-entrypoint.sh"]
 CMD ["node", "backend/dist/backend/src/server.js"]
 
 FROM nginx:1.30.5-alpine AS frontend

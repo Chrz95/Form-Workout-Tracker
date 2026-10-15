@@ -1,156 +1,151 @@
-# Run Form with Docker
+# Run Form in Docker or an existing Raspberry Pi stack
 
-Docker Engine/Desktop with the Docker Compose v2 plugin is required. Run commands from the extracted repository root.
-The build downloads pinned Node/pnpm dependencies and the Nginx image, so its first run requires internet access.
-The application uses separate frontend and backend images with one shared root package manifest.
+Use a 64-bit Raspberry Pi OS and Docker Engine with Compose 2.20.3 or newer (`docker compose version`).
+The first run builds ARM64 images on the Pi and requires internet access. No host Node/pnpm, environment-file
+initialization, token-generation command or manual database setup is required.
 
-## One command on Linux, macOS or WSL
+## Plain Compose startup
 
-```sh
-sh scripts/docker-up.sh
-```
-
-The script creates `.env.docker` with a random private token if the file does not exist, then builds and starts the
-complete stack. It uses a temporary Node container for initialization, so no host Node or pnpm installation is needed.
-Existing configuration and tokens are preserved. Open **http://localhost:8080**; saved training loads automatically.
-The same-origin web proxy supplies `DOCKER_API_ACCESS_TOKEN` privately to the backend at runtime.
-The app verifies capabilities and loads records before reporting a successful connection.
-If the API is unavailable, connection settings let you retry without entering the local token.
-The token stays private at runtime; it is never baked into either image or the frontend bundle.
-
-With the project's Node/pnpm toolchain already installed, the equivalent is:
+From the complete project root (the folder containing `Dockerfile`):
 
 ```sh
-pnpm docker:init
-pnpm docker:up
+sudo docker compose up
 ```
 
-## Direct Compose or Windows PowerShell
+Use `sudo docker compose up -d` to run in the background. The root `compose.yaml` includes the complete,
+standalone `compose.app.yaml`. Compose builds missing images automatically. After changing source, use
+`sudo docker compose up --build -d` to rebuild existing images.
 
-Copy `.env.docker.example` to `.env.docker`, set `DOCKER_API_ACCESS_TOKEN` to a private random value of at least
-32 characters using letters, digits, underscores, dots or hyphens (the initializer generates hexadecimal), then run:
+Set the browser URL once before using the app from your phone or laptop. Edit the single `x-form-origin`
+setting near the top of `compose.app.yaml`, replacing the default with your Pi's address, for example:
+
+```yaml
+x-form-origin: &form-origin http://192.168.1.50:8080
+```
+
+Then open that exact URL. This value is shared by the API origin allow-list and the private web proxy's
+host/origin guard. The frontend listens on all Pi interfaces on port 8080 by default. Find your Pi's address
+with `hostname -I`; a DHCP reservation keeps it stable. The browser connects and saves automatically through
+`/api/v1`. No API token needs to be copied into the browser.
+
+This is a single-owner app. Devices that can reach this web port can use the owner's workouts. Keep it on a
+trusted LAN or behind an authenticated reverse proxy. Host/origin checks prevent cross-site browser access;
+they do not replace a login. HTTPS is needed for PWA installation and service workers away from localhost.
+The stack does not configure TLS certificates itself.
+
+## Add to your generic Raspberry Pi Compose file
+
+Keep the full project in a `form/` folder beside your existing generic `compose.yaml`:
+
+```text
+rpi-stack/
+  compose.yaml       # your existing generic file
+  form/             # the complete extracted Form source
+    compose.yaml
+    compose.app.yaml
+    Dockerfile
+    ...
+```
+
+Add this top-level section to your generic file, retaining its existing services, networks and volumes:
+
+```yaml
+include:
+  - ./form/compose.yaml
+```
+
+If it already has an `include` list, append the path there. Set `x-form-origin` in `form/compose.app.yaml`
+once as shown above. From `rpi-stack/`, start all applications with:
 
 ```sh
-docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml up --build -d --wait --wait-timeout 180
+sudo docker compose up
 ```
 
-PowerShell can use `Copy-Item .env.docker.example .env.docker`. The initializer can also run with the existing Node
-toolchain: `node scripts/docker-init.mjs` (it deliberately does not overwrite an existing file).
+Compose `include` resolves build contexts relative to the included file, so no source-path adjustment or
+extra `-f` / `--env-file` arguments are needed. It requires Compose 2.20.3 or later.
+Reference: https://docs.docker.com/compose/how-tos/multiple-compose-files/include/
 
-## Containers and ports
+If you prefer copying the YAML directly, copy all `x-form-*`, `services`, `volumes` and `networks` entries
+from `compose.app.yaml` into the matching top-level sections of your generic file. Change **all three**
+`build.context: .` values to `build.context: ./form` (or your actual source path), and keep the anchors.
+Do not create duplicate top-level `services`/`volumes`/`networks` keys. No container names or project name
+are hard-coded. If port 8080 is already used, change its host port and the origin together.
 
-| Service    | Purpose                                                | Access                                                |
-| ---------- | ------------------------------------------------------ | ----------------------------------------------------- |
-| `db`       | PostgreSQL 17; persistent `workout_data`               | PostgreSQL listens on 5433, host `127.0.0.1:5433`     |
-| `migrate`  | One-shot compiled migrations, then public catalog seed | Must exit successfully before the API starts          |
-| `backend`  | Production Express server, non-root Node process       | Port 3001 inside the Compose network only             |
-| `frontend` | Production static PWA, non-root Nginx process          | Host `127.0.0.1:8080`; proxies `/api/` to the backend |
+## Services, startup and persistence
 
-Startup order is a healthy database → successful migration/seed → healthy API → frontend. The API's healthcheck
-uses PostgreSQL-backed readiness; the web healthcheck uses `/healthz`. A failed migration or seed prevents a new API
-from starting. `migrate` appearing as **Exited (0)** is normal. Migrations remain a separate release task rather than
-running inside the Express server's startup function. The catalog includes canonical and retired reference IDs.
+| Service         | Purpose                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------- |
+| `form-init`     | Generates a random private API token in `form_credentials` once; retains it on subsequent starts. |
+| `form-db`       | PostgreSQL 17 listening on 5433 inside `form_network`; no database port exposed on the Pi.        |
+| `form-migrate`  | Applies committed migrations, then transactionally seeds the public catalog.                      |
+| `form-backend`  | Starts after credentials, database health and successful migrations.                              |
+| `form-frontend` | Serves the PWA and proxies API requests after the backend is healthy.                             |
 
-Both application containers have read-only filesystems with temporary writes under `/tmp`, dropped capabilities,
-and no-new-privileges. The API receives a graceful shutdown interval. Frontend responses keep HTML and the service
-worker revalidatable, give hashed assets long-lived caching, and never cache proxied API data. Nginx resolves the
-backend through Docker DNS so a replacement API container can receive traffic without rebuilding the frontend.
+`form-init` and `form-migrate` exiting with code 0 is expected. The app network and service names are
+prefixed to avoid collisions with other applications named `db`, `backend` or `frontend`. Other apps are
+not attached to this network automatically. The database and backend have no published host ports.
 
-`compose.yaml` remains the database-only setup, so existing `pnpm db:up`, `pnpm db:setup` and host development work.
-Adding `compose.app.yaml` starts the full application. The API image includes compiled JavaScript, production
-dependencies, committed migrations and public seed JSON; it does not need tsx or a source bind mount at runtime.
+The database uses the exact named volume **`workout_data`**, preserving existing workout data. The generated
+credential uses the named volume **`form_credentials`**, mounted read-only by the API, migration job and web
+proxy. The credential is generated at runtime, never printed, and never included in static assets or images.
+The web process reads it without exposing it to the browser. Explicit `DOCKER_API_ACCESS_TOKEN` settings are
+still supported when configured identically for backend and frontend.
 
-## Settings
+An existing deployment must be stopped **before** the new stack mounts its existing `workout_data` volume;
+never run two PostgreSQL containers against that volume. When migrating from the old two-file setup, stop it
+using the old project/files before replacing its source. In a generic project, stop/start just these services
+without interrupting unrelated apps; do not run a blanket `down` for that project unless intended.
 
-| `.env.docker` variable    | Default                  | Purpose                                                             |
-| ------------------------- | ------------------------ | ------------------------------------------------------------------- |
-| `DOCKER_API_ACCESS_TOKEN` | Generated by initializer | Required private owner credential; never public build configuration |
-| `FORM_HTTP_PORT`          | `8080`                   | Host web port                                                       |
-| `FORM_BIND_ADDRESS`       | `127.0.0.1`              | Host web bind address                                               |
-| `FORM_FRONTEND_ORIGIN`    | `http://localhost:8080`  | Exact browser origin allowed by Express CORS                        |
-| `FORM_AUTO_CONNECT`       | `true`                   | Trusted local proxy authentication; use `false` for public ingress  |
-| `FORM_DATABASE_URL`       | Local `db:5433/form` URL | Optional backend/migration PostgreSQL connection override           |
-| `FORM_LOG_LEVEL`          | `info`                   | Redacted API log level                                              |
+The database identity remains `form_local`, database `form`, password `development_only`, compatible with the
+previous volume. PostgreSQL is private to the app network. If you changed existing database credentials,
+configure `FORM_DATABASE_URL` to match; changing `POSTGRES_PASSWORD` alone does not update an existing volume.
+No cleanup or migration command deletes existing private workouts. Fixed volume names represent one Form
+installation per Docker host; a second independent installation needs different names.
 
-For a different web port, change both `FORM_HTTP_PORT` and `FORM_FRONTEND_ORIGIN`, then rerun the startup command.
-The same frontend image resolves `/api/v1` against the browser's current origin, so it needs no rebuild for a new port
-or HTTPS domain. `.env.docker` is separate from host-development `.env`; neither is sent into the Docker build context.
-
-This Compose configuration preserves the existing **local development** database identity (`form_local`, database
-`form`, password `development_only`) and its exact `workout_data` volume. Do not change `POSTGRES_PASSWORD` expecting
-an existing volume's credentials to change; the official image initializes those credentials only for an empty data
-directory. The database host port remains loopback-only. This setup does not overwrite or delete existing workout data.
-
-Automatic access trusts anyone who can reach the local web port. Its API proxy rejects mismatched Host/Origin and
-cross-site Fetch Metadata headers; these guards do not replace user authentication on a shared or public network.
-Keep the default loopback bind for personal local use. The generated proxy config lives under `/tmp` with private
-permissions; `.env.docker` and its token are never copied into static assets.
-
-For a remote deployment, set `FORM_AUTO_CONNECT=false` and enter the bearer token in connection settings,
-or put the entire app behind an authenticated ingress before enabling automatic access.
-Terminate HTTPS at your ingress and set the exact public `FORM_FRONTEND_ORIGIN`. Bind the
-frontend as needed for that ingress; keep database/API ports private. Replace the local database identity and connection
-URL together using deployment secrets and a least-privileged account, with a separate migration identity where required.
-The supplied stack contains no TLS certificate management. PWA installation/service workers require HTTPS away from
-localhost. This remains one owner's authenticated application, not a shared multi-user account system.
-
-## Manage, upgrade and preserve data
+## Manage and back up from your generic stack directory
 
 ```sh
-pnpm docker:status
-pnpm docker:logs
-pnpm docker:down
+sudo docker compose ps -a
+sudo docker compose logs --tail 100 form-init form-migrate form-backend form-frontend
+sudo docker compose stop form-frontend form-backend form-migrate form-db form-init
+sudo docker compose up -d form-frontend
 ```
 
-Without host pnpm, use the same `docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml` prefix
-followed by `ps -a`, `logs --tail 100 -f`, or `down`. `down` preserves the named database volume. Avoid `down -v` and
-volume pruning when retaining workouts; maintain backups independently of the Docker volume.
-
-Rebuild after pulling an update with the startup command. To explicitly rerun an interrupted release task:
+Starting `form-frontend` brings up its dependencies. The long-running services use `restart: unless-stopped`.
+A failed initializer, database or migration blocks dependent services instead of pretending saves succeeded.
+To explicitly retry an interrupted migration/seed task:
 
 ```sh
-docker compose --env-file .env.docker -f compose.yaml -f compose.app.yaml run --rm migrate
+sudo docker compose run --rm form-migrate
 ```
 
-Inspect migration/seed logs if it fails. Public reseeding is transactional and retains private records. A private
-exercise name that collides with a new canonical public name must be reviewed before reseeding can succeed.
-
-Back up using the database-only Compose file (it addresses the same project/container):
+Back up the database and copy the dump off your Pi:
 
 ```sh
-docker compose exec -T db pg_dump -U form_local -p 5433 -d form -Fc > form-backup.dump
+sudo docker compose exec -T form-db pg_dump -U form_local -p 5433 -d form -Fc > form-backup.dump
 ```
 
-Keep the backup private and off-host. Test restores in a separate database; never overwrite the active owner's data
-to test restoration. Docker volume persistence is not a backup.
+`down` normally retains volumes. Avoid `down -v`, deleting `workout_data`, or pruning volumes if you want to
+retain workouts. Keep independent backups; test restoration in a separate database.
 
-## Check a running installation
+## Native development and previous configuration
 
-```sh
-curl --fail http://localhost:8080/healthz
-curl --fail http://localhost:8080/api/v1/ready
-```
+The old database-only model is retained as `compose.db.yaml`, with service `db`, port `127.0.0.1:5433:5433`
+and the same `workout_data` volume. `pnpm db:up`, `pnpm db:down` and `pnpm db:setup` use that model. Stop the
+full app's database first if switching between native development and the full Docker stack.
 
-Wait for automatic connection, create a routine, log a real session, then stop/start the stack with `down` and the startup command.
-Reload and verify both records remain. Inspect `docker:status`: db/backend/frontend should be healthy and the
-migration service should have exited successfully. Do not infer durable saves from unsaved browser drafts.
+The `docker:up`, `docker:down`, `docker:logs` and `docker:status` scripts now wrap the default Compose file.
+The shell launcher `sh scripts/docker-up.sh` is optional. `.env.docker` and `docker:init` are no longer needed
+for default startup; old operator values can be moved into the main stack's `.env`, exported environment or
+inline Compose settings. Do not use the old two-file `-f compose.yaml -f compose.app.yaml` command.
 
-## Delivery verification limit
+The frontend build still uses public `/api/v1` with proxy authentication. The backend entrypoint reads the
+runtime token before launching the server or migration command; both still require authenticated PostgreSQL.
 
-TypeScript, unit/API tests, formatting, lint and both production builds are checked outside Docker. The initializer
-and shell syntax are checked, and Compose YAML is parsed and reviewed. This managed runtime has neither a Docker
-executable nor daemon, so image pulls/builds, actual Compose interpolation, Nginx configuration execution, startup
-ordering, migrations and stop/start volume persistence could not be executed here. Verify those with the commands
-above on a Docker-enabled host. The private hosted Site remains a static preview; these containers run on your host.
+## Verification boundary
 
-## Release 2.7 upgrade
-
-Keep `.env.docker` and the persistent `workout_data` volume. Run `sh scripts/docker-up.sh` (or `pnpm docker:up`)
-to rebuild both images. The one-shot migration service applies `0005_glorious_martin_li.sql`, creating ordered
-`workout_links` references, and reseeds before backend readiness is checked. Existing aggregate and per-set targets
-remain valid; copied routines are not automatically converted to references. Upgrade frontend and backend together.
-
-For manually managed Node deployments, run `pnpm db:migrate && pnpm db:seed` against the existing PostgreSQL instance
-before starting the new API. Take a database backup using the instructions above before your normal production upgrade.
-The new integration cases verify reference save/reload, parent-before-child import, safe deletion, invalid child edit
-rollback and competing cycle writes. Their execution remains unverified here because Docker/PostgreSQL are unavailable.
+Credential creation/preservation, real shell entrypoints, proxy configuration rendering, type checking and
+application tests are checked locally. Compose YAML and path references are validated. This environment has
+no Docker daemon, so image builds, actual Compose startup, PostgreSQL migrations and ARM64 execution still
+need verification on your Pi. Use `curl --fail http://localhost:8080/healthz` for the web healthcheck; open the
+configured origin to test saving and persistence.

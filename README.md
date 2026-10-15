@@ -6,6 +6,16 @@ and exercise progress charts calculated from saved sessions.
 Saved routines and date-filtered journal entries can be exported as spreadsheet-safe CSV files and imported after review.
 The visual design uses soft olive surfaces, generous spacing, and an editorial training banner.
 
+## Raspberry Pi and generic Docker Compose stacks
+
+Run the complete application with `sudo docker compose up` from the project root. For your existing Raspberry Pi
+Compose stack, add `include: [./form/compose.yaml]` and keep the complete source in the sibling `form/` folder.
+Set `x-form-origin` in `compose.app.yaml` to the Pi's browser URL once. Startup generates and retains private
+proxy credentials, migrates and seeds PostgreSQL, and connects the browser automatically; no `.env.docker`,
+manual token generation or additional startup flags are required. The exact database volume remains `workout_data`.
+See [Docker setup](docs/DOCKER.md) for inclusion, direct YAML copying, existing-data upgrades and backups.
+The database-only developer stack now lives in `compose.db.yaml`; never run both against the same volume.
+
 ## Release 2.13 — More exercises with verified images
 
 The public library now contains **1,272 image-backed exercises**, adding 30 distinct entries to discovery:
@@ -169,8 +179,8 @@ See [release details](docs/RELEASE-2.6.md) and [verification limits](docs/VALIDA
 
 ## Release 2.5 — Docker application stack
 
-Run the frontend, backend and PostgreSQL together with `sh scripts/docker-up.sh` on Linux/macOS/WSL, or use
-`pnpm docker:init` followed by `pnpm docker:up`. No host Node/pnpm installation is needed for the shell launcher.
+Run the frontend, backend and PostgreSQL together with `sudo docker compose up`, or use
+`pnpm docker:up`. No host Node/pnpm installation is needed for the shell launcher.
 Open http://localhost:8080; the app connects automatically using the private server proxy.
 Multi-stage images serve the production PWA through unprivileged Nginx and run compiled Express as the Node user.
 Compose waits for database health, a separate migration/seed job, then API health before starting the frontend.
@@ -379,8 +389,9 @@ shared/                    dependency-light Zod HTTP contracts and domain consta
 scripts/                   build precache, source checks and Docker credential/start helpers
 docker/                    Nginx configuration and API container readiness probe
 Dockerfile                 multi-stage frontend/backend production image targets
-compose.app.yaml           full application overlay, separate migration/seed job and health ordering
-compose.yaml               local PostgreSQL service only
+compose.app.yaml           standalone full app, generated credentials, migrations and health ordering
+compose.yaml               default full stack; includes compose.app.yaml
+compose.db.yaml            local-development PostgreSQL service only
 ```
 
 No backend module imports frontend implementation code. No frontend module imports backend runtime code.

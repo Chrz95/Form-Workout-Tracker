@@ -1,6 +1,9 @@
-# Add to compose.yaml to run the complete application without changing the database-only workflow.
-x-api: &api
-  image: form-workout-api:local
+# Standalone full stack. Include this file or compose.yaml from your main Compose file.
+# If copying these sections instead, change all three build contexts to your source folder.
+# Set your Pi browser URL here once (or set FORM_FRONTEND_ORIGIN in your main stack).
+x-form-origin: &form-origin ${FORM_FRONTEND_ORIGIN:-http://localhost:8080}
+
+x-form-api: &form-api
   build:
     context: .
     dockerfile: Dockerfile
@@ -10,63 +13,116 @@ x-api: &api
     HOST: 0.0.0.0
     PORT: 3001
     API_PREFIX: /api/v1
-    DATABASE_URL: ${FORM_DATABASE_URL:-postgresql://form_local:development_only@db:5433/form}
+    DATABASE_URL: ${FORM_DATABASE_URL:-postgresql://form_local:development_only@form-db:5433/form}
     DATABASE_POOL_MAX_CONNECTIONS: 10
     DATABASE_CONNECTION_TIMEOUT_IN_MILLISECONDS: 5000
-    CORS_ALLOWED_ORIGINS: ${FORM_FRONTEND_ORIGIN:-http://localhost:8080}
+    CORS_ALLOWED_ORIGINS: *form-origin
     LOG_LEVEL: ${FORM_LOG_LEVEL:-info}
-    API_ACCESS_TOKEN: ${DOCKER_API_ACCESS_TOKEN:?Create .env.docker using pnpm docker:init or the Docker setup guide}
+    API_ACCESS_TOKEN: ${DOCKER_API_ACCESS_TOKEN:-}
+    API_ACCESS_TOKEN_FILE: /run/form-credentials/api-token
+  volumes:
+    - form_credentials:/run/form-credentials:ro
+  networks: [form_network]
   init: true
   read_only: true
-  tmpfs:
-    - /tmp
+  tmpfs: [/tmp]
   cap_drop: [ALL]
   security_opt: [no-new-privileges:true]
   stop_grace_period: 15s
 
 services:
-  migrate:
-    <<: *api
+  form-init:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend
+    entrypoint: [node, docker/initialize-credentials.mjs]
     restart: "no"
-    # Explicit release task, separate from Express startup. A failed seed blocks the API.
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    network_mode: none
+    volumes:
+      - form_credentials:/run/form-credentials
+    healthcheck:
+      disable: true
+
+  form-db:
+    image: postgres:17-alpine
+    command: [postgres, -p, "5433"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: form_local
+      POSTGRES_PASSWORD: development_only
+      POSTGRES_DB: form
+    # No database host port: other applications can use their own PostgreSQL ports.
+    volumes:
+      - form_workout_data:/var/lib/postgresql/data
+    networks: [form_network]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U form_local -d form -p 5433"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  form-migrate:
+    <<: *form-api
+    restart: "no"
     command:
       - sh
       - -ec
       - node backend/dist/backend/src/db/migrate.js && node backend/dist/backend/src/db/seed.js
     depends_on:
-      db:
+      form-init:
+        condition: service_completed_successfully
+      form-db:
         condition: service_healthy
     healthcheck:
       disable: true
 
-  backend:
-    <<: *api
+  form-backend:
+    <<: *form-api
     restart: unless-stopped
     expose: ["3001"]
     depends_on:
-      db:
+      form-init:
+        condition: service_completed_successfully
+      form-db:
         condition: service_healthy
-      migrate:
+      form-migrate:
         condition: service_completed_successfully
 
-  frontend:
-    image: form-workout-web:local
+  form-frontend:
     build:
       context: .
       dockerfile: Dockerfile
       target: frontend
     environment:
-      API_ACCESS_TOKEN: ${DOCKER_API_ACCESS_TOKEN:?Create .env.docker using pnpm docker:init}
+      API_ACCESS_TOKEN: ${DOCKER_API_ACCESS_TOKEN:-}
+      API_ACCESS_TOKEN_FILE: /run/form-credentials/api-token
       FORM_AUTO_CONNECT: ${FORM_AUTO_CONNECT:-true}
-      FORM_FRONTEND_ORIGIN: ${FORM_FRONTEND_ORIGIN:-http://localhost:8080}
+      FORM_FRONTEND_ORIGIN: *form-origin
+      FORM_API_UPSTREAM: form-backend:3001
+    volumes:
+      - form_credentials:/run/form-credentials:ro
+    networks: [form_network]
     restart: unless-stopped
     read_only: true
-    tmpfs:
-      - /tmp
+    tmpfs: [/tmp]
     cap_drop: [ALL]
     security_opt: [no-new-privileges:true]
     ports:
-      - "${FORM_BIND_ADDRESS:-127.0.0.1}:${FORM_HTTP_PORT:-8080}:8080"
+      - "${FORM_BIND_ADDRESS:-0.0.0.0}:${FORM_HTTP_PORT:-8080}:8080"
     depends_on:
-      backend:
+      form-init:
+        condition: service_completed_successfully
+      form-backend:
         condition: service_healthy
+
+volumes:
+  form_workout_data:
+    name: workout_data
+  form_credentials:
+    name: form_credentials
+networks:
+  form_network:

@@ -53,6 +53,18 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 describe("Exercise discovery and draft behavior", () => {
+  it("adds a draft movement to My exercises immediately without duplicating it", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await screen.findByRole("button", { name: "Pushups" });
+    expect(screen.getByRole("button", { name: "My exercises (0)" })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Add Barbell Squat to workout" }));
+    await user.click(screen.getByRole("button", { name: "My exercises (1)" }));
+    expect(screen.getByRole("button", { name: "Barbell Squat" })).toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: "Pushups" })).not.toBeInTheDocument();
+    expect(screen.getAllByRole("button", { name: "Barbell Squat" })).toHaveLength(1);
+  });
+
   it("opens the workout logger without randomUUID on an HTTP LAN browser", async () => {
     const user = userEvent.setup();
     render(<App />);

@@ -97,6 +97,80 @@ async function connect(user: ReturnType<typeof userEvent.setup>) {
   await user.click(screen.getByRole("button", { name: /Create workout/ }));
 }
 describe("Nested workout builder", () => {
+  it("opens a saved review directly in the editor with notes and distinct targets intact", async () => {
+    fixtureWorkouts = [
+      {
+        ...child,
+        notes: "Keep the setup consistent.",
+        items: [{ ...child.items[0]!, notes: "Pause before pressing." }],
+      },
+    ];
+    const user = userEvent.setup();
+    render(<App />);
+    await connect(user);
+    await user.click(screen.getByRole("button", { name: "Close dialog" }));
+    await user.click(screen.getByRole("button", { name: "Review Push routine" }));
+    const preview = screen.getByRole("dialog", { name: "Review: Push routine" });
+    await user.click(within(preview).getByRole("button", { name: "Edit workout" }));
+    expect(screen.queryByRole("dialog", { name: "Review: Push routine" })).not.toBeInTheDocument();
+    const editor = screen.getByRole("dialog", { name: "Edit workout" });
+    expect(within(editor).getByLabelText("Workout name")).toHaveValue(child.name);
+    expect(within(editor).getByLabelText(/Notes optional/)).toHaveValue("Keep the setup consistent.");
+    expect(within(editor).getByLabelText("Note for Bench Press")).toHaveValue("Pause before pressing.");
+    expect(within(editor).getByLabelText("Set 1 weight")).toHaveValue(20);
+    expect(within(editor).getByLabelText("Set 2 weight")).toHaveValue(45);
+    expect(savedBody).toBeNull();
+  });
+  it("keeps component links when editing a composed review and protects an already open draft", async () => {
+    const parent = {
+      ...child,
+      id: "10000000-0000-4000-8000-000000000002",
+      name: "Combined day",
+      items: [],
+      includedWorkoutIds: [child.id],
+    };
+    fixtureWorkouts = [child, parent];
+    const user = userEvent.setup();
+    render(<App />);
+    await connect(user);
+    await user.click(screen.getByRole("button", { name: "Close dialog" }));
+    await user.click(screen.getByRole("button", { name: "Review Combined day" }));
+    await user.click(
+      within(screen.getByRole("dialog", { name: "Review: Combined day" })).getByRole("button", {
+        name: "Edit workout",
+      }),
+    );
+    const editor = screen.getByRole("dialog", { name: "Edit workout" });
+    expect(within(editor).getByLabelText("Workout name")).toHaveValue("Combined day");
+    expect(within(editor).getByText(/1. Push routine/)).toBeInTheDocument();
+    expect(within(editor).queryByLabelText("Set 1 weight")).not.toBeInTheDocument();
+    await user.click(within(editor).getByRole("button", { name: "Close dialog" }));
+    await user.click(screen.getByRole("button", { name: "Edit Push routine" }));
+    const childEditor = screen.getByRole("dialog", { name: "Edit workout" });
+    await user.type(within(childEditor).getByLabelText("Workout name"), " unsaved");
+    await user.click(within(childEditor).getByRole("button", { name: "Review full workout" }));
+    const draftPreview = screen.getByRole("dialog", { name: "Review: Push routine unsaved" });
+    expect(within(draftPreview).queryByRole("button", { name: "Edit workout" })).not.toBeInTheDocument();
+    await user.click(within(draftPreview).getByRole("button", { name: "Review parent Combined day" }));
+    const preview = screen.getByRole("dialog", { name: "Review: Combined day" });
+    const confirmation = vi.spyOn(window, "confirm").mockReturnValue(false);
+    try {
+      await user.click(within(preview).getByRole("button", { name: "Edit workout" }));
+      expect(confirmation).toHaveBeenCalledOnce();
+      expect(within(childEditor).getByLabelText("Workout name")).toHaveValue("Push routine unsaved");
+      expect(preview).toBeInTheDocument();
+      confirmation.mockReturnValue(true);
+      await user.click(within(preview).getByRole("button", { name: "Edit workout" }));
+      expect(screen.queryByRole("dialog", { name: "Review: Combined day" })).not.toBeInTheDocument();
+      expect(childEditor).not.toBeInTheDocument();
+      expect(screen.getByLabelText("Workout name")).toHaveValue("Combined day");
+      expect(screen.getByText(/1. Push routine/)).toBeInTheDocument();
+    } finally {
+      confirmation.mockRestore();
+    }
+    expect(savedBody).toBeNull();
+  });
+
   it("saves an exercise note, displays it in review, and restores it when editing", async () => {
     const user = userEvent.setup();
     render(<App />);

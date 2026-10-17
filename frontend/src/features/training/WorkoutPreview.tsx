@@ -84,6 +84,8 @@ export function WorkoutPreview({ studio }: StudioProps) {
         ))}
       </ol>
       <WorkoutPreviewActions
+        studio={studio}
+        saved={saved}
         isDraft={isDraft}
         hasError={Boolean(error)}
         onClose={() => studio.setWorkoutPreviewId(null)}

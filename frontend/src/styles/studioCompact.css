@@ -399,6 +399,14 @@
     background: var(--surface-raised);
     box-shadow: 0 -8px 14px var(--surface-raised);
   }
+  .workout-preview > .modal-actions:has(.review-edit-button) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .workout-preview > .modal-actions:has(.review-edit-button) > .button.primary {
+    grid-column: 1 / -1;
+  }
   .detail-tags {
     gap: 6px;
     margin-bottom: 8px;

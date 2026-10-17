@@ -15,7 +15,8 @@ import type { Plan } from "../../../shared/calendarContracts";
  */
 export function useStudio() {
   const records = useRecords();
-  const catalog = useCatalog(records.customExercises);
+  const [draftItems, setDraftItems] = useState<WorkoutItem[]>([]);
+  const catalog = useCatalog(records.customExercises, records.workouts, draftItems);
   const exerciseIdentities = useMemo(() => workoutIdentities(catalog.exercises), [catalog.exercises]);
   const live = useLiveWorkout({
     exercises: catalog.exercises,
@@ -34,7 +35,6 @@ export function useStudio() {
   const [isBuilderOpen, setIsBuilderOpen] = useState(false);
   const [isLoggerOpen, setIsLoggerOpen] = useState(false);
   const [draftWorkoutIds, setDraftWorkoutIds] = useState<string[]>([]);
-  const [draftItems, setDraftItems] = useState<WorkoutItem[]>([]);
   const [draftName, setDraftName] = useState("");
   const [draftNotes, setDraftNotes] = useState("");
   const [editingWorkoutId, setEditingWorkoutId] = useState<string | undefined>();

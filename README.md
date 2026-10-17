@@ -1,5 +1,12 @@
 # Form — Workout Studio
 
+## Personal collection and review editing (2.26)
+
+My exercises includes custom exercises and movements used in saved workouts or the current draft.
+Existing workouts populate the collection automatically, with canonical IDs and aliases counted once.
+Saved-workout reviews now offer Edit workout, retaining notes, set targets and component references.
+See [RELEASE-2.26.md](docs/RELEASE-2.26.md) for behavior and update instructions.
+
 ## Compact mobile training (2.25)
 
 Phone workout lists use compact thumbnail rows with Start and More. Previews summarize targets with

@@ -31,7 +31,11 @@ export function LibraryFilters({ studio }: StudioProps) {
         aria-live="polite"
       >
         <span>{studio.filteredExercises.length.toLocaleString("en-GB")} results</span>
-        <span>Find your focus. Make it your session.</span>
+        <span>
+          {studio.mineOnly
+            ? "Your custom exercises and movements from workouts."
+            : "Find your focus. Make it your session."}
+        </span>
       </div>
     </div>
   );

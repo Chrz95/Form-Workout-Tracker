@@ -1,18 +1,24 @@
 import { matchesExerciseFilters } from "./exerciseSearch.utils";
 import { useEffect, useMemo, useState } from "react";
-import type { Exercise } from "../../../../shared/contracts";
+import type { Exercise, Workout, WorkoutItem } from "../../../../shared/contracts";
 import { fetchCatalog } from "../../lib/api/client";
 import { WORKOUT_DEFAULTS } from "../../../../shared/constants";
 import { FEATURED_EXERCISES, MUSCLE_FILTERS, EQUIPMENT_FILTERS, LEVEL_FILTERS } from "./exercises.constants";
-import { CUSTOM_EXERCISE_PREFIX } from "../../../../shared/exerciseConstants";
+import { getMyExerciseIds } from "./myExercises.utils";
 /** Loads and filters the read-only catalog with cancellation.
  * @param {Exercise[]} customExercises - Authenticated owner additions.
+ * @param {Workout[]} workouts - Persisted routines used for personal membership.
+ * @param {WorkoutItem[]} draftItems - Current unsaved selections.
  * @returns {object} Catalog controls and matching exercises.
  */
-export function useCatalog(customExercises: Exercise[]) {
+export function useCatalog(customExercises: Exercise[], workouts: Workout[] = [], draftItems: WorkoutItem[] = []) {
   const [publicExercises, setPublicExercises] = useState<Exercise[]>([]);
   const exercises = useMemo(() => [...publicExercises, ...customExercises], [publicExercises, customExercises]);
   const discoverableExercises = useMemo(() => exercises.filter((exercise) => !exercise.isArchived), [exercises]);
+  const myExerciseIds = useMemo(
+    () => getMyExerciseIds(exercises, workouts, draftItems),
+    [exercises, workouts, draftItems],
+  );
   const [catalogError, setCatalogError] = useState("");
   const [search, setSearch] = useState("");
   const [muscle, setMuscle] = useState<string>(MUSCLE_FILTERS[0]);
@@ -21,7 +27,7 @@ export function useCatalog(customExercises: Exercise[]) {
   const [visibleCount, setVisibleCount] = useState<number>(WORKOUT_DEFAULTS.pageSize);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [favoritesOnly, setFavoritesOnly] = useState(false);
-  const [customOnly, setCustomOnly] = useState(false);
+  const [mineOnly, setMineOnly] = useState(false);
   useEffect(() => {
     const controller = new AbortController();
     fetchCatalog(controller.signal)
@@ -40,7 +46,7 @@ export function useCatalog(customExercises: Exercise[]) {
           return (
             matchesExerciseFilters(exercise, { search, muscle, equipment, level }) &&
             (!favoritesOnly || favorites.includes(exercise.id)) &&
-            (!customOnly || exercise.id.startsWith(CUSTOM_EXERCISE_PREFIX))
+            (!mineOnly || myExerciseIds.has(exercise.id))
           );
         })
         .sort((first, second) => {
@@ -51,7 +57,7 @@ export function useCatalog(customExercises: Exercise[]) {
             (secondRank < 0 ? FEATURED_EXERCISES.length : secondRank)
           );
         }),
-    [discoverableExercises, search, muscle, equipment, level, favoritesOnly, favorites, customOnly],
+    [discoverableExercises, search, muscle, equipment, level, favoritesOnly, favorites, mineOnly, myExerciseIds],
   );
 
   /** Toggles an in-memory bookmark.
@@ -69,11 +75,12 @@ export function useCatalog(customExercises: Exercise[]) {
     setEquipment(EQUIPMENT_FILTERS[0]);
     setLevel(LEVEL_FILTERS[0] ?? "");
     setFavoritesOnly(false);
-    setCustomOnly(false);
+    setMineOnly(false);
   }
   return {
-    customOnly,
-    setCustomOnly,
+    myExerciseIds,
+    mineOnly,
+    setMineOnly,
     muscleOptions: [
       MUSCLE_FILTERS[0],
       ...new Set([...MUSCLE_FILTERS.slice(1), ...discoverableExercises.flatMap((exercise) => exercise.primaryMuscles)]),

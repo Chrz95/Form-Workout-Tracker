@@ -1,6 +1,6 @@
 {
-  "version": "2.25.0",
-  "sourceCommit": "4ded024564650d5eb4527cf4982cd9b61c7e604e",
+  "version": "2.26.0",
+  "sourceCommit": "136228f9c1ef6fba3f989244d50f225bc9cf3062",
   "files": [
     {
       "path": ".dockerignore",
@@ -54,8 +54,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 70091,
-      "sha256": "e9dc57b1804cbd4e5d2c92799c2a9b1022b0d7589d83f3c80e6b8f9b4f85ec48"
+      "bytes": 70525,
+      "sha256": "a968f67ff857f04519133284d82c0b84662b987993036ec0c115f94c488e42c2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -591,6 +591,11 @@
       "path": "docs/RELEASE-2.25.md",
       "bytes": 3368,
       "sha256": "19372ced0668a9a2d69e99fbc613d41dbfda826d03feb0f8cac06aef11baafa6"
+    },
+    {
+      "path": "docs/RELEASE-2.26.md",
+      "bytes": 3423,
+      "sha256": "3c9dee04e90c49574e0d87b139602d4bef68d47842875607db6660fca25aade5"
     },
     {
       "path": "docs/RELEASE-2.3.md",
@@ -15554,8 +15559,8 @@
     },
     {
       "path": "frontend/src/app/App.test.tsx",
-      "bytes": 12987,
-      "sha256": "71c3ef32b3bafd41b841804e448a6e4df19a0e7184e1cb91ac27a48fdca8fb3c"
+      "bytes": 13728,
+      "sha256": "70a1574d2908782a78718baa2fea01360ca655c6d6e6fd2777d27f835458d3e0"
     },
     {
       "path": "frontend/src/app/App.tsx",
@@ -15564,8 +15569,8 @@
     },
     {
       "path": "frontend/src/app/StudioDialogs.tsx",
-      "bytes": 2243,
-      "sha256": "44551e0b45233d1f3d56da24068a480a58dda3cafe0bf697aadc3aa6da26c87b"
+      "bytes": 2350,
+      "sha256": "860d67060e263204d0354ca5f49ac8b15102dd7c1584e2025de818a0e2750879"
     },
     {
       "path": "frontend/src/app/app.constants.ts",
@@ -15584,13 +15589,13 @@
     },
     {
       "path": "frontend/src/app/nestedWorkouts.test.tsx",
-      "bytes": 16991,
-      "sha256": "341ef76b686d477348c18ef01f7ab3d5b091db24c6486830165170ff1bfa3c41"
+      "bytes": 21110,
+      "sha256": "d32fa68651794282c3d1e7529f7b54beb582aa8ef078c41253f197e68d1b500b"
     },
     {
       "path": "frontend/src/app/useStudio.ts",
-      "bytes": 8802,
-      "sha256": "bdde1b64964f9f875e4a9ce66560752646b4f15b0ea569357461c096bb68efc6"
+      "bytes": 8832,
+      "sha256": "ff38a122a3260d5af01a87ff590ff6888b60e593b167ac005540cd3f6f76629f"
     },
     {
       "path": "frontend/src/components/layout/ApiConnectionControl.tsx",
@@ -15784,8 +15789,8 @@
     },
     {
       "path": "frontend/src/features/exercises/LibraryActions.tsx",
-      "bytes": 1053,
-      "sha256": "374f2dba9e9ae3a369e4b821d25cc341607aebd635f37f4a9320b0e72aa93170"
+      "bytes": 1037,
+      "sha256": "cc4122049bb14534878075ca371f40e152a6c442a741c4a3cce7fee9e2f922c5"
     },
     {
       "path": "frontend/src/features/exercises/LibraryFilterFields.tsx",
@@ -15794,8 +15799,8 @@
     },
     {
       "path": "frontend/src/features/exercises/LibraryFilters.tsx",
-      "bytes": 1491,
-      "sha256": "0325c8c7076c79cc35a0aa5dac9b7f03089142eec5c834f6d59e586a204a2c2b"
+      "bytes": 1612,
+      "sha256": "0ee286c2cb0b15422848cf9dd087b772b743a3113fa91dc05fce4ed00850d35e"
     },
     {
       "path": "frontend/src/features/exercises/LibrarySkeleton.tsx",
@@ -15898,14 +15903,24 @@
       "sha256": "914710b39317549288c1743444aa3c2f297fef23f455701979a68ea6dcb8fb2f"
     },
     {
+      "path": "frontend/src/features/exercises/myExercises.test.tsx",
+      "bytes": 4523,
+      "sha256": "9cc7a41fb3ccd6870abfade50c4b22df41d7efd0be0398077f46b9c5760f6ff2"
+    },
+    {
+      "path": "frontend/src/features/exercises/myExercises.utils.ts",
+      "bytes": 1246,
+      "sha256": "dc06e24e26e6995c633e74a8d3e9b0e8b2ed012384a936d706316e94b104c813"
+    },
+    {
       "path": "frontend/src/features/exercises/requestedSearch.test.tsx",
       "bytes": 1816,
       "sha256": "43ea66503f043e1b1371f45f549cc91c64e39002a471f6b1a4d401035a96e416"
     },
     {
       "path": "frontend/src/features/exercises/useCatalog.ts",
-      "bytes": 4133,
-      "sha256": "00fb0e254f2497b50fd3ad9b238d0934663a767a7c2c24af16b8b61d27b16341"
+      "bytes": 4481,
+      "sha256": "cb4f13985af1b46908eb1edce2642dd97c5bb74c6793e46d424828ea5b1011ba"
     },
     {
       "path": "frontend/src/features/training/ConnectionBanner.tsx",
@@ -16049,13 +16064,13 @@
     },
     {
       "path": "frontend/src/features/training/WorkoutPreview.tsx",
-      "bytes": 3523,
-      "sha256": "6d3cfdd0e96d5c7966af902cd4abdfb5857483bbbb91953f9de06f4664e8819e"
+      "bytes": 3569,
+      "sha256": "00552dd3f8afc9430989c294274829f416990f037166d2d635a4ede318a8253a"
     },
     {
       "path": "frontend/src/features/training/WorkoutPreviewActions.tsx",
-      "bytes": 1237,
-      "sha256": "2fab7bdd4d2bbfd1dfc573bc3c5e803027c53f07567faca93c75c8a8e273945f"
+      "bytes": 2263,
+      "sha256": "ee9cc08e9318ae660eb335fb639410c5f9ab88a09bfe6124e72af29e154b322d"
     },
     {
       "path": "frontend/src/features/training/WorkoutPreviewItem.tsx",
@@ -16419,8 +16434,8 @@
     },
     {
       "path": "frontend/src/styles/studioCompact.css",
-      "bytes": 10314,
-      "sha256": "fc8b1c92420232f85a45b3243a7265fd0464f2938519caf315a94a68fd9a2733"
+      "bytes": 10578,
+      "sha256": "c8267b4ca6a5d1e484869c953277b594f5fbb7c7b09580e579202661baec19dd"
     },
     {
       "path": "frontend/src/styles/studioDialogs.css",
@@ -16570,7 +16585,7 @@
     {
       "path": "package.json",
       "bytes": 3690,
-      "sha256": "12e5a6a0fa43b648355b37b56accfc8b833d2445765a59a786ff0a1f23934534"
+      "sha256": "87ea1ff045fdbb9cab6c1b5fea8dac9be7f46c5677c1cc5097352c27cfd88891"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -16759,8 +16774,8 @@
     },
     {
       "path": "START-HERE.md",
-      "bytes": 1737,
-      "sha256": "3b48ae707cc33fa6520eff988533daf46cee5afa23aa7f7130c82503f35f101e"
+      "bytes": 1869,
+      "sha256": "d6314db6f539ff86fea07db433a284d8dcd039c2e0d585fa9234ff327dbb4a38"
     },
     {
       "path": "verify-project.mjs",

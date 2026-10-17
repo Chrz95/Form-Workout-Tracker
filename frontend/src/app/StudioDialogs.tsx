@@ -17,7 +17,12 @@ export function StudioDialogs({ studio }: StudioProps) {
   return (
     <div>
       {studio.live.isOpen && <LiveWorkoutDialog studio={studio} />}
-      {studio.isBuilderOpen && <WorkoutEditor studio={studio} />}
+      {studio.isBuilderOpen && (
+        <WorkoutEditor
+          key={`workout-editor-${studio.editingWorkoutId ?? "draft"}`}
+          studio={studio}
+        />
+      )}
       {studio.isLoggerOpen && <SessionEditor studio={studio} />}
       {studio.customExerciseEditor && (
         <CustomExerciseEditor

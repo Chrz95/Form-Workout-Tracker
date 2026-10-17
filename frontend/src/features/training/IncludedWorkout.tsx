@@ -59,6 +59,7 @@ export function IncludedWorkout({ studio, id, index }: IncludedWorkoutProps) {
               </button>
               {" · "}
               {item.sets} sets
+              {item.notes && <span className="exercise-note"> · {item.notes}</span>}
             </p>
           );
         })}

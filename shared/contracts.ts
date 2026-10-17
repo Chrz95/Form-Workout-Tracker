@@ -1,3 +1,4 @@
+import { exerciseGuideSchema } from "./exerciseGuideContracts.js";
 import { WORKOUT_GRAPH_LIMITS } from "./workoutGraph.js";
 import { INPUT_LIMITS } from "./constants.js";
 import { performedSetSchema } from "./setContracts.js";
@@ -19,6 +20,7 @@ export const exerciseSchema = z.object({
   canonicalId: z.string().optional(),
   isArchived: z.boolean().optional(),
   aliases: z.array(z.string()).optional(),
+  guides: z.array(exerciseGuideSchema).max(2).optional(),
   source: z
     .object({
       name: z.string(),
@@ -70,6 +72,7 @@ export type Exercise = z.infer<typeof exerciseSchema>;
 /** A planned or completed exercise prescription. */
 const prescriptionSchema = z.object({
   exerciseId: z.string().min(1),
+  notes: z.string().max(INPUT_LIMITS.notes).optional(),
   sets: z.number().int().min(1).max(INPUT_LIMITS.sets),
   reps: z.number().int().min(1).max(INPUT_LIMITS.reps),
   weight: z.number().min(0).max(INPUT_LIMITS.weight),

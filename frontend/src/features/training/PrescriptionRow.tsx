@@ -1,8 +1,8 @@
+import { PrescriptionOptions } from "./PrescriptionOptions";
 import { PlannedSetsEditor } from "./PlannedSetsEditor";
 import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
 import { ICON_SIZE } from "../../../../shared/constants";
 import { Trash2 } from "lucide-react";
-import { PrescriptionOrder } from "./PrescriptionOrder";
 import { getExerciseThumbnail } from "../exercises";
 import { type WorkoutItem } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
@@ -50,12 +50,6 @@ export function PrescriptionRow({ item, studio }: PrescriptionRowProps) {
             <small>Review exercise ↗</small>
           </button>
           <small>{exercise?.primaryMuscles.join(", ")}</small>
-          <PrescriptionOrder
-            exerciseId={item.exerciseId}
-            position={position}
-            onMove={moveItem}
-            studio={studio}
-          />
         </div>
         <button
           type="button"
@@ -70,6 +64,13 @@ export function PrescriptionRow({ item, studio }: PrescriptionRowProps) {
       </div>
       <PlannedSetsEditor
         item={item}
+        studio={studio}
+      />
+      <PrescriptionOptions
+        item={item}
+        name={exercise?.name ?? item.exerciseId}
+        position={position}
+        onMove={moveItem}
         studio={studio}
       />
     </div>

@@ -48,13 +48,35 @@ export function useLiveWorkout(dependencies: LiveDependencies) {
                 ? {
                     ...exercise,
                     sets: exercise.sets.map((set) =>
-                      set.localId === localId && !set.isCompleted ? { ...set, [field]: value } : set,
+                      !set.isCompleted &&
+                      (set.localId === localId ||
+                        ((field === "reps" || field === "weight") &&
+                          exercise.sets[0]?.localId === localId &&
+                          !exercise.sets[0].isCompleted))
+                        ? { ...set, [field]: value }
+                        : set,
                     ),
                   }
                 : exercise,
             ),
           }
         : null,
+    );
+  }
+  /** Updates this session's exercise note without changing the saved routine.
+   * @param {string} exerciseId - Movement identifier.
+   * @param {string} notes - Editable reminder.
+   */
+  function updateExerciseNote(exerciseId: string, notes: string) {
+    setWorkout((previous) =>
+      previous && previous.phase === LIVE_PHASE.training
+        ? {
+            ...previous,
+            exercises: previous.exercises.map((exercise) =>
+              exercise.exerciseId === exerciseId ? { ...exercise, notes } : exercise,
+            ),
+          }
+        : previous,
     );
   }
   /** Validates an actual set before marking it complete; completion starts rest.
@@ -227,6 +249,7 @@ export function useLiveWorkout(dependencies: LiveDependencies) {
     rest,
     startWorkout,
     updateSet,
+    updateExerciseNote,
     toggleSet,
     addSet,
     removeSet,

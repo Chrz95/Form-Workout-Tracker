@@ -29,7 +29,7 @@ export function ConnectionBanner({ studio }: StudioProps) {
         </>
       ) : (
         <>
-          Training preview · connect your API to save workouts, history and custom exercises.
+          Connect your training server to save routines and history.
           <button onClick={() => studio.setIsConnectionOpen(true)}>
             Connect <span>↗</span>
           </button>

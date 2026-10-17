@@ -1,0 +1,1741 @@
+{
+  "flow": [
+    {
+      "exerciseId": "hasan:1263",
+      "sourceId": "1263",
+      "name": "Seated Single-Arm Cable Fly on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1263",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1263/frame-00.svg",
+            "sha256": "824755af5344ca055f503183c212e60804b3b8a6e88e37f2562b92a2924e1fbf",
+            "sourceMasterSha256": "9487aa79a0363b7a43ffb2b6e12437151370c565ec73721d41124ac3a6600e23"
+          },
+          {
+            "path": "assets/1263/frame-01.svg",
+            "sha256": "7cdb6c0be1b45274941e622364dabbcceb13dcb799c6cdcd290a599a49133d5b",
+            "sourceMasterSha256": "0c35ae5b57a289ea97a2d5d26eee44ed99ab476b7bcf3a5cf62508a69338552d"
+          },
+          {
+            "path": "assets/1263/frame-02.svg",
+            "sha256": "0b676b1b8217050b3d8c1ae03abe4ec4775f447724251dd171c3abc56f02e2ca",
+            "sourceMasterSha256": "fb3bb1d0af69b3d37d3579c19fa970a4b606db8979cdd4b776a30b8c2b4ce8e9"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1263/frame-00.svg",
+          "sourceSha256": "824755af5344ca055f503183c212e60804b3b8a6e88e37f2562b92a2924e1fbf",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1263/0.svg",
+          "bytes": 8748,
+          "sha256": "50bfceb36242f54eba122775c223ec17bd88b2d7ad6e69490a9c255e05d47da5"
+        },
+        {
+          "sourcePath": "assets/1263/frame-01.svg",
+          "sourceSha256": "7cdb6c0be1b45274941e622364dabbcceb13dcb799c6cdcd290a599a49133d5b",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1263/1.svg",
+          "bytes": 8835,
+          "sha256": "daa10cece2baebc3741e09feb52f3d083b5fb087aaaf77ac6b7f923ed4a87700"
+        },
+        {
+          "sourcePath": "assets/1263/frame-02.svg",
+          "sourceSha256": "0b676b1b8217050b3d8c1ae03abe4ec4775f447724251dd171c3abc56f02e2ca",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1263/2.svg",
+          "bytes": 8881,
+          "sha256": "052e30282db75fe2f514fdd261fd7fedb3f5bfa09b26be5388bbdcedae512b15"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1267",
+      "sourceId": "1267",
+      "name": "Seated Single-Arm Cable Press on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1267",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1267/frame-00.svg",
+            "sha256": "5700b9c832689ede9b1f1fe716ec24d05e1c1f26058045eefd5b101ec2d1430f",
+            "sourceMasterSha256": "d3c200cac980ee649cdc5470b9f5408c72fa13842d3dc50fb07c479b6682648a"
+          },
+          {
+            "path": "assets/1267/frame-01.svg",
+            "sha256": "39d9f944ad6e8e71534d84968ec62657fd96daa22a86a9271f4d873a3cbfe0cc",
+            "sourceMasterSha256": "a79a2a34de297e02f1a1ff2aa0a16b4eabb03dd341e1a844da870debb734fb19"
+          },
+          {
+            "path": "assets/1267/frame-02.svg",
+            "sha256": "bbac933f6f0850743bc08f0d4f3bbae14331651257f26571450623edad02a117",
+            "sourceMasterSha256": "97d3e2e253c907d305d3622e401846f607bb241fd00cea1d79c212fd15a85f0a"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1267/frame-00.svg",
+          "sourceSha256": "5700b9c832689ede9b1f1fe716ec24d05e1c1f26058045eefd5b101ec2d1430f",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1267/0.svg",
+          "bytes": 10151,
+          "sha256": "08845e87685cb516735561c5ff6076911a8dd370a5ac0e1ccfb11eab8e9a2df1"
+        },
+        {
+          "sourcePath": "assets/1267/frame-01.svg",
+          "sourceSha256": "39d9f944ad6e8e71534d84968ec62657fd96daa22a86a9271f4d873a3cbfe0cc",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1267/1.svg",
+          "bytes": 11236,
+          "sha256": "6b181a7ba799464a53a84ebde27d603378acb6b5280ed2b5a646df949fab0831"
+        },
+        {
+          "sourcePath": "assets/1267/frame-02.svg",
+          "sourceSha256": "bbac933f6f0850743bc08f0d4f3bbae14331651257f26571450623edad02a117",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1267/2.svg",
+          "bytes": 10468,
+          "sha256": "783f96baad9e16c4acd55899161e1460baa844510d93ef5014d690f9026a275c"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1637",
+      "sourceId": "1637",
+      "name": "Seated Overhead Cable Curl on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1637",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1637/frame-00.svg",
+            "sha256": "2d1ed6ea154b5afaa6f7630455000214452657465a0a1d309bb6b7dad7db4c12",
+            "sourceMasterSha256": "d39733601ffc6323aa3aa90c3f8ffa57685f99ce66d51dd56315ec13494678bf"
+          },
+          {
+            "path": "assets/1637/frame-01.svg",
+            "sha256": "7a20c6e77c6ec5b2b1dcfa3aa73fe82bd8df4efac140c21d9070b3c4fae2419b",
+            "sourceMasterSha256": "e51cd9304e9945bdc02fdef5d3069b8b8a3035be3bab8e93992f9719fc8311f4"
+          },
+          {
+            "path": "assets/1637/frame-02.svg",
+            "sha256": "7d8d3b5befa745601fdd01cc53546e88cd5e198948e130e8a2b415f9f310cbf8",
+            "sourceMasterSha256": "cef9422bbe814e1f31a30c4caed5cd45cdb817fbd99abd607f73859191c753f7"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1637/frame-00.svg",
+          "sourceSha256": "2d1ed6ea154b5afaa6f7630455000214452657465a0a1d309bb6b7dad7db4c12",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1637/0.svg",
+          "bytes": 8205,
+          "sha256": "97c457ec24156fd9a6e1dbce4e3fa76999b04f7aff73e9682d7f08f6b24cea53"
+        },
+        {
+          "sourcePath": "assets/1637/frame-01.svg",
+          "sourceSha256": "7a20c6e77c6ec5b2b1dcfa3aa73fe82bd8df4efac140c21d9070b3c4fae2419b",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1637/1.svg",
+          "bytes": 7830,
+          "sha256": "9540c4051cbf14ea27770c1dbaf2347ef40fd9ab853bf2f11db9b0928d74656d"
+        },
+        {
+          "sourcePath": "assets/1637/frame-02.svg",
+          "sourceSha256": "7d8d3b5befa745601fdd01cc53546e88cd5e198948e130e8a2b415f9f310cbf8",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1637/2.svg",
+          "bytes": 8224,
+          "sha256": "59a31871cd0b825316fcbc5edd286540337426cee1b2368b99963b0813dd6826"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1268",
+      "sourceId": "1268",
+      "name": "Seated Cable Chest Press on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1268",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1268/frame-00.svg",
+            "sha256": "cbaf859e479b0db872bf1348a3e1dc63b969ffc206014c007754f2f69c9574fe",
+            "sourceMasterSha256": "6aad8da477dbbf3503cb9bbb4b203e973844ec17fc5baaa59affbab5cfcc22a3"
+          },
+          {
+            "path": "assets/1268/frame-01.svg",
+            "sha256": "573c2df1e768be4fa4ca0777c6d2bc5310419feb23b5a1a0e3b87f9899e34a15",
+            "sourceMasterSha256": "270c544fc4ba854f7ff403c1cdb6b456d1910b92032293a8f1126a65c79df2b6"
+          },
+          {
+            "path": "assets/1268/frame-02.svg",
+            "sha256": "80329087e275496dcf5e9b820efce405e262b24c3c48b184bd877d30915cd039",
+            "sourceMasterSha256": "af58d44797e0a3c887cfc30253965b9790cd7a27461e2998cb337b6c0d809ff4"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1268/frame-00.svg",
+          "sourceSha256": "cbaf859e479b0db872bf1348a3e1dc63b969ffc206014c007754f2f69c9574fe",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1268/0.svg",
+          "bytes": 8789,
+          "sha256": "6a97a7e1d194fa42a85ef4cf0f694a7135c61b108522e58734d161a8952006ed"
+        },
+        {
+          "sourcePath": "assets/1268/frame-01.svg",
+          "sourceSha256": "573c2df1e768be4fa4ca0777c6d2bc5310419feb23b5a1a0e3b87f9899e34a15",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1268/1.svg",
+          "bytes": 9627,
+          "sha256": "b2520009ac8c5e7dea6a22d1cf4386b70f6a119d4312e206eb639a8d2aac862e"
+        },
+        {
+          "sourcePath": "assets/1268/frame-02.svg",
+          "sourceSha256": "80329087e275496dcf5e9b820efce405e262b24c3c48b184bd877d30915cd039",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1268/2.svg",
+          "bytes": 8855,
+          "sha256": "122d00f8571a02239c21133cafa8d3e90d7fe222ea457250be3d06dfc619b6d2"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:0211",
+      "sourceId": "0211",
+      "name": "Seated Stability Ball Cable Twist",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "0211",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/0211/frame-00.svg",
+            "sha256": "8178b7fd260b7803fb04e1112104068528c84e1b0245bb8f4ee4a6bcb64493bd",
+            "sourceMasterSha256": "5e14a3b64cbad58deee9b9ec56b4f9fbf5b248ae72734c191f112c627c828465"
+          },
+          {
+            "path": "assets/0211/frame-01.svg",
+            "sha256": "828cb27585fac4967969074a16106f14ab19f867bd1bbfbb9c2d5ad4b8167db2",
+            "sourceMasterSha256": "7d9d74247bc6d45d5f26f37df0dd0c6aecd3e1676f4b10a09d2212ba5b9d6ebb"
+          },
+          {
+            "path": "assets/0211/frame-02.svg",
+            "sha256": "d1e76d866d7ff7b620636fb97605e220469ef36b8aa6ae558d566d09b20b4e4c",
+            "sourceMasterSha256": "dffa3f65614033dd58b941b24fa3471dc13d4421238cca17d68dc96440af2b0c"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/0211/frame-00.svg",
+          "sourceSha256": "8178b7fd260b7803fb04e1112104068528c84e1b0245bb8f4ee4a6bcb64493bd",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/0211/0.svg",
+          "bytes": 10260,
+          "sha256": "2406b8098016818d74150a405e874793911a7d4f36cca971707369f015553def"
+        },
+        {
+          "sourcePath": "assets/0211/frame-01.svg",
+          "sourceSha256": "828cb27585fac4967969074a16106f14ab19f867bd1bbfbb9c2d5ad4b8167db2",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/0211/1.svg",
+          "bytes": 10738,
+          "sha256": "44fe040107d043b0359a200375536a6b5fbd986c385b6755ad717eef99f55b41"
+        },
+        {
+          "sourcePath": "assets/0211/frame-02.svg",
+          "sourceSha256": "d1e76d866d7ff7b620636fb97605e220469ef36b8aa6ae558d566d09b20b4e4c",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/0211/2.svg",
+          "bytes": 11108,
+          "sha256": "804728e6bb14a039ca3c5cd58fbb4da8854071cc4cdb2796f1b2f36639f8f0b8"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:2399",
+      "sourceId": "2399",
+      "name": "Seated Cable Twist",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "2399",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/2399/frame-00.svg",
+            "sha256": "9b1a9d50a4b625274ac672e867e88248ef201c5d3c2d77ac025098242fed1e62",
+            "sourceMasterSha256": "e8a70a060b0a63f3ca0ca7fbb80890b3442eac57055a36eb769f0e5fb27f282f"
+          },
+          {
+            "path": "assets/2399/frame-01.svg",
+            "sha256": "1a75ffbe88e058a3aa553053e9707da29e3e7153918508093cb90aae10a66b70",
+            "sourceMasterSha256": "9eac1dba63a8fb8fe0fb5c44c8d7b188d36d46a3e9b4f703ded4f7e5aafcc4c8"
+          },
+          {
+            "path": "assets/2399/frame-02.svg",
+            "sha256": "b9396dba7217c59f8e39c030bb62e0a3fcc55daf1fe57a7c18b7775aed6cf8ee",
+            "sourceMasterSha256": "1b373f5d5b5b6893823ab5ce0230c7012d284200ab2af5575ac5136223e8df56"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/2399/frame-00.svg",
+          "sourceSha256": "9b1a9d50a4b625274ac672e867e88248ef201c5d3c2d77ac025098242fed1e62",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/2399/0.svg",
+          "bytes": 14970,
+          "sha256": "e86eb68c2e9194a3be2389ca3e8d31a4229e438e1d1928a53ec42016d18c12a2"
+        },
+        {
+          "sourcePath": "assets/2399/frame-01.svg",
+          "sourceSha256": "1a75ffbe88e058a3aa553053e9707da29e3e7153918508093cb90aae10a66b70",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/2399/1.svg",
+          "bytes": 16178,
+          "sha256": "6f700233596eef15fcdda5cd1ee405fa9e713d62ff567dd8b93461a4c311713d"
+        },
+        {
+          "sourcePath": "assets/2399/frame-02.svg",
+          "sourceSha256": "b9396dba7217c59f8e39c030bb62e0a3fcc55daf1fe57a7c18b7775aed6cf8ee",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/2399/2.svg",
+          "bytes": 15413,
+          "sha256": "8cb505ae94f4b5136a9c4e543e57e90954cacf37a8fde6f9d44268a7d0e4ddcd"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1717",
+      "sourceId": "1717",
+      "name": "Cable Squat to Row with Rope",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1717",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1717/frame-00.svg",
+            "sha256": "5f1bbd3cdf5ded7f9a1361e50ebe0bf2f4cf2ff5f81ce0a748c7c2eeaa301888",
+            "sourceMasterSha256": "f563f9ffaad2217d2fafa639d67c9708cb15bdfcca2605916394cd5ff9a08481"
+          },
+          {
+            "path": "assets/1717/frame-01.svg",
+            "sha256": "db92d8042b53320d7bdce5a3f678523a2372b803c806c5a46f79dfb1948d3ac1",
+            "sourceMasterSha256": "dde4819109e87fa6f2daa8c7f461bfe81d4f4ab6ba19c9f91cf74f5860768481"
+          },
+          {
+            "path": "assets/1717/frame-02.svg",
+            "sha256": "ba90d71020f20368b91a2abe8f2471ad085f8a2047595ee30cdee1caf08bd599",
+            "sourceMasterSha256": "133f635f8187c6d8834f8f8b85ce2a5f4663f367e900c5dd57311494fa0f19ff"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1717/frame-00.svg",
+          "sourceSha256": "5f1bbd3cdf5ded7f9a1361e50ebe0bf2f4cf2ff5f81ce0a748c7c2eeaa301888",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1717/0.svg",
+          "bytes": 11828,
+          "sha256": "161cbac48e89245b76c55900bf2ca927117f69384e1661c0c0cec17767337603"
+        },
+        {
+          "sourcePath": "assets/1717/frame-01.svg",
+          "sourceSha256": "db92d8042b53320d7bdce5a3f678523a2372b803c806c5a46f79dfb1948d3ac1",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1717/1.svg",
+          "bytes": 12191,
+          "sha256": "497f69cd3beada13a833c3e03d488ac9e8e5acdfd7bb18a157ba2e3ccfb66de0"
+        },
+        {
+          "sourcePath": "assets/1717/frame-02.svg",
+          "sourceSha256": "ba90d71020f20368b91a2abe8f2471ad085f8a2047595ee30cdee1caf08bd599",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1717/2.svg",
+          "bytes": 11727,
+          "sha256": "74f82b82002dbbeadaed62be7ca68cc8f4ef128a62f936404de1326e1b11424e"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:0244",
+      "sourceId": "0244",
+      "name": "Standing Single-Arm Cable Row with Rotation",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "0244",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/0244/frame-00.svg",
+            "sha256": "de0ba2e4e0434b62e0b90f30c83d6018d05fe2b1a1c8d2952071c12766ccace6",
+            "sourceMasterSha256": "22f05737545fb4cbf0f6b69203ba85039b07f48da78d3e16fdf2a95885309b9e"
+          },
+          {
+            "path": "assets/0244/frame-01.svg",
+            "sha256": "afa84f9da501bcaf14f4bcfadd02ad38a4cd20a47bea8f6b4cec3a4a77364e93",
+            "sourceMasterSha256": "9a3dc120940f8f5dfe349a6789ff9503b9eb889fda6d8856e2fe03c1cc651650"
+          },
+          {
+            "path": "assets/0244/frame-02.svg",
+            "sha256": "1577eb7ff526a968308a244e0ac4c96e300500e1efd7d1225513d2b94a01b2e4",
+            "sourceMasterSha256": "8dcf9e3baea175acf0bab70baacc9d1baadbe0b4444fc48da08f7c8f0573d43a"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/0244/frame-00.svg",
+          "sourceSha256": "de0ba2e4e0434b62e0b90f30c83d6018d05fe2b1a1c8d2952071c12766ccace6",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/0244/0.svg",
+          "bytes": 13952,
+          "sha256": "3f5aeb81dd82b34ee6aa89455927a935ae10bcd48676976e6433a93e4a99a1c0"
+        },
+        {
+          "sourcePath": "assets/0244/frame-01.svg",
+          "sourceSha256": "afa84f9da501bcaf14f4bcfadd02ad38a4cd20a47bea8f6b4cec3a4a77364e93",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/0244/1.svg",
+          "bytes": 14937,
+          "sha256": "a4c121b2d4bfdc653f1f505ae144c461389a4b3dba075e1bdf403e42335eba0e"
+        },
+        {
+          "sourcePath": "assets/0244/frame-02.svg",
+          "sourceSha256": "1577eb7ff526a968308a244e0ac4c96e300500e1efd7d1225513d2b94a01b2e4",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/0244/2.svg",
+          "bytes": 13007,
+          "sha256": "27d1f6f58f52615a13a5d52cbe0e8121f5865db3766a315e1a5fd8403e0dea57"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1645",
+      "sourceId": "1645",
+      "name": "Incline Cable Biceps Curl",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1645",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1645/frame-00.svg",
+            "sha256": "10df03382811194605d0ea6392c6833c9b7873f3e0bc860e2171db3b1fa14b53",
+            "sourceMasterSha256": "24badf0b2bb815c4df0995a52af1f1b595e11f57625cb95f036fdb49e30a4b7b"
+          },
+          {
+            "path": "assets/1645/frame-01.svg",
+            "sha256": "42b0b0b1d9ad3f3f9fcb5cf41841aa44384d627e902544cb5bb35bb3c9c464a4",
+            "sourceMasterSha256": "c6e9ae9a4b18919641159638eacc11dbc4e1eaeb0d87819dcb09e830b8b6b3fb"
+          },
+          {
+            "path": "assets/1645/frame-02.svg",
+            "sha256": "c0ccc4ef753829011d6ee94bf953a14a1dadf06fda9a9afb2caf36c8369c380e",
+            "sourceMasterSha256": "c63169eed0da06a126e4f51e16377cf29fed8f22330d3f50d6d6ee41e0f8fcb2"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1645/frame-00.svg",
+          "sourceSha256": "10df03382811194605d0ea6392c6833c9b7873f3e0bc860e2171db3b1fa14b53",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1645/0.svg",
+          "bytes": 17159,
+          "sha256": "5ed5c7f8f198992cbe01ed348c8e948258afcad3393e19cc3ce8a15de9ac6919"
+        },
+        {
+          "sourcePath": "assets/1645/frame-01.svg",
+          "sourceSha256": "42b0b0b1d9ad3f3f9fcb5cf41841aa44384d627e902544cb5bb35bb3c9c464a4",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1645/1.svg",
+          "bytes": 18160,
+          "sha256": "bf69804de6bda0c09e95e4798993af95e467e7773a7bd8d8b32edf12930add92"
+        },
+        {
+          "sourcePath": "assets/1645/frame-02.svg",
+          "sourceSha256": "c0ccc4ef753829011d6ee94bf953a14a1dadf06fda9a9afb2caf36c8369c380e",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1645/2.svg",
+          "bytes": 17144,
+          "sha256": "736f1af07d8953a31aa59a1e6225f46cee1e5a249d5555d0fd7170a267c600cb"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1728",
+      "sourceId": "1728",
+      "name": "Two-Arm Cable Triceps Kickback",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1728",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1728/frame-00.svg",
+            "sha256": "989a6c222087663d36b28ca7c97e788432a8ca8c6662f919b8fdb1d462d37186",
+            "sourceMasterSha256": "6d8cf911a297107d456ea288a553b00ea5bf7cf6a288dbf8e3c66e8d48791161"
+          },
+          {
+            "path": "assets/1728/frame-01.svg",
+            "sha256": "0a9bc19c0875a2bf3ce0384a2460e9121e2496fe446e052f0ea49ed37aa1e6bf",
+            "sourceMasterSha256": "f678b0658a00b4333945f3b8a10cb79483dc65cfa1247c3d69830c429f76c2dc"
+          },
+          {
+            "path": "assets/1728/frame-02.svg",
+            "sha256": "0c63d35388f0711e8e3c64c67ee4f6ac1d7013a442fbadc2a290b0e7d7e6fcf8",
+            "sourceMasterSha256": "b1b161e6cac179be8edbeaca7d8d50c7f55c1b156fc7c0de7acbcba55c911475"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1728/frame-00.svg",
+          "sourceSha256": "989a6c222087663d36b28ca7c97e788432a8ca8c6662f919b8fdb1d462d37186",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1728/0.svg",
+          "bytes": 10439,
+          "sha256": "3f71f3deb8315fad6fa7a9440168d0ae7042906276e5010e548b08bc64b88b23"
+        },
+        {
+          "sourcePath": "assets/1728/frame-01.svg",
+          "sourceSha256": "0a9bc19c0875a2bf3ce0384a2460e9121e2496fe446e052f0ea49ed37aa1e6bf",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1728/1.svg",
+          "bytes": 10672,
+          "sha256": "502be76c77c03ac232f87ee77aefe6b4905987b0fbceb1d416bc36ac29da80d9"
+        },
+        {
+          "sourcePath": "assets/1728/frame-02.svg",
+          "sourceSha256": "0c63d35388f0711e8e3c64c67ee4f6ac1d7013a442fbadc2a290b0e7d7e6fcf8",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1728/2.svg",
+          "bytes": 10612,
+          "sha256": "afa6dde9d09ef751307240cad44dcac0d8d0f934d336b2dd582456cf58faabc4"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1651",
+      "sourceId": "1651",
+      "name": "Dumbbell Lunge Curl with Bowling Motion",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1651",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1651/frame-00.svg",
+            "sha256": "e7a5c9b3d47ab363b1022895db9f9b6d6ff7085e62fd9b5ed67ad4c6dd0c39dc",
+            "sourceMasterSha256": "4921974ebf458f275a744aa144adb226def6f2aa3c0e2b2cf9aac3af2d50f1cb"
+          },
+          {
+            "path": "assets/1651/frame-01.svg",
+            "sha256": "3e39ac0a89fbce7a891412223b7f5696f18cdfd177cb366d1a81bf4ce565c481",
+            "sourceMasterSha256": "c6582ba82b27d662dc0bdf0db58b46ec2f406cfd7fa69f90f6c2c3acfd9b9e49"
+          },
+          {
+            "path": "assets/1651/frame-02.svg",
+            "sha256": "771e18f634636245086a0e549d6f35ed8b0e824c16b6831faaff3df30d6dfa29",
+            "sourceMasterSha256": "039e08beccb05e45bd89b220851cbb2f8380386adf986c4000e88ae760179691"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1651/frame-00.svg",
+          "sourceSha256": "e7a5c9b3d47ab363b1022895db9f9b6d6ff7085e62fd9b5ed67ad4c6dd0c39dc",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1651/0.svg",
+          "bytes": 11271,
+          "sha256": "fd58f6bb64efd51fe67e0d6085bb0db5244bc8183700d3697225365481e4fe2a"
+        },
+        {
+          "sourcePath": "assets/1651/frame-01.svg",
+          "sourceSha256": "3e39ac0a89fbce7a891412223b7f5696f18cdfd177cb366d1a81bf4ce565c481",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1651/1.svg",
+          "bytes": 12523,
+          "sha256": "07108a144c45547bd5c2bc1ed410d3b6f839e7538e6a0c56085a2ff97330818e"
+        },
+        {
+          "sourcePath": "assets/1651/frame-02.svg",
+          "sourceSha256": "771e18f634636245086a0e549d6f35ed8b0e824c16b6831faaff3df30d6dfa29",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1651/2.svg",
+          "bytes": 13670,
+          "sha256": "108d4bdd7676de095b5725b1eee51cb6d189424472c535d36f83d23efbdbb201"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1276",
+      "sourceId": "1276",
+      "name": "Single-Arm Decline Dumbbell Fly",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1276",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1276/frame-00.svg",
+            "sha256": "d3eb6fa322446fbd1cf537a4c388b06e43b19bd8da49e46299abfb5e35cbe658",
+            "sourceMasterSha256": "238497a9db5d3a1ca6a73a0beaa37f0d7683f7df25e69465f3a34babf7228e45"
+          },
+          {
+            "path": "assets/1276/frame-01.svg",
+            "sha256": "444767508232a25da931ec4e1ccb13af9c44b212da386bbd358beb6a224b54ae",
+            "sourceMasterSha256": "5a5f5c2856599c45e2a05fa3ef131713a3264e9c2c55d9170e73820565a49bc8"
+          },
+          {
+            "path": "assets/1276/frame-02.svg",
+            "sha256": "1d165b5113493bc5ed7db82cc28df3ffe2be5a259c696a4d20dd92c1d0f50771",
+            "sourceMasterSha256": "45e11dd2cda843bcbea248c711738c27fa9e7a4c8d66e9d58d75cc3fac2bf1bd"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1276/frame-00.svg",
+          "sourceSha256": "d3eb6fa322446fbd1cf537a4c388b06e43b19bd8da49e46299abfb5e35cbe658",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1276/0.svg",
+          "bytes": 15963,
+          "sha256": "f82d03cbe97b35fa9cc50ecb1ebd922dfaa17cf6e0b4f49932ef0e3b2651d692"
+        },
+        {
+          "sourcePath": "assets/1276/frame-01.svg",
+          "sourceSha256": "444767508232a25da931ec4e1ccb13af9c44b212da386bbd358beb6a224b54ae",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1276/1.svg",
+          "bytes": 15576,
+          "sha256": "31a1b6405712736397525818ec67103ad56cb82c8c16b369ec14987ae7f01175"
+        },
+        {
+          "sourcePath": "assets/1276/frame-02.svg",
+          "sourceSha256": "1d165b5113493bc5ed7db82cc28df3ffe2be5a259c696a4d20dd92c1d0f50771",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1276/2.svg",
+          "bytes": 14917,
+          "sha256": "1266f2f6e10a169efe205c0e3daacd15c0a64205c2b10ee5af221632eaf0aa3d"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1283",
+      "sourceId": "1283",
+      "name": "Dumbbell Chest Press on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1283",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1283/frame-00.svg",
+            "sha256": "7cff25b56e05ffae4cc8b45ec62da5bbdf1349d14d7abbc9ecb2c0dbe63ba2ca",
+            "sourceMasterSha256": "66fa5b723d36efe97af1c1e7cb44e68cd15160614c27c88580afa61503484f9f"
+          },
+          {
+            "path": "assets/1283/frame-01.svg",
+            "sha256": "92758e5b890a824da7f7e06e75d06a8f3e2c2e248346163bcaf1ff6f028a4cc7",
+            "sourceMasterSha256": "887b443002cb636ea43ab4cd45908252a0b980dc676deef4b12ee63488fa2f55"
+          },
+          {
+            "path": "assets/1283/frame-02.svg",
+            "sha256": "98df5db6772a4ec55f8606ec3ac5fe0a7664487a17047261bf3a943073ec7d26",
+            "sourceMasterSha256": "6d22f4f738b3270d179ecaade84fbe51b98db17c7dd2c6c3cab9410b4ac81cff"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1283/frame-00.svg",
+          "sourceSha256": "7cff25b56e05ffae4cc8b45ec62da5bbdf1349d14d7abbc9ecb2c0dbe63ba2ca",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1283/0.svg",
+          "bytes": 13795,
+          "sha256": "738bcf36c887d490c4b17c97255ca9f96cf6732ec62960a4d87c38189cf3aef6"
+        },
+        {
+          "sourcePath": "assets/1283/frame-01.svg",
+          "sourceSha256": "92758e5b890a824da7f7e06e75d06a8f3e2c2e248346163bcaf1ff6f028a4cc7",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1283/1.svg",
+          "bytes": 14178,
+          "sha256": "8e6f009bd4578930675bebf9a21353d512500714441fd2fdb45406d75b318738"
+        },
+        {
+          "sourcePath": "assets/1283/frame-02.svg",
+          "sourceSha256": "98df5db6772a4ec55f8606ec3ac5fe0a7664487a17047261bf3a943073ec7d26",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1283/2.svg",
+          "bytes": 14278,
+          "sha256": "56010043c1192d6ac0d2aac1e76ee717f932a52648039e3aa0e1522d922eb0bb"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1668",
+      "sourceId": "1668",
+      "name": "Seated Single-Arm Dumbbell Curl on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1668",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1668/frame-00.svg",
+            "sha256": "08c23339ae0795c71228bf7c7d8ab50c7b6d79cabfc5025de20913d8a3b8be2f",
+            "sourceMasterSha256": "320f1795b013ae67f364fa808ee5945355ec05bbe8967deb42eaf6c8c698c353"
+          },
+          {
+            "path": "assets/1668/frame-01.svg",
+            "sha256": "26a6ec74e3d69016f29839f8f909f2dc913a9da408e5c51aa62e0c56e2d8dbaa",
+            "sourceMasterSha256": "20d9a6819a546044aaa54f7d0291b99c53483ef982adbabc89d525a0dc02a432"
+          },
+          {
+            "path": "assets/1668/frame-02.svg",
+            "sha256": "414463f96cb971ad50f9d366a65de3b9559325ffc405539b9a612128dc349186",
+            "sourceMasterSha256": "39807c7b126c05d8b8cffa40e724fabe3eaefa8156dad2de854cb40e4405a400"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1668/frame-00.svg",
+          "sourceSha256": "08c23339ae0795c71228bf7c7d8ab50c7b6d79cabfc5025de20913d8a3b8be2f",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1668/0.svg",
+          "bytes": 16564,
+          "sha256": "27267947f65c079f29348d37fd789742abc102af9aa40d8f7108646cbc766552"
+        },
+        {
+          "sourcePath": "assets/1668/frame-01.svg",
+          "sourceSha256": "26a6ec74e3d69016f29839f8f909f2dc913a9da408e5c51aa62e0c56e2d8dbaa",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1668/1.svg",
+          "bytes": 15717,
+          "sha256": "73318c5e7bc19936c5259015d1a30eff2ce14059345e5b0fa7a056d48f126503"
+        },
+        {
+          "sourcePath": "assets/1668/frame-02.svg",
+          "sourceSha256": "414463f96cb971ad50f9d366a65de3b9559325ffc405539b9a612128dc349186",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1668/2.svg",
+          "bytes": 16362,
+          "sha256": "275f02907d2bf819550c9b75623e12cbaddb0180509ea721db4e903f89db66b9"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1666",
+      "sourceId": "1666",
+      "name": "Single-Arm Prone Dumbbell Hammer Curl on Flat Bench",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1666",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1666/frame-00.svg",
+            "sha256": "289d4d17fc114a75e17eed69db2833b01303b49006bb6696b2ea3ff7d3bfa93b",
+            "sourceMasterSha256": "1cd603545458e6df6274abcfd11be6f55cddba4f2808ff43d544e72ef4f598bc"
+          },
+          {
+            "path": "assets/1666/frame-01.svg",
+            "sha256": "d6a012602f6b604055119a39d68ced2f3f4bd3ba87456135a3a248e751733a78",
+            "sourceMasterSha256": "70ede7e3d6e4dae71f0c37a8221c4136af7abf5f859492821947eb3402b9876f"
+          },
+          {
+            "path": "assets/1666/frame-02.svg",
+            "sha256": "fb0ea767d139e4024a688a0c5aea5695883c69843bbfcde1d9f6d1b9a2b33ca0",
+            "sourceMasterSha256": "34f19ca027131ae8cdfa6e54edfaf0ef9d382195c4e0d2dd6d0dc8fef8790d39"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1666/frame-00.svg",
+          "sourceSha256": "289d4d17fc114a75e17eed69db2833b01303b49006bb6696b2ea3ff7d3bfa93b",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1666/0.svg",
+          "bytes": 13189,
+          "sha256": "abaf5d6de8b4e0d72fac6fb6930d4519eb801ac1e42b44849cd54e86001cbb32"
+        },
+        {
+          "sourcePath": "assets/1666/frame-01.svg",
+          "sourceSha256": "d6a012602f6b604055119a39d68ced2f3f4bd3ba87456135a3a248e751733a78",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1666/1.svg",
+          "bytes": 13487,
+          "sha256": "71f125bd972971ff844513ce6fa99acee4e926f546b5322d2dbf7a8aea3aec5c"
+        },
+        {
+          "sourcePath": "assets/1666/frame-02.svg",
+          "sourceSha256": "fb0ea767d139e4024a688a0c5aea5695883c69843bbfcde1d9f6d1b9a2b33ca0",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1666/2.svg",
+          "bytes": 12948,
+          "sha256": "5eebf62a1fafea9ddd034c64a9a1f1be09c564effffcf8479a0aabc649ff929e"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1329",
+      "sourceId": "1329",
+      "name": "Dumbbell Bent-Over Row with Grip Rotation",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1329",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1329/frame-00.svg",
+            "sha256": "537e05f1a87639802acbecc3047412614a025aeaa88210a7498c046b4e29452b",
+            "sourceMasterSha256": "386b1421256a29a429ced40fb634bcd841b27f85fc2491ff5595b426a0d58c79"
+          },
+          {
+            "path": "assets/1329/frame-01.svg",
+            "sha256": "447f5bea1a8865c7623c22e9bad48d35c8c9be4eaf5becc351d0d92db1fc3e6f",
+            "sourceMasterSha256": "822b2fad179d0c291cb8d02838b2082786a1762ce84a348632a1aacf38aa6465"
+          },
+          {
+            "path": "assets/1329/frame-02.svg",
+            "sha256": "e85ccf9aeedeec1e20d8a20bc21a6a84260a342d1acc194a65bf24e86a0ce946",
+            "sourceMasterSha256": "aefb7bb2264fdb0fdfd43ae58ab1ae19c77c0ce323b0a6cc91549ec3290131d2"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1329/frame-00.svg",
+          "sourceSha256": "537e05f1a87639802acbecc3047412614a025aeaa88210a7498c046b4e29452b",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1329/0.svg",
+          "bytes": 11412,
+          "sha256": "68d4d990c6a4c3459f32fe331bcb79725c518be1cdb0187d29e6e80988ac2fa0"
+        },
+        {
+          "sourcePath": "assets/1329/frame-01.svg",
+          "sourceSha256": "447f5bea1a8865c7623c22e9bad48d35c8c9be4eaf5becc351d0d92db1fc3e6f",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1329/1.svg",
+          "bytes": 12029,
+          "sha256": "37f389d4bba957650159ef7bcfcd66b158a4f2a0453033636927de4c2d383caa"
+        },
+        {
+          "sourcePath": "assets/1329/frame-02.svg",
+          "sourceSha256": "e85ccf9aeedeec1e20d8a20bc21a6a84260a342d1acc194a65bf24e86a0ce946",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1329/2.svg",
+          "bytes": 11848,
+          "sha256": "2b98eec7dab34eac27295b4e7106c7fee1189d26e4e3c058cade86a53f381413"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1730",
+      "sourceId": "1730",
+      "name": "Alternating Seated Dumbbell Triceps Kickback",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1730",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1730/frame-00.svg",
+            "sha256": "6f942dcdb7e47737a9eb6d1fe646afa77b7a45de6fcfde34d1c77563f584a9b8",
+            "sourceMasterSha256": "1487d2db054d6828781e800d2f1c4314b5313b675698cb22bbbf3bd2546ecf77"
+          },
+          {
+            "path": "assets/1730/frame-01.svg",
+            "sha256": "55eb163589a1e798b0b8ce394e5015d067d4e8661f68c90712d611ab3366f20f",
+            "sourceMasterSha256": "7fd8cc7dc88538ee246293cf90a272ada08c90b9bf442d28967f2dff3154f681"
+          },
+          {
+            "path": "assets/1730/frame-02.svg",
+            "sha256": "8c1ca59aec972f32b4ffa4fb91c6d877bf09c1e9a43c906b7bca850d0d8faed2",
+            "sourceMasterSha256": "0cf0e5e78cd8beac7b66e4042bb8115ad0b7c0a2ac8e31fcd84dff1347315b90"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1730/frame-00.svg",
+          "sourceSha256": "6f942dcdb7e47737a9eb6d1fe646afa77b7a45de6fcfde34d1c77563f584a9b8",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1730/0.svg",
+          "bytes": 14581,
+          "sha256": "b8c01cbcaef78f52178d47a9e38abcdaa7e5eb262b5a5ca3c82accca3c635873"
+        },
+        {
+          "sourcePath": "assets/1730/frame-01.svg",
+          "sourceSha256": "55eb163589a1e798b0b8ce394e5015d067d4e8661f68c90712d611ab3366f20f",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1730/1.svg",
+          "bytes": 14141,
+          "sha256": "3ffcdc13667cde1c39d88ca4a392848d5afcb0ec667783cd7c6f4f595ed2cbd7"
+        },
+        {
+          "sourcePath": "assets/1730/frame-02.svg",
+          "sourceSha256": "8c1ca59aec972f32b4ffa4fb91c6d877bf09c1e9a43c906b7bca850d0d8faed2",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1730/2.svg",
+          "bytes": 14203,
+          "sha256": "c7820328e8f93d3f2cf833658b7b3be3760b355b5a3949ef143ec11ff4559dcc"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:0394",
+      "sourceId": "1737",
+      "name": "Seated Two-Arm Dumbbell Triceps Kickback",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1737",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1737/frame-00.svg",
+            "sha256": "360552b21f6a9d6023176fae2af2b7f9670dfab124110a87aad86ed311091b38",
+            "sourceMasterSha256": "19b844bd898facecbe2a228a87b407a1b0a6ebf66cb83e34e967d76742128b35"
+          },
+          {
+            "path": "assets/1737/frame-01.svg",
+            "sha256": "fe5a7919d2b638f1e8f7437072a30bfaf0bda01e55061277e731a23f6bda977d",
+            "sourceMasterSha256": "f2b00a4da99da2597adf58b220fb1c595e791d968511735b03734afb11641ee2"
+          },
+          {
+            "path": "assets/1737/frame-02.svg",
+            "sha256": "4ecefa55c92ac5d7acfbd0cd6c40172a8b3850f9446db8a3404f4fc4ab47f1e0",
+            "sourceMasterSha256": "cc7d145685a13e75c717cb6981c484ebf69ef09ea70b03717403e896e9b3b0fd"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1737/frame-00.svg",
+          "sourceSha256": "360552b21f6a9d6023176fae2af2b7f9670dfab124110a87aad86ed311091b38",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1737/0.svg",
+          "bytes": 13470,
+          "sha256": "d6b119f324d2bd212c5d8970c8d506a4d8ee91893f0317a84ffad527116104ad"
+        },
+        {
+          "sourcePath": "assets/1737/frame-01.svg",
+          "sourceSha256": "fe5a7919d2b638f1e8f7437072a30bfaf0bda01e55061277e731a23f6bda977d",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1737/1.svg",
+          "bytes": 13592,
+          "sha256": "d7dbb7976c8bb373b64b34d0fdb9f4098c41c09215e93822c90278e8d14a1026"
+        },
+        {
+          "sourcePath": "assets/1737/frame-02.svg",
+          "sourceSha256": "4ecefa55c92ac5d7acfbd0cd6c40172a8b3850f9446db8a3404f4fc4ab47f1e0",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1737/2.svg",
+          "bytes": 13491,
+          "sha256": "666ae439405eb937aeed28253a13607eff5eaee0bd4a6782f674a92fb49930c4"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1744",
+      "sourceId": "1744",
+      "name": "Stability Ball Triceps Dip",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1744",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1744/frame-00.svg",
+            "sha256": "5346d99648436690e6c68bc5a77f01044b63e89245dddb3b0daedd762a37ed50",
+            "sourceMasterSha256": "62bc0b2346ac000c03058cf2e301bdebed0860f361c0e7d455b3182bc6c8c3e8"
+          },
+          {
+            "path": "assets/1744/frame-01.svg",
+            "sha256": "7392498b1cd9ec1a4717a08db20545a70cba09ece35c1da387574b84a8ab61e7",
+            "sourceMasterSha256": "8f1c13ba673a6f6c38d2388247022374f3b9d65a19233d3d114a62b50f12a597"
+          },
+          {
+            "path": "assets/1744/frame-02.svg",
+            "sha256": "a8289ecf8294e06f6b08d7d2d3f7c70fee3f7f57c9544fd8a9d8e2ada36c6e44",
+            "sourceMasterSha256": "d1957fddb9f200b531db493e90847371afa3c7ab30cacfaab003bd853c0e3599"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1744/frame-00.svg",
+          "sourceSha256": "5346d99648436690e6c68bc5a77f01044b63e89245dddb3b0daedd762a37ed50",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1744/0.svg",
+          "bytes": 8269,
+          "sha256": "ae0b3b4e808c00651e8c40d569b4b5c5f72de5fcb9fde3fcc44cae10f55b2181"
+        },
+        {
+          "sourcePath": "assets/1744/frame-01.svg",
+          "sourceSha256": "7392498b1cd9ec1a4717a08db20545a70cba09ece35c1da387574b84a8ab61e7",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1744/1.svg",
+          "bytes": 8149,
+          "sha256": "d5bafbac0447813a72789c1080e785d4eb69a4704cf3bcc1f338bde18b283c91"
+        },
+        {
+          "sourcePath": "assets/1744/frame-02.svg",
+          "sourceSha256": "a8289ecf8294e06f6b08d7d2d3f7c70fee3f7f57c9544fd8a9d8e2ada36c6e44",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1744/2.svg",
+          "bytes": 8259,
+          "sha256": "e94f8fec6e21104da72a919819e300dcc9f88a681043d32a71f2455ffdfd2900"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1746",
+      "sourceId": "1746",
+      "name": "Seated Dumbbell Overhead Triceps Extension on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1746",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1746/frame-00.svg",
+            "sha256": "ee952aba5959223f10a46234aa50ce44f3b73e448465fe7523cd05c5cb670616",
+            "sourceMasterSha256": "699787fdab97e8a5b703bae581b362bbbd4477a6fe623538df539228d2240369"
+          },
+          {
+            "path": "assets/1746/frame-01.svg",
+            "sha256": "ffc37944a222e744338b5814b7cb6065f889b4f8d2fd407160cb723602b141c2",
+            "sourceMasterSha256": "e1ea6346f48be83591c758d37cc040b417cb1880f398589bda238cbde452cede"
+          },
+          {
+            "path": "assets/1746/frame-02.svg",
+            "sha256": "eff3d6ba1e74578d194272d176547c73a6c0d0ec5528099011c75126f324db02",
+            "sourceMasterSha256": "23a97fd04f05f7a2b5edf7f8b8f7fbe2ef59332e0dae4c2a353d44a117f3e236"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1746/frame-00.svg",
+          "sourceSha256": "ee952aba5959223f10a46234aa50ce44f3b73e448465fe7523cd05c5cb670616",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1746/0.svg",
+          "bytes": 8350,
+          "sha256": "60d72e0be6f0044721e04c304bed3f93ca7a2789f754ed2cffeb56f50d6e194e"
+        },
+        {
+          "sourcePath": "assets/1746/frame-01.svg",
+          "sourceSha256": "ffc37944a222e744338b5814b7cb6065f889b4f8d2fd407160cb723602b141c2",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1746/1.svg",
+          "bytes": 8372,
+          "sha256": "d94acb8bec3429707ba5d9b1015553882987dc8bfda5cfecd0d710af45fe7333"
+        },
+        {
+          "sourcePath": "assets/1746/frame-02.svg",
+          "sourceSha256": "eff3d6ba1e74578d194272d176547c73a6c0d0ec5528099011c75126f324db02",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1746/2.svg",
+          "bytes": 8357,
+          "sha256": "f6c14504915ec126feebfb3a0435f8a5215c9729d12f4ecf83112d718616e93d"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1747",
+      "sourceId": "1747",
+      "name": "Seated EZ-Bar Overhead Triceps Extension on Stability Ball",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1747",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1747/frame-00.svg",
+            "sha256": "eda2b752776c941c5bfbd2c012e24d08dca6ab6555070bc3158a26d6ebfafae9",
+            "sourceMasterSha256": "8d6b866b428e1c179780423a21738c4af2482afe591af6d14791d390d32d9cb9"
+          },
+          {
+            "path": "assets/1747/frame-01.svg",
+            "sha256": "aab9dafb2358fd60751b671486a7a60c3eda6f538f6dcb63a6dc52fdf1beb8ff",
+            "sourceMasterSha256": "898dbfc13492ff6f8e84a261a37976010962a8be29eefd2b41a907d3d97a9979"
+          },
+          {
+            "path": "assets/1747/frame-02.svg",
+            "sha256": "e947fa665a4ee9766915b3d3bf85590891f779b4a40efd2e7c92f075b9e1400c",
+            "sourceMasterSha256": "743c73d708346b67334fad98df4f9f2012a00ee757ae77c9164d548f60b534ee"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1747/frame-00.svg",
+          "sourceSha256": "eda2b752776c941c5bfbd2c012e24d08dca6ab6555070bc3158a26d6ebfafae9",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1747/0.svg",
+          "bytes": 12206,
+          "sha256": "447801eb50aeb7f7b36ad997bc11a03c30353134183da718613c7012f43018a0"
+        },
+        {
+          "sourcePath": "assets/1747/frame-01.svg",
+          "sourceSha256": "aab9dafb2358fd60751b671486a7a60c3eda6f538f6dcb63a6dc52fdf1beb8ff",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1747/1.svg",
+          "bytes": 10040,
+          "sha256": "3a25d0d278aa20ad46234f3de6d2129f1a5d34ee5d1ed24b913e238b323f5a9c"
+        },
+        {
+          "sourcePath": "assets/1747/frame-02.svg",
+          "sourceSha256": "e947fa665a4ee9766915b3d3bf85590891f779b4a40efd2e7c92f075b9e1400c",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1747/2.svg",
+          "bytes": 10243,
+          "sha256": "ef79cfec7bb0f5e42163dd03c33cf3af2744766a0de3da1be24d02c31b8492f6"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1761",
+      "sourceId": "1761",
+      "name": "Hanging Oblique Knee Raise",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1761",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1761/frame-00.svg",
+            "sha256": "b587f5396a82309ca661d99c36f84f7550fc66ecf6a8deffb15fd0e7b2169b69",
+            "sourceMasterSha256": "66a976f33d8832b390f4d62846e57848fac7a77afc7dda6a1f54c2d3c15da8a3"
+          },
+          {
+            "path": "assets/1761/frame-01.svg",
+            "sha256": "3446e447e3e5e4edde7340f03feb5d7c3b6ff405eb943c14a238f22c0ef1a0e5",
+            "sourceMasterSha256": "5cfb32a32378ff42199eff103668d8e49a1dabb38107a485e3c0139b27432da8"
+          },
+          {
+            "path": "assets/1761/frame-02.svg",
+            "sha256": "df206c61bfde90983cda644ca1b43c151cd26903018ca4c1e8e6bc33cc77eafe",
+            "sourceMasterSha256": "1a794260a6ca405e19fd2963e23c847256a60f101e8da106987baef2adc803aa"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1761/frame-00.svg",
+          "sourceSha256": "b587f5396a82309ca661d99c36f84f7550fc66ecf6a8deffb15fd0e7b2169b69",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1761/0.svg",
+          "bytes": 11386,
+          "sha256": "68e038c128c178e3aa1af1815e3eb8fd62f624b89fe344fd650fd81b83096ab7"
+        },
+        {
+          "sourcePath": "assets/1761/frame-01.svg",
+          "sourceSha256": "3446e447e3e5e4edde7340f03feb5d7c3b6ff405eb943c14a238f22c0ef1a0e5",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1761/1.svg",
+          "bytes": 11802,
+          "sha256": "070fea24e6396485c89016bb2e16c9833b5a8a51843190213b5d3be31fdbb534"
+        },
+        {
+          "sourcePath": "assets/1761/frame-02.svg",
+          "sourceSha256": "df206c61bfde90983cda644ca1b43c151cd26903018ca4c1e8e6bc33cc77eafe",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1761/2.svg",
+          "bytes": 11397,
+          "sha256": "d712c02748e0a318e432422e04609673f54d866cfa1da87e8da84956e2a970d3"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:3638",
+      "sourceId": "3638",
+      "name": "Push-Up to Mountain Climber",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "3638",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/3638/frame-00.svg",
+            "sha256": "089fa32e7b385b5403603b207e5198470cdce93ea2af1189511d612a35d84c32",
+            "sourceMasterSha256": "ea88f450d3780dec713fd9a45b08bdc097492afac001497a5033f7547339bc93"
+          },
+          {
+            "path": "assets/3638/frame-01.svg",
+            "sha256": "49467ebbb5f50429c5a26531f5404e690be6be2991a47179cd0ab9a2ccab6d9a",
+            "sourceMasterSha256": "1db256ff40d8fa7f2e34e05320555b29ff12be1e300c41c14cf05c82fb2fab27"
+          },
+          {
+            "path": "assets/3638/frame-02.svg",
+            "sha256": "f2f2eb5c264981d0e4830eaee11f6ca5e3158e241a218ab7e56c4d61ecbeebe1",
+            "sourceMasterSha256": "769e98f0b622e0a336c3c6e1ff7f8dd8efd1865f9f185d9476ff2aa78251d168"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/3638/frame-00.svg",
+          "sourceSha256": "089fa32e7b385b5403603b207e5198470cdce93ea2af1189511d612a35d84c32",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/3638/0.svg",
+          "bytes": 5982,
+          "sha256": "0e49e000201fdd496de22a10fbe8ca43e0030a8908ea8b4875f726875342d3ce"
+        },
+        {
+          "sourcePath": "assets/3638/frame-01.svg",
+          "sourceSha256": "49467ebbb5f50429c5a26531f5404e690be6be2991a47179cd0ab9a2ccab6d9a",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/3638/1.svg",
+          "bytes": 5886,
+          "sha256": "6dd8d677fe6f775b987fa0be4d5969024e247f00d6254c673f7232eb1085f127"
+        },
+        {
+          "sourcePath": "assets/3638/frame-02.svg",
+          "sourceSha256": "f2f2eb5c264981d0e4830eaee11f6ca5e3158e241a218ab7e56c4d61ecbeebe1",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/3638/2.svg",
+          "bytes": 6431,
+          "sha256": "abfeeea2ebd19f8069a25e835f7876b141bb05f036ae7acb8497a50bd88820b5"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:0661",
+      "sourceId": "0661",
+      "name": "Push-Up with Inside Leg Kick",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "0661",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/0661/frame-00.svg",
+            "sha256": "2e0a1b27f1242caf15f4da8523e725a43510eb0333fac312d3093bf96bbb4226",
+            "sourceMasterSha256": "255d070420e208e509cbf863acdbd54068d5cc75569be3acf71477ccef2e4b7e"
+          },
+          {
+            "path": "assets/0661/frame-01.svg",
+            "sha256": "f904f7b3255f8a56c2aa09fe31505120184825e3f5d7705d3b6777aa9825dd55",
+            "sourceMasterSha256": "3db7c8e44bb6ab1e8604c2a86ecc06c6f12abd1527e61c258c34811c66797089"
+          },
+          {
+            "path": "assets/0661/frame-02.svg",
+            "sha256": "3c22fb676f5a14d7f898a7b2c64cb7fddc55a96418f0dc7d3237c98e6cfe1402",
+            "sourceMasterSha256": "7b8ea658f4812ff1f6a339cdceb2ea8cea5cab1923ea62146b08ee5e004761bb"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/0661/frame-00.svg",
+          "sourceSha256": "2e0a1b27f1242caf15f4da8523e725a43510eb0333fac312d3093bf96bbb4226",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/0661/0.svg",
+          "bytes": 11058,
+          "sha256": "55e890a2e4de78724d15b91c90132213470d47dc198b670dae022fed753f1081"
+        },
+        {
+          "sourcePath": "assets/0661/frame-01.svg",
+          "sourceSha256": "f904f7b3255f8a56c2aa09fe31505120184825e3f5d7705d3b6777aa9825dd55",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/0661/1.svg",
+          "bytes": 9805,
+          "sha256": "fcb7556d5fc90f210b4608d0989d8700e29877c86b92bdd864031d32c5d69209"
+        },
+        {
+          "sourcePath": "assets/0661/frame-02.svg",
+          "sourceSha256": "3c22fb676f5a14d7f898a7b2c64cb7fddc55a96418f0dc7d3237c98e6cfe1402",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/0661/2.svg",
+          "bytes": 11581,
+          "sha256": "f86951ab4030e99ca70655ec30dc21f8d60c400cbc36e7e37159a3c1e4d6f6cd"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1774",
+      "sourceId": "1774",
+      "name": "Side Plank with Top Leg Raise",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1774",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1774/frame-00.svg",
+            "sha256": "dbc1408992908f4f38bb5712e8862f969513ac2fb4095a16ece58e41213fbb9a",
+            "sourceMasterSha256": "7066b8ad674475d2030c4a60d2e4bcf3be46252d2bbecd801f523fe9baabbc9e"
+          },
+          {
+            "path": "assets/1774/frame-01.svg",
+            "sha256": "5076f4482b7b46a2452354f179ca4b4908d96d84099a26d6ac5e32151e07f5ff",
+            "sourceMasterSha256": "cf7c1f8b9d7c00bc6ba8c40dd604a58346742de157bec5ad59dee1018e7ac3d3"
+          },
+          {
+            "path": "assets/1774/frame-02.svg",
+            "sha256": "f9fb43e4dcd0bd49db4e3d8b4175ac3ae15c4751b28c54c1f04142aff69fe886",
+            "sourceMasterSha256": "e1c85b73289ed8b097fea373758f2790dfee1d8dbb0892fafc57075c77a9c603"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1774/frame-00.svg",
+          "sourceSha256": "dbc1408992908f4f38bb5712e8862f969513ac2fb4095a16ece58e41213fbb9a",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1774/0.svg",
+          "bytes": 7521,
+          "sha256": "33bc52fd64b649bf89a21bb653f3434ff2e1c9b73289b64178b8d259fa34797e"
+        },
+        {
+          "sourcePath": "assets/1774/frame-01.svg",
+          "sourceSha256": "5076f4482b7b46a2452354f179ca4b4908d96d84099a26d6ac5e32151e07f5ff",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1774/1.svg",
+          "bytes": 8065,
+          "sha256": "a484740a3967ef3771a9fdb78f45f42493c5dedbd85b09c2b78683b21b6ee8de"
+        },
+        {
+          "sourcePath": "assets/1774/frame-02.svg",
+          "sourceSha256": "f9fb43e4dcd0bd49db4e3d8b4175ac3ae15c4751b28c54c1f04142aff69fe886",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1774/2.svg",
+          "bytes": 7498,
+          "sha256": "704d512c3f055eba9499d1b640b371fb047d72b3121134ffb0aa99bbb53eeba2"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:0709",
+      "sourceId": "0709",
+      "name": "Parallel Bar Straight-Leg Side Raise",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "0709",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/0709/frame-00.svg",
+            "sha256": "2df588e944696ca6ea02d45dc13b8ade8752887cf0fa8633f51dcd049154ff92",
+            "sourceMasterSha256": "3683993bbc324f1c53f4124996ac676c9a82c759d5442c1833fb9ed1ee762d95"
+          },
+          {
+            "path": "assets/0709/frame-01.svg",
+            "sha256": "e0e90dfde81ed6c01aa826167e5ffe2dd3c6c10131fa919268569614bc462ee0",
+            "sourceMasterSha256": "aa8afe607712e6b67d07817706f00d70bb2f64f49f258752c415f8d177aeaa30"
+          },
+          {
+            "path": "assets/0709/frame-02.svg",
+            "sha256": "35c3b540dabce069c0fd1e57ab62bf2ed83d957ac7219e6856e82021cec79de0",
+            "sourceMasterSha256": "db18ae49b335fa56b2290b66a1271043ea43437124a563aed1a2033a7ebd7d64"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/0709/frame-00.svg",
+          "sourceSha256": "2df588e944696ca6ea02d45dc13b8ade8752887cf0fa8633f51dcd049154ff92",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/0709/0.svg",
+          "bytes": 9840,
+          "sha256": "6d78a8cb584d1f5741bb254f172d946b292b9ea75ac00c4fbdc8a5a7c88a0532"
+        },
+        {
+          "sourcePath": "assets/0709/frame-01.svg",
+          "sourceSha256": "e0e90dfde81ed6c01aa826167e5ffe2dd3c6c10131fa919268569614bc462ee0",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/0709/1.svg",
+          "bytes": 10008,
+          "sha256": "d809eefd350211d0fb7120739c4fc511f9fbf67bd3b888da685c787056051ca6"
+        },
+        {
+          "sourcePath": "assets/0709/frame-02.svg",
+          "sourceSha256": "35c3b540dabce069c0fd1e57ab62bf2ed83d957ac7219e6856e82021cec79de0",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/0709/2.svg",
+          "bytes": 9896,
+          "sha256": "4787c1c11ea6e84967445a0590b0fd2a9444ad4f3d93093db12e64704910c126"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:0730",
+      "sourceId": "0730",
+      "name": "Slider Reverse Lunge",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "0730",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/0730/frame-00.svg",
+            "sha256": "809917ff7d5dbf7d845f84301b621c713a853f2943c2f5de798726b6322046e5",
+            "sourceMasterSha256": "920493f3709cfdc1f706a1f8e32f057907e8ec9067fa177ae111bf810ee165f6"
+          },
+          {
+            "path": "assets/0730/frame-01.svg",
+            "sha256": "a1c9f16364dd117d1b9dab28ca44ed86be3c52266c1485f7512681fdfa6d07aa",
+            "sourceMasterSha256": "e8e33cc5512ec4ae28701bc04eb68fda7f26d72c9a765e30dc89809186f54eab"
+          },
+          {
+            "path": "assets/0730/frame-02.svg",
+            "sha256": "cbe3c83c961caad52c3e47c3a3830820050fd25aeb261129973f5bff631afdc9",
+            "sourceMasterSha256": "21aef1fa6f1ef82bd82bf77ee00753a9f1c3b5f20f4086fa29ddc97b6423ffdc"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/0730/frame-00.svg",
+          "sourceSha256": "809917ff7d5dbf7d845f84301b621c713a853f2943c2f5de798726b6322046e5",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/0730/0.svg",
+          "bytes": 7654,
+          "sha256": "3f88db2b86be1478d2990b05c757977fc6b1c0f0dd16686c9f9b684132276a14"
+        },
+        {
+          "sourcePath": "assets/0730/frame-01.svg",
+          "sourceSha256": "a1c9f16364dd117d1b9dab28ca44ed86be3c52266c1485f7512681fdfa6d07aa",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/0730/1.svg",
+          "bytes": 7991,
+          "sha256": "ceb3506f5110322b0ca0b03e3831ac2bbab5ea808efb5408a82132c61efc1265"
+        },
+        {
+          "sourcePath": "assets/0730/frame-02.svg",
+          "sourceSha256": "cbe3c83c961caad52c3e47c3a3830820050fd25aeb261129973f5bff631afdc9",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/0730/2.svg",
+          "bytes": 7766,
+          "sha256": "3d81f61e0d1f719adb88ec556a74332793760d1586538c1a9317d844417e73ee"
+        }
+      ]
+    },
+    {
+      "exerciseId": "hasan:1685",
+      "sourceId": "1685",
+      "name": "Squat to Overhead Reach",
+      "sourceRevision": "961bb2739015da373daa43b960c28ee839fe93e6",
+      "artworkLicense": "CC0-1.0",
+      "isAiGenerated": true,
+      "provenance": {
+        "exerciseId": "1685",
+        "artworkLicense": "CC0-1.0",
+        "generatorReported": "OpenAI Image Gen",
+        "promptEvidence": {
+          "status": "not-retained",
+          "path": null
+        },
+        "referencesRecorded": [],
+        "provenanceNotice": "Historical generation metadata, not independent proof of clean-room origin or third-party clearance. Empty references mean none recorded. No professional form review is asserted.",
+        "frames": [
+          {
+            "path": "assets/1685/frame-00.svg",
+            "sha256": "f193d5d0b50114cd94a0d262993c803c7f96f6d2df82f612a484d79266cd41ea",
+            "sourceMasterSha256": "4659a45388394d82d0ed46165f7a5818c11bfc7f069f8a004600520d1ed92e29"
+          },
+          {
+            "path": "assets/1685/frame-01.svg",
+            "sha256": "79213aac20b9f73a398a752d383c12ac1ceea57d1d477f17feef21ca475473ea",
+            "sourceMasterSha256": "5b0a50de603067aa504e60ae8bc012d3e5cf981ad55de9dab9cf249899090be6"
+          },
+          {
+            "path": "assets/1685/frame-02.svg",
+            "sha256": "962b8a4451963ad89028830cff4e81b17b61fbb744a4382f1657e27fa9c1af04",
+            "sourceMasterSha256": "1951cdbad439d32080848fecad72e6e0f7e13bf36f1f3d807c4b3170beab7385"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "sourcePath": "assets/1685/frame-00.svg",
+          "sourceSha256": "f193d5d0b50114cd94a0d262993c803c7f96f6d2df82f612a484d79266cd41ea",
+          "sourceIndex": 0,
+          "localUrl": "/exercises/flow/1685/0.svg",
+          "bytes": 7338,
+          "sha256": "3188c2657789e04282a97741ca22f2ab71090e0cefec80f34400c69aab88c88c"
+        },
+        {
+          "sourcePath": "assets/1685/frame-01.svg",
+          "sourceSha256": "79213aac20b9f73a398a752d383c12ac1ceea57d1d477f17feef21ca475473ea",
+          "sourceIndex": 1,
+          "localUrl": "/exercises/flow/1685/1.svg",
+          "bytes": 7436,
+          "sha256": "f163bc0ba6280ca54f56239335e6997f8fbfb65a16b904a6bdb5076fa1391ef3"
+        },
+        {
+          "sourcePath": "assets/1685/frame-02.svg",
+          "sourceSha256": "962b8a4451963ad89028830cff4e81b17b61fbb744a4382f1657e27fa9c1af04",
+          "sourceIndex": 2,
+          "localUrl": "/exercises/flow/1685/2.svg",
+          "bytes": 5429,
+          "sha256": "b67319ac9da2aa5e09ebcd96880f49d04730a0b342ab0b0990bfee53c12d56ed"
+        }
+      ]
+    }
+  ],
+  "commons": []
+}

@@ -72,11 +72,12 @@ async function importWorkout(transaction: Transaction, record: Workout): Promise
       ...existing,
       ...(links.length ? { includedWorkoutIds: links.map((link) => link.childId) } : {}),
       createdAt: existing.createdAt.toISOString(),
-      items: items.map(({ exerciseId, sets, reps, weight, plannedSets }) => ({
+      items: items.map(({ exerciseId, sets, reps, weight, plannedSets, notes }) => ({
         exerciseId,
         sets,
         reps,
         weight,
+        ...(notes ? { notes } : {}),
         ...(plannedSets ? { plannedSets } : {}),
       })),
     },
@@ -111,11 +112,12 @@ async function importSession(transaction: Transaction, record: Session): Promise
     return false;
   }
   await transaction.insert(sessionItems).values(
-    record.items.map(({ exerciseId, sets, reps, weight }, position) => ({
+    record.items.map(({ exerciseId, sets, reps, weight, notes }, position) => ({
       exerciseId,
       sets,
       reps,
       weight,
+      notes,
       position,
       sessionId: record.id,
     })),

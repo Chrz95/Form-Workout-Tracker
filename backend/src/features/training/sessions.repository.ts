@@ -62,11 +62,12 @@ export function createSessionsRepository(database: Database) {
         throw new Error("Session insert returned no record");
       }
       await transaction.insert(sessionItems).values(
-        input.items.map(({ exerciseId, sets, reps, weight }, position) => ({
+        input.items.map(({ exerciseId, sets, reps, weight, notes }, position) => ({
           exerciseId,
           sets,
           reps,
           weight,
+          notes,
           sessionId: record.id,
           position,
         })),

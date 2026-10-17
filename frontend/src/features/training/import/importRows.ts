@@ -5,7 +5,7 @@ import { CSV_RECORD, type LEGACY_CSV_COLUMNS } from "../export/export.constants"
 /** Named cells prevent positional assumptions spreading through validation code. */
 export type ImportColumn = (typeof LEGACY_CSV_COLUMNS)[number];
 /** Every validated data row has all fixed columns. */
-export type ImportRow = Record<ImportColumn, string> & { text_encoding?: string };
+export type ImportRow = Record<ImportColumn, string> & { text_encoding?: string; exercise_notes?: string };
 const numberSchema = z
   .string()
   .regex(/^\d+(?:\.\d+)?$/, "Use plain nonnegative numeric values.")
@@ -34,9 +34,18 @@ export function requireEmpty(row: ImportRow, fields: ImportColumn[]): void {
  */
 export function itemFromRows(rows: ImportRow[], kind: "workouts" | "sessions"): SessionItem | WorkoutItem {
   const [first] = rows;
-  if (!first || rows.some((row) => row.exercise_id !== first.exercise_id || row.source !== first.source)) {
+  if (
+    !first ||
+    rows.some(
+      (row) =>
+        row.exercise_id !== first.exercise_id ||
+        row.source !== first.source ||
+        row.exercise_notes !== first.exercise_notes,
+    )
+  ) {
     throw new Error("Each exercise position must contain one identity and one source type.");
   }
+  const note = first.exercise_notes ? { notes: first.exercise_notes } : {};
   if (first.source === CSV_RECORD.planned && kind === "workouts") {
     const ordered = [...rows].sort((a, b) => csvNumber(a.set_position) - csvNumber(b.set_position));
     const plannedSets = ordered.map((row, index) => {
@@ -47,7 +56,13 @@ export function itemFromRows(rows: ImportRow[], kind: "workouts" | "sessions"): 
       return { reps: csvNumber(row.reps), weight: csvNumber(row.weight_kg) };
     });
     const last = plannedSets.at(-1);
-    return workoutItemSchema.parse({ exerciseId: first.exercise_id, sets: plannedSets.length, ...last, plannedSets });
+    return workoutItemSchema.parse({
+      ...note,
+      exerciseId: first.exercise_id,
+      sets: plannedSets.length,
+      ...last,
+      plannedSets,
+    });
   }
   if (first.source === CSV_RECORD.performed && kind === "sessions") {
     const ordered = [...rows].sort(
@@ -70,6 +85,7 @@ export function itemFromRows(rows: ImportRow[], kind: "workouts" | "sessions"): 
       throw new Error("An actual exercise needs at least one set.");
     }
     return {
+      ...note,
       exerciseId: first.exercise_id,
       sets: performedSets.length,
       reps: last.reps,
@@ -82,6 +98,7 @@ export function itemFromRows(rows: ImportRow[], kind: "workouts" | "sessions"): 
   }
   requireEmpty(first, ["set_position", "set_id", "set_kind", "rpe"]);
   return {
+    ...note,
     exerciseId: first.exercise_id,
     sets: csvNumber(first.set_count),
     reps: csvNumber(first.reps),

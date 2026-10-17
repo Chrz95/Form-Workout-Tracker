@@ -43,6 +43,13 @@
       "when": 1791889664512,
       "tag": "0005_glorious_martin_li",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1792086997285,
+      "tag": "0006_exercise_notes",
+      "breakpoints": true
     }
   ]
 }

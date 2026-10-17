@@ -34,6 +34,7 @@ export function ImportItemReview({ item, studio }: ImportItemReviewProps) {
       ) : (
         ` · ${item.sets} × ${item.reps} reps · ${item.weight} kg`
       )}
+      {item.notes && <p className="exercise-note">{item.notes}</p>}
     </li>
   );
 }

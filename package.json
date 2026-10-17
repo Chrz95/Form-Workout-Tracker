@@ -1,7 +1,7 @@
 {
   "name": "form-workout-studio",
   "private": true,
-  "version": "2.13.0",
+  "version": "2.25.0",
   "type": "module",
   "engines": {
     "node": ">=24.19.0 <25",
@@ -42,7 +42,8 @@
     "db:setup:local": "pnpm local:init && pnpm db:migrate && pnpm db:seed && pnpm db:check",
     "build:local": "pnpm typecheck && vite build --config frontend/vite.config.ts --mode standalone && node scripts/generate-precache.mjs && pnpm build:backend",
     "start:local": "pnpm local:init && pnpm build:local && concurrently --kill-others --names frontend,backend \"pnpm preview\" \"pnpm start\"",
-    "local:init": "node scripts/local-init.mjs"
+    "local:init": "node scripts/local-init.mjs",
+    "catalog:verify-restoration": "node scripts/verify-catalog-restoration.mjs"
   },
   "dependencies": {
     "cors": "2.8.6",

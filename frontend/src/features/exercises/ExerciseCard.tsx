@@ -1,8 +1,9 @@
 import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
 import { ICON_SIZE } from "../../../../shared/constants";
-import { Plus, Bookmark, ArrowUpRight, Images, Dumbbell } from "lucide-react";
+import { Plus, Bookmark, ArrowUpRight, Dumbbell, Check } from "lucide-react";
 import type { Exercise } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
+import { ExerciseMediaBadge } from "./ExerciseMediaBadge";
 import { ExerciseImage } from "./ExerciseImage";
 import { getExerciseThumbnail } from "./exerciseImage.utils";
 interface ExerciseCardProps {
@@ -19,7 +20,10 @@ export function ExerciseCard({ exercise, studio }: ExerciseCardProps) {
   const isAdded = studio.draftSelectedItems.some((item) => matchesExerciseId(exercise, item.exerciseId));
   const isBookmarked = studio.favorites.includes(exercise.id);
   return (
-    <article className="exercise-card">
+    <article
+      className="exercise-card"
+      data-illustrated={exercise.media?.some((asset) => asset.author.includes("AI-generated"))}
+    >
       <div className="exercise-image">
         <button
           className="image-link"
@@ -51,14 +55,12 @@ export function ExerciseCard({ exercise, studio }: ExerciseCardProps) {
             fill={isBookmarked ? "currentColor" : "none"}
           />
         </button>
-        <span className="motion-badge">
-          <Images size={ICON_SIZE.miniature} /> {exercise.images.length ? "Image guide" : "Text guide"}
-        </span>
+        <ExerciseMediaBadge exercise={exercise} />
       </div>
       <div className="exercise-card-body">
         <div className="exercise-meta">
-          <span className={`level-dot ${exercise.level}`} />
-          {exercise.level}
+          <span className={`level-dot ${exercise.level === "unspecified" ? "All levels" : exercise.level}`} />
+          {exercise.level === "unspecified" ? "All levels" : exercise.level}
           <span>·</span>
           {exercise.equipment ?? "No equipment"}
         </div>
@@ -76,7 +78,7 @@ export function ExerciseCard({ exercise, studio }: ExerciseCardProps) {
             onClick={() => studio.addExercise(exercise.id)}
             aria-label={`Add ${exercise.name} to workout`}
           >
-            <Plus size={ICON_SIZE.standard} />
+            {isAdded ? <Check size={16} /> : <Plus size={16} />}
             {isAdded ? "Added" : "Add to workout"}
           </button>
         </div>

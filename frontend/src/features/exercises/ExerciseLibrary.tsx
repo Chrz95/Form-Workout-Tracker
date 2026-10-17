@@ -3,6 +3,7 @@ import { ArrowDown, ArrowUpRight, Layers } from "lucide-react";
 import type { StudioProps } from "../../app/useStudio";
 import { WORKOUT_DEFAULTS } from "../../../../shared/constants";
 import { Hero } from "./Hero";
+import { LibrarySkeleton } from "./LibrarySkeleton";
 import { LibraryFilters } from "./LibraryFilters";
 import { ExerciseCard } from "./ExerciseCard";
 /** Composes searchable catalog cards and an unsaved selection tray.
@@ -29,7 +30,7 @@ export function ExerciseLibrary({ studio }: StudioProps) {
           </button>
         </div>
       ) : studio.exercises.length === 0 ? (
-        <div className="empty-state">Loading your exercise library…</div>
+        <LibrarySkeleton />
       ) : studio.filteredExercises.length === 0 ? (
         <div className="empty-state">
           <h3>No movements found</h3>
@@ -67,7 +68,7 @@ export function ExerciseLibrary({ studio }: StudioProps) {
           <Layers size={ICON_SIZE.standard} />
           <div>
             <strong>{studio.draftItems.length} exercises in your workout</strong>
-            <small>Unsaved draft · available in this tab</small>
+            <small>Draft workout · not yet saved</small>
           </div>
           <button
             className="button lime"

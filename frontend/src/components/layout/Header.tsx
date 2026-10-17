@@ -13,7 +13,9 @@ export function Header({ studio }: StudioProps) {
   return (
     <header className="page-header">
       <div>
-        <div className="eyebrow">MOVE WITH INTENTION</div>
+        <div className="eyebrow">
+          TRAINING STUDIO <span className="breadcrumb-divider">/</span> {studio.page}
+        </div>
         <h1>{PAGE_TITLES[studio.page]}</h1>
         <p>{PAGE_DESCRIPTIONS[studio.page]}</p>
       </div>

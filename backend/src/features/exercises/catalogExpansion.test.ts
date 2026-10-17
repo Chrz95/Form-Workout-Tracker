@@ -24,7 +24,8 @@ describe("Further illustrated catalog additions", () => {
     expect(standing?.isArchived).toBeUndefined();
     expect(standing?.images.length).toBe(2);
     expect(standing?.name).toContain("Standing");
-    expect(seated?.isArchived).toBe(true);
+    expect(seated?.isArchived).toBeUndefined();
+    expect(seated?.images.length).toBeGreaterThan(0);
     expect(seated && matchesExerciseId(seated, "everkinetic:0263")).toBe(false);
     const items = [
       { exerciseId: "everkinetic:0263", sets: 2, reps: 8, weight: 5 },

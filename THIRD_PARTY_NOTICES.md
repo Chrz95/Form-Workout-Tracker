@@ -54,3 +54,12 @@ are bundled unchanged. New Form instructions are original and shared under CC BY
 Twelve additional unmodified Everkinetic/Greg Priday SVG poses and their source instructions use CC BY-SA 4.0,
 at pinned commit `446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6`. Existing legal texts remain in `licenses/`.
 `docs/catalog-expansion-2.13.json` records source URLs, asset hashes, reviewed exclusions and identity decisions.
+
+## MuscleWiki motion in release 2.18
+
+Three original MuscleWiki video files and their GIF/still previews retain original framing, branding and guide
+links under MuscleWiki's non-profit/academic sharing terms: https://musclewiki.com/terms. This is a personal workout
+app use, not a blanket commercial-use or Creative Commons grant. Source video files are unmodified. GIFs retain
+complete source footage at width 360 and 10 fps; still previews come from the videos. No website image assets
+were copied. Per-file hashes and source links are in licenses/musclewiki-MOTION-notices.txt and
+/docs/catalog-request-review-2.18.json, with notices and attribution also available in the public app.

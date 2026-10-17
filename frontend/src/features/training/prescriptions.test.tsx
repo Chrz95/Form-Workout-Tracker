@@ -40,6 +40,29 @@ const workout = {
   items: [item],
 };
 describe("Individual prescription targets and composed routine snapshots", () => {
+  it("preserves multiline exercise notes through copies, sessions and CSV, with bounded API input", () => {
+    const notes = "=Remember the pause\nRest 90 seconds, then repeat.";
+    const source = { ...workout, items: [{ ...item, notes }] };
+    expect(workoutItemSchema.safeParse({ ...item, notes: "x".repeat(2001) }).success).toBe(false);
+    expect(prescriptionToSession(source.items[0]!)).toMatchObject({ notes });
+    expect(composeWorkout([], source.items, [exercise]).items[0]?.notes).toBe(notes);
+    const live = createLiveWorkout(source, [], Date.now());
+    expect(live.exercises[0]?.notes).toBe(notes);
+    expect(
+      readTrainingCsv(createTrainingCsv({ kind: "workouts", records: [source], exercises: [exercise] }), "workouts")
+        .input.records,
+    ).toEqual([source]);
+    const session = { ...source, date: "2026-10-15", duration: 30, items: source.items.map(prescriptionToSession) };
+    expect(
+      readTrainingCsv(createTrainingCsv({ kind: "sessions", records: [session], exercises: [exercise] }), "sessions")
+        .input.records,
+    ).toEqual([session]);
+    expect(serializeImportedRecord(source)).not.toBe(serializeImportedRecord(workout));
+    const csv = createTrainingCsv({ kind: "workouts", records: [source], exercises: [exercise] });
+    expect(() => readTrainingCsv(csv.replace("=Remember the pause", "=Changed"), "workouts")).toThrow(
+      /identity|source/,
+    );
+  });
   it("rejects inconsistent summaries, out-of-bounds and empty target arrays", () => {
     expect(workoutItemSchema.safeParse(item).success).toBe(true);
     for (const invalid of [

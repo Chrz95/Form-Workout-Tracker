@@ -48,7 +48,6 @@ export function SessionEditor({ studio }: StudioProps) {
             />
           ))}
         </div>
-        <ExercisePicker studio={studio} />
         <label className="field-label">
           How did it feel?
           <textarea
@@ -71,16 +70,19 @@ export function SessionEditor({ studio }: StudioProps) {
             Connect your workout API to save this session. Your draft stays in this tab.
           </TrainingConnectionNotice>
         )}
-        <div className="modal-actions">
+        <div className="modal-actions session-save-dock">
           <span>{studio.draftItems.length} exercises completed</span>
-          <button
-            className="button primary"
-            disabled={studio.isPending}
-            type="submit"
-          >
-            <Check size={ICON_SIZE.standard} />
-            {studio.isPending ? "Saving…" : "Save session"}
-          </button>
+          <div className="workout-dock-actions">
+            <ExercisePicker studio={studio} />
+            <button
+              className="button primary"
+              disabled={studio.isPending}
+              type="submit"
+            >
+              <Check size={ICON_SIZE.standard} />
+              {studio.isPending ? "Saving…" : "Save session"}
+            </button>
+          </div>
         </div>
       </form>
     </Modal>

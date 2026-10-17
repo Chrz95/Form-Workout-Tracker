@@ -48,6 +48,26 @@ const exerciseFixture = {
   images: [],
 };
 describe.skipIf(!testDatabaseUrl)("Real PostgreSQL constraints and transactions", () => {
+  it("round trips exercise notes through routine edits, session saves and import conflict checks", async () => {
+    const notes = "Slow descent\nRest 90 seconds";
+    const input = { ...fixture, items: [{ ...fixture.items[0]!, notes }] };
+    const saved = (await repository.saveWorkout(input))!;
+    expect((await repository.listWorkouts()).find((row) => row.id === saved.id)?.items[0]?.notes).toBe(notes);
+    const operation = createImportRepository(database);
+    expect(await operation({ kind: "workouts", records: [saved] })).toEqual({ inserted: 0, skipped: 1 });
+    await expect(
+      operation({ kind: "workouts", records: [{ ...saved, items: [{ ...input.items[0]!, notes: "Changed" }] }] }),
+    ).rejects.toMatchObject({ code: "IMPORT_CONFLICT" });
+    await repository.saveWorkout({ ...input, items: [{ ...input.items[0]!, notes: "" }] }, saved.id);
+    expect((await repository.listWorkouts()).find((row) => row.id === saved.id)?.items[0]?.notes ?? "").toBe("");
+    const completion = { ...input, date: "2026-10-15", duration: 30, submissionId: randomUUID() };
+    const session = await repository.saveSession(completion);
+    expect((await repository.listSessions()).find((row) => row.id === session.id)?.items[0]?.notes).toBe(notes);
+    expect((await repository.saveSession(completion)).id).toBe(session.id);
+    await expect(
+      repository.saveSession({ ...completion, items: [{ ...completion.items[0]!, notes: "Changed" }] }),
+    ).rejects.toMatchObject({ code: "SUBMISSION_CONFLICT" });
+  });
   it("retains reference-only routines, follows edited targets and protects used components", async () => {
     const child = (await repository.saveWorkout(fixture))!;
     const parent = (await repository.saveWorkout({

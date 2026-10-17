@@ -10,8 +10,9 @@ async function initializeDocker() {
   const content = [
     `DOCKER_API_ACCESS_TOKEN=${randomBytes(TOKEN_BYTES).toString("hex")}`,
     "FORM_HTTP_PORT=2324",
+    "FORM_POSTGRES_DATA_DIR=/home/pi/configs/form",
     "FORM_BIND_ADDRESS=127.0.0.1",
-    "FORM_FRONTEND_ORIGIN=auto",
+    "FORM_FRONTEND_ORIGIN=http://rpi5:2324",
     "FORM_LOG_LEVEL=info",
     "",
   ].join("\n");

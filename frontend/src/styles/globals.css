@@ -819,6 +819,11 @@ select {
   mix-blend-mode: multiply;
   padding: 20px;
 }
+.illustration-note {
+  margin: 0;
+  padding: 0 20px 12px;
+  font-size: 0.78rem;
+}
 .demonstration-controls {
   display: flex;
   align-items: center;
@@ -1031,36 +1036,6 @@ select {
 }
 .exercise-picker .search-field {
   height: 38px;
-}
-.picker-results {
-  max-height: 230px;
-  overflow: auto;
-  margin-top: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4px 12px;
-}
-.picker-results button {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  border: 0;
-  background: #fff6;
-  border-radius: 5px;
-  padding: 9px;
-  font-size: 10px;
-  color: var(--text-muted, #61724d);
-}
-.picker-results small {
-  display: block;
-  font-size: 8px;
-  color: var(--text-muted, #a4ae93);
-  margin-top: 3px;
-  text-transform: capitalize;
-}
-.picker-results button:hover {
-  background: var(--surface-raised, #fff);
 }
 .form-error {
   font-size: 11px;

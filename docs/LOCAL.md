@@ -87,8 +87,9 @@ If upgrading by extracting a ZIP, use a fresh source directory and copy only you
 - Connection failed during startup: restore backend/database availability; the app retries automatically.
 
 PostgreSQL owns persistent records. Unsaved drafts and remote credentials remain in tab memory.
-Your operating system's PostgreSQL data directory controls persistence; `workout_data` remains the named volume
-for the optional Docker setup, not a prerequisite for this native setup.
+Your operating system's PostgreSQL data directory controls native persistence. The optional Docker setup binds
+`/home/pi/configs/form` by default; set `FORM_POSTGRES_DATA_DIR` to another absolute host path when needed.
+This Docker setting is not a prerequisite for native PostgreSQL.
 
 ## Verification
 

@@ -10,12 +10,13 @@ services:
     ports:
       - "127.0.0.1:5433:5433"
     volumes:
-      - workout_data:/var/lib/postgresql/data
+      - type: bind
+        source: ${FORM_POSTGRES_DATA_DIR:-/home/pi/configs/form}
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U form_local -d form -p 5433"]
       interval: 5s
       timeout: 5s
       retries: 10
-volumes:
-  workout_data:
-    name: workout_data

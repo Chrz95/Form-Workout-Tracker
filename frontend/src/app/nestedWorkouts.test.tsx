@@ -24,7 +24,7 @@ const child: Workout = {
 };
 const exercise = {
   id: "bench",
-  name: "Bench press",
+  name: "Bench Press",
   equipment: "barbell",
   level: "beginner",
   category: "strength",
@@ -40,7 +40,11 @@ beforeEach(() => {
   fixtureWorkouts = [child];
   vi.stubGlobal(
     "matchMedia",
-    vi.fn(() => ({ matches: true, addEventListener: vi.fn(), removeEventListener: vi.fn() })),
+    vi.fn((query: string) => ({
+      matches: query === "(prefers-reduced-motion: reduce)",
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    })),
   );
   vi.stubGlobal(
     "fetch",
@@ -84,7 +88,7 @@ afterEach(() => {
  * @returns {Promise<void>} Connected routine library.
  */
 async function connect(user: ReturnType<typeof userEvent.setup>) {
-  await user.click(screen.getByRole("button", { name: /Connect workout API/ }));
+  await user.click(screen.getByRole("button", { name: /Connect training/ }));
   await user.type(screen.getByLabelText("Workout API URL"), "https://example.com/api/v1");
   await user.type(screen.getByLabelText("Private API access token"), "test-private-api-token-more-than-32-characters");
   await user.click(screen.getByRole("button", { name: "Connect API" }));
@@ -93,6 +97,33 @@ async function connect(user: ReturnType<typeof userEvent.setup>) {
   await user.click(screen.getByRole("button", { name: /Create workout/ }));
 }
 describe("Nested workout builder", () => {
+  it("saves an exercise note, displays it in review, and restores it when editing", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await connect(user);
+    const builder = screen.getByRole("dialog", { name: "Build your workout" });
+    await user.type(within(builder).getByLabelText("Workout name"), "Notes day");
+    await user.click(within(builder).getByRole("button", { name: "Add exercises" }));
+    const library = screen.getByRole("dialog", { name: "Add exercises" });
+    await user.click(within(library).getByRole("button", { name: "Add Bench Press to workout" }));
+    await user.click(within(library).getByRole("button", { name: "Done adding exercises" }));
+    const note = within(builder).getByLabelText("Note for Bench Press");
+    await user.type(note, "Pause at the bottom; rest 90 seconds.");
+    await user.click(within(builder).getByRole("button", { name: "Review full workout" }));
+    const preview = screen.getByRole("dialog", { name: "Review: Notes day" });
+    expect(within(preview).getByText("Pause at the bottom; rest 90 seconds.")).toBeInTheDocument();
+    await user.click(within(preview).getByRole("button", { name: "Back to builder" }));
+    await user.click(within(builder).getByRole("button", { name: "Save workout" }));
+    await waitFor(() => expect(screen.queryByRole("dialog")).not.toBeInTheDocument());
+    expect(savedBody).toMatchObject({
+      items: [{ exerciseId: "bench", notes: "Pause at the bottom; rest 90 seconds." }],
+    });
+    await user.click(screen.getByRole("button", { name: "Edit Notes day" }));
+    expect(screen.getByLabelText("Note for Bench Press")).toHaveValue("Pause at the bottom; rest 90 seconds.");
+    await user.clear(screen.getByLabelText("Note for Bench Press"));
+    expect(screen.getByLabelText("Note for Bench Press")).toHaveValue("");
+    expect(child.items[0]).not.toHaveProperty("notes");
+  });
   it("duplicates a component routine into a new reviewed POST while leaving its source unchanged", async () => {
     const user = userEvent.setup();
     fixtureWorkouts = [
@@ -145,7 +176,7 @@ describe("Nested workout builder", () => {
     const parent = screen.getByRole("heading", { name: "Combined day" }).closest("article")!;
     await user.click(within(parent).getByRole("button", { name: "Review Combined day" }));
     const preview = screen.getByRole("dialog", { name: "Review: Combined day" });
-    expect(within(preview).getByRole("button", { name: "Bench press" })).toBeInTheDocument();
+    expect(within(preview).getByRole("button", { name: "Bench Press" })).toBeInTheDocument();
     await user.click(within(preview).getByRole("button", { name: "Close preview" }));
     await user.clear(screen.getByLabelText("Search workouts"));
     await user.type(screen.getByLabelText("Search workouts"), "no matching routine");
@@ -180,9 +211,9 @@ describe("Nested workout builder", () => {
         .getAllByRole("cell")
         .map((cell) => cell.textContent),
     ).toEqual(["8", "45"]);
-    await user.click(within(preview).getByRole("button", { name: "Bench press" }));
+    await user.click(within(preview).getByRole("button", { name: "Bench Press" }));
     expect(screen.getAllByRole("dialog")).toHaveLength(3);
-    const detail = screen.getByRole("dialog", { name: "Bench press" });
+    const detail = screen.getByRole("dialog", { name: "Bench Press" });
     await user.click(within(detail).getByRole("button", { name: "Close dialog" }));
     await user.click(within(preview).getByRole("button", { name: "Back to builder" }));
     expect(within(builder).getByLabelText("Workout name")).toHaveValue("Preview day");
@@ -223,8 +254,10 @@ describe("Nested workout builder", () => {
     await user.selectOptions(within(builder).getByLabelText("Add another workout"), child.id);
     await user.click(within(builder).getByRole("button", { name: "Include workout" }));
     expect(within(builder).getByText(/1\. Push routine/)).toBeInTheDocument();
-    await user.click(within(builder).getByText(/Add exercises from the library/));
-    expect(within(builder).getByText("No more matching exercises.")).toBeInTheDocument();
+    await user.click(within(builder).getByRole("button", { name: "Add exercises" }));
+    const picker = screen.getByRole("dialog", { name: "Add exercises" });
+    expect(within(picker).getByText(/No more matching exercises/)).toBeInTheDocument();
+    await user.click(within(picker).getByRole("button", { name: "Done adding exercises" }));
     await user.click(within(builder).getByRole("button", { name: "Save workout" }));
     await waitFor(() =>
       expect(savedBody).toEqual({ name: "Combined day", notes: "", items: [], includedWorkoutIds: [child.id] }),
@@ -242,7 +275,7 @@ describe("Nested workout builder", () => {
     expect(within(parentPreview).getByText("Push routine")).toBeInTheDocument();
     await user.click(within(parentPreview).getByRole("button", { name: "Close preview" }));
     await user.click(within(childCard).getByRole("button", { name: "Edit Push routine" }));
-    const componentBuilder = screen.getByRole("dialog", { name: "Make this workout yours" });
+    const componentBuilder = screen.getByRole("dialog", { name: "Edit workout" });
     await user.click(within(componentBuilder).getByRole("button", { name: "Review full workout" }));
     const componentPreview = screen.getByRole("dialog", { name: "Review: Push routine" });
     expect(within(componentPreview).getByRole("button", { name: "Review parent Combined day" })).toBeInTheDocument();
@@ -265,8 +298,8 @@ describe("Nested workout builder", () => {
     await user.selectOptions(within(builder).getByLabelText("Add another workout"), child.id);
     await user.click(within(builder).getByRole("button", { name: "Include workout" }));
     await user.click(within(builder).getByText(/1\. Push routine/));
-    await user.click(within(builder).getByRole("button", { name: "Bench press" }));
-    const detail = screen.getByRole("dialog", { name: "Bench press" });
+    await user.click(within(builder).getByRole("button", { name: "Bench Press" }));
+    const detail = screen.getByRole("dialog", { name: "Bench Press" });
     expect(within(detail).getByRole("button", { name: "Added to workout" })).toBeDisabled();
     await user.click(within(detail).getByRole("button", { name: "Close dialog" }));
     await user.click(within(builder).getByRole("button", { name: "Remove component" }));

@@ -25,7 +25,7 @@ export async function readSession(database: SessionReader, record: typeof sessio
     ...record,
     submissionId: record.submissionId ?? undefined,
     createdAt: record.createdAt.toISOString(),
-    items: items.map(({ exerciseId, reps, weight, sets: setCount }) => {
+    items: items.map(({ exerciseId, reps, weight, sets: setCount, notes }) => {
       const performedSets = sets
         .filter((set) => set.exerciseId === exerciseId)
         .map(({ id, reps: completedReps, weight: completedWeight, rpe, kind }) => ({
@@ -35,7 +35,14 @@ export async function readSession(database: SessionReader, record: typeof sessio
           rpe,
           kind,
         }));
-      return { exerciseId, reps, weight, sets: setCount, ...(performedSets.length > 0 ? { performedSets } : {}) };
+      return {
+        exerciseId,
+        reps,
+        weight,
+        sets: setCount,
+        ...(notes ? { notes } : {}),
+        ...(performedSets.length > 0 ? { performedSets } : {}),
+      };
     }),
   };
 }

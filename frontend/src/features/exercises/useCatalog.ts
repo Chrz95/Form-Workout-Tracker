@@ -1,3 +1,4 @@
+import { matchesExerciseFilters } from "./exerciseSearch.utils";
 import { useEffect, useMemo, useState } from "react";
 import type { Exercise } from "../../../../shared/contracts";
 import { fetchCatalog } from "../../lib/api/client";
@@ -36,19 +37,8 @@ export function useCatalog(customExercises: Exercise[]) {
     () =>
       discoverableExercises
         .filter((exercise) => {
-          const text = [exercise.name, ...(exercise.aliases ?? []), ...exercise.primaryMuscles, exercise.equipment]
-            .join(" ")
-            .toLowerCase();
-          const matchesMuscle =
-            muscle === MUSCLE_FILTERS[0] ||
-            (muscle === "back"
-              ? exercise.primaryMuscles.some((group) => ["lats", "middle back", "lower back", "traps"].includes(group))
-              : exercise.primaryMuscles.includes(muscle));
           return (
-            text.includes(search.toLowerCase()) &&
-            matchesMuscle &&
-            (equipment === EQUIPMENT_FILTERS[0] || (exercise.equipment ?? "No equipment") === equipment) &&
-            (level === LEVEL_FILTERS[0] || exercise.level === level) &&
+            matchesExerciseFilters(exercise, { search, muscle, equipment, level }) &&
             (!favoritesOnly || favorites.includes(exercise.id)) &&
             (!customOnly || exercise.id.startsWith(CUSTOM_EXERCISE_PREFIX))
           );

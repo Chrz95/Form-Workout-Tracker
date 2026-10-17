@@ -1,3 +1,5 @@
+import { ResponsiveDisclosure } from "../../components/ui/ResponsiveDisclosure";
+import { targetSummary } from "./targetSummary";
 import { createUuid } from "../../../../shared/createUuid";
 import { useState } from "react";
 import { PlannedSetInput } from "./PlannedSetInput";
@@ -5,9 +7,7 @@ import { getPlannedSets, withPlannedSets } from "../../../../shared/prescription
 import { INPUT_LIMITS, type WorkoutItem } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
 interface PlannedSetsEditorProps {
-  /** Current exercise targets. */
   item: WorkoutItem;
-  /** Draft state owner. */
   studio: Studio;
 }
 /** Edits each ordered target without touching completed history.
@@ -34,11 +34,19 @@ export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
     );
   }
   return (
-    <details
+    <ResponsiveDisclosure
       className="planned-sets"
-      open={Boolean(item.plannedSets)}
+      desktopOpen={Boolean(item.plannedSets)}
+      summary={
+        <>
+          <span className="set-target-label">Individual set targets · </span>
+          {targetSummary(item)}
+        </>
+      }
     >
-      <summary>Individual set targets · {item.sets} sets</summary>
+      <p className="set-replication-note">
+        Set 1 reps and weight fill the following sets. Adjust any later set individually.
+      </p>
       <div className="planned-set-list">
         {sets.map((set, index) => (
           <div
@@ -53,7 +61,11 @@ export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
                 index={index}
                 value={set[field]}
                 onChange={(value) =>
-                  update(sets.map((entry, position) => (position === index ? { ...entry, [field]: value } : entry)))
+                  update(
+                    sets.map((entry, position) =>
+                      index === 0 || position === index ? { ...entry, [field]: value } : entry,
+                    ),
+                  )
                 }
               />
             ))}
@@ -82,6 +94,6 @@ export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
       >
         + Add set
       </button>
-    </details>
+    </ResponsiveDisclosure>
   );
 }

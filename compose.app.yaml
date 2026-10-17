@@ -1,6 +1,7 @@
 # Standalone full stack. Include this file or compose.yaml from your main Compose file.
 # If copying these sections instead, change all three build contexts to your source folder.
-# Auto accepts trusted LAN IPs and .local names. Set an exact origin here for other hostnames.
+# Browser address for this Raspberry Pi; keep this value when copying into your main Compose file.
+# Change this anchor to use another hostname, or to auto for private LAN IPs and .local names.
 x-form-origin: &form-origin http://rpi5:2324
 
 x-form-api: &form-api
@@ -57,7 +58,11 @@ services:
       POSTGRES_DB: form
     # No database host port: other applications can use their own PostgreSQL ports.
     volumes:
-      - form_workout_data:/var/lib/postgresql/data
+      - type: bind
+        source: ${FORM_POSTGRES_DATA_DIR:-/home/pi/configs/form}
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
     networks:
       form_network:
         aliases: [db]
@@ -122,8 +127,6 @@ services:
         condition: service_healthy
 
 volumes:
-  form_workout_data:
-    name: workout_data
   form_credentials:
     name: form_credentials
 networks:

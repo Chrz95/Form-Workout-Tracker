@@ -1,3 +1,4 @@
+import { formatExerciseName } from "../../../shared/exerciseNames.js";
 import { readFile } from "node:fs/promises";
 import { z } from "zod";
 import { exerciseSchema } from "../../../shared/contracts.js";
@@ -18,7 +19,10 @@ async function seedCatalog() {
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
     const retired = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/retiredExercises.json", "utf8")));
     const archived = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/archivedExercises.json", "utf8")));
-    const references = [...catalog, ...archived, ...retired];
+    const references = [...catalog, ...archived, ...retired].map((exercise) => ({
+      ...exercise,
+      name: formatExerciseName(exercise.name),
+    }));
     await database.transaction(async (transaction) => {
       await transaction
         .update(exercises)

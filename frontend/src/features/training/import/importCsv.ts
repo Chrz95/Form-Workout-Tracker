@@ -1,5 +1,11 @@
 import { importInputSchema } from "../../../../../shared/importContracts";
-import { CSV_COLUMNS, LEGACY_CSV_COLUMNS, CSV_RECORD, CSV_TEXT_ENCODING } from "../export/export.constants";
+import {
+  CSV_COLUMNS,
+  ENCODED_CSV_COLUMNS,
+  LEGACY_CSV_COLUMNS,
+  CSV_RECORD,
+  CSV_TEXT_ENCODING,
+} from "../export/export.constants";
 import { parseCsv } from "./parseCsv";
 import { itemFromRows, csvNumber, requireEmpty, type ImportRow } from "./importRows";
 const RECORD_METADATA = ["name", "date", "duration_minutes", "notes", "created_at"] as const;
@@ -20,6 +26,9 @@ function recordFromRows(rows: ImportRow[], kind: "workouts" | "sessions") {
   const includedWorkoutIds = referenceRows
     .sort((a, b) => csvNumber(a.exercise_position) - csvNumber(b.exercise_position))
     .map((row, index) => {
+      if (row.exercise_notes) {
+        throw new Error("Workout references cannot contain exercise notes.");
+      }
       requireEmpty(row, ["set_position", "set_id", "set_kind", "set_count", "reps", "weight_kg", "rpe"]);
       if (csvNumber(row.exercise_position) !== index + 1) {
         throw new Error("Component positions must be consecutive.");
@@ -63,7 +72,11 @@ export function readTrainingCsv(content: string, kind: "workouts" | "sessions") 
     throw new Error("This CSV file is empty.");
   }
   const legacyText = JSON.stringify(header) === JSON.stringify(LEGACY_CSV_COLUMNS);
-  if (!legacyText && JSON.stringify(header) !== JSON.stringify(CSV_COLUMNS)) {
+  if (
+    !legacyText &&
+    JSON.stringify(header) !== JSON.stringify(ENCODED_CSV_COLUMNS) &&
+    JSON.stringify(header) !== JSON.stringify(CSV_COLUMNS)
+  ) {
     throw new Error("Choose a Form workout or journal CSV export with its original column headers.");
   }
   if (!rows.length) {
@@ -75,6 +88,7 @@ export function readTrainingCsv(content: string, kind: "workouts" | "sessions") 
       throw new Error("Every CSV row must have the same number of columns.");
     }
     const row = Object.fromEntries(header.map((column, index) => [column, cells[index] ?? ""])) as ImportRow;
+    row.exercise_notes ??= "";
     if (row.record_type !== CSV_RECORD[kind]) {
       throw new Error("This file contains the wrong type of training record.");
     }
@@ -82,9 +96,10 @@ export function readTrainingCsv(content: string, kind: "workouts" | "sessions") 
       if (row.text_encoding !== CSV_TEXT_ENCODING) {
         throw new Error("The text encoding marker is unsupported.");
       }
-      for (const field of ["name", "notes", "exercise_id", "exercise_name"] as const) {
-        if (row[field].startsWith("'")) {
-          row[field] = row[field].slice(1);
+      for (const field of ["name", "notes", "exercise_id", "exercise_name", "exercise_notes"] as const) {
+        const value = row[field] ?? "";
+        if (value.startsWith("'")) {
+          row[field] = value.slice(1);
         }
       }
     }

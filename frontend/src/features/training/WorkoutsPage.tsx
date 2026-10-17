@@ -33,12 +33,12 @@ export function WorkoutsPage({ studio }: StudioProps) {
           <span className="empty-icon">
             <Layers size={ICON_SIZE.emptyState} />
           </span>
-          <span className="eyebrow">YOUR ROUTINE STARTS HERE</span>
-          <h2>A workout that feels like you.</h2>
+          <span className="eyebrow">YOUR WORKOUT COLLECTION</span>
+          <h2>Your training. Your structure.</h2>
           <p>
-            Combine your favorite movements into custom lists.
+            Create a routine with your favorite exercises.
             <br />
-            Set your reps, choose your load, and come back stronger.
+            Set your targets once. Make it part of your week.
           </p>
           <button
             className="button primary"
@@ -50,7 +50,7 @@ export function WorkoutsPage({ studio }: StudioProps) {
             <small>
               {studio.isAutomaticConnection
                 ? "Your saved training loads automatically when the server is ready."
-                : "Connect your Express API to save and sync lists."}
+                : "Connect training to save and sync your routines."}
             </small>
           )}
         </div>

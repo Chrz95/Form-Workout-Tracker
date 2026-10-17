@@ -17,6 +17,7 @@ export function serializeImportedRecord(record: Workout | Session): string {
       sets: item.sets,
       reps: item.reps,
       weight: item.weight,
+      notes: item.notes ?? "",
       plannedSets: "plannedSets" in item ? item.plannedSets : undefined,
       performedSets: session?.items[index]?.performedSets?.map((set) => ({
         id: set.id,

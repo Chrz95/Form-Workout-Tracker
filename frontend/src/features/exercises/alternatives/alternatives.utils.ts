@@ -1,3 +1,4 @@
+import { matchesExerciseSearch } from "../exerciseSearch.utils";
 import type { Exercise, WorkoutItem } from "../../../../../shared/contracts";
 import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { WORKOUT_DEFAULTS } from "../../../../../shared/constants";
@@ -30,7 +31,7 @@ export function findAlternatives(
         candidate.id !== exercise.id &&
         !excludedIds.some((id) => matchesExerciseId(candidate, id)) &&
         (equipment === ANY_EQUIPMENT || candidate.equipment === equipment) &&
-        candidate.name.toLowerCase().includes(search.trim().toLowerCase()),
+        matchesExerciseSearch(candidate, search),
     )
     .map(({ candidate, overlap }) => ({
       candidate,

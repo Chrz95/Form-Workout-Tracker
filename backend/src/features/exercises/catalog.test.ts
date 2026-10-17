@@ -7,7 +7,7 @@ import { getExerciseNameKey } from "../../../../shared/exerciseIdentity.js";
 describe("Bundled public exercise catalog integrity", () => {
   it("parses every imported record, preserves unique IDs and keeps private content out of static assets", async () => {
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
-    expect(catalog).toHaveLength(1272);
+    expect(catalog).toHaveLength(1482);
     expect(catalog.every((exercise) => exercise.images.length > 0 && !exercise.isArchived)).toBe(true);
     expect(new Set(catalog.map((exercise) => getExerciseNameKey(exercise.name))).size).toBe(catalog.length);
     expect(new Set(catalog.map((exercise) => exercise.id)).size).toBe(catalog.length);
@@ -24,7 +24,7 @@ describe("Bundled public exercise catalog integrity", () => {
     const { createHash } = await import("node:crypto");
     const report = JSON.parse(await readFile("docs/catalog-image-review-2.12.json", "utf8"));
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
-    expect(catalog.filter((record) => record.id.startsWith("guide:"))).toHaveLength(24);
+    expect(catalog.filter((record) => record.id.startsWith("guide:"))).toHaveLength(31);
     expect(report.assets).toHaveLength(114);
     for (const asset of report.assets) {
       const local = `/exercises/workout-guide/${asset.slug}/1.svg`;
@@ -49,7 +49,7 @@ describe("Bundled public exercise catalog integrity", () => {
     const media = catalog.flatMap((exercise) => exercise.media ?? []);
     expect(media.length).toBeGreaterThan(300);
     expect(media.every((asset) => asset.author && asset.license && asset.licenseUrl && asset.sourceUrl)).toBe(true);
-    expect(media.filter((asset) => asset.stillUrl)).toHaveLength(9);
+    expect(media.filter((asset) => asset.stillUrl)).toHaveLength(12);
   });
   it("keeps retired references out of discovery and resolves aliases to visible or archived movements", async () => {
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
@@ -57,8 +57,8 @@ describe("Bundled public exercise catalog integrity", () => {
     const archived = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/archivedExercises.json", "utf8")));
     const references = [...catalog, ...archived];
     const ids = new Set(references.map((exercise) => exercise.id));
-    expect(retired).toHaveLength(418);
-    expect(archived).toHaveLength(2392);
+    expect(retired).toHaveLength(586);
+    expect(archived).toHaveLength(2021);
     expect(archived.every((exercise) => exercise.isArchived && !exercise.images.length)).toBe(true);
     expect(new Set(references.map((exercise) => getExerciseNameKey(exercise.name))).size).toBe(references.length);
     expect(await readFile("frontend/public/exercise-references.json", "utf8")).toBe(
@@ -74,8 +74,8 @@ describe("Bundled public exercise catalog integrity", () => {
     const catalog = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/exercises.json", "utf8")));
     const archived = z.array(exerciseSchema).parse(JSON.parse(await readFile("shared/archivedExercises.json", "utf8")));
     const videos = [...catalog, ...archived].flatMap((exercise) => exercise.videos ?? []);
-    expect(videos).toHaveLength(49);
-    expect(videos.filter((video) => video.localUrl)).toHaveLength(14);
+    expect(videos).toHaveLength(202);
+    expect(videos.filter((video) => video.localUrl)).toHaveLength(173);
     expect(videos.every((video) => video.author && video.licenseUrl && video.codec)).toBe(true);
     expect(
       catalog

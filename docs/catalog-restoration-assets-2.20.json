@@ -1,0 +1,811 @@
+{
+  "muscleWiki": [
+    {
+      "slug": "bodyweight-hip-abduction",
+      "exerciseId": "hasan:0710",
+      "sourcePage": "https://musclewiki.com/exercise/bodyweight-hip-abduction",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hip-abduction-front.mp4",
+      "pageSha256": "7f4776b9a586d09fb939d0b8ad46318b93c4db2365e7e59369dc79aeae736219",
+      "sourceSha256": "edbc71b354a2a57faa2a2262a3b40c5d29c2949e03656c67093a41b663d8db4c",
+      "title": "Bodyweight Hip Abduction",
+      "duration": 7.1,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.84,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-bodyweight-hip-abduction.mp4",
+          "bytes": 506808,
+          "sha256": "edbc71b354a2a57faa2a2262a3b40c5d29c2949e03656c67093a41b663d8db4c"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-bodyweight-hip-abduction.webp",
+          "bytes": 17080,
+          "sha256": "98ebf36412d0e76a32b95a027428f35ea7bb79af186cf7a6df0d4cd133d45fa6"
+        }
+      ]
+    },
+    {
+      "slug": "dumbbell-laying-curl",
+      "exerciseId": "zenith:0350",
+      "sourcePage": "https://musclewiki.com/exercise/dumbbell-laying-curl",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-curl-side.mp4",
+      "pageSha256": "b655d6caab6da8cfe698534274071c551d8500b0796b9de029b8afb4a00b55a6",
+      "sourceSha256": "212611d8588b7d908fdb9d2021332bf0b68d2df934b15769228fe0e955fc2ff2",
+      "title": "Dumbbell Laying Curl",
+      "duration": 8.15,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 3.2600000000000002,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-laying-curl.mp4",
+          "bytes": 625783,
+          "sha256": "212611d8588b7d908fdb9d2021332bf0b68d2df934b15769228fe0e955fc2ff2"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-laying-curl.webp",
+          "bytes": 27012,
+          "sha256": "3f32976e9f70d2d5ca2a765e2823247f2a335ef82a4e52e31d42aaa4d7dcd5a0"
+        }
+      ]
+    },
+    {
+      "slug": "kettlebell-goblet-curl",
+      "exerciseId": "rthepen:kettlebell_bicep_curl",
+      "sourcePage": "https://musclewiki.com/exercise/kettlebell-goblet-curl",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-goblet-curl-front.mp4",
+      "pageSha256": "ffcb08aad7ac554aba040a4fe509f66c4a0fb0456d771aa55f74cc6491318552",
+      "sourceSha256": "0c08583e37e0050d2ed77d321fbd0c37eda1986af4862645f66b26e5301ccc7f",
+      "title": "Kettlebell Goblet Curl",
+      "duration": 6.583333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.6333332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-goblet-curl.mp4",
+          "bytes": 339169,
+          "sha256": "0c08583e37e0050d2ed77d321fbd0c37eda1986af4862645f66b26e5301ccc7f"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-goblet-curl.webp",
+          "bytes": 17570,
+          "sha256": "78594d9974868647c2b90507d4e4f2c101348bb0ae8b355d0471d7d1a14719d9"
+        }
+      ]
+    },
+    {
+      "slug": "quads-stretch-variation-one",
+      "exerciseId": "zenith:drv-stretching-quadriceps-stretch",
+      "sourcePage": "https://musclewiki.com/exercise/quads-stretch-variation-one",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-1-front.mp4",
+      "pageSha256": "bb267c4da99fe57817c3532080dcec9044421ba61dface58987b2ed156d11026",
+      "sourceSha256": "5fd56e98239f015816dbd09f76e88059382b674a2a8646d76049bd2c2b0d95cc",
+      "title": "Quads Stretch Variation One",
+      "duration": 13.48,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "posterTimeSeconds": 5.392,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-quads-stretch-variation-one.mp4",
+          "bytes": 493515,
+          "sha256": "5fd56e98239f015816dbd09f76e88059382b674a2a8646d76049bd2c2b0d95cc"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-quads-stretch-variation-one.webp",
+          "bytes": 8476,
+          "sha256": "1ac504a09e7bd2f638e8b2ab6b8b8c8b238450f57d6d5333262121c9f6c34db1"
+        }
+      ]
+    },
+    {
+      "slug": "soleus-stretch-static",
+      "exerciseId": "wger:1240",
+      "sourcePage": "https://musclewiki.com/exercise/soleus-stretch-static",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-soleus-stretch-static-front.mp4",
+      "pageSha256": "658034644bf147b8c2a72d15abf973b1ad6b5b77aa69b4a21176fca15656933e",
+      "sourceSha256": "1dae987cf3a6a0fbfa1d0f3842e152bc514ff9db85aef42c7dde016105bfda25",
+      "title": "Soleus Stretch",
+      "duration": 10.716667,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 4.2866668,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-soleus-stretch-static.mp4",
+          "bytes": 539593,
+          "sha256": "1dae987cf3a6a0fbfa1d0f3842e152bc514ff9db85aef42c7dde016105bfda25"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-soleus-stretch-static.webp",
+          "bytes": 17190,
+          "sha256": "d98d5eb3dd16a200d477de7d73fa2a9046c336bd4be632d7a37306978135aa38"
+        }
+      ]
+    },
+    {
+      "slug": "cobra-stretch-2",
+      "exerciseId": "wger:1450",
+      "sourcePage": "https://musclewiki.com/exercise/cobra-stretch-2",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-cobra-stretch-2-front.mp4",
+      "pageSha256": "bfd0a978837159e8b0c9d85a2417d7ad27cd1f6f3f54531acc13cf68cc67bd46",
+      "sourceSha256": "c535493229eda2b875c367e5ca52d7787e56fc9f3a3c86a76566610daac73a26",
+      "title": "Cobra Stretch 2",
+      "duration": 13.25,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 5.300000000000001,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-cobra-stretch-2.mp4",
+          "bytes": 815372,
+          "sha256": "c535493229eda2b875c367e5ca52d7787e56fc9f3a3c86a76566610daac73a26"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-cobra-stretch-2.webp",
+          "bytes": 29822,
+          "sha256": "a40eb7f4ff597dc6c8654c18cfc8152fecd7a5d093b17c33fc92d5efacb1035c"
+        }
+      ]
+    },
+    {
+      "slug": "side-lying-external-rotator-cuff-stretch",
+      "exerciseId": "wger:1711",
+      "sourcePage": "https://musclewiki.com/exercise/side-lying-external-rotator-cuff-stretch",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-rotator-cuff-stretch-external-side-lying-side.mp4",
+      "pageSha256": "cefccb5d4aaccecaa18e04664ec11c4c3d0af7138fc8d8eb1cbdc5116adb8cfb",
+      "sourceSha256": "15f282ed6e2f150c6b4eee5c9e78e81afea29a3a072241902e63209001ab92cf",
+      "title": "Side Lying External Rotator Cuff Stretch",
+      "duration": 14.483333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 5.7933332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-side-lying-external-rotator-cuff-stretch.mp4",
+          "bytes": 778005,
+          "sha256": "15f282ed6e2f150c6b4eee5c9e78e81afea29a3a072241902e63209001ab92cf"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-side-lying-external-rotator-cuff-stretch.webp",
+          "bytes": 22226,
+          "sha256": "710820eb375c3b677237b27cccbf040eed2efb76fdfcc0b330ea71ce2a803bd5"
+        }
+      ]
+    },
+    {
+      "slug": "gastrocnemius-stretch-bilateral-on-box",
+      "exerciseId": "wger:2666",
+      "sourcePage": "https://musclewiki.com/exercise/gastrocnemius-stretch-bilateral-on-box",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-gastrocnemius-stretch-bilateral-on-box-side.mp4",
+      "pageSha256": "95b407cc16c7e177ebc90fa3f90cdbc269abd7ffa00ce6c8edce923f9ca0f515",
+      "sourceSha256": "04bc90617400801517520653150a8e6db83e9cd5f256ac0c2d2852b5ac111c3d",
+      "title": "Gastrocnemius Stretch Bilateral On Box",
+      "duration": 11.133333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 4.4533332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-gastrocnemius-stretch-bilateral-on-box.mp4",
+          "bytes": 653546,
+          "sha256": "04bc90617400801517520653150a8e6db83e9cd5f256ac0c2d2852b5ac111c3d"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-gastrocnemius-stretch-bilateral-on-box.webp",
+          "bytes": 16310,
+          "sha256": "b52e93207fea5a5f8d483a29fd267e3e66926cc68b86ed3705a96c8566024cc0"
+        }
+      ]
+    },
+    {
+      "slug": "lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel",
+      "exerciseId": "wger:1710",
+      "sourcePage": "https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel-side.mp4",
+      "pageSha256": "44014fc4fe995b919c9d389a164ecf9a5122645eb8deae02f29d27a44ddf0779",
+      "sourceSha256": "f99697c7f8e88ad43f1ac537f250cd86f7006e2702d1d41c8cb9b10f57ee17a0",
+      "title": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
+      "duration": 11.533333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 4.6133332000000005,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel.mp4",
+          "bytes": 488777,
+          "sha256": "f99697c7f8e88ad43f1ac537f250cd86f7006e2702d1d41c8cb9b10f57ee17a0"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel.webp",
+          "bytes": 27068,
+          "sha256": "54e3f0fd5ce083bb3cd02350a6677a3a30be8837a26aac5318fb22f2a5f374f0"
+        }
+      ]
+    },
+    {
+      "slug": "glute-hip-rotator-stretch-3-seated",
+      "exerciseId": "wger:1959",
+      "sourcePage": "https://musclewiki.com/exercise/glute-hip-rotator-stretch-3-seated",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-glute-hip-rotator-stretch-3-seated-side.mp4",
+      "pageSha256": "554d6db8387c3af9c5903619e64c97e599bccc1a896bdf4f78372c807b2d0a61",
+      "sourceSha256": "07bb3a64555c4ad5275950bb95ae766afeb3a864dc4617484b7c0edd80255e53",
+      "title": "Glute Hip Rotator Stretch 3 Seated",
+      "duration": 14.983333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 5.9933332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-glute-hip-rotator-stretch-3-seated.mp4",
+          "bytes": 849439,
+          "sha256": "07bb3a64555c4ad5275950bb95ae766afeb3a864dc4617484b7c0edd80255e53"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-glute-hip-rotator-stretch-3-seated.webp",
+          "bytes": 24518,
+          "sha256": "2e994adc4e43c0b35d2895f09a2808b29112e48ab00ef6fb4cc7f8bfbb661773"
+        }
+      ]
+    },
+    {
+      "slug": "quads-stretch-variation-four",
+      "exerciseId": "zenith:drv-stretching-quadriceps-lying-stretch",
+      "sourcePage": "https://musclewiki.com/exercise/quads-stretch-variation-four",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-4-front.mp4",
+      "pageSha256": "ccf4a2d4db584797c8125398737675233c14bcbd2d6881b033cc6f2caf343e00",
+      "sourceSha256": "ca93d25a82373994beec9450ac39470bbd48a12710935fb548bf58e07b439047",
+      "title": "Quads Stretch Variation Four",
+      "duration": 18.84,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "posterTimeSeconds": 7.5360000000000005,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-quads-stretch-variation-four.mp4",
+          "bytes": 897716,
+          "sha256": "ca93d25a82373994beec9450ac39470bbd48a12710935fb548bf58e07b439047"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-quads-stretch-variation-four.webp",
+          "bytes": 8818,
+          "sha256": "00247e9fa449625ee19b0bbd24dc269404ccd76e0b0985df5cab5f603b81a155"
+        }
+      ]
+    },
+    {
+      "slug": "bosu-ball-lateral-lunge",
+      "exerciseId": "rthepen:bosu_ball_bosu_side_lunge",
+      "sourcePage": "https://musclewiki.com/exercise/bosu-ball-lateral-lunge",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-front.mp4",
+      "pageSha256": "15009bf92ad67362163d20f14b181b0d0519b3edb9d360fbf9a32fb5f19c4fd8",
+      "sourceSha256": "0c9baa5c43b12349cad1b2f40f0ed0fd84225533471221b65eec61138cf97d83",
+      "title": "Bosu Ball Lateral Lunge",
+      "duration": 13.133333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 5.2533332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-bosu-ball-lateral-lunge.mp4",
+          "bytes": 1231160,
+          "sha256": "0c9baa5c43b12349cad1b2f40f0ed0fd84225533471221b65eec61138cf97d83"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-bosu-ball-lateral-lunge.webp",
+          "bytes": 14192,
+          "sha256": "8b4f93137c9d531fb591ccbadfe9059770e5081493022982389d35cb09c7f68d"
+        }
+      ]
+    },
+    {
+      "slug": "bosu-ball-pushup",
+      "exerciseId": "rthepen:bosu_ball_bosu_platform_pushup",
+      "sourcePage": "https://musclewiki.com/exercise/bosu-ball-pushup",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pushup-front.mp4",
+      "pageSha256": "643cb07a2d92c683831399d6f2bf2fdf8cbe22c9b7230606262a4b68d8de84cc",
+      "sourceSha256": "8ef7ed64c2fdbbaa6dfa6b9b8736620a47e6161d6b3f4f4ac8818170263bdadc",
+      "title": "Bosu Ball Pushup",
+      "duration": 9.066667,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 3.6266668000000006,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-bosu-ball-pushup.mp4",
+          "bytes": 898688,
+          "sha256": "8ef7ed64c2fdbbaa6dfa6b9b8736620a47e6161d6b3f4f4ac8818170263bdadc"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-bosu-ball-pushup.webp",
+          "bytes": 19840,
+          "sha256": "5e7535cfb45449c61fd619267c46b01a1eee2f44eac33f978a1c6901b03e4c89"
+        }
+      ]
+    },
+    {
+      "slug": "kettlebell-staggered-deadlift-single",
+      "exerciseId": "rthepen:kettlebell_staggered_stance_rdl",
+      "sourcePage": "https://musclewiki.com/exercise/kettlebell-staggered-deadlift-single",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-staggered-deadlift-single-front.mp4",
+      "pageSha256": "fe9ba4d061ad53509886df4e28a8e1af971f20286b5fa16897800250c1309149",
+      "sourceSha256": "dd718ba2de128e852845be48f4e7d85b1fc3042966f45089d22eac39b87d0342",
+      "title": "Kettlebell Staggered Deadlift (Single)",
+      "duration": 5.533333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.2133332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-staggered-deadlift-single.mp4",
+          "bytes": 317124,
+          "sha256": "dd718ba2de128e852845be48f4e7d85b1fc3042966f45089d22eac39b87d0342"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-staggered-deadlift-single.webp",
+          "bytes": 21378,
+          "sha256": "c5c4ab71904752b9219c842a0cae7a40084aee39c280dd38e6f339744c802644"
+        }
+      ]
+    },
+    {
+      "slug": "barbell-front-raise",
+      "exerciseId": "hasan:0041",
+      "sourcePage": "https://musclewiki.com/exercise/barbell-front-raise",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-raise-front.mp4",
+      "pageSha256": "1164ea7973798ceaff4172af6ed9a106d3c58b32b32be205dc797b2099f09953",
+      "sourceSha256": "b1d9aa561894f7fccce04d923dfdee9b228240565950a413b234f7d3bac871a5",
+      "title": "Barbell Front Raise",
+      "duration": 5.683333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.2733332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-barbell-front-raise.mp4",
+          "bytes": 810505,
+          "sha256": "b1d9aa561894f7fccce04d923dfdee9b228240565950a413b234f7d3bac871a5"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-barbell-front-raise.webp",
+          "bytes": 19308,
+          "sha256": "dd0eb92c317f485a8ddb2d793b04987b9c3657c96f6c572d32b7c27c9066380a"
+        }
+      ]
+    },
+    {
+      "slug": "barbell-lateral-lunge",
+      "exerciseId": "hasan:1410",
+      "sourcePage": "https://musclewiki.com/exercise/barbell-lateral-lunge",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-barbell-lateral-lunge-front.mp4",
+      "pageSha256": "f5216580321d09380c6184c3c73c1894a3c8422c673a77103a11d4fe118bb6d9",
+      "sourceSha256": "a4d9c2faa1cb26c49aa0c8d9a97155c7d625de8f96dd544a46521411a97edef6",
+      "title": "Barbell Lateral Lunge",
+      "duration": 12.716667,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 5.0866668,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-barbell-lateral-lunge.mp4",
+          "bytes": 2116489,
+          "sha256": "a4d9c2faa1cb26c49aa0c8d9a97155c7d625de8f96dd544a46521411a97edef6"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-barbell-lateral-lunge.webp",
+          "bytes": 20570,
+          "sha256": "4f9dea4e60978dbd04f00d030429e2ce0738fea287eaaae20412cd4c8815852c"
+        }
+      ]
+    },
+    {
+      "slug": "dumbbell-single-arm-lateral-raise",
+      "exerciseId": "hasan:0355",
+      "sourcePage": "https://musclewiki.com/exercise/dumbbell-single-arm-lateral-raise",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-lateral-raise-front.mp4",
+      "pageSha256": "e0a4a74bc9880df202c3e910d9e0c2e95fe4ac5ae531cc7d64d112d49cfe1c98",
+      "sourceSha256": "5889d166acb3deca667b5dec77131699cb2743b9e0717237eb06dff0898a70d0",
+      "title": "Dumbbell Single Arm Lateral Raise",
+      "duration": 4.45,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 1.7800000000000002,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-single-arm-lateral-raise.mp4",
+          "bytes": 317075,
+          "sha256": "5889d166acb3deca667b5dec77131699cb2743b9e0717237eb06dff0898a70d0"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-single-arm-lateral-raise.webp",
+          "bytes": 29602,
+          "sha256": "7b45684fe043f44608b0ea6bf1493d357ec46bbd8caf3c4dfb5e7a44a941d243"
+        }
+      ]
+    },
+    {
+      "slug": "mini-band-squat",
+      "exerciseId": "hasan:1004",
+      "sourcePage": "https://musclewiki.com/exercise/mini-band-squat",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Band-mini-band-squat-side.mp4",
+      "pageSha256": "fa4281a8c1d08c807d88295b440f90eb283583b1ca0634b9b2a78d968bf868a9",
+      "sourceSha256": "afd136d438f7ad08ab8216a94b45d6b7ca9501b55337747424f05cfc11584538",
+      "title": "Mini Band Squat",
+      "duration": 6.35,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.54,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-mini-band-squat.mp4",
+          "bytes": 424631,
+          "sha256": "afd136d438f7ad08ab8216a94b45d6b7ca9501b55337747424f05cfc11584538"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-mini-band-squat.webp",
+          "bytes": 24852,
+          "sha256": "893652784fada8b7cf89e2139ecbfc6b9cfd6eff8a796241c9b1d1df864df9aa"
+        }
+      ]
+    },
+    {
+      "slug": "side-lunges",
+      "exerciseId": "rthepen:bodyweight_side_lunges",
+      "sourcePage": "https://musclewiki.com/exercise/side-lunges",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-bodyweight-side-lunge-front.mp4",
+      "pageSha256": "8ebb9504cb0d5c865037fc40544f0d60394070fbdd195d478ea68dd4baf04413",
+      "sourceSha256": "f375ec7a171cbff9e73c98a3630f4a9f17b9392cfde78677b9b1818a5bee350a",
+      "title": "Side Lunges",
+      "duration": 4.838167,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "posterTimeSeconds": 1.9352668000000002,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-side-lunges.mp4",
+          "bytes": 686337,
+          "sha256": "f375ec7a171cbff9e73c98a3630f4a9f17b9392cfde78677b9b1818a5bee350a"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-side-lunges.webp",
+          "bytes": 30712,
+          "sha256": "a79f8b920e9274b231eec4d2002a8b95a1b3329d153b28bb325c811e485648b6"
+        }
+      ]
+    },
+    {
+      "slug": "dumbbell-pullover",
+      "exerciseId": "hasan:0375",
+      "sourcePage": "https://musclewiki.com/exercise/dumbbell-pullover",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-pullover-front.mp4",
+      "pageSha256": "c3519e7cc6d6362866e3712de5f2e603d26efc2622d281f95c6c6005f8520f73",
+      "sourceSha256": "4e86d0d0bb96e5cce417d5e3969f90b1f3f2c1a256344bd38932f2571107af86",
+      "title": "Dumbbell Pullover",
+      "duration": 7.25,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.9000000000000004,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-pullover.mp4",
+          "bytes": 407596,
+          "sha256": "4e86d0d0bb96e5cce417d5e3969f90b1f3f2c1a256344bd38932f2571107af86"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-pullover.webp",
+          "bytes": 24734,
+          "sha256": "187fc3d7e17ec4d9609886b5bdee4583e94600767c8f4b51e4fbfc55e140659d"
+        }
+      ]
+    },
+    {
+      "slug": "kettlebell-alternating-swing",
+      "exerciseId": "rthepen:kettlebell_h2h_swing",
+      "sourcePage": "https://musclewiki.com/exercise/kettlebell-alternating-swing",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-alternating-swing-side.mp4",
+      "pageSha256": "0ce1d6847c92ca5e7da6a43acdb4e746a6032b176b6635bf86847ada14af8487",
+      "sourceSha256": "d3334f7738a7f29af1626bc64187f362f5afd07055691185c951eddf1041aa37",
+      "title": "Kettlebell Alternating Swing",
+      "duration": 9.833333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 3.9333332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-alternating-swing.mp4",
+          "bytes": 859779,
+          "sha256": "d3334f7738a7f29af1626bc64187f362f5afd07055691185c951eddf1041aa37"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-alternating-swing.webp",
+          "bytes": 5810,
+          "sha256": "0064d2d43b96265f788f59b167b210d40bba5ccf8ccbfae63c461f487a34f726"
+        }
+      ]
+    },
+    {
+      "slug": "kettlebell-single-leg-deadlift",
+      "exerciseId": "rthepen:kettlebell_single_leg_rdl",
+      "sourcePage": "https://musclewiki.com/exercise/kettlebell-single-leg-deadlift",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-leg-deadlift-front.mp4",
+      "pageSha256": "7c1c2719f7b3d81922ed4c0aa0742bbc9b2b101663b544c81e9b618a123e9ae3",
+      "sourceSha256": "1d95e087803a9771cf4c99c501189791c53c2d9ab5deae3c395187ef8959160e",
+      "title": "Kettlebell Single Leg Deadlift",
+      "duration": 6.533333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.6133332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-single-leg-deadlift.mp4",
+          "bytes": 363824,
+          "sha256": "1d95e087803a9771cf4c99c501189791c53c2d9ab5deae3c395187ef8959160e"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-single-leg-deadlift.webp",
+          "bytes": 22536,
+          "sha256": "505fd463aa2ad6d746b7e997943b37e6ef29c1bec427065d71db990a66eaaa8b"
+        }
+      ]
+    },
+    {
+      "slug": "triceps-stretch-variation-one",
+      "exerciseId": "Triceps_Stretch",
+      "sourcePage": "https://musclewiki.com/exercise/triceps-stretch-variation-one",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-triceps-stretch-variation-1-front.mp4",
+      "pageSha256": "079dbf1ca5478b40f97db2c175fb40ae93d11eee252500483c03c61334ceeb36",
+      "sourceSha256": "13ae9e11bc78041d91865e6a98e68ad9ed4e848b8ca06d905787cff4692dfd2f",
+      "title": "Triceps Stretch Variation One",
+      "duration": 10.28,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "posterTimeSeconds": 4.112,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-triceps-stretch-variation-one.mp4",
+          "bytes": 297340,
+          "sha256": "13ae9e11bc78041d91865e6a98e68ad9ed4e848b8ca06d905787cff4692dfd2f"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-triceps-stretch-variation-one.webp",
+          "bytes": 10270,
+          "sha256": "086916119e1f25e4e4da4990dd6e1401715f3fa5ca1161e02dc02f8466d6f1fc"
+        }
+      ]
+    },
+    {
+      "slug": "calves-stretch-variation-one",
+      "exerciseId": "Calf_Stretch_Hands_Against_Wall",
+      "sourcePage": "https://musclewiki.com/exercise/calves-stretch-variation-one",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-1-front.mp4",
+      "pageSha256": "d36d907fb52f8a30936b5e48c4e480918ce9862f3ec4cb78225737bd4c6875e3",
+      "sourceSha256": "0d44dd4394233b329660eb3801d5a6160f286ad1d2e8247d8c60ea373c418d06",
+      "title": "Calves Stretch Variation One",
+      "duration": 12.84,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "posterTimeSeconds": 5.136,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-calves-stretch-variation-one.mp4",
+          "bytes": 423863,
+          "sha256": "0d44dd4394233b329660eb3801d5a6160f286ad1d2e8247d8c60ea373c418d06"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-calves-stretch-variation-one.webp",
+          "bytes": 9528,
+          "sha256": "7055f7ca8e0c89a8b3d8f11089d3522aa2372c9559f6a0c861a749fb6549b4d6"
+        }
+      ]
+    },
+    {
+      "slug": "hamstring-stretch-seated-single-leg",
+      "exerciseId": "Seated_Floor_Hamstring_Stretch",
+      "sourcePage": "https://musclewiki.com/exercise/hamstring-stretch-seated-single-leg",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-stretch-seated-single-leg-front.mp4",
+      "pageSha256": "fcde7a7ed0b6e2dc910dd93d8099a9b59ee1b9493862110bc83f3a5e85c0c526",
+      "sourceSha256": "152b74ebcfee92bb47095b2fe3fd00bb02b69b1e66a484f98fc0dece1ae3895f",
+      "title": "Hamstring Stretch Seated Single Leg",
+      "duration": 13.15,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 5.260000000000001,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-hamstring-stretch-seated-single-leg.mp4",
+          "bytes": 738416,
+          "sha256": "152b74ebcfee92bb47095b2fe3fd00bb02b69b1e66a484f98fc0dece1ae3895f"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-hamstring-stretch-seated-single-leg.webp",
+          "bytes": 15596,
+          "sha256": "c7a6cb94b0ff5806bdab4c2b3b04e901504f3081e254a99dce7a7cf484626189"
+        }
+      ]
+    },
+    {
+      "slug": "kettlebells-single-arm-snatch",
+      "exerciseId": "One-Arm_Kettlebell_Snatch",
+      "sourcePage": "https://musclewiki.com/exercise/kettlebells-single-arm-snatch",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-single-arm-snatch-side.mp4",
+      "pageSha256": "76784e0f76ce4fb7fc66dd34748ce07462ea9918f2855a6eb1f2353692c5fa8c",
+      "sourceSha256": "a5f8cf951f1f9cc3c844882dcdaa8e79ddf713a8c73736cd9898491dccc1c828",
+      "title": "Kettlebell Single Arm Snatch",
+      "duration": 5.183333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.0733332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebells-single-arm-snatch.mp4",
+          "bytes": 327113,
+          "sha256": "a5f8cf951f1f9cc3c844882dcdaa8e79ddf713a8c73736cd9898491dccc1c828"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebells-single-arm-snatch.webp",
+          "bytes": 5494,
+          "sha256": "3275c8b72dcb8f99716280e4137d2f4678b466c2fef7f6c7cc8dd4593fee8b6c"
+        }
+      ]
+    },
+    {
+      "slug": "machine-pec-fly",
+      "exerciseId": "Butterfly",
+      "sourcePage": "https://musclewiki.com/exercise/machine-pec-fly",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Machine-machine-pec-fly-side.mp4",
+      "pageSha256": "3f8b0e6f200fc3dc0c922b4f12d1e9c3f0368ebe54fd4cbe113f4dd7941936c5",
+      "sourceSha256": "f673866e0fc7c0fe5836d28cb0274b985a2932e71280f94c7accefebfd974b9f",
+      "title": "Machine Pec Fly",
+      "duration": 7.016667,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.8066668000000004,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-machine-pec-fly.mp4",
+          "bytes": 796080,
+          "sha256": "f673866e0fc7c0fe5836d28cb0274b985a2932e71280f94c7accefebfd974b9f"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-machine-pec-fly.webp",
+          "bytes": 28714,
+          "sha256": "d1e2aa0261fc8f7cde1ca7635dc3407289a2233b35f0022ac3c1fa68f4b2f33c"
+        }
+      ]
+    },
+    {
+      "slug": "dumbbell-preacher-curl",
+      "exerciseId": "Two-Arm_Dumbbell_Preacher_Curl",
+      "sourcePage": "https://musclewiki.com/exercise/dumbbell-preacher-curl",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-preacher-curl-side.mp4",
+      "pageSha256": "541b1df77ecce56457fc885390c2f7477b762074ee62d108586d88ddf99d9366",
+      "sourceSha256": "a556209ef71f89756bb7c942b46de5f61b0d3aa68d55a7b2b798950466589e53",
+      "title": "Dumbbell Preacher Curl",
+      "duration": 6.833333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.7333332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-preacher-curl.mp4",
+          "bytes": 638656,
+          "sha256": "a556209ef71f89756bb7c942b46de5f61b0d3aa68d55a7b2b798950466589e53"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-preacher-curl.webp",
+          "bytes": 35824,
+          "sha256": "1879e28978da094e51a4e4a35c5f8d43f2698354903fcc2826d33abbf3cac05a"
+        }
+      ]
+    },
+    {
+      "slug": "standing-forward-bend",
+      "exerciseId": "Standing_Toe_Touches",
+      "sourcePage": "https://musclewiki.com/exercise/standing-forward-bend",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-yoga-standing-forward-bend-front.mp4",
+      "pageSha256": "e58d738ab5851c4c5bcb013584abffdfcc398a335babf7e5379ae3d8ef652f39",
+      "sourceSha256": "2c4d9d1d9b33950c717b3ca9167d89b30d6bf18f78de372d06b02c9571a7daf6",
+      "title": "Standing Forward Bend",
+      "duration": 19.6,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 7.840000000000001,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-standing-forward-bend.mp4",
+          "bytes": 2383908,
+          "sha256": "2c4d9d1d9b33950c717b3ca9167d89b30d6bf18f78de372d06b02c9571a7daf6"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-standing-forward-bend.webp",
+          "bytes": 48930,
+          "sha256": "985515a5653a747cc8b4bd2c170c63b13b363c6a8577eb69ea4477a87659ba5c"
+        }
+      ]
+    },
+    {
+      "slug": "single-leg-bosu-ball-balance-2",
+      "exerciseId": "wger:2616",
+      "sourcePage": "https://musclewiki.com/exercise/single-leg-bosu-ball-balance-2",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Recovery-balance-4-single-leg-bosu-ball-front.mp4",
+      "pageSha256": "82204a44f95f9018fca5f00e4da9c09eae38226dde9fb1f42ae3d8f84d825fa7",
+      "sourceSha256": "1a259a3fdc930462a450b44c323a611f8083ba67eb2f6af5a4aa7f1894c845c1",
+      "title": "Single Leg Bosu Ball Balance 2",
+      "duration": 8.233333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 3.2933332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-single-leg-bosu-ball-balance-2.mp4",
+          "bytes": 599932,
+          "sha256": "1a259a3fdc930462a450b44c323a611f8083ba67eb2f6af5a4aa7f1894c845c1"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-single-leg-bosu-ball-balance-2.webp",
+          "bytes": 16194,
+          "sha256": "6fc320d6c6c8ba7c0ee735890789044e0af0a570d6ed9cb51def5cc5cc378b7d"
+        }
+      ]
+    },
+    {
+      "slug": "trap-bar-squat",
+      "exerciseId": "Trap_Bar_Deadlift",
+      "sourcePage": "https://musclewiki.com/exercise/trap-bar-squat",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-squat-side.mp4",
+      "pageSha256": "99b344e801d81554504cef96b03605d1361443d1648f088d07fd9e9791e00f48",
+      "sourceSha256": "62e30d5bcdd99f9baf5df2019061762c90c47c39ad721fc893558f6c63e42f27",
+      "title": "Trap Bar Squat",
+      "duration": 5.033333,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "posterTimeSeconds": 2.0133332,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-trap-bar-squat.mp4",
+          "bytes": 469487,
+          "sha256": "62e30d5bcdd99f9baf5df2019061762c90c47c39ad721fc893558f6c63e42f27"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-trap-bar-squat.webp",
+          "bytes": 17114,
+          "sha256": "edb5a03518db2ca341e04c8ba097a817c75d76942db8fe2455610d1ed5385964"
+        }
+      ]
+    }
+  ],
+  "wger": []
+}

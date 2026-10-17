@@ -83,6 +83,7 @@ export function createLiveWorkout(
     phase: LIVE_PHASE.training,
     exercises: input.items.map((item) => ({
       exerciseId: item.exerciseId,
+      ...(item.notes ? { notes: item.notes } : {}),
       previous: findPreviousPerformance(
         sessions,
         item.exerciseId,
@@ -123,6 +124,7 @@ export function prepareSession(workout: LiveWorkout): Omit<Session, "id" | "crea
       ? [
           {
             exerciseId: exercise.exerciseId,
+            ...(exercise.notes ? { notes: exercise.notes } : {}),
             sets: performedSets.length,
             reps: last.reps,
             weight: last.weight,

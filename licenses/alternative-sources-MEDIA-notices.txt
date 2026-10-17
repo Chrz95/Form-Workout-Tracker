@@ -1,0 +1,685 @@
+Form 2.21 alternative-source media
+
+FLOW EXERCISE DATASET
+Revision: 961bb2739015da373daa43b960c28ee839fe93e6
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, Flow dedicates its rights in the custom SVG
+artwork in assets/ to the public domain under the Creative Commons CC0 1.0
+Universal Public Domain Dedication:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
+
+No warranty or third-party rights clearance is provided. This dedication does
+not grant rights that Flow does not hold. See NOTICE.md for provenance limits.
+
+# Sources, licenses, and limitations
+
+## Exercise data and instructions — MIT
+
+Exercise IDs, names, equipment, body parts, targets, supporting muscles, and
+instructions derive from [Hasan Emir Yıldırım's exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset).
+Copyright (c) 2026 Hasan Emir Yıldırım. The upstream MIT copyright and permission
+notice is preserved in LICENSE. The upstream license explicitly separates
+instruction text/data from media:
+https://github.com/hasaneyldrm/exercises-dataset/blob/main/LICENSE
+
+No upstream Gym visual thumbnails, GIFs, videos, or attribution-bearing media
+are included. That upstream media has separate restrictions; downloading this
+repository does not give permission to use it.
+
+Flow adds a coarse movement-pattern classification and a custom media mapping.
+The inherited `muscleGroup` field is deliberately omitted: Flow's import often
+derived it from a secondary muscle, so it is not a reliable primary-muscle label.
+The exported `target` and `secondaryMuscles` remain upstream-derived and have
+not received a full professional review.
+
+## Custom artwork — CC0-1.0 dedication, limited evidence
+
+The 1,257 custom frame sets have historical records declaring CC0-1.0.
+Generation metadata reports OpenAI Image Gen followed by silhouette processing
+and SVG vectorization. Only 13 original prompt files remain; 1,244 are not
+retained. Each exported provenance record states its actual prompt status.
+
+An empty references list means that no reference was recorded, not that a
+complete clean-room generation trail has been verified. Retained prompt text
+records intended constraints, not proof that generation followed them. SVG
+hashes establish file integrity, not authorship, exercise correctness, or legal
+clearance. Historical acceptance/reviewer labels are not exported as independent
+certification. PNG master hashes are retained for correlation; the masters
+themselves are not part of this lightweight distribution.
+
+ARTWORK-LICENSE dedicates only rights Flow can legally dedicate. It is not a
+guarantee that every output is copyrightable, unique, or cleared of third-party
+rights. This is an openly documented preview, not a professionally certified
+exercise library. Please report concerns with the exercise ID and frame name.
+
+## Intended use and review
+
+The frames are stylized illustrations. They may omit equipment, misrepresent
+variants, or show imperfect form. Text can contain inherited inaccuracies.
+Review both text and artwork before using them for instruction. The frame
+timing is a display setting, not a prescribed exercise tempo.
+
+AI description drafts, if supplied in a separate drafts/ directory, are not
+approved coaching content. They must not silently replace the base instructions.
+
+Historical GIF previews are deliberately excluded because some were blank.
+This repository also excludes the Flow app, configuration, user data, credentials,
+and private Git history.
+
+
+WIKIMEDIA COMMONS
+
+Source: https://commons.wikimedia.org/wiki/File:Kettlebell_Overhead_Walks.webm
+Original SHA-256: 338e36221886243d333d5a53af693fdfce930d0e7157c2afec4f868e90c24747
+Bundled: /exercise-motion/commons-kettlebell-overhead-carry.mp4
+SHA-256: 364092f0ce7d37bbb743abedbd8c3858a556452eb5097433ad8b3a5ef8744f07
+Bundled: /exercise-motion/commons-kettlebell-overhead-carry.webp
+SHA-256: 1a157e9160a9e05ce6570f7129120754406b8f87bbaba0f61fbead4e419aba13
+
+Source: https://commons.wikimedia.org/wiki/File:Double_Kettlebell_Strict_Press_(side_view).webm
+Original SHA-256: de8feb9d515daa2bfaeed7167fdcc62028dd3f6450872c4fd81f8fb03dd6359c
+Bundled: /exercise-motion/commons-double-kettlebell-press-finish.webp
+SHA-256: 816d19b5bead3120d5700fcebbc56e42796c144df2bc5820b23953c2b192ef2c
+
+Source: https://commons.wikimedia.org/wiki/File:TRX_Exercise_push-ups_4.jpg
+Original SHA-256: 5d701d12ecd7c55d350d248c2fd57de2bd32a6779f1353ba8559170bfb0a0e27
+Bundled: /exercises/commons/trx-push-up-ptpioneer.jpg
+SHA-256: 74a919eb5c40f205035a0f61c01cad4ded928af73061602725c9c52a99df6bb4
+
+Taco Fleur: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/
+PTPioneer: CC BY 2.0, https://creativecommons.org/licenses/by/2.0/
+PTPioneer attribution link: https://www.ptpioneer.com/
+
+FLOW UPSTREAM LICENSE
+MIT License
+
+Copyright (c) 2026 Flow exercise dataset contributors
+Copyright (c) 2026 Hasan Emir Yıldırım (upstream exercise data and instructions)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The SVG artwork in assets/ is instead dedicated under CC0-1.0; see
+ARTWORK-LICENSE and NOTICE.md. This MIT license does not grant rights in
+third-party media. No upstream exercise images or GIFs are included.
+
+
+FORM 2.22 CONTINUATION — SELECTED FLOW STATIC ILLUSTRATIONS
+Revision: 961bb2739015da373daa43b960c28ee839fe93e6
+No new artwork generated. Original publisher notices and artwork dedication above remain applicable.
+
+hasan:1263 — Seated Single-Arm Cable Fly on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1263/frame-00.svg
+Source SHA-256: 824755af5344ca055f503183c212e60804b3b8a6e88e37f2562b92a2924e1fbf
+Local: /exercises/flow/1263/0.svg
+Local SHA-256: 50bfceb36242f54eba122775c223ec17bd88b2d7ad6e69490a9c255e05d47da5
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1263/frame-01.svg
+Source SHA-256: 7cdb6c0be1b45274941e622364dabbcceb13dcb799c6cdcd290a599a49133d5b
+Local: /exercises/flow/1263/1.svg
+Local SHA-256: daa10cece2baebc3741e09feb52f3d083b5fb087aaaf77ac6b7f923ed4a87700
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1263/frame-02.svg
+Source SHA-256: 0b676b1b8217050b3d8c1ae03abe4ec4775f447724251dd171c3abc56f02e2ca
+Local: /exercises/flow/1263/2.svg
+Local SHA-256: 052e30282db75fe2f514fdd261fd7fedb3f5bfa09b26be5388bbdcedae512b15
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1267 — Seated Single-Arm Cable Press on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1267/frame-00.svg
+Source SHA-256: 5700b9c832689ede9b1f1fe716ec24d05e1c1f26058045eefd5b101ec2d1430f
+Local: /exercises/flow/1267/0.svg
+Local SHA-256: 08845e87685cb516735561c5ff6076911a8dd370a5ac0e1ccfb11eab8e9a2df1
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1267/frame-01.svg
+Source SHA-256: 39d9f944ad6e8e71534d84968ec62657fd96daa22a86a9271f4d873a3cbfe0cc
+Local: /exercises/flow/1267/1.svg
+Local SHA-256: 6b181a7ba799464a53a84ebde27d603378acb6b5280ed2b5a646df949fab0831
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1267/frame-02.svg
+Source SHA-256: bbac933f6f0850743bc08f0d4f3bbae14331651257f26571450623edad02a117
+Local: /exercises/flow/1267/2.svg
+Local SHA-256: 783f96baad9e16c4acd55899161e1460baa844510d93ef5014d690f9026a275c
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1637 — Seated Overhead Cable Curl on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1637/frame-00.svg
+Source SHA-256: 2d1ed6ea154b5afaa6f7630455000214452657465a0a1d309bb6b7dad7db4c12
+Local: /exercises/flow/1637/0.svg
+Local SHA-256: 97c457ec24156fd9a6e1dbce4e3fa76999b04f7aff73e9682d7f08f6b24cea53
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1637/frame-01.svg
+Source SHA-256: 7a20c6e77c6ec5b2b1dcfa3aa73fe82bd8df4efac140c21d9070b3c4fae2419b
+Local: /exercises/flow/1637/1.svg
+Local SHA-256: 9540c4051cbf14ea27770c1dbaf2347ef40fd9ab853bf2f11db9b0928d74656d
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1637/frame-02.svg
+Source SHA-256: 7d8d3b5befa745601fdd01cc53546e88cd5e198948e130e8a2b415f9f310cbf8
+Local: /exercises/flow/1637/2.svg
+Local SHA-256: 59a31871cd0b825316fcbc5edd286540337426cee1b2368b99963b0813dd6826
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1268 — Seated Cable Chest Press on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1268/frame-00.svg
+Source SHA-256: cbaf859e479b0db872bf1348a3e1dc63b969ffc206014c007754f2f69c9574fe
+Local: /exercises/flow/1268/0.svg
+Local SHA-256: 6a97a7e1d194fa42a85ef4cf0f694a7135c61b108522e58734d161a8952006ed
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1268/frame-01.svg
+Source SHA-256: 573c2df1e768be4fa4ca0777c6d2bc5310419feb23b5a1a0e3b87f9899e34a15
+Local: /exercises/flow/1268/1.svg
+Local SHA-256: b2520009ac8c5e7dea6a22d1cf4386b70f6a119d4312e206eb639a8d2aac862e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1268/frame-02.svg
+Source SHA-256: 80329087e275496dcf5e9b820efce405e262b24c3c48b184bd877d30915cd039
+Local: /exercises/flow/1268/2.svg
+Local SHA-256: 122d00f8571a02239c21133cafa8d3e90d7fe222ea457250be3d06dfc619b6d2
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:0211 — Seated Stability Ball Cable Twist
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0211/frame-00.svg
+Source SHA-256: 8178b7fd260b7803fb04e1112104068528c84e1b0245bb8f4ee4a6bcb64493bd
+Local: /exercises/flow/0211/0.svg
+Local SHA-256: 2406b8098016818d74150a405e874793911a7d4f36cca971707369f015553def
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0211/frame-01.svg
+Source SHA-256: 828cb27585fac4967969074a16106f14ab19f867bd1bbfbb9c2d5ad4b8167db2
+Local: /exercises/flow/0211/1.svg
+Local SHA-256: 44fe040107d043b0359a200375536a6b5fbd986c385b6755ad717eef99f55b41
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0211/frame-02.svg
+Source SHA-256: d1e76d866d7ff7b620636fb97605e220469ef36b8aa6ae558d566d09b20b4e4c
+Local: /exercises/flow/0211/2.svg
+Local SHA-256: 804728e6bb14a039ca3c5cd58fbb4da8854071cc4cdb2796f1b2f36639f8f0b8
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:2399 — Seated Cable Twist
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/2399/frame-00.svg
+Source SHA-256: 9b1a9d50a4b625274ac672e867e88248ef201c5d3c2d77ac025098242fed1e62
+Local: /exercises/flow/2399/0.svg
+Local SHA-256: e86eb68c2e9194a3be2389ca3e8d31a4229e438e1d1928a53ec42016d18c12a2
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/2399/frame-01.svg
+Source SHA-256: 1a75ffbe88e058a3aa553053e9707da29e3e7153918508093cb90aae10a66b70
+Local: /exercises/flow/2399/1.svg
+Local SHA-256: 6f700233596eef15fcdda5cd1ee405fa9e713d62ff567dd8b93461a4c311713d
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/2399/frame-02.svg
+Source SHA-256: b9396dba7217c59f8e39c030bb62e0a3fcc55daf1fe57a7c18b7775aed6cf8ee
+Local: /exercises/flow/2399/2.svg
+Local SHA-256: 8cb505ae94f4b5136a9c4e543e57e90954cacf37a8fde6f9d44268a7d0e4ddcd
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1717 — Cable Squat to Row with Rope
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1717/frame-00.svg
+Source SHA-256: 5f1bbd3cdf5ded7f9a1361e50ebe0bf2f4cf2ff5f81ce0a748c7c2eeaa301888
+Local: /exercises/flow/1717/0.svg
+Local SHA-256: 161cbac48e89245b76c55900bf2ca927117f69384e1661c0c0cec17767337603
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1717/frame-01.svg
+Source SHA-256: db92d8042b53320d7bdce5a3f678523a2372b803c806c5a46f79dfb1948d3ac1
+Local: /exercises/flow/1717/1.svg
+Local SHA-256: 497f69cd3beada13a833c3e03d488ac9e8e5acdfd7bb18a157ba2e3ccfb66de0
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1717/frame-02.svg
+Source SHA-256: ba90d71020f20368b91a2abe8f2471ad085f8a2047595ee30cdee1caf08bd599
+Local: /exercises/flow/1717/2.svg
+Local SHA-256: 74f82b82002dbbeadaed62be7ca68cc8f4ef128a62f936404de1326e1b11424e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:0244 — Standing Single-Arm Cable Row with Rotation
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0244/frame-00.svg
+Source SHA-256: de0ba2e4e0434b62e0b90f30c83d6018d05fe2b1a1c8d2952071c12766ccace6
+Local: /exercises/flow/0244/0.svg
+Local SHA-256: 3f5aeb81dd82b34ee6aa89455927a935ae10bcd48676976e6433a93e4a99a1c0
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0244/frame-01.svg
+Source SHA-256: afa84f9da501bcaf14f4bcfadd02ad38a4cd20a47bea8f6b4cec3a4a77364e93
+Local: /exercises/flow/0244/1.svg
+Local SHA-256: a4c121b2d4bfdc653f1f505ae144c461389a4b3dba075e1bdf403e42335eba0e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0244/frame-02.svg
+Source SHA-256: 1577eb7ff526a968308a244e0ac4c96e300500e1efd7d1225513d2b94a01b2e4
+Local: /exercises/flow/0244/2.svg
+Local SHA-256: 27d1f6f58f52615a13a5d52cbe0e8121f5865db3766a315e1a5fd8403e0dea57
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1645 — Incline Cable Biceps Curl
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1645/frame-00.svg
+Source SHA-256: 10df03382811194605d0ea6392c6833c9b7873f3e0bc860e2171db3b1fa14b53
+Local: /exercises/flow/1645/0.svg
+Local SHA-256: 5ed5c7f8f198992cbe01ed348c8e948258afcad3393e19cc3ce8a15de9ac6919
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1645/frame-01.svg
+Source SHA-256: 42b0b0b1d9ad3f3f9fcb5cf41841aa44384d627e902544cb5bb35bb3c9c464a4
+Local: /exercises/flow/1645/1.svg
+Local SHA-256: bf69804de6bda0c09e95e4798993af95e467e7773a7bd8d8b32edf12930add92
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1645/frame-02.svg
+Source SHA-256: c0ccc4ef753829011d6ee94bf953a14a1dadf06fda9a9afb2caf36c8369c380e
+Local: /exercises/flow/1645/2.svg
+Local SHA-256: 736f1af07d8953a31aa59a1e6225f46cee1e5a249d5555d0fd7170a267c600cb
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1728 — Two-Arm Cable Triceps Kickback
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1728/frame-00.svg
+Source SHA-256: 989a6c222087663d36b28ca7c97e788432a8ca8c6662f919b8fdb1d462d37186
+Local: /exercises/flow/1728/0.svg
+Local SHA-256: 3f71f3deb8315fad6fa7a9440168d0ae7042906276e5010e548b08bc64b88b23
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1728/frame-01.svg
+Source SHA-256: 0a9bc19c0875a2bf3ce0384a2460e9121e2496fe446e052f0ea49ed37aa1e6bf
+Local: /exercises/flow/1728/1.svg
+Local SHA-256: 502be76c77c03ac232f87ee77aefe6b4905987b0fbceb1d416bc36ac29da80d9
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1728/frame-02.svg
+Source SHA-256: 0c63d35388f0711e8e3c64c67ee4f6ac1d7013a442fbadc2a290b0e7d7e6fcf8
+Local: /exercises/flow/1728/2.svg
+Local SHA-256: afa6dde9d09ef751307240cad44dcac0d8d0f934d336b2dd582456cf58faabc4
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1651 — Dumbbell Lunge Curl with Bowling Motion
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1651/frame-00.svg
+Source SHA-256: e7a5c9b3d47ab363b1022895db9f9b6d6ff7085e62fd9b5ed67ad4c6dd0c39dc
+Local: /exercises/flow/1651/0.svg
+Local SHA-256: fd58f6bb64efd51fe67e0d6085bb0db5244bc8183700d3697225365481e4fe2a
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1651/frame-01.svg
+Source SHA-256: 3e39ac0a89fbce7a891412223b7f5696f18cdfd177cb366d1a81bf4ce565c481
+Local: /exercises/flow/1651/1.svg
+Local SHA-256: 07108a144c45547bd5c2bc1ed410d3b6f839e7538e6a0c56085a2ff97330818e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1651/frame-02.svg
+Source SHA-256: 771e18f634636245086a0e549d6f35ed8b0e824c16b6831faaff3df30d6dfa29
+Local: /exercises/flow/1651/2.svg
+Local SHA-256: 108d4bdd7676de095b5725b1eee51cb6d189424472c535d36f83d23efbdbb201
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1276 — Single-Arm Decline Dumbbell Fly
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1276/frame-00.svg
+Source SHA-256: d3eb6fa322446fbd1cf537a4c388b06e43b19bd8da49e46299abfb5e35cbe658
+Local: /exercises/flow/1276/0.svg
+Local SHA-256: f82d03cbe97b35fa9cc50ecb1ebd922dfaa17cf6e0b4f49932ef0e3b2651d692
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1276/frame-01.svg
+Source SHA-256: 444767508232a25da931ec4e1ccb13af9c44b212da386bbd358beb6a224b54ae
+Local: /exercises/flow/1276/1.svg
+Local SHA-256: 31a1b6405712736397525818ec67103ad56cb82c8c16b369ec14987ae7f01175
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1276/frame-02.svg
+Source SHA-256: 1d165b5113493bc5ed7db82cc28df3ffe2be5a259c696a4d20dd92c1d0f50771
+Local: /exercises/flow/1276/2.svg
+Local SHA-256: 1266f2f6e10a169efe205c0e3daacd15c0a64205c2b10ee5af221632eaf0aa3d
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1283 — Dumbbell Chest Press on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1283/frame-00.svg
+Source SHA-256: 7cff25b56e05ffae4cc8b45ec62da5bbdf1349d14d7abbc9ecb2c0dbe63ba2ca
+Local: /exercises/flow/1283/0.svg
+Local SHA-256: 738bcf36c887d490c4b17c97255ca9f96cf6732ec62960a4d87c38189cf3aef6
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1283/frame-01.svg
+Source SHA-256: 92758e5b890a824da7f7e06e75d06a8f3e2c2e248346163bcaf1ff6f028a4cc7
+Local: /exercises/flow/1283/1.svg
+Local SHA-256: 8e6f009bd4578930675bebf9a21353d512500714441fd2fdb45406d75b318738
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1283/frame-02.svg
+Source SHA-256: 98df5db6772a4ec55f8606ec3ac5fe0a7664487a17047261bf3a943073ec7d26
+Local: /exercises/flow/1283/2.svg
+Local SHA-256: 56010043c1192d6ac0d2aac1e76ee717f932a52648039e3aa0e1522d922eb0bb
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1668 — Seated Single-Arm Dumbbell Curl on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1668/frame-00.svg
+Source SHA-256: 08c23339ae0795c71228bf7c7d8ab50c7b6d79cabfc5025de20913d8a3b8be2f
+Local: /exercises/flow/1668/0.svg
+Local SHA-256: 27267947f65c079f29348d37fd789742abc102af9aa40d8f7108646cbc766552
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1668/frame-01.svg
+Source SHA-256: 26a6ec74e3d69016f29839f8f909f2dc913a9da408e5c51aa62e0c56e2d8dbaa
+Local: /exercises/flow/1668/1.svg
+Local SHA-256: 73318c5e7bc19936c5259015d1a30eff2ce14059345e5b0fa7a056d48f126503
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1668/frame-02.svg
+Source SHA-256: 414463f96cb971ad50f9d366a65de3b9559325ffc405539b9a612128dc349186
+Local: /exercises/flow/1668/2.svg
+Local SHA-256: 275f02907d2bf819550c9b75623e12cbaddb0180509ea721db4e903f89db66b9
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1666 — Single-Arm Prone Dumbbell Hammer Curl on Flat Bench
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1666/frame-00.svg
+Source SHA-256: 289d4d17fc114a75e17eed69db2833b01303b49006bb6696b2ea3ff7d3bfa93b
+Local: /exercises/flow/1666/0.svg
+Local SHA-256: abaf5d6de8b4e0d72fac6fb6930d4519eb801ac1e42b44849cd54e86001cbb32
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1666/frame-01.svg
+Source SHA-256: d6a012602f6b604055119a39d68ced2f3f4bd3ba87456135a3a248e751733a78
+Local: /exercises/flow/1666/1.svg
+Local SHA-256: 71f125bd972971ff844513ce6fa99acee4e926f546b5322d2dbf7a8aea3aec5c
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1666/frame-02.svg
+Source SHA-256: fb0ea767d139e4024a688a0c5aea5695883c69843bbfcde1d9f6d1b9a2b33ca0
+Local: /exercises/flow/1666/2.svg
+Local SHA-256: 5eebf62a1fafea9ddd034c64a9a1f1be09c564effffcf8479a0aabc649ff929e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1329 — Dumbbell Bent-Over Row with Grip Rotation
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1329/frame-00.svg
+Source SHA-256: 537e05f1a87639802acbecc3047412614a025aeaa88210a7498c046b4e29452b
+Local: /exercises/flow/1329/0.svg
+Local SHA-256: 68d4d990c6a4c3459f32fe331bcb79725c518be1cdb0187d29e6e80988ac2fa0
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1329/frame-01.svg
+Source SHA-256: 447f5bea1a8865c7623c22e9bad48d35c8c9be4eaf5becc351d0d92db1fc3e6f
+Local: /exercises/flow/1329/1.svg
+Local SHA-256: 37f389d4bba957650159ef7bcfcd66b158a4f2a0453033636927de4c2d383caa
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1329/frame-02.svg
+Source SHA-256: e85ccf9aeedeec1e20d8a20bc21a6a84260a342d1acc194a65bf24e86a0ce946
+Local: /exercises/flow/1329/2.svg
+Local SHA-256: 2b98eec7dab34eac27295b4e7106c7fee1189d26e4e3c058cade86a53f381413
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1730 — Alternating Seated Dumbbell Triceps Kickback
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1730/frame-00.svg
+Source SHA-256: 6f942dcdb7e47737a9eb6d1fe646afa77b7a45de6fcfde34d1c77563f584a9b8
+Local: /exercises/flow/1730/0.svg
+Local SHA-256: b8c01cbcaef78f52178d47a9e38abcdaa7e5eb262b5a5ca3c82accca3c635873
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1730/frame-01.svg
+Source SHA-256: 55eb163589a1e798b0b8ce394e5015d067d4e8661f68c90712d611ab3366f20f
+Local: /exercises/flow/1730/1.svg
+Local SHA-256: 3ffcdc13667cde1c39d88ca4a392848d5afcb0ec667783cd7c6f4f595ed2cbd7
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1730/frame-02.svg
+Source SHA-256: 8c1ca59aec972f32b4ffa4fb91c6d877bf09c1e9a43c906b7bca850d0d8faed2
+Local: /exercises/flow/1730/2.svg
+Local SHA-256: c7820328e8f93d3f2cf833658b7b3be3760b355b5a3949ef143ec11ff4559dcc
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:0394 — Seated Two-Arm Dumbbell Triceps Kickback
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1737/frame-00.svg
+Source SHA-256: 360552b21f6a9d6023176fae2af2b7f9670dfab124110a87aad86ed311091b38
+Local: /exercises/flow/1737/0.svg
+Local SHA-256: d6b119f324d2bd212c5d8970c8d506a4d8ee91893f0317a84ffad527116104ad
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1737/frame-01.svg
+Source SHA-256: fe5a7919d2b638f1e8f7437072a30bfaf0bda01e55061277e731a23f6bda977d
+Local: /exercises/flow/1737/1.svg
+Local SHA-256: d7dbb7976c8bb373b64b34d0fdb9f4098c41c09215e93822c90278e8d14a1026
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1737/frame-02.svg
+Source SHA-256: 4ecefa55c92ac5d7acfbd0cd6c40172a8b3850f9446db8a3404f4fc4ab47f1e0
+Local: /exercises/flow/1737/2.svg
+Local SHA-256: 666ae439405eb937aeed28253a13607eff5eaee0bd4a6782f674a92fb49930c4
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1744 — Stability Ball Triceps Dip
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1744/frame-00.svg
+Source SHA-256: 5346d99648436690e6c68bc5a77f01044b63e89245dddb3b0daedd762a37ed50
+Local: /exercises/flow/1744/0.svg
+Local SHA-256: ae0b3b4e808c00651e8c40d569b4b5c5f72de5fcb9fde3fcc44cae10f55b2181
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1744/frame-01.svg
+Source SHA-256: 7392498b1cd9ec1a4717a08db20545a70cba09ece35c1da387574b84a8ab61e7
+Local: /exercises/flow/1744/1.svg
+Local SHA-256: d5bafbac0447813a72789c1080e785d4eb69a4704cf3bcc1f338bde18b283c91
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1744/frame-02.svg
+Source SHA-256: a8289ecf8294e06f6b08d7d2d3f7c70fee3f7f57c9544fd8a9d8e2ada36c6e44
+Local: /exercises/flow/1744/2.svg
+Local SHA-256: e94f8fec6e21104da72a919819e300dcc9f88a681043d32a71f2455ffdfd2900
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1746 — Seated Dumbbell Overhead Triceps Extension on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1746/frame-00.svg
+Source SHA-256: ee952aba5959223f10a46234aa50ce44f3b73e448465fe7523cd05c5cb670616
+Local: /exercises/flow/1746/0.svg
+Local SHA-256: 60d72e0be6f0044721e04c304bed3f93ca7a2789f754ed2cffeb56f50d6e194e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1746/frame-01.svg
+Source SHA-256: ffc37944a222e744338b5814b7cb6065f889b4f8d2fd407160cb723602b141c2
+Local: /exercises/flow/1746/1.svg
+Local SHA-256: d94acb8bec3429707ba5d9b1015553882987dc8bfda5cfecd0d710af45fe7333
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1746/frame-02.svg
+Source SHA-256: eff3d6ba1e74578d194272d176547c73a6c0d0ec5528099011c75126f324db02
+Local: /exercises/flow/1746/2.svg
+Local SHA-256: f6c14504915ec126feebfb3a0435f8a5215c9729d12f4ecf83112d718616e93d
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1747 — Seated EZ-Bar Overhead Triceps Extension on Stability Ball
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1747/frame-00.svg
+Source SHA-256: eda2b752776c941c5bfbd2c012e24d08dca6ab6555070bc3158a26d6ebfafae9
+Local: /exercises/flow/1747/0.svg
+Local SHA-256: 447801eb50aeb7f7b36ad997bc11a03c30353134183da718613c7012f43018a0
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1747/frame-01.svg
+Source SHA-256: aab9dafb2358fd60751b671486a7a60c3eda6f538f6dcb63a6dc52fdf1beb8ff
+Local: /exercises/flow/1747/1.svg
+Local SHA-256: 3a25d0d278aa20ad46234f3de6d2129f1a5d34ee5d1ed24b913e238b323f5a9c
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1747/frame-02.svg
+Source SHA-256: e947fa665a4ee9766915b3d3bf85590891f779b4a40efd2e7c92f075b9e1400c
+Local: /exercises/flow/1747/2.svg
+Local SHA-256: ef79cfec7bb0f5e42163dd03c33cf3af2744766a0de3da1be24d02c31b8492f6
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1761 — Hanging Oblique Knee Raise
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1761/frame-00.svg
+Source SHA-256: b587f5396a82309ca661d99c36f84f7550fc66ecf6a8deffb15fd0e7b2169b69
+Local: /exercises/flow/1761/0.svg
+Local SHA-256: 68e038c128c178e3aa1af1815e3eb8fd62f624b89fe344fd650fd81b83096ab7
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1761/frame-01.svg
+Source SHA-256: 3446e447e3e5e4edde7340f03feb5d7c3b6ff405eb943c14a238f22c0ef1a0e5
+Local: /exercises/flow/1761/1.svg
+Local SHA-256: 070fea24e6396485c89016bb2e16c9833b5a8a51843190213b5d3be31fdbb534
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1761/frame-02.svg
+Source SHA-256: df206c61bfde90983cda644ca1b43c151cd26903018ca4c1e8e6bc33cc77eafe
+Local: /exercises/flow/1761/2.svg
+Local SHA-256: d712c02748e0a318e432422e04609673f54d866cfa1da87e8da84956e2a970d3
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:3638 — Push-Up to Mountain Climber
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/3638/frame-00.svg
+Source SHA-256: 089fa32e7b385b5403603b207e5198470cdce93ea2af1189511d612a35d84c32
+Local: /exercises/flow/3638/0.svg
+Local SHA-256: 0e49e000201fdd496de22a10fbe8ca43e0030a8908ea8b4875f726875342d3ce
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/3638/frame-01.svg
+Source SHA-256: 49467ebbb5f50429c5a26531f5404e690be6be2991a47179cd0ab9a2ccab6d9a
+Local: /exercises/flow/3638/1.svg
+Local SHA-256: 6dd8d677fe6f775b987fa0be4d5969024e247f00d6254c673f7232eb1085f127
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/3638/frame-02.svg
+Source SHA-256: f2f2eb5c264981d0e4830eaee11f6ca5e3158e241a218ab7e56c4d61ecbeebe1
+Local: /exercises/flow/3638/2.svg
+Local SHA-256: abfeeea2ebd19f8069a25e835f7876b141bb05f036ae7acb8497a50bd88820b5
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:0661 — Push-Up with Inside Leg Kick
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0661/frame-00.svg
+Source SHA-256: 2e0a1b27f1242caf15f4da8523e725a43510eb0333fac312d3093bf96bbb4226
+Local: /exercises/flow/0661/0.svg
+Local SHA-256: 55e890a2e4de78724d15b91c90132213470d47dc198b670dae022fed753f1081
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0661/frame-01.svg
+Source SHA-256: f904f7b3255f8a56c2aa09fe31505120184825e3f5d7705d3b6777aa9825dd55
+Local: /exercises/flow/0661/1.svg
+Local SHA-256: fcb7556d5fc90f210b4608d0989d8700e29877c86b92bdd864031d32c5d69209
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0661/frame-02.svg
+Source SHA-256: 3c22fb676f5a14d7f898a7b2c64cb7fddc55a96418f0dc7d3237c98e6cfe1402
+Local: /exercises/flow/0661/2.svg
+Local SHA-256: f86951ab4030e99ca70655ec30dc21f8d60c400cbc36e7e37159a3c1e4d6f6cd
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1774 — Side Plank with Top Leg Raise
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1774/frame-00.svg
+Source SHA-256: dbc1408992908f4f38bb5712e8862f969513ac2fb4095a16ece58e41213fbb9a
+Local: /exercises/flow/1774/0.svg
+Local SHA-256: 33bc52fd64b649bf89a21bb653f3434ff2e1c9b73289b64178b8d259fa34797e
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1774/frame-01.svg
+Source SHA-256: 5076f4482b7b46a2452354f179ca4b4908d96d84099a26d6ac5e32151e07f5ff
+Local: /exercises/flow/1774/1.svg
+Local SHA-256: a484740a3967ef3771a9fdb78f45f42493c5dedbd85b09c2b78683b21b6ee8de
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1774/frame-02.svg
+Source SHA-256: f9fb43e4dcd0bd49db4e3d8b4175ac3ae15c4751b28c54c1f04142aff69fe886
+Local: /exercises/flow/1774/2.svg
+Local SHA-256: 704d512c3f055eba9499d1b640b371fb047d72b3121134ffb0aa99bbb53eeba2
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:0709 — Parallel Bar Straight-Leg Side Raise
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0709/frame-00.svg
+Source SHA-256: 2df588e944696ca6ea02d45dc13b8ade8752887cf0fa8633f51dcd049154ff92
+Local: /exercises/flow/0709/0.svg
+Local SHA-256: 6d78a8cb584d1f5741bb254f172d946b292b9ea75ac00c4fbdc8a5a7c88a0532
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0709/frame-01.svg
+Source SHA-256: e0e90dfde81ed6c01aa826167e5ffe2dd3c6c10131fa919268569614bc462ee0
+Local: /exercises/flow/0709/1.svg
+Local SHA-256: d809eefd350211d0fb7120739c4fc511f9fbf67bd3b888da685c787056051ca6
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0709/frame-02.svg
+Source SHA-256: 35c3b540dabce069c0fd1e57ab62bf2ed83d957ac7219e6856e82021cec79de0
+Local: /exercises/flow/0709/2.svg
+Local SHA-256: 4787c1c11ea6e84967445a0590b0fd2a9444ad4f3d93093db12e64704910c126
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:0730 — Slider Reverse Lunge
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0730/frame-00.svg
+Source SHA-256: 809917ff7d5dbf7d845f84301b621c713a853f2943c2f5de798726b6322046e5
+Local: /exercises/flow/0730/0.svg
+Local SHA-256: 3f88db2b86be1478d2990b05c757977fc6b1c0f0dd16686c9f9b684132276a14
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0730/frame-01.svg
+Source SHA-256: a1c9f16364dd117d1b9dab28ca44ed86be3c52266c1485f7512681fdfa6d07aa
+Local: /exercises/flow/0730/1.svg
+Local SHA-256: ceb3506f5110322b0ca0b03e3831ac2bbab5ea808efb5408a82132c61efc1265
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/0730/frame-02.svg
+Source SHA-256: cbe3c83c961caad52c3e47c3a3830820050fd25aeb261129973f5bff631afdc9
+Local: /exercises/flow/0730/2.svg
+Local SHA-256: 3d81f61e0d1f719adb88ec556a74332793760d1586538c1a9317d844417e73ee
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+
+hasan:1685 — Squat to Overhead Reach
+Author: Flow Exercise Dataset — AI-generated illustration
+License: CC0-1.0 to the extent of rights held
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1685/frame-00.svg
+Source SHA-256: f193d5d0b50114cd94a0d262993c803c7f96f6d2df82f612a484d79266cd41ea
+Local: /exercises/flow/1685/0.svg
+Local SHA-256: 3188c2657789e04282a97741ca22f2ab71090e0cefec80f34400c69aab88c88c
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1685/frame-01.svg
+Source SHA-256: 79213aac20b9f73a398a752d383c12ac1ceea57d1d477f17feef21ca475473ea
+Local: /exercises/flow/1685/1.svg
+Local SHA-256: f163bc0ba6280ca54f56239335e6997f8fbfb65a16b904a6bdb5076fa1391ef3
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.
+Source: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/961bb2739015da373daa43b960c28ee839fe93e6/assets/1685/frame-02.svg
+Source SHA-256: 962b8a4451963ad89028830cff4e81b17b61fbb744a4382f1657e27fa9c1af04
+Local: /exercises/flow/1685/2.svg
+Local SHA-256: b67319ac9da2aa5e09ebcd96880f49d04730a0b342ab0b0990bfee53c12d56ed
+Changes: Original pose geometry retained; XML/DTD removed; dark background added.

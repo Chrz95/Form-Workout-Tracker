@@ -44,6 +44,22 @@ describe("Preferred real motion demonstrations", () => {
     await user.click(screen.getByRole("button", { name: "Stop motion" }));
     expect(screen.getByRole("img")).toHaveAttribute("src", "/poster.webp");
   });
+  it("labels published AI illustrations and keeps them as manually browsed static positions", async () => {
+    const user = userEvent.setup();
+    render(
+      <Demonstration
+        exercise={{
+          ...exercise,
+          images: ["/first.svg", "/second.svg"],
+          media: [{ ...credit, author: "Flow — AI-generated illustration", url: "/first.svg" }],
+        }}
+      />,
+    );
+    expect(screen.getByText("AI-generated illustration · static positions")).toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: "Play" })).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Next image →" }));
+    expect(screen.getByRole("img")).toHaveAttribute("src", "/second.svg");
+  });
   it("prefers a bundled video, avoids autoplay and retains source links after playback failure", () => {
     render(
       <Demonstration

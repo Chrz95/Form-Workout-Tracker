@@ -194,3 +194,12 @@ File and history: https://commons.wikimedia.org/wiki/File:IMG_0377_2_Happy_Baby.
 Bundled file: /exercises/commons/happy-baby.jpg
 SHA-256: b29cc77161c939ff8b3529dfb87de09ccabab8003a85114424fdd68890f50181
 
+
+Standing Cable Pec Fly / Cable Crossover (added in Form 2.17)
+Author: Nenad Stojkovic
+License: CC BY 2.0
+License URL: https://creativecommons.org/licenses/by/2.0/
+File and history: https://commons.wikimedia.org/wiki/File:Chest_flies_with_cable_machine_-_cable_crossover_flies.jpg
+Bundled file: /exercises/commons/standing-cable-pec-fly.jpg
+SHA-256: f082310537585434af66cca2073f9adecbbd942923751cec5cce909b5bdf9ab1
+Original photograph bundled unchanged; high-pulley standing fly finish position.

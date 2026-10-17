@@ -1,4 +1,6 @@
-import { ArrowUpRight, Copy, Eye, Pencil, Trash2 } from "lucide-react";
+import { ArrowUpRight, MoreHorizontal } from "lucide-react";
+import { ResponsiveDisclosure } from "../../components/ui/ResponsiveDisclosure";
+import { WorkoutSecondaryActions } from "./WorkoutSecondaryActions";
 import { ICON_SIZE } from "../../../../shared/constants";
 import type { Workout } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
@@ -30,44 +32,22 @@ export function WorkoutCardActions({ workout, studio, parents, usageId }: Workou
       >
         Start workout <ArrowUpRight size={ICON_SIZE.standard} />
       </button>
-      <button
-        type="button"
-        className="icon-button"
-        aria-label={`Review ${workout.name}`}
-        onClick={() => studio.setWorkoutPreviewId(workout.id)}
+      <ResponsiveDisclosure
+        className="workout-more-actions"
+        summary={
+          <>
+            <MoreHorizontal size={20} />
+            More
+          </>
+        }
       >
-        <Eye size={ICON_SIZE.standard} />
-      </button>
-      <button
-        type="button"
-        className="icon-button"
-        aria-label={`Edit ${workout.name}`}
-        onClick={() => studio.openWorkout(workout, false)}
-      >
-        <Pencil size={ICON_SIZE.standard} />
-      </button>
-      <button
-        type="button"
-        className="icon-button"
-        aria-label={`Duplicate ${workout.name}`}
-        onClick={() => studio.duplicateWorkout(workout)}
-      >
-        <Copy size={ICON_SIZE.standard} />
-      </button>
-      <button
-        type="button"
-        className="icon-button"
-        disabled={studio.isPending || parents.length > 0}
-        aria-describedby={parents.length ? usageId : undefined}
-        aria-label={`Delete ${workout.name}`}
-        onClick={() => {
-          if (window.confirm(`Delete “${workout.name}”?`)) {
-            void studio.removeRecord("workouts", workout.id);
-          }
-        }}
-      >
-        <Trash2 size={ICON_SIZE.standard} />
-      </button>
+        <WorkoutSecondaryActions
+          workout={workout}
+          studio={studio}
+          parents={parents}
+          usageId={usageId}
+        />
+      </ResponsiveDisclosure>
     </div>
   );
 }

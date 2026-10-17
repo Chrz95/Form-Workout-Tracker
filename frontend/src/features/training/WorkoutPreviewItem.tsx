@@ -1,3 +1,6 @@
+import { ResponsiveDisclosure } from "../../components/ui/ResponsiveDisclosure";
+import { getExerciseThumbnail } from "../exercises";
+import { targetSummary } from "./targetSummary";
 import type { ResolvedWorkoutEntry } from "../../../../shared/workoutGraph";
 import type { Studio } from "../../app/useStudio";
 import { getPlannedSets } from "../../../../shared/prescriptions";
@@ -22,39 +25,52 @@ export function WorkoutPreviewItem({ entry, position, studio }: WorkoutPreviewIt
   const exercise = studio.exercises.find((candidate) => matchesExerciseId(candidate, item.exerciseId));
   return (
     <li className="workout-preview-item">
-      <h3>
-        {position}.{" "}
-        <button
-          type="button"
-          className="text-button"
-          disabled={!exercise}
-          onClick={() => exercise && studio.setSelectedExercise(exercise)}
-        >
-          {exercise?.name ?? item.exerciseId}
-        </button>
-      </h3>
-      <p className="preview-source">
-        {workoutPath.length === 1 ? "Direct exercise" : workoutPath.slice(1).join(" → ")}
-      </p>
-      <table>
-        <caption className="sr-only">{exercise?.name ?? item.exerciseId} planned set targets</caption>
-        <thead>
-          <tr>
-            <th scope="col">Set</th>
-            <th scope="col">Reps</th>
-            <th scope="col">Weight (kg)</th>
-          </tr>
-        </thead>
-        <tbody>
-          {getPlannedSets(item).map((set, index) => (
-            <tr key={`${item.exerciseId}-target-${String(index + 1)}`}>
-              <th scope="row">{index + 1}</th>
-              <td>{set.reps}</td>
-              <td>{set.weight}</td>
+      <div className="preview-exercise-heading">
+        <img
+          src={getExerciseThumbnail(exercise) ?? "/icon.svg"}
+          alt=""
+          loading="lazy"
+        />
+        <h3>
+          {position}.{" "}
+          <button
+            type="button"
+            className="text-button"
+            disabled={!exercise}
+            onClick={() => exercise && studio.setSelectedExercise(exercise)}
+          >
+            {exercise?.name ?? item.exerciseId}
+          </button>
+        </h3>
+      </div>
+      <ResponsiveDisclosure
+        className="preview-targets"
+        summary={`${targetSummary(item)}${item.notes ? " · Note" : ""}`}
+      >
+        <p className="preview-source">
+          {workoutPath.length === 1 ? "Direct exercise" : workoutPath.slice(1).join(" → ")}
+        </p>
+        {item.notes && <p className="exercise-note">{item.notes}</p>}
+        <table>
+          <caption className="sr-only">{exercise?.name ?? item.exerciseId} planned set targets</caption>
+          <thead>
+            <tr>
+              <th scope="col">Set</th>
+              <th scope="col">Reps</th>
+              <th scope="col">Weight (kg)</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {getPlannedSets(item).map((set, index) => (
+              <tr key={`${item.exerciseId}-target-${String(index + 1)}`}>
+                <th scope="row">{index + 1}</th>
+                <td>{set.reps}</td>
+                <td>{set.weight}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </ResponsiveDisclosure>
     </li>
   );
 }

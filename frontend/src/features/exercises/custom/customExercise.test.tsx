@@ -65,7 +65,7 @@ describe("Private custom exercise editor", () => {
   it("keeps authored instructions and fields intact after an unconfirmed API save", async () => {
     const user = userEvent.setup();
     render(<App />);
-    await user.click(screen.getByRole("button", { name: /Connect workout API/ }));
+    await user.click(screen.getByRole("button", { name: /Connect training/ }));
     await user.type(screen.getByRole("textbox", { name: "Workout API URL" }), "https://example.com/api/v1");
     await user.type(screen.getByLabelText("Private API access token"), "private-test-token-with-over-32-characters");
     await user.click(screen.getByRole("button", { name: "Connect API" }));

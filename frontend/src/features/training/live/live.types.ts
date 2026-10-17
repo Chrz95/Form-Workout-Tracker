@@ -9,6 +9,7 @@ export interface LiveSet extends PerformedSet {
 /** One selected movement and the latest saved reference. */
 export interface LiveExercise {
   exerciseId: string;
+  notes?: string;
   sets: LiveSet[];
   previous: { date: string; item: SessionItem } | null;
 }

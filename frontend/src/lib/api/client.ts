@@ -1,3 +1,4 @@
+import { formatExerciseName } from "../../../../shared/exerciseNames";
 import { API_REQUEST_DEFAULTS } from "./api.constants";
 import { z } from "zod";
 import { exerciseSchema } from "../../../../shared/contracts";
@@ -35,7 +36,10 @@ export async function fetchCatalog(signal: AbortSignal) {
   const groups = await Promise.all(
     responses.map(async (response) => z.array(exerciseSchema).parse(await response.json())),
   );
-  return [...new Map(groups.flat().map((exercise) => [exercise.id, exercise])).values()];
+  return [...new Map(groups.flat().map((exercise) => [exercise.id, exercise])).values()].map((exercise) => ({
+    ...exercise,
+    name: formatExerciseName(exercise.name),
+  }));
 }
 /** Sends authenticated requests to the separately deployed Express server.
  * @param {ApiConnection} connection - URL and private access token.

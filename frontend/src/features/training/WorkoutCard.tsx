@@ -1,4 +1,5 @@
 import { useId } from "react";
+import { WorkoutArtwork } from "./WorkoutArtwork";
 import type { Workout } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
 import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
@@ -22,9 +23,19 @@ export function WorkoutCard({ workout, studio }: WorkoutCardProps) {
   const parents = studio.workouts.filter((parent) => parent.includedWorkoutIds?.includes(workout.id));
   return (
     <article className="workout-card">
-      <span className="eyebrow">YOUR CUSTOM ROUTINE</span>
-      <h2>{workout.name}</h2>
-      <p>{workout.notes || "Your movements. Your intention."}</p>
+      <WorkoutArtwork
+        workout={workout}
+        studio={studio}
+      />
+      <h2>
+        <button
+          className="workout-title-button"
+          onClick={() => studio.setWorkoutPreviewId(workout.id)}
+        >
+          {workout.name}
+        </button>
+      </h2>
+      {workout.notes && <p className="workout-card-note">{workout.notes}</p>}
       <div className="workout-exercises">
         {workout.items.map((item) => (
           <span key={item.exerciseId}>

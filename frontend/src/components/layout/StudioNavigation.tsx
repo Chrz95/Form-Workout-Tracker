@@ -1,11 +1,11 @@
-import { LayoutGrid, Layers, CalendarDays, ChartNoAxesCombined } from "lucide-react";
+import { Compass, Dumbbell, NotebookPen, CalendarDays, ChartNoAxesCombined } from "lucide-react";
 import { ICON_SIZE } from "../../../../shared/constants";
 import { PAGE, PAGE_TITLES } from "../../app/app.constants";
 import type { StudioProps } from "../../app/useStudio";
 const navigation = [
-  { page: PAGE.library, label: "Library", icon: LayoutGrid },
-  { page: PAGE.workouts, label: "Workouts", icon: Layers },
-  { page: PAGE.journal, label: "Journal", icon: CalendarDays },
+  { page: PAGE.library, label: "Explore", icon: Compass },
+  { page: PAGE.workouts, label: "Workouts", icon: Dumbbell },
+  { page: PAGE.journal, label: "Journal", icon: NotebookPen },
   { page: PAGE.calendar, label: "Calendar", icon: CalendarDays },
   { page: PAGE.progress, label: "Progress", icon: ChartNoAxesCombined },
 ];

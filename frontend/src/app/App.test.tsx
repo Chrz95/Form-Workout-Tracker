@@ -1,6 +1,6 @@
 import { Demonstration } from "../features/exercises/Demonstration";
 import { beforeEach, afterEach, describe, it, expect, vi } from "vitest";
-import { render, screen, waitFor, cleanup, within } from "@testing-library/react";
+import { render, screen, waitFor, cleanup, within, fireEvent } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { App } from "./App";
 import { exerciseSchema } from "../../../shared/contracts";
@@ -33,7 +33,11 @@ beforeEach(() => {
   );
   vi.stubGlobal(
     "matchMedia",
-    vi.fn(() => ({ matches: true, addEventListener: vi.fn(), removeEventListener: vi.fn() })),
+    vi.fn((query: string) => ({
+      matches: query === "(prefers-reduced-motion: reduce)",
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    })),
   );
   /** Mimics native dialog opening in the DOM-only test environment. */
   HTMLDialogElement.prototype.showModal = function showModal() {
@@ -108,7 +112,7 @@ describe("Exercise discovery and draft behavior", () => {
     const user = userEvent.setup();
     render(<App />);
     await user.click(screen.getByRole("button", { name: "Your progress" }));
-    expect(screen.getByText("Log your first session to start building your story.")).toBeInTheDocument();
+    expect(screen.getByText("Your training activity will appear after your first saved session.")).toBeInTheDocument();
     expect(screen.getByText("Sessions completed")).toBeInTheDocument();
   });
   it("offers text guidance for exercises without source photographs", () => {
@@ -161,6 +165,49 @@ describe("Builder review and appearance", () => {
     expect(within(builder).getByLabelText("Set 1 repetitions")).toHaveValue(12);
     await user.click(within(builder).getByRole("button", { name: "Start workout" }));
     expect(screen.getByRole("heading", { name: "Pyramid day" })).toBeInTheDocument();
+  });
+  it("adds from a separate library dialog and retains the editor beneath an exercise review", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await screen.findByRole("button", { name: "Pushups" });
+    await user.click(screen.getByRole("button", { name: "Build your workout" }));
+    const editor = screen.getByRole("dialog", { name: "Build your workout" });
+    await user.type(within(editor).getByLabelText("Workout name"), "My retained draft");
+    expect(within(editor).queryByRole("region", { name: "Available exercises" })).not.toBeInTheDocument();
+    await user.click(within(editor).getByRole("button", { name: "Add exercises" }));
+    const picker = screen.getByRole("dialog", { name: "Add exercises" });
+    expect(within(picker).getByLabelText("Search exercises to add").closest("form")).toBeNull();
+    await user.click(within(picker).getByRole("button", { name: "View Barbell Squat" }));
+    const detail = screen.getByRole("dialog", { name: "Barbell Squat" });
+    expect(screen.getAllByRole("dialog")).toHaveLength(3);
+    await user.click(within(detail).getByRole("button", { name: "Close dialog" }));
+    await user.click(within(picker).getByRole("button", { name: "Add Barbell Squat to workout" }));
+    expect(within(picker).queryByRole("button", { name: "Add Barbell Squat to workout" })).not.toBeInTheDocument();
+    await user.click(within(picker).getByRole("button", { name: "Done adding exercises" }));
+    expect(screen.getAllByRole("dialog")).toHaveLength(1);
+    expect(within(editor).getByLabelText("Workout name")).toHaveValue("My retained draft");
+    await user.click(within(editor).getByRole("button", { name: "Add exercises" }));
+    fireEvent(
+      screen.getByRole("dialog", { name: "Add exercises" }),
+      new Event("cancel", { bubbles: true, cancelable: true }),
+    );
+    expect(screen.getAllByRole("dialog")).toHaveLength(1);
+    expect(within(editor).getByLabelText("Workout name")).toHaveValue("My retained draft");
+    await user.click(within(editor).getByText(/Individual set targets/));
+    await user.clear(within(editor).getByLabelText("Set 1 repetitions"));
+    await user.type(within(editor).getByLabelText("Set 1 repetitions"), "12");
+    await user.clear(within(editor).getByLabelText("Set 1 weight"));
+    await user.type(within(editor).getByLabelText("Set 1 weight"), "20");
+    expect(within(editor).getByLabelText("Set 2 repetitions")).toHaveValue(12);
+    expect(within(editor).getByLabelText("Set 3 weight")).toHaveValue(20);
+    await user.clear(within(editor).getByLabelText("Set 2 weight"));
+    await user.type(within(editor).getByLabelText("Set 2 weight"), "30");
+    expect(within(editor).getByLabelText("Set 1 weight")).toHaveValue(20);
+    expect(within(editor).getByLabelText("Set 3 weight")).toHaveValue(20);
+    await user.clear(within(editor).getByLabelText("Set 1 repetitions"));
+    await user.type(within(editor).getByLabelText("Set 1 repetitions"), "8");
+    expect(within(editor).getByLabelText("Set 2 repetitions")).toHaveValue(8);
+    expect(within(editor).getByLabelText("Set 2 weight")).toHaveValue(30);
   });
   it("switches dark and light appearance without changing the exercise draft", async () => {
     const user = userEvent.setup();

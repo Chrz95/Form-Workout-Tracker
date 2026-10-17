@@ -16,22 +16,26 @@ Use `sudo docker compose up -d` to run in the background. The root `compose.yaml
 standalone `compose.app.yaml`. Compose builds missing images automatically. After changing source, use
 `sudo docker compose up --build -d` to rebuild existing images.
 
-The default `x-form-origin` is `auto`. Open `http://<pi-address>:2324` or
-`http://raspberrypi.local:2324`; no address needs to be entered into the frontend or Compose file.
-Automatic mode accepts private IPv4 addresses, loopback, local IPv6 addresses and `.local` names. It checks
-browser Origin/Host consistency and rejects public DNS hostnames and cross-site requests before supplying
-the private API credential. The frontend listens on all Pi interfaces on port 2324 by default.
-
-For a custom DNS name or HTTPS reverse proxy, set an explicit browser origin instead:
+The default browser address is **`http://rpi5:2324`**, already included in `compose.app.yaml`:
 
 ```yaml
-x-form-origin: &form-origin https://fitness.example
+x-form-origin: &form-origin http://rpi5:2324
 ```
 
-An explicit origin remains pinned to that exact host/port. Existing `FORM_FRONTEND_ORIGIN` overrides take
-precedence: remove an old `http://localhost:2324` override when accessing the Pi from another device, or set
-it to `auto`. The backend's separate `FORM_CORS_ALLOWED_ORIGINS` only configures direct cross-origin API
-clients; normal frontend requests use the same-origin web proxy and require no CORS origin entry.
+Open that address after startup. The frontend listens on all Pi interfaces on port 2324 by default.
+The proxy accepts the configured host/port and checks browser Origin/Host consistency before supplying
+its private API credential. Bare hostname `rpi5` requires this explicit setting.
+
+For another hostname or an HTTPS reverse proxy, change this anchor to the exact browser origin, for example
+`https://fitness.example`. To access through private LAN IPs or `.local` names instead, set the anchor to
+`auto`. Automatic mode accepts private IPv4 addresses, loopback, local IPv6 addresses and `.local` names;
+it rejects other DNS names and cross-site requests.
+
+The anchor is deliberately literal, so old `FORM_FRONTEND_ORIGIN` values in a parent Compose environment
+cannot override your Raspberry Pi address. Configure the origin in `compose.app.yaml`, or in your main
+Compose file if you copied the service definitions there. The backend's separate `FORM_CORS_ALLOWED_ORIGINS`
+only configures direct cross-origin API clients; normal frontend requests use the same-origin web proxy
+and require no CORS origin entry.
 The browser connects and saves automatically through `/api/v1`; credentials stay private to the proxy.
 Docker always enables the managed proxy.
 The UI shows connection status instead of a Connect workout API button or credential form. If the API is
@@ -65,7 +69,8 @@ include:
   - ./form/compose.yaml
 ```
 
-If it already has an `include` list, append the path there. Leave `x-form-origin` on `auto` for LAN access.
+If it already has an `include` list, append the path there. Keep the included `x-form-origin` value
+`http://rpi5:2324` for your Raspberry Pi.
 From `rpi-stack/`, start all applications with:
 
 ```sh
@@ -82,17 +87,18 @@ from `compose.app.yaml` into the matching top-level sections of your generic fil
 Do not create duplicate top-level `services`/`volumes`/`networks` keys. No container names or project name
 are hard-coded. If port 2324 is already used, change its host port; update any explicitly pinned origin too.
 
-Existing `FORM_HTTP_PORT` overrides must be 2324 for the default app URL. Set an old
-`FORM_FRONTEND_ORIGIN=http://localhost:2324` override to `auto`, or to your exact browser URL. Compose now publishes host port 2324 to the web container's internal 8080;
+Existing `FORM_HTTP_PORT` overrides must be 2324 for the default app URL.
+Compose publishes host port 2324 to the web container's internal 8080;
 container healthchecks still use the internal port. For example, the default port mapping is `2324:8080`.
 
-After installing this frontend update, rebuild it from your main Compose directory:
+After updating the Compose origin, recreate the frontend from your main Compose directory
+(no image rebuild is needed for this configuration change):
 
 ```sh
-sudo docker compose up --build -d form-frontend
+sudo docker compose up -d --no-deps --force-recreate form-frontend
 ```
 
-Then reload the app at `http://<pi-address>:2324`. A 403 response means the configured host/origin guard
+Then reload the app at `http://rpi5:2324`. A 403 response means the configured host/origin guard
 rejected the request: use `auto` for a private LAN IP/`.local` address, or pin the correct origin for other
 hostnames, then recreate the affected containers. No frontend connection dialog is required.
 
@@ -105,13 +111,13 @@ If the status still waits for the backend, the banner now shows the actual API f
 ```sh
 sudo docker compose ps -a
 sudo docker compose logs --tail 80 form-backend form-migrate form-frontend
-curl -i http://127.0.0.1:2324/api/v1/ready
-curl -i http://127.0.0.1:2324/api/v1/capabilities
+curl -i -H 'Host: rpi5:2324' http://127.0.0.1:2324/api/v1/ready
+curl -i -H 'Host: rpi5:2324' http://127.0.0.1:2324/api/v1/capabilities
 ```
 
-In automatic LAN mode, readiness and capabilities should return 200 JSON. A 401 indicates mismatched API
+With the configured Host header, readiness and capabilities should return 200 JSON. A 401 indicates mismatched API
 credentials; a 502/503 means the API/database is unavailable or not ready. Check migration/database logs
-instead of deleting the `workout_data` volume.
+instead of deleting the host database directory.
 
 ## Services, startup and persistence
 
@@ -129,22 +135,24 @@ not attached to this network automatically. The database and backend have no pub
 The private database also retains the old `db` network alias, so older container database URLs keep resolving
 without colliding with other applications' default networks.
 
-The database uses the exact named volume **`workout_data`**, preserving existing workout data. The generated
+The database uses the host directory **`/home/pi/configs/form`** through a bind mount at
+`/var/lib/postgresql/data`. Compose creates the host directory if absent, and PostgreSQL initializes it on a
+fresh installation. Keep this directory for persistent workout data. `FORM_POSTGRES_DATA_DIR` can override
+the default with another absolute host path. The generated
 credential uses the named volume **`form_credentials`**, mounted read-only by the API, migration job and web
 proxy. The credential is generated at runtime, never printed, and never included in static assets or images.
 The web process reads it without exposing it to the browser. Explicit `DOCKER_API_ACCESS_TOKEN` settings are
 still supported when configured identically for backend and frontend.
 
-An existing deployment must be stopped **before** the new stack mounts its existing `workout_data` volume;
-never run two PostgreSQL containers against that volume. When migrating from the old two-file setup, stop it
-using the old project/files before replacing its source. In a generic project, stop/start just these services
-without interrupting unrelated apps; do not run a blanket `down` for that project unless intended.
+If your data is currently in the old `workout_data` named volume, changing this mount alone does not move it.
+Follow [the one-time migration instructions](POSTGRES-STORAGE.md) before starting the updated stack.
+They stop only Form services, verify PostgreSQL 17 and an empty destination, and preserve the old volume.
+Never run two PostgreSQL containers against the same data directory.
 
-The database identity remains `form_local`, database `form`, password `development_only`, compatible with the
-previous volume. PostgreSQL is private to the app network. If you changed existing database credentials,
-configure `FORM_DATABASE_URL` to match; changing `POSTGRES_PASSWORD` alone does not update an existing volume.
-No cleanup or migration command deletes existing private workouts. Fixed volume names represent one Form
-installation per Docker host; a second independent installation needs different names.
+The database identity remains `form_local`, database `form`, password `development_only`, compatible with
+existing data. PostgreSQL is private to the app network. If you changed existing database credentials,
+configure `FORM_DATABASE_URL` to match; changing `POSTGRES_PASSWORD` alone does not update existing data.
+A second independent installation needs a separate host data directory and credential volume name.
 
 ## Manage and back up from your generic stack directory
 
@@ -169,14 +177,15 @@ Back up the database and copy the dump off your Pi:
 sudo docker compose exec -T form-db pg_dump -U form_local -p 5433 -d form -Fc > form-backup.dump
 ```
 
-`down` normally retains volumes. Avoid `down -v`, deleting `workout_data`, or pruning volumes if you want to
-retain workouts. Keep independent backups; test restoration in a separate database.
+The host database directory survives container recreation and Compose `down`. Keep it and the credential
+volume, and maintain independent database backups. See [storage and migration](POSTGRES-STORAGE.md).
 
 ## Native development and previous configuration
 
 The old database-only model is retained as `compose.db.yaml`, with service `db`, port `127.0.0.1:5433:5433`
-and the same `workout_data` volume. `pnpm db:up`, `pnpm db:down` and `pnpm db:setup` use that model. Stop the
-full app's database first if switching between native development and the full Docker stack.
+and the same bind-mount default `/home/pi/configs/form`. `pnpm db:up`, `pnpm db:down` and `pnpm db:setup`
+use that model. Set `FORM_POSTGRES_DATA_DIR` to a suitable absolute path on Windows or another development
+host. Stop the full app's database first if switching between the database-only and full Docker stacks.
 
 The `docker:up`, `docker:down`, `docker:logs` and `docker:status` scripts now wrap the default Compose file.
 The shell launcher `sh scripts/docker-up.sh` is optional. `.env.docker` and `docker:init` are no longer needed

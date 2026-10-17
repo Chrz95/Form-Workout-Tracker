@@ -1,0 +1,8 @@
+/* Shared product presentation; feature styles retain domain-specific layout. */
+@import "./studioFoundation.css";
+@import "./studioCatalog.css";
+@import "./studioTraining.css";
+@import "./studioDialogs.css";
+@import "./studioResponsive.css";
+
+@import "./studioCompact.css";

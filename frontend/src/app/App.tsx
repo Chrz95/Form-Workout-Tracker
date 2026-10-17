@@ -39,9 +39,9 @@ export function App() {
         {studio.page === PAGE.progress && <ProgressPage studio={studio} />}
         {studio.page === PAGE.calendar && <CalendarPage studio={studio} />}
         <footer className="page-footer">
-          <span>Made for the way you move.</span>
+          <span>Your space to get stronger.</span>
           <span>
-            FORM WORKOUT STUDIO <span>✳</span>
+            FORM <span>↗</span>
           </span>
         </footer>
         <InstallPrompt />

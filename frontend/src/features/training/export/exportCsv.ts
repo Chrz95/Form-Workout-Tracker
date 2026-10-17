@@ -54,6 +54,8 @@ export function createTrainingCsv(input: ExportInput): string {
           "",
           "",
           CSV_RECORD.reference,
+          CSV_TEXT_ENCODING,
+          "",
         ]),
       );
     }
@@ -78,6 +80,8 @@ export function createTrainingCsv(input: ExportInput): string {
             set.weight,
             "",
             CSV_RECORD.planned,
+            CSV_TEXT_ENCODING,
+            item.notes ?? "",
           ]),
         );
       } else if (performedSets?.length) {
@@ -93,6 +97,8 @@ export function createTrainingCsv(input: ExportInput): string {
             set.weight,
             set.rpe ?? "",
             CSV_RECORD.performed,
+            CSV_TEXT_ENCODING,
+            item.notes ?? "",
           ]);
         });
       } else {
@@ -107,15 +113,15 @@ export function createTrainingCsv(input: ExportInput): string {
           item.weight,
           "",
           session ? CSV_RECORD.uniform : CSV_RECORD.prescribed,
+          CSV_TEXT_ENCODING,
+          item.notes ?? "",
         ]);
       }
     });
   }
   return (
     CSV_FORMAT.byteOrderMark +
-    [CSV_COLUMNS, ...rows.map((row) => [...row, CSV_TEXT_ENCODING])]
-      .map((row) => row.map(escapeCsvCell).join(CSV_FORMAT.separator))
-      .join(CSV_FORMAT.lineEnding) +
+    [CSV_COLUMNS, ...rows].map((row) => row.map(escapeCsvCell).join(CSV_FORMAT.separator)).join(CSV_FORMAT.lineEnding) +
     CSV_FORMAT.lineEnding
   );
 }

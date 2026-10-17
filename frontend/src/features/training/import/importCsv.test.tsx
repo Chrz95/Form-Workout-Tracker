@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { Workout, Session, Exercise } from "../../../../../shared/contracts";
 import { importInputSchema, IMPORT_LIMITS } from "../../../../../shared/importContracts";
+import { LEGACY_CSV_COLUMNS, ENCODED_CSV_COLUMNS } from "../export/export.constants";
 import { createTrainingCsv } from "../export/exportCsv";
 import { parseCsv } from "./parseCsv";
 import { readTrainingCsv } from "./importCsv";
@@ -69,12 +70,28 @@ describe("Reviewed training CSV import", () => {
     expect(readTrainingCsv(content, "sessions").input.records[0]).toEqual(record);
   });
   it("accepts old headers while retaining ambiguous spreadsheet apostrophes literally", () => {
-    const legacy = csv([{ ...workout, name: "=1" }])
-      .replace(',"text_encoding"', "")
-      .replaceAll(',"apostrophe-v1"', "");
+    const legacy = parseCsv(csv([{ ...workout, name: "=1" }]))
+      .map((row) =>
+        row
+          .slice(0, LEGACY_CSV_COLUMNS.length)
+          .map((cell) => `"${cell.replaceAll('"', '""')}"`)
+          .join(","),
+      )
+      .join("\r\n");
     const result = readTrainingCsv(legacy, "workouts");
     expect(result.legacyText).toBe(true);
     expect(result.input.records[0]?.name).toBe("'=1");
+  });
+  it("accepts earlier encoded exports without exercise notes", () => {
+    const previous = parseCsv(csv())
+      .map((row) =>
+        row
+          .slice(0, ENCODED_CSV_COLUMNS.length)
+          .map((cell) => `"${cell.replaceAll('"', '""')}"`)
+          .join(","),
+      )
+      .join("\r\n");
+    expect(readTrainingCsv(previous, "workouts").input.records).toEqual([workout]);
   });
   it.each(["", 'a,"unfinished', '"closed"junk,b', 'a"quote,b'])("rejects malformed CSV %s", (text) => {
     expect(() => readTrainingCsv(text, "workouts")).toThrow();

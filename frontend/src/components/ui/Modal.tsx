@@ -6,6 +6,7 @@ interface ModalProps {
   children: ReactNode;
   onClose: () => void;
   isWide?: boolean;
+  className?: string;
 }
 /** Uses a native modal dialog for focus trapping, Escape and background inertness.
  * @param {ModalProps} props - Modal properties.
@@ -13,9 +14,10 @@ interface ModalProps {
  * @param {ReactNode} props.children - Dialog content.
  * @param {() => void} props.onClose - Dismiss handler.
  * @param {boolean} [props.isWide] - Whether to use the large layout.
+ * @param {string} [props.className] - Screen-specific styling.
  * @returns {JSX.Element} Modal dialog.
  */
-export function Modal({ title, children, onClose, isWide = false }: ModalProps) {
+export function Modal({ title, children, onClose, isWide = false, className = "" }: ModalProps) {
   const titleId = useId();
   const dialogRef = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -27,11 +29,14 @@ export function Modal({ title, children, onClose, isWide = false }: ModalProps) 
     <dialog
       ref={dialogRef}
       aria-labelledby={titleId}
-      className={`modal ${isWide ? "wide" : ""}`}
-      onCancel={onClose}
+      className={`modal ${isWide ? "wide" : ""} ${className}`}
+      onCancel={(event) => {
+        event.stopPropagation();
+        onClose();
+      }}
     >
       <div className="modal-header">
-        <span className="eyebrow">FORM / YOUR PERSONAL STUDIO</span>
+        <span className="eyebrow">FORM · TRAINING STUDIO</span>
         <button
           type="button"
           className="icon-button"
@@ -40,13 +45,13 @@ export function Modal({ title, children, onClose, isWide = false }: ModalProps) 
         >
           <X size={ICON_SIZE.feature} />
         </button>
+        <h2
+          id={titleId}
+          className="modal-title"
+        >
+          {title}
+        </h2>
       </div>
-      <h2
-        id={titleId}
-        className="modal-title"
-      >
-        {title}
-      </h2>
       {children}
     </dialog>
   );

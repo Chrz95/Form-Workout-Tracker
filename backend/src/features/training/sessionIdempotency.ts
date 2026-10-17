@@ -9,11 +9,12 @@ export function serializeSessionInput(input: SessionInput): string {
     notes: input.notes,
     date: input.date,
     duration: input.duration,
-    items: input.items.map(({ exerciseId, sets, reps, weight, performedSets }) => ({
+    items: input.items.map(({ exerciseId, sets, reps, weight, performedSets, notes }) => ({
       exerciseId,
       sets,
       reps,
       weight,
+      notes: notes ?? "",
       ...(performedSets
         ? {
             performedSets: performedSets.map(({ id, reps: setReps, weight: setWeight, kind, rpe }) => ({

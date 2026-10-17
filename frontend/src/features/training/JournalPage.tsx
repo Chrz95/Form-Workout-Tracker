@@ -28,9 +28,9 @@ export function JournalPage({ studio }: StudioProps) {
           <span className="empty-icon">
             <CalendarDays size={ICON_SIZE.emptyState} />
           </span>
-          <span className="eyebrow">ONE DAY AT A TIME</span>
-          <h2>{dateFilter ? "No sessions on this date." : "Your story is still unfolding."}</h2>
-          <p>Keep a record of every rep, every session, every small win.</p>
+          <span className="eyebrow">YOUR TRAINING RECORD</span>
+          <h2>{dateFilter ? "No sessions on this date." : "Your first session starts here."}</h2>
+          <p>Log your training to keep your sets, weights and notes in one place.</p>
           <button
             className="button primary"
             onClick={studio.openLogger}
@@ -42,7 +42,7 @@ export function JournalPage({ studio }: StudioProps) {
             <small>
               {studio.isAutomaticConnection
                 ? "Your saved training loads automatically when the server is ready."
-                : "Connect your API to view and save your training history."}
+                : "Connect training to load your saved history."}
             </small>
           )}
         </div>

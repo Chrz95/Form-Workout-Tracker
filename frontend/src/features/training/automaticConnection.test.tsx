@@ -156,7 +156,7 @@ describe("Automatic PostgreSQL API connection", () => {
       return normal(input, options);
     });
     render(<App />);
-    expect(screen.queryByRole("button", { name: /Connect workout API/ })).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Connect training/ })).not.toBeInTheDocument();
     expect(screen.getByText("Connecting to your workout server…")).toBeInTheDocument();
     expect(screen.queryByLabelText("Private API access token")).not.toBeInTheDocument();
     await act(async () => {
@@ -167,9 +167,9 @@ describe("Automatic PostgreSQL API connection", () => {
     await act(async () => {
       window.dispatchEvent(new Event("online"));
     });
-    await waitFor(() => expect(screen.getByText("Backend connected")).toBeInTheDocument());
+    await waitFor(() => expect(screen.getByText("Training connected")).toBeInTheDocument());
     expect(screen.queryByText(/Training preview/)).not.toBeInTheDocument();
-    expect(screen.queryByRole("button", { name: /Connect workout API/ })).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Connect training/ })).not.toBeInTheDocument();
   });
   it.each([
     [401, "server connection credentials do not match"],

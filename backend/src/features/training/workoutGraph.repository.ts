@@ -33,9 +33,16 @@ export async function readWorkoutGraph(transaction: WorkoutTransaction): Promise
   const items = await transaction.select().from(workoutItems).orderBy(asc(workoutItems.position));
   const links = await transaction.select().from(workoutLinks).orderBy(asc(workoutLinks.position));
   const itemsByWorkout = new Map<string, Workout["items"]>();
-  for (const { workoutId, exerciseId, sets, reps, weight, plannedSets } of items) {
+  for (const { workoutId, exerciseId, sets, reps, weight, plannedSets, notes } of items) {
     const group = itemsByWorkout.get(workoutId) ?? [];
-    group.push({ exerciseId, sets, reps, weight, ...(plannedSets ? { plannedSets } : {}) });
+    group.push({
+      exerciseId,
+      sets,
+      reps,
+      weight,
+      ...(notes ? { notes } : {}),
+      ...(plannedSets ? { plannedSets } : {}),
+    });
     itemsByWorkout.set(workoutId, group);
   }
   const childrenByWorkout = new Map<string, string[]>();

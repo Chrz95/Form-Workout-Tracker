@@ -18,20 +18,20 @@ export function ProgressPage({ studio }: StudioProps) {
   const metrics = [
     { title: "Sessions completed", value: studio.sessions.length, unit: "sessions", icon: Activity },
     { title: "Time invested", value: (minutes / MINUTES_PER_HOUR).toFixed(1), unit: "hours", icon: Clock },
-    { title: "Sets put in", value: sets, unit: "sets", icon: Layers },
-    { title: "Days you showed up", value: days, unit: "training days", icon: TrendingUp },
+    { title: "Working sets", value: sets, unit: "sets", icon: Layers },
+    { title: "Training days", value: days, unit: "training days", icon: TrendingUp },
   ];
   const dates = [...new Set(studio.sessions.map((session) => session.date))].sort().reverse();
   return (
     <section>
       <div className="progress-intro">
-        <span className="eyebrow">CONSISTENCY IS YOUR SUPERPOWER</span>
+        <span className="eyebrow">TRAINING OVERVIEW</span>
         <h2>
-          Progress you can see.
+          The work, measured.
           <br />
-          Effort you can feel.
+          Your progress, in focus.
         </h2>
-        <p>Your numbers tell a story. This one is yours.</p>
+        <p>Track your sessions, working sets and time invested.</p>
       </div>
       <div className="metrics-grid">
         {metrics.map(({ title, value, unit, icon: Icon }) => (
@@ -73,7 +73,7 @@ export function ProgressPage({ studio }: StudioProps) {
             ))}
           </div>
         ) : (
-          <p>Log your first session to start building your story.</p>
+          <p>Your training activity will appear after your first saved session.</p>
         )}
       </section>
     </section>

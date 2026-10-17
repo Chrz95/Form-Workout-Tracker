@@ -1,6 +1,82 @@
 # Form — Workout Studio
 
-Form is a personal workout PWA with a searchable library of 1,272 image-backed exercises, real instructional images,
+## Compact mobile training (2.25)
+
+Phone workout lists use compact thumbnail rows with Start and More. Previews summarize targets with
+expandable exact sets; editor notes, options and composition controls fold away; exercise details use
+smaller media and expandable technique sections. Draft values and individual set overrides survive toggling.
+See [RELEASE-2.25.md](docs/RELEASE-2.25.md) for details and update instructions.
+
+## Library popup and set entry (2.24)
+
+The floating workout action dock opens a separate exercise-library popup with search, filters, thumbnails,
+infinite scrolling and technique review. Public exercise names use consistent capitalization. Set 1 reps and
+weight copy independently to following sets; later sets remain individually editable, and live completed sets
+are protected. See [RELEASE-2.24.md](docs/RELEASE-2.24.md) for behavior and update instructions.
+
+## Training studio redesign (2.23)
+
+Form now has a cohesive light/dark visual system, refined typography, clearer exercise discovery, a desktop
+weekly training summary, and reachable mobile navigation. Workout cards use their actual exercise thumbnails;
+editors, per-set controls, charts and journal screens share the same presentation. Appearance persists between
+visits. All training, catalog, Docker and native-running capabilities are retained.
+See [RELEASE-2.23.md](docs/RELEASE-2.23.md) for details and update instructions.
+
+## Further exercise restoration (2.22)
+
+The catalog now contains **1,482 exercises**, restoring 28 more movements with **84 local images** and descriptions,
+resolving 14 duplicate references, and adding three Muscle & Strength guides with two direct video links.
+The selected Flow illustrations keep their AI-generated label and manual image controls. All 4,089 historical IDs
+remain represented, including saved workout references. **2,021 entries remain archived pending suitable media**.
+See [RELEASE-2.22.md](docs/RELEASE-2.22.md), the [full status CSV](docs/catalog-restoration-status-2.22.csv), and
+[the independent media notices](licenses/alternative-sources-MEDIA-notices.txt).
+Run `pnpm catalog:verify-restoration` to verify current dispositions and all **534 assets** across the restoration passes.
+
+## Additional-source restoration (2.21)
+
+The 2.21 catalog contained **1,454 exercises**. That pass restored 50 archived movements, resolves 11 duplicate
+references and adds 139 images plus one local video. Wikimedia Commons provides credited real footage/photographs;
+48 restored movements use reviewed Flow illustrations, clearly labeled as AI-generated static positions in the app.
+All 4,089 historical IDs remain represented. That pass left **2,063 entries awaiting suitable reusable media**.
+See [RELEASE-2.21.md](docs/RELEASE-2.21.md), the [full status CSV](docs/catalog-restoration-status-2.21.csv), and
+[the independent media notices](licenses/alternative-sources-MEDIA-notices.txt).
+The current verifier also includes subsequent restoration passes.
+
+## Catalog restoration continuation (2.20)
+
+The 2.20 catalog contained **1,404 exercises**, after restoring 22 more archived movements and resolving 16 duplicate
+references. This continuation adds 31 local videos and 31 thumbnails, including enrichment of nine existing movements.
+All 4,089 historical IDs remain represented for saved workouts. It left **2,124 entries awaiting verified reusable media**.
+See [RELEASE-2.20.md](docs/RELEASE-2.20.md) and the [complete status CSV](docs/catalog-restoration-status-2.20.csv).
+Run `pnpm catalog:verify-restoration` to check current dispositions and all 310 assets from the two restoration passes.
+
+## Catalog restoration (2.19)
+
+The 2.19 catalog contained **1,382 exercises**. That pass restored 95 archived movements with local videos,
+images and descriptions, and consolidated 127 duplicate references. Every historical ID remains available to saved
+workouts. It left **2,162 entries awaiting verified reusable media**; the continuation above gives current counts. OpenGym metadata
+was checked, but its current media terms prohibit reuse in an independent application without a separate license.
+See [RELEASE-2.19.md](docs/RELEASE-2.19.md) and the [complete status CSV](docs/catalog-restoration-status-2.19.csv).
+Its 248 new media assets remain included and verified in the continuation.
+
+## Requested exercise names and motion (2.18)
+
+Seven requested movements are now searchable by their supplied names. Existing pec fly, rope face pull,
+dumbbell reverse lunge and seated single-arm high row IDs are retained. The kettlebell single-arm calf raise is
+restored, while low-held kettlebell lateral lunge and single-arm twisting dumbbell curl are distinct additions.
+All visible entries have local images or genuine motion frames. Biceps remains a muscle filter.
+See [RELEASE-2.18.md](docs/RELEASE-2.18.md) for the per-exercise decisions and publisher-specific video terms.
+
+## Per-exercise notes (2.16)
+
+Add an optional note below each movement in the workout builder or manual log. Notes belong to the workout entry,
+so one exercise can have different reminders in different workouts. Notes appear in workout review, follow nested
+workouts and copies, and carry into a live session. Live edits are saved in journal history without changing the
+source routine. CSV export/import preserves exercise notes; earlier Form CSV files remain supported.
+
+See [the update instructions](docs/RELEASE-2.16.md) for the additive PostgreSQL migration and Docker/local commands.
+
+Form is a personal workout PWA with a searchable library of 1,482 image-backed exercises, real instructional images,
 controllable frame demonstrations, custom routines, live per-set training, rest timers, a daily workout journal,
 and exercise progress charts calculated from saved sessions.
 Saved routines and date-filtered journal entries can be exported as spreadsheet-safe CSV files and imported after review.
@@ -10,13 +86,44 @@ The visual design uses soft olive surfaces, generous spacing, and an editorial t
 
 Run the complete application with `sudo docker compose up` from the project root. For your existing Raspberry Pi
 Compose stack, add `include: [./form/compose.yaml]` and keep the complete source in the sibling `form/` folder.
-Leave `x-form-origin` on `auto` for private LAN IPs and `.local` names. Docker publishes web port **2324** by default. Startup generates and retains private
+The Docker configuration includes `http://rpi5:2324` as its allowed browser address and publishes web port **2324**.
+Keep the `x-form-origin` anchor when copying it into your main Compose file. Startup generates and retains private
 proxy credentials, migrates and seeds PostgreSQL, and connects the browser automatically; no `.env.docker`,
 manual token generation or additional startup flags are required. The frontend shows managed backend status,
 loads records on startup and retries automatically if the backend is unavailable; no Connect workout API action
-is required. The exact database volume remains `workout_data`.
+is required. PostgreSQL data is stored in the host directory `/home/pi/configs/form`.
 See [Docker setup](docs/DOCKER.md) for inclusion, direct YAML copying, existing-data upgrades and backups.
-The database-only developer stack now lives in `compose.db.yaml`; never run both against the same volume.
+The database-only developer stack now lives in `compose.db.yaml`; never run both against the same database directory.
+
+## Current Docker storage
+
+Both Compose models now bind PostgreSQL data to **`/home/pi/configs/form`** by default. `sudo docker compose up`
+creates and uses this host directory. Optional `FORM_POSTGRES_DATA_DIR` overrides can select a different absolute path.
+Native PostgreSQL without Docker continues using its configured operating-system data directory.
+
+Earlier release notes refer to the previous `workout_data` volume. To keep an existing installation's data,
+follow [the one-time storage migration](docs/POSTGRES-STORAGE.md) **before starting with the new mount**.
+The credential volume `form_credentials` is unchanged, and the frontend remains at `http://rpi5:2324`.
+
+## Release 2.15 — More reviewed image-backed exercises
+
+The 2.15 release contained **1,284 exercises**, adding five new movements and restoring seven archived identities
+with twelve visually reviewed, licensed illustrations. Publisher references total **308 guides and 191 linked videos**.
+See [the release notes](docs/RELEASE-2.15.md) for accepted movements, duplicate exclusions, attribution and update steps.
+
+## Release 2.14 — External exercise guides
+
+Checked MuscleWiki and Muscle & Strength references now enrich **238 existing exercises** with **299 publisher guide links**
+and **188 linked videos**, with on-demand YouTube/Vimeo players. Existing exercise identities, instructions and licensed local images are retained.
+See [release details and update steps](docs/RELEASE-2.14.md) and the complete discovery/acceptance audit in `docs/`.
+
+## Workout builder exercise discovery
+
+The builder and workout logger now progressively load exercises as you scroll, with lazy thumbnails,
+separate review/add buttons, and independent muscle, equipment and level filters. Changing a filter resets
+paging; movements already present in the draft or included workouts stay excluded. Search matches all words
+in any order, including aliases, and ignores case, accents and punctuation across exercise discovery.
+For example, `press dumbbell incline` finds `Incline Dumbbell Bench Press`.
 
 ## Release 2.13 — More exercises with verified images
 
@@ -172,7 +279,7 @@ existing draft’s targets. Later source edits do not propagate. Release 2.7 add
 Motion guides now prefer genuine GIF/animated WebP sources, then playable video, then photographs and instructions.
 Six GIFs and fourteen local muted H264 clips cover seventeen existing exercises; three earlier animated WebP guides
 remain. Playback is opt-in, with static posters, author credits and original source/license links.
-The catalog remains 3,625 entries with 2,147 image references and no additional movement records.
+The catalog remains 3,625 entries with 2,162 image references and no additional movement records.
 
 Upgrade with `./scripts/docker-up.sh`: the migration service adds nullable `workout_items.planned_sets` and reseeds
 before the API starts. Existing aggregate routines and completed history remain compatible. Manual non-Docker upgrades:

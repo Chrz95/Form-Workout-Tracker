@@ -17,6 +17,7 @@ export function Demonstration({ exercise }: DemonstrationProps) {
   const [frame, setFrame] = useState(0);
   const [isPlaying, setIsPlaying] = useState(!window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   const isSequence = exercise.images.length > 1 && !exercise.source && !exercise.media?.length;
+  const isAiIllustration = exercise.media?.some((asset) => asset.author.includes("AI-generated"));
   const animatedAsset = exercise.media?.find((asset) => (asset.frameCount ?? 0) > 1 && asset.stillUrl);
   useEffect(() => {
     if (!isPlaying || !isSequence) {
@@ -58,6 +59,7 @@ export function Demonstration({ exercise }: DemonstrationProps) {
             : `${exercise.name}, instructional image ${frame + 1}`
         }
       />
+      {isAiIllustration && <p className="illustration-note">AI-generated illustration · static positions</p>}
       <ImageGuideControls
         count={exercise.images.length}
         frame={frame}

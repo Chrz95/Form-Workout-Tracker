@@ -1,3 +1,4 @@
+import { formatExerciseName } from "../../../../shared/exerciseNames.js";
 import { randomUUID } from "node:crypto";
 import type { CustomExerciseInput } from "../../../../shared/customExerciseContracts.js";
 import { customExerciseIdentifierSchema } from "../../../../shared/customExerciseContracts.js";
@@ -18,7 +19,15 @@ export class ExerciseService {
   list() {
     return this.repository
       .list()
-      .then((records) => records.filter((exercise) => !exercise.canonicalId && !exercise.isArchived));
+      .then((records) =>
+        records
+          .filter((exercise) => !exercise.canonicalId && !exercise.isArchived)
+          .map((exercise) =>
+            exercise.id.startsWith(CUSTOM_EXERCISE_PREFIX)
+              ? exercise
+              : { ...exercise, name: formatExerciseName(exercise.name) },
+          ),
+      );
   }
   /** Returns authored entries for private catalog merging.
    * @returns {Promise<Exercise[]>} Owner exercises.

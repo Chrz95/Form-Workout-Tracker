@@ -1,0 +1,50 @@
+MuscleWiki motion credits — Form 2.18
+
+Publisher: MuscleWiki SEZC
+Terms and current usage conditions: https://musclewiki.com/terms
+Source guide links are provided in every exercise's guide section.
+Usage scope: personal/non-profit workout app, with original branding and links retained.
+Videos use publisher-specific sharing terms, not a Creative Commons or commercial-use license.
+No MuscleWiki website image assets were copied. GIFs and still previews are derived from source video frames;
+no poses were invented. Original unmodified MP4 files are also included. GIF conversions retain complete footage,
+original framing and branding, resized to width 360 at 10 fps. Thumbnails retain the full original frame.
+
+Exercise: dumbbell-standing-single-arm-twisting-curl
+Guide: https://musclewiki.com/exercise/dumbbell-standing-single-arm-twisting-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-front.mp4
+Source SHA-256: 1341ec1cb03f08c095182e713594f280198e18ef8188d1348317696a5f4969c4
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl.mp4
+SHA-256: 1341ec1cb03f08c095182e713594f280198e18ef8188d1348317696a5f4969c4
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl.gif
+SHA-256: ab6e7077355872588dd297d2266aa2e2b694b26602d964e654b3200dc5e5417d
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl-still.webp
+SHA-256: 15bad97e616ed1c0ca87bd9779912cc7d807d8fd21f8f6dedc31b27b9de126d6
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl.webp
+SHA-256: 15bad97e616ed1c0ca87bd9779912cc7d807d8fd21f8f6dedc31b27b9de126d6
+
+Exercise: kettlebell-lateral-lunge-single
+Guide: https://musclewiki.com/exercise/kettlebell-lateral-lunge-single
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-lateral-lunge-single-front.mp4
+Source SHA-256: 9967473c6d0401af2fe7aca8a402a204aa6b0bda4d7e03397bed46b6c0e91830
+Bundled: /exercise-motion/mw-kettlebell-lateral-lunge-single.mp4
+SHA-256: 9967473c6d0401af2fe7aca8a402a204aa6b0bda4d7e03397bed46b6c0e91830
+Bundled: /exercise-motion/mw-kettlebell-lateral-lunge-single.gif
+SHA-256: c33759012cda857ac3e05abae97e984d8145b16a31e73e57f917559828bec571
+Bundled: /exercise-motion/mw-kettlebell-lateral-lunge-single-still.webp
+SHA-256: 12a2d85e23dd8f25744853fd85eac003a8383ec5136e5c6035ac32e5477e70a8
+Bundled: /exercise-motion/mw-kettlebell-lateral-lunge-single.webp
+SHA-256: 12a2d85e23dd8f25744853fd85eac003a8383ec5136e5c6035ac32e5477e70a8
+
+Exercise: kettlebell-single-arm-calf-raise
+Guide: https://musclewiki.com/exercise/kettlebell-single-arm-calf-raise
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-calf-raise-front.mp4
+Source SHA-256: dabe22959aaf7f9a01056a22c1eedb2355e7d22aa930afcb88fc2f36af67c8fd
+Bundled: /exercise-motion/mw-kettlebell-single-arm-calf-raise.mp4
+SHA-256: dabe22959aaf7f9a01056a22c1eedb2355e7d22aa930afcb88fc2f36af67c8fd
+Bundled: /exercise-motion/mw-kettlebell-single-arm-calf-raise.gif
+SHA-256: d9e10f793cfede932ac5c044f98691e2b2625646209c9e22891a0c2a8dbc115c
+Bundled: /exercise-motion/mw-kettlebell-single-arm-calf-raise-still.webp
+SHA-256: 696d5b23d726cc2580922ceb5106d51af4089240ffc42d8889b6920999049327
+Bundled: /exercise-motion/mw-kettlebell-single-arm-calf-raise.webp
+SHA-256: 696d5b23d726cc2580922ceb5106d51af4089240ffc42d8889b6920999049327
+

@@ -1,3 +1,4 @@
+import { ResponsiveDisclosure } from "../../components/ui/ResponsiveDisclosure";
 import { TrainingConnectionNotice } from "./TrainingConnectionNotice";
 import { WorkoutComposer } from "./WorkoutComposer";
 import { WorkoutEditorActions } from "./WorkoutEditorActions";
@@ -6,7 +7,6 @@ import { INPUT_LIMITS } from "../../../../shared/contracts";
 import type { StudioProps } from "../../app/useStudio";
 import { Modal } from "../../components/ui/Modal";
 import { PrescriptionRow } from "./PrescriptionRow";
-import { ExercisePicker } from "./ExercisePicker";
 /** Builds or edits an ordered routine and validates before API persistence.
  * @param {StudioProps} props - Editor model.
  * @param {Studio} props.studio - Draft and persistence operations.
@@ -14,13 +14,21 @@ import { ExercisePicker } from "./ExercisePicker";
  */
 export function WorkoutEditor({ studio }: StudioProps) {
   const { error, handleSubmit } = useTrainingSubmission(studio, "workout");
+  const extraSummary = [
+    "Combine workouts & notes",
+    studio.draftWorkoutIds.length ? `${studio.draftWorkoutIds.length} included` : "",
+    studio.draftNotes ? "Note added" : "",
+  ]
+    .filter(Boolean)
+    .join(" · ");
   return (
     <Modal
-      title={studio.editingWorkoutId ? "Make this workout yours" : "Build your workout"}
+      className="workout-editor"
+      title={studio.editingWorkoutId ? "Edit workout" : "Build your workout"}
       onClose={() => studio.setIsBuilderOpen(false)}
       isWide
     >
-      <p className="modal-description">Pick your movements. Set your pace. Create a routine that fits.</p>
+      <p className="modal-description">Choose your exercises, set individual targets, and arrange your session.</p>
       <form onSubmit={handleSubmit}>
         <label className="field-label">
           Workout name
@@ -41,17 +49,21 @@ export function WorkoutEditor({ studio }: StudioProps) {
             />
           ))}
         </div>
-        <ExercisePicker studio={studio} />
-        <WorkoutComposer studio={studio} />
-        <label className="field-label">
-          Notes <span>optional</span>
-          <textarea
-            maxLength={INPUT_LIMITS.notes}
-            placeholder="Rest times, focus, or a reminder to yourself…"
-            value={studio.draftNotes}
-            onChange={(event) => studio.setDraftNotes(event.target.value)}
-          />
-        </label>
+        <ResponsiveDisclosure
+          className="editor-extras mobile-secondary-section"
+          summary={extraSummary}
+        >
+          <WorkoutComposer studio={studio} />
+          <label className="field-label">
+            Notes <span>optional</span>
+            <textarea
+              maxLength={INPUT_LIMITS.notes}
+              placeholder="Rest times, focus, or a reminder to yourself…"
+              value={studio.draftNotes}
+              onChange={(event) => studio.setDraftNotes(event.target.value)}
+            />
+          </label>
+        </ResponsiveDisclosure>
         {(error || studio.apiError) && (
           <p
             className="form-error"

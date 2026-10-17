@@ -1,3 +1,4 @@
+import { ExerciseNoteField } from "../ExerciseNoteField";
 import { matchesExerciseId } from "../../../../../shared/exerciseIdentity";
 import { Plus, ArrowUpRight } from "lucide-react";
 import { ICON_SIZE, INPUT_LIMITS } from "../../../../../shared/constants";
@@ -57,6 +58,11 @@ export function LiveExerciseCard({ exercise, studio }: LiveExerciseCardProps) {
           </button>
         </div>
       )}
+      <ExerciseNoteField
+        exerciseName={catalogEntry?.name ?? exercise.exerciseId}
+        value={exercise.notes}
+        onChange={(notes) => studio.live.updateExerciseNote(exercise.exerciseId, notes)}
+      />
       <div className="live-set-list">
         {exercise.sets.map((row, position) => (
           <LiveSetRow

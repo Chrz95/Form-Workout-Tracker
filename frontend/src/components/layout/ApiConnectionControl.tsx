@@ -1,4 +1,4 @@
-import { PlugZap } from "lucide-react";
+import { Cloud } from "lucide-react";
 import { ICON_SIZE } from "../../../../shared/constants";
 import type { StudioProps } from "../../app/useStudio";
 /** Shows managed server status or connection settings for an explicitly remote API.
@@ -13,14 +13,14 @@ export function ApiConnectionControl({ studio }: StudioProps) {
         className="connection-button"
         role="status"
       >
-        <PlugZap size={ICON_SIZE.standard} />
+        <Cloud size={ICON_SIZE.standard} />
         <span>
           {studio.isConnected
-            ? "Backend connected"
+            ? "Training connected"
             : studio.isAutomaticallyConnecting
               ? "Connecting…"
-              : "Waiting for backend"}
-          <small>{studio.isConnected ? "PostgreSQL sync enabled" : "Connection is automatic"}</small>
+              : "Sync unavailable"}
+          <small>{studio.isConnected ? "Ready to save your training" : "Reconnecting automatically"}</small>
         </span>
         <span className={`status-dot ${studio.isConnected ? "online" : ""}`} />
       </div>
@@ -31,10 +31,10 @@ export function ApiConnectionControl({ studio }: StudioProps) {
       className="connection-button"
       onClick={() => studio.setIsConnectionOpen(true)}
     >
-      <PlugZap size={ICON_SIZE.standard} />
+      <Cloud size={ICON_SIZE.standard} />
       <span>
-        {studio.isConnected ? "API connected" : "Connect workout API"}
-        <small>{studio.isConnected ? "PostgreSQL sync enabled" : "Enable saving & sync"}</small>
+        {studio.isConnected ? "Training connected" : "Connect training"}
+        <small>{studio.isConnected ? "Ready to save your training" : "Save workouts and history"}</small>
       </span>
       <span className={`status-dot ${studio.isConnected ? "online" : ""}`} />
     </button>

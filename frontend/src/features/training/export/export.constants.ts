@@ -22,7 +22,9 @@ export const LEGACY_CSV_COLUMNS = [
 /** Explicit text encoding removes ambiguity between a formula guard and a literal apostrophe. */
 export const CSV_TEXT_ENCODING = "apostrophe-v1";
 /** Current exports carry their reversible text encoding marker. */
-export const CSV_COLUMNS = [...LEGACY_CSV_COLUMNS, "text_encoding"] as const;
+export const ENCODED_CSV_COLUMNS = [...LEGACY_CSV_COLUMNS, "text_encoding"] as const;
+/** Per-exercise notes are repeated for every set in the current export. */
+export const CSV_COLUMNS = [...ENCODED_CSV_COLUMNS, "exercise_notes"] as const;
 /** CSV syntax and browser download conventions. */
 export const CSV_FORMAT = {
   separator: ",",

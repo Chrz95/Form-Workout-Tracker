@@ -1,0 +1,1416 @@
+Form 2.19 restoration media notices
+
+MuscleWiki SEZC: https://musclewiki.com/terms
+Personal/non-profit or academic sharing only, with original branding and source links.
+These videos are not licensed under Creative Commons or for unrestricted commercial reuse.
+MP4 files are unmodified originals. Still previews retain the full branded video frame, resized to width 640.
+No MuscleWiki website JPG/PNG/SVG asset was copied.
+
+wger video author: Goulart. Derivatives under CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Muted H264 conversions retain complete source duration and full framing; resized to width 640.
+
+OpenGym: metadata lookup only. No artwork, animations or new AGPL descriptions imported.
+https://github.com/DuarteSantos8/openGym/blob/e348fc17c42c7e9a211c5972e573ad3698190ee2/NOTICE.md
+
+
+muscleWiki: alternating-heel-touch
+Source: https://musclewiki.com/exercise/alternating-heel-touch
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-alternating-heel-touch-front.mp4
+Source SHA-256: 7e63385d1bde6ef1d59cf0341601a83411c1a72975fb9397b6041a193d0c5e52
+Bundled: /exercise-motion/mw-alternating-heel-touch.mp4
+SHA-256: 7e63385d1bde6ef1d59cf0341601a83411c1a72975fb9397b6041a193d0c5e52
+Bundled: /exercise-motion/mw-alternating-heel-touch.webp
+SHA-256: 2c840a37a37efc98d0b39b1414c6909446e3b268d94e79e0c1e35be72cc3abfa
+
+muscleWiki: backward-arm-circle
+Source: https://musclewiki.com/exercise/backward-arm-circle
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-backward-arm-circle-front.mp4
+Source SHA-256: be1afa4d0564c86e225156bccd086c173601c70383bd07ff71e5a38f45e594c0
+Bundled: /exercise-motion/mw-backward-arm-circle.mp4
+SHA-256: be1afa4d0564c86e225156bccd086c173601c70383bd07ff71e5a38f45e594c0
+Bundled: /exercise-motion/mw-backward-arm-circle.webp
+SHA-256: 6d2b485c2030d8090d29bc0fcc27f1c767b7efec0015f05630a32e20dfeb19b3
+
+muscleWiki: balance-3-single-leg-bosu-ball
+Source: https://musclewiki.com/exercise/balance-3-single-leg-bosu-ball
+Video: https://musclewiki.com/api-next/videos/male-Recovery-balance-3-single-leg-bosu-ball-front.mp4
+Source SHA-256: 66a696da4111c72817a459484ba3749ba43bcb505c6563a85391452cc1afc146
+Bundled: /exercise-motion/mw-balance-3-single-leg-bosu-ball.mp4
+SHA-256: 66a696da4111c72817a459484ba3749ba43bcb505c6563a85391452cc1afc146
+Bundled: /exercise-motion/mw-balance-3-single-leg-bosu-ball.webp
+SHA-256: 4b5e7d9bcb2221ca0bbbaf0ead62883104dc9906ac2850c093b217921003b7f8
+
+muscleWiki: band-curl
+Source: https://musclewiki.com/exercise/band-curl
+Video: https://musclewiki.com/api-next/videos/male-band-curl-front_1YwVVEx.mp4
+Source SHA-256: 6a4e1ddf7b44ea8a9d6ed3ca062f994e6faa8be1f204c9228797c308ffa38349
+Bundled: /exercise-motion/mw-band-curl.mp4
+SHA-256: 6a4e1ddf7b44ea8a9d6ed3ca062f994e6faa8be1f204c9228797c308ffa38349
+Bundled: /exercise-motion/mw-band-curl.webp
+SHA-256: 501fb66ee3bdeb3d82a597e4de0e1a190ea7fd7bfca0fe52cca321ab1691bbf6
+
+muscleWiki: band-front-raise
+Source: https://musclewiki.com/exercise/band-front-raise
+Video: https://musclewiki.com/api-next/videos/male-Band-band-front-raise-front.mp4
+Source SHA-256: 4bd36f859ca19b014dc46483b23af37ad82d7143151fb7e6052c9ae57abdce60
+Bundled: /exercise-motion/mw-band-front-raise.mp4
+SHA-256: 4bd36f859ca19b014dc46483b23af37ad82d7143151fb7e6052c9ae57abdce60
+Bundled: /exercise-motion/mw-band-front-raise.webp
+SHA-256: 79d9b4f2229b4c146ddfcfa40988398626de487164adc2ccf75af8ba909fb4fc
+
+muscleWiki: band-kneeling-single-arm-pulldown
+Source: https://musclewiki.com/exercise/band-kneeling-single-arm-pulldown
+Video: https://musclewiki.com/api-next/videos/male-band-kneeling-single-arm-pulldown-front.mp4
+Source SHA-256: 09adc54ad8084e32d1dbeff06dec60a7f92a94a0036226061704bf8306a06302
+Bundled: /exercise-motion/mw-band-kneeling-single-arm-pulldown.mp4
+SHA-256: 09adc54ad8084e32d1dbeff06dec60a7f92a94a0036226061704bf8306a06302
+Bundled: /exercise-motion/mw-band-kneeling-single-arm-pulldown.webp
+SHA-256: 142d03738109598723b98c6db82984c9053a250961f765527a73e564a440a1a1
+
+muscleWiki: band-leg-curl
+Source: https://musclewiki.com/exercise/band-leg-curl
+Video: https://musclewiki.com/api-next/videos/male-band-leg-curl-front.mp4
+Source SHA-256: 33ad34bca01ddf2a80f9e8ac2489bc2b92c4ca2d4597b8209d97b09984ab7c42
+Bundled: /exercise-motion/mw-band-leg-curl.mp4
+SHA-256: 33ad34bca01ddf2a80f9e8ac2489bc2b92c4ca2d4597b8209d97b09984ab7c42
+Bundled: /exercise-motion/mw-band-leg-curl.webp
+SHA-256: 768e16a4eeb2d5d581d7f365f07c05d4dea33003921b215e14a9207e09c389e1
+
+muscleWiki: band-overhead-tricep-extension
+Source: https://musclewiki.com/exercise/band-overhead-tricep-extension
+Video: https://musclewiki.com/api-next/videos/male-Band-band-overhead-tricep-extension-front.mp4
+Source SHA-256: 8d73d8ad2e03c815837008a02c3ab20b7624ebd0005785322273e6b59374aeac
+Bundled: /exercise-motion/mw-band-overhead-tricep-extension.mp4
+SHA-256: 8d73d8ad2e03c815837008a02c3ab20b7624ebd0005785322273e6b59374aeac
+Bundled: /exercise-motion/mw-band-overhead-tricep-extension.webp
+SHA-256: 65edfdec6939a14dd323df5be043d75176b3921c5471dc28c1235da3cf970ca7
+
+muscleWiki: band-pull-apart
+Source: https://musclewiki.com/exercise/band-pull-apart
+Video: https://musclewiki.com/api-next/videos/male-Band-band-pull-apart-front.mp4
+Source SHA-256: 5af136097b8368b2ff06f5e1693bef6b42399eb3b6bbd77e93d6aa8b39c4a336
+Bundled: /exercise-motion/mw-band-pull-apart.mp4
+SHA-256: 5af136097b8368b2ff06f5e1693bef6b42399eb3b6bbd77e93d6aa8b39c4a336
+Bundled: /exercise-motion/mw-band-pull-apart.webp
+SHA-256: b64bf2cd4ca858014a2acf792850e81af2b89f42c7c6ea532e10750df52730b3
+
+muscleWiki: band-pullthrough
+Source: https://musclewiki.com/exercise/band-pullthrough
+Video: https://musclewiki.com/api-next/videos/male-Band-band-pullthrough-front.mp4
+Source SHA-256: 438627db549f2bddbbc11b4b75d449163a805147f3d2c8331114b0b7d028081d
+Bundled: /exercise-motion/mw-band-pullthrough.mp4
+SHA-256: 438627db549f2bddbbc11b4b75d449163a805147f3d2c8331114b0b7d028081d
+Bundled: /exercise-motion/mw-band-pullthrough.webp
+SHA-256: 5fc4afe0251ee82e8039f6b433231a61e512febabd781c18d1044933d5981133
+
+muscleWiki: band-row
+Source: https://musclewiki.com/exercise/band-row
+Video: https://musclewiki.com/api-next/videos/male-Band-band-row-front.mp4
+Source SHA-256: 0f375abe8e50e7198a90e280188c5fb1db00537f265a32b0f7f21e235494ff20
+Bundled: /exercise-motion/mw-band-row.mp4
+SHA-256: 0f375abe8e50e7198a90e280188c5fb1db00537f265a32b0f7f21e235494ff20
+Bundled: /exercise-motion/mw-band-row.webp
+SHA-256: e281aa3028bf3cbecb9672911644e806ed566d8082988618ee8c35426b77d6b8
+
+muscleWiki: band-shrug
+Source: https://musclewiki.com/exercise/band-shrug
+Video: https://musclewiki.com/api-next/videos/male-Band-band-shrug-front.mp4
+Source SHA-256: 8d9fcdda19d60343e38fbff03862616376a9cf7e06b589a86a26210f24f392dc
+Bundled: /exercise-motion/mw-band-shrug.mp4
+SHA-256: 8d9fcdda19d60343e38fbff03862616376a9cf7e06b589a86a26210f24f392dc
+Bundled: /exercise-motion/mw-band-shrug.webp
+SHA-256: 6a49dc418459e80ea5e441a034f6a5e6bc6bdf4e243c67596977f61cf070dd40
+
+muscleWiki: band-side-bend
+Source: https://musclewiki.com/exercise/band-side-bend
+Video: https://musclewiki.com/api-next/videos/male-Band-band-side-bend-front.mp4
+Source SHA-256: f4e350704f795356a6a5322262450fafd6ca6c0d076e48df5e4e6170c798fe04
+Bundled: /exercise-motion/mw-band-side-bend.mp4
+SHA-256: f4e350704f795356a6a5322262450fafd6ca6c0d076e48df5e4e6170c798fe04
+Bundled: /exercise-motion/mw-band-side-bend.webp
+SHA-256: 3b8ada02b4eb38abc3a8cd9d190dce5c361d985d7491f3617d51c7f92e4b0dee
+
+muscleWiki: band-single-arm-row
+Source: https://musclewiki.com/exercise/band-single-arm-row
+Video: https://musclewiki.com/api-next/videos/male-Band-band-single-arm-row-front.mp4
+Source SHA-256: 236be94f7f8b98a0b4047cfc11e85d8f83afcf79ecb5b2d18eefb70e66c91cc2
+Bundled: /exercise-motion/mw-band-single-arm-row.mp4
+SHA-256: 236be94f7f8b98a0b4047cfc11e85d8f83afcf79ecb5b2d18eefb70e66c91cc2
+Bundled: /exercise-motion/mw-band-single-arm-row.webp
+SHA-256: 62b1fad3daffbcbecba08115d2dd884b00dbe60e439500f4fd8d831ffc307f90
+
+muscleWiki: band-squat-hold-row
+Source: https://musclewiki.com/exercise/band-squat-hold-row
+Video: https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-front.mp4
+Source SHA-256: 5853119316f18018fa4f5e125dba9b4a148fef25e8e7867bc91649d6e05bda14
+Bundled: /exercise-motion/mw-band-squat-hold-row.mp4
+SHA-256: 5853119316f18018fa4f5e125dba9b4a148fef25e8e7867bc91649d6e05bda14
+Bundled: /exercise-motion/mw-band-squat-hold-row.webp
+SHA-256: e4ab061e15c5b4f290c20f2030de1c1efe8477d1efaa3bff915970f4b64b84a2
+
+muscleWiki: barbell-calf-jump
+Source: https://musclewiki.com/exercise/barbell-calf-jump
+Video: https://musclewiki.com/api-next/videos/male-barbell-calf-jump-front.mp4
+Source SHA-256: b6e63601fcede7c7fd4f415a95620980ff71cf25655ce001a91d8f32a050ac6d
+Bundled: /exercise-motion/mw-barbell-calf-jump.mp4
+SHA-256: b6e63601fcede7c7fd4f415a95620980ff71cf25655ce001a91d8f32a050ac6d
+Bundled: /exercise-motion/mw-barbell-calf-jump.webp
+SHA-256: 604882a4f45469769d0dcc8e0c51db23c7547340fe54900c39d9529241cbc4a2
+
+muscleWiki: barbell-calf-raises
+Source: https://musclewiki.com/exercise/barbell-calf-raises
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-calf-raises-front.mp4
+Source SHA-256: bdfca62e73a02ea864b1879337c0a6edeb85a21bdaddb70165df01e1617f37a1
+Bundled: /exercise-motion/mw-barbell-calf-raises.mp4
+SHA-256: bdfca62e73a02ea864b1879337c0a6edeb85a21bdaddb70165df01e1617f37a1
+Bundled: /exercise-motion/mw-barbell-calf-raises.webp
+SHA-256: ffcbb01b47ef70c9501c94a7dfd1b0ce044898e0efd5a557574f1130430c6ba8
+
+muscleWiki: barbell-low-bar-squat
+Source: https://musclewiki.com/exercise/barbell-low-bar-squat
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-low-bar-squat-front.mp4
+Source SHA-256: 184e6080474ebfc0be01316c2956aee22414b1126c4771fa635973aab8240124
+Bundled: /exercise-motion/mw-barbell-low-bar-squat.mp4
+SHA-256: 184e6080474ebfc0be01316c2956aee22414b1126c4771fa635973aab8240124
+Bundled: /exercise-motion/mw-barbell-low-bar-squat.webp
+SHA-256: e4a21155dbdb29ed0fc9a8b533b7b4c68855a6cc0465dc7a1e5551f990895dc6
+
+muscleWiki: barbell-single-leg-deadlift
+Source: https://musclewiki.com/exercise/barbell-single-leg-deadlift
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-single-leg-deadlift-front.mp4
+Source SHA-256: 8a8c05c2ce92bf7b1a8b0e71cec39b91c16163c48bd36ece57a9df3a1c9f05d8
+Bundled: /exercise-motion/mw-barbell-single-leg-deadlift.mp4
+SHA-256: 8a8c05c2ce92bf7b1a8b0e71cec39b91c16163c48bd36ece57a9df3a1c9f05d8
+Bundled: /exercise-motion/mw-barbell-single-leg-deadlift.webp
+SHA-256: b26fc400d9747891557532917ad4813fba861e2ff89ebeb980ee3ba0b45a9154
+
+muscleWiki: barbell-situp
+Source: https://musclewiki.com/exercise/barbell-situp
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-situp-front.mp4
+Source SHA-256: 8e1580c6a5c26c6102a65e9637a53455f413dd0eaf2d0bf1427a01a01cfef3f9
+Bundled: /exercise-motion/mw-barbell-situp.mp4
+SHA-256: 8e1580c6a5c26c6102a65e9637a53455f413dd0eaf2d0bf1427a01a01cfef3f9
+Bundled: /exercise-motion/mw-barbell-situp.webp
+SHA-256: 5e9b360b625b2c244d9eca5826b5f89998c2c182a0efe68a34659450475b6086
+
+muscleWiki: barbell-thruster
+Source: https://musclewiki.com/exercise/barbell-thruster
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-thruster-front.mp4
+Source SHA-256: c7ede504f135fe220f3feccb902ac17f882be26ce74507f44d6e06b9d5227ae0
+Bundled: /exercise-motion/mw-barbell-thruster.mp4
+SHA-256: c7ede504f135fe220f3feccb902ac17f882be26ce74507f44d6e06b9d5227ae0
+Bundled: /exercise-motion/mw-barbell-thruster.webp
+SHA-256: 8d79e0475b9eaf378a44bdbd8156386ad20dca340e83d7e726321d35ece03e58
+
+muscleWiki: barbell-wrist-curl
+Source: https://musclewiki.com/exercise/barbell-wrist-curl
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-wrist-curl-front.mp4
+Source SHA-256: f1e290d6f9c0c5bf89ec624eb5b045683c7a3c90590bf7a75dcab1e48cd8c2fd
+Bundled: /exercise-motion/mw-barbell-wrist-curl.mp4
+SHA-256: f1e290d6f9c0c5bf89ec624eb5b045683c7a3c90590bf7a75dcab1e48cd8c2fd
+Bundled: /exercise-motion/mw-barbell-wrist-curl.webp
+SHA-256: d65d5e8a489a7f204b99f0f439af34157f7dba57ef304ef4cf4b4ff63117ee9d
+
+muscleWiki: bodyweight-hindu-squat
+Source: https://musclewiki.com/exercise/bodyweight-hindu-squat
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hindu-squat-front.mp4
+Source SHA-256: cd1fc79a404dcc37d155781908802f66d995f2076042b410eb319c37c0eb22b7
+Bundled: /exercise-motion/mw-bodyweight-hindu-squat.mp4
+SHA-256: cd1fc79a404dcc37d155781908802f66d995f2076042b410eb319c37c0eb22b7
+Bundled: /exercise-motion/mw-bodyweight-hindu-squat.webp
+SHA-256: 5e7b9ddac6724c407d3366b0c18d64df7198b9537d11842de585dae6505f3b1a
+
+muscleWiki: bodyweight-knee-tricep-extension
+Source: https://musclewiki.com/exercise/bodyweight-knee-tricep-extension
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-knee-tricep-extension-front.mp4
+Source SHA-256: ae17157b81b73c8c8d82db576eee889ad184e6e3599d2a42beeb1cd03dd28801
+Bundled: /exercise-motion/mw-bodyweight-knee-tricep-extension.mp4
+SHA-256: ae17157b81b73c8c8d82db576eee889ad184e6e3599d2a42beeb1cd03dd28801
+Bundled: /exercise-motion/mw-bodyweight-knee-tricep-extension.webp
+SHA-256: f8658c1357b6d06564910b8dc48561ee1ddec9983e80c850ebc21bfcd13585d9
+
+muscleWiki: bodyweight-plank-jack
+Source: https://musclewiki.com/exercise/bodyweight-plank-jack
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-plank-jack-front.mp4
+Source SHA-256: 718a7fa84a00da13f304b1089c5d4e622f0970a966731149b5ce5eda5fdf5471
+Bundled: /exercise-motion/mw-bodyweight-plank-jack.mp4
+SHA-256: 718a7fa84a00da13f304b1089c5d4e622f0970a966731149b5ce5eda5fdf5471
+Bundled: /exercise-motion/mw-bodyweight-plank-jack.webp
+SHA-256: 970b82c71bb7ddd1ffad27c24ec1f0cba01a64e08c2045ec06e30134e1da0e1e
+
+muscleWiki: bodyweight-plank-up-down
+Source: https://musclewiki.com/exercise/bodyweight-plank-up-down
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-plank-up-down-front.mp4
+Source SHA-256: 7d5187e2579214c633b78dbb6098d08761d69175d7d546c7f429d389122bad9d
+Bundled: /exercise-motion/mw-bodyweight-plank-up-down.mp4
+SHA-256: 7d5187e2579214c633b78dbb6098d08761d69175d7d546c7f429d389122bad9d
+Bundled: /exercise-motion/mw-bodyweight-plank-up-down.webp
+SHA-256: 6370437634b780c356484e636cc570b2df14a51b51108b6209f5a776b4750904
+
+muscleWiki: bodyweight-pulse-squat
+Source: https://musclewiki.com/exercise/bodyweight-pulse-squat
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pulse-squat-front.mp4
+Source SHA-256: 600d940d6cea954c54e4ba1e4973923c529ba1703392accb6cc3545f95991cb2
+Bundled: /exercise-motion/mw-bodyweight-pulse-squat.mp4
+SHA-256: 600d940d6cea954c54e4ba1e4973923c529ba1703392accb6cc3545f95991cb2
+Bundled: /exercise-motion/mw-bodyweight-pulse-squat.webp
+SHA-256: 26895a9de08d3ab3243da39035f881c8c9a3375b8bfadd919ef7ae39c3ac6ed5
+
+muscleWiki: bodyweight-shoulder-taps
+Source: https://musclewiki.com/exercise/bodyweight-shoulder-taps
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-shoulder-taps-front.mp4
+Source SHA-256: c74fc8d2136f23339d691cb174b27b4ac5f97ab09095004e8ce1ce250ab58748
+Bundled: /exercise-motion/mw-bodyweight-shoulder-taps.mp4
+SHA-256: c74fc8d2136f23339d691cb174b27b4ac5f97ab09095004e8ce1ce250ab58748
+Bundled: /exercise-motion/mw-bodyweight-shoulder-taps.webp
+SHA-256: 55f6c64c5e9c777b6ed3f4c060eaedd61c6d7367590d73eaf0a8d68c89869044
+
+muscleWiki: bodyweight-superman-pull
+Source: https://musclewiki.com/exercise/bodyweight-superman-pull
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-superman-pull-front.mp4
+Source SHA-256: 2ed5db38581b271d45533fa5110115a4d96efece085796760629a1e7d71c488e
+Bundled: /exercise-motion/mw-bodyweight-superman-pull.mp4
+SHA-256: 2ed5db38581b271d45533fa5110115a4d96efece085796760629a1e7d71c488e
+Bundled: /exercise-motion/mw-bodyweight-superman-pull.webp
+SHA-256: f535e0ca80041a4813a5ebbcad48589c599631b793d2644e377bead25b519f04
+
+muscleWiki: bodyweight-swing-lunge
+Source: https://musclewiki.com/exercise/bodyweight-swing-lunge
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swing-lunge-front.mp4
+Source SHA-256: 1785a8c06670a861c73ec01ec0e778ca9172638f8743084109706dc35e9e71ce
+Bundled: /exercise-motion/mw-bodyweight-swing-lunge.mp4
+SHA-256: 1785a8c06670a861c73ec01ec0e778ca9172638f8743084109706dc35e9e71ce
+Bundled: /exercise-motion/mw-bodyweight-swing-lunge.webp
+SHA-256: 3a86dd48022230fa74f1710140ecf72c95fdc50a1ea91827cbc7ec31a45c18b5
+
+muscleWiki: bosu-ball-squat
+Source: https://musclewiki.com/exercise/bosu-ball-squat
+Video: https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-front_7X4Ozx5.mp4
+Source SHA-256: c4f888980a4ffbdd25a2286af53769127d6bcb254a92d63312aa07ed11c17392
+Bundled: /exercise-motion/mw-bosu-ball-squat.mp4
+SHA-256: c4f888980a4ffbdd25a2286af53769127d6bcb254a92d63312aa07ed11c17392
+Bundled: /exercise-motion/mw-bosu-ball-squat.webp
+SHA-256: cea7b271dc0f3cf02e14b849951edb4884971e254a6d97202c4ff5bf70cde32c
+
+muscleWiki: bosu-ball-superman
+Source: https://musclewiki.com/exercise/bosu-ball-superman
+Video: https://musclewiki.com/api-next/videos/male-Bosu-Ball-superman-front_wu1ihDh.mp4
+Source SHA-256: d493ffd678626a48dd20954d2d3f12809c8d2ce887fea3e43325e60c2a37f1cc
+Bundled: /exercise-motion/mw-bosu-ball-superman.mp4
+SHA-256: d493ffd678626a48dd20954d2d3f12809c8d2ce887fea3e43325e60c2a37f1cc
+Bundled: /exercise-motion/mw-bosu-ball-superman.webp
+SHA-256: a495a00656539a74904f606ab6e4e0c826b4c4e36c8fa8d3a7a00a978313db19
+
+muscleWiki: bosu-ball-toe-tap
+Source: https://musclewiki.com/exercise/bosu-ball-toe-tap
+Video: https://musclewiki.com/api-next/videos/male-Bosu-Ball-toe-tap-front_ndprCBj.mp4
+Source SHA-256: 650ca2a7c01612c7cc9f77c512e4d496e1aa68bfe11e66e485d69355a824d6e4
+Bundled: /exercise-motion/mw-bosu-ball-toe-tap.mp4
+SHA-256: 650ca2a7c01612c7cc9f77c512e4d496e1aa68bfe11e66e485d69355a824d6e4
+Bundled: /exercise-motion/mw-bosu-ball-toe-tap.webp
+SHA-256: b95eebed87bcf8cd78201af088cf65b526e2966332f099e3f1e928a14a1be1e0
+
+muscleWiki: cable-behind-the-back-lateral-raise
+Source: https://musclewiki.com/exercise/cable-behind-the-back-lateral-raise
+Video: https://musclewiki.com/api-next/videos/male-Cables-cable-behind-the-back-lateral-raise-front.mp4
+Source SHA-256: 43747364e4de653cf44a7c00fd433b98ab4253097e417fb72b458fef7d800945
+Bundled: /exercise-motion/mw-cable-behind-the-back-lateral-raise.mp4
+SHA-256: 43747364e4de653cf44a7c00fd433b98ab4253097e417fb72b458fef7d800945
+Bundled: /exercise-motion/mw-cable-behind-the-back-lateral-raise.webp
+SHA-256: f6a01e9386bc392c0080355eb7c03f6985dd545ba6455116d74ea98b406efcaf
+
+muscleWiki: cable-high-single-arm-rear-delt-fly
+Source: https://musclewiki.com/exercise/cable-high-single-arm-rear-delt-fly
+Video: https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-rear-delt-fly-front.mp4
+Source SHA-256: 5074f93e878cb65990808a33eedcbc2c573668fa99256546f3423d8db9a7ee18
+Bundled: /exercise-motion/mw-cable-high-single-arm-rear-delt-fly.mp4
+SHA-256: 5074f93e878cb65990808a33eedcbc2c573668fa99256546f3423d8db9a7ee18
+Bundled: /exercise-motion/mw-cable-high-single-arm-rear-delt-fly.webp
+SHA-256: 234facc70dec09006ad3b9736a336a991dc58893302ab686e73a92d44f84462b
+
+muscleWiki: cable-side-bend
+Source: https://musclewiki.com/exercise/cable-side-bend
+Video: https://musclewiki.com/api-next/videos/male-Cables-cable-side-bend-front.mp4
+Source SHA-256: e949a2bd29da1cf03c768ec905ed29cf5357a5c5b2861f04292fa9157fa9ea85
+Bundled: /exercise-motion/mw-cable-side-bend.mp4
+SHA-256: e949a2bd29da1cf03c768ec905ed29cf5357a5c5b2861f04292fa9157fa9ea85
+Bundled: /exercise-motion/mw-cable-side-bend.webp
+SHA-256: 0df00e5466da6714d83cf5fec7df15fcf6342d8fc591880343e535a931398a37
+
+muscleWiki: cable-single-arm-pushdown
+Source: https://musclewiki.com/exercise/cable-single-arm-pushdown
+Video: https://musclewiki.com/api-next/videos/male-Cables-cable-single-arm-pushdown-front.mp4
+Source SHA-256: 5b03d105660b14445f108979d34789d13ddc4013309af785ee5c18218c6c6d2d
+Bundled: /exercise-motion/mw-cable-single-arm-pushdown.mp4
+SHA-256: 5b03d105660b14445f108979d34789d13ddc4013309af785ee5c18218c6c6d2d
+Bundled: /exercise-motion/mw-cable-single-arm-pushdown.webp
+SHA-256: 8b12e9ee1917633b05c02b3c884d3912eee699c60fc84741d6960ee52e043a98
+
+muscleWiki: cable-single-arm-reverse-curl
+Source: https://musclewiki.com/exercise/cable-single-arm-reverse-curl
+Video: https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-curl-front.mp4
+Source SHA-256: 15ae28344ad50ce5628490ca26b0a1c53dd2ae4b8e9a30574f0e4c7c04c9c2bc
+Bundled: /exercise-motion/mw-cable-single-arm-reverse-curl.mp4
+SHA-256: 15ae28344ad50ce5628490ca26b0a1c53dd2ae4b8e9a30574f0e4c7c04c9c2bc
+Bundled: /exercise-motion/mw-cable-single-arm-reverse-curl.webp
+SHA-256: e609a48461d6500adaf3dd667051f8010c437c3859a64ef9d195f753dc9f1c69
+
+muscleWiki: cable-tricep-kickback
+Source: https://musclewiki.com/exercise/cable-tricep-kickback
+Video: https://musclewiki.com/api-next/videos/male-Cables-cable-tricep-kickback-front.mp4
+Source SHA-256: 98ab4efd85eba15333d0c5f13d3ef4b71cdee1d845761ccdbb7db4679d509810
+Bundled: /exercise-motion/mw-cable-tricep-kickback.mp4
+SHA-256: 98ab4efd85eba15333d0c5f13d3ef4b71cdee1d845761ccdbb7db4679d509810
+Bundled: /exercise-motion/mw-cable-tricep-kickback.webp
+SHA-256: f425e6fd2e19bcad202ae7c8d011e568fed5e5238af3e415f9893a8a1277e2ce
+
+muscleWiki: dumbbell-bench-wrist-curl
+Source: https://musclewiki.com/exercise/dumbbell-bench-wrist-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-wrist-curl-front.mp4
+Source SHA-256: 64286ec59797faf00206919f4ce6201fb36336d83f0aee75629540f3a75a4c2e
+Bundled: /exercise-motion/mw-dumbbell-bench-wrist-curl.mp4
+SHA-256: 64286ec59797faf00206919f4ce6201fb36336d83f0aee75629540f3a75a4c2e
+Bundled: /exercise-motion/mw-dumbbell-bench-wrist-curl.webp
+SHA-256: 4f93265df3196747fd125a4acad0c990076e77d3cff206ba8d9727ea3b317061
+
+muscleWiki: dumbbell-crunch
+Source: https://musclewiki.com/exercise/dumbbell-crunch
+Video: https://musclewiki.com/api-next/videos/male-dumbbell-crunch-front.mp4
+Source SHA-256: 4f5534d6abf1e3b50d4fa019eeb6c6709f835b69efe0aab60b2956c22425d145
+Bundled: /exercise-motion/mw-dumbbell-crunch.mp4
+SHA-256: 4f5534d6abf1e3b50d4fa019eeb6c6709f835b69efe0aab60b2956c22425d145
+Bundled: /exercise-motion/mw-dumbbell-crunch.webp
+SHA-256: 5c9fe49ff9719871385202b1b6b2554a30ba6a8399009d2d83f91a3c158eb0bf
+
+muscleWiki: dumbbell-drag-curl
+Source: https://musclewiki.com/exercise/dumbbell-drag-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-drag-curl-front.mp4
+Source SHA-256: f99dbc332e075215e52fbf3cde9817e98569e32594f600aac4305c93b24cd3db
+Bundled: /exercise-motion/mw-dumbbell-drag-curl.mp4
+SHA-256: f99dbc332e075215e52fbf3cde9817e98569e32594f600aac4305c93b24cd3db
+Bundled: /exercise-motion/mw-dumbbell-drag-curl.webp
+SHA-256: 486dd2dd2c562b69cb0c54ddf010baa7daf8a736fa48d1cf7a9625d2e3981b3f
+
+muscleWiki: dumbbell-elbow-side-plank
+Source: https://musclewiki.com/exercise/dumbbell-elbow-side-plank
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-elbow-side-plank-front.mp4
+Source SHA-256: 30a9de02ad0b38541f40befc27cc0a49a1730cadc22f27b43019bf6ef51e5829
+Bundled: /exercise-motion/mw-dumbbell-elbow-side-plank.mp4
+SHA-256: 30a9de02ad0b38541f40befc27cc0a49a1730cadc22f27b43019bf6ef51e5829
+Bundled: /exercise-motion/mw-dumbbell-elbow-side-plank.webp
+SHA-256: 0bc6643ab99c43beb21fd45488e718cf8ecb2ccca151ecd479cd624f46f1cdce
+
+muscleWiki: dumbbell-farmer-walk
+Source: https://musclewiki.com/exercise/dumbbell-farmer-walk
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-farmer-walk-front.mp4
+Source SHA-256: a709e6816a609c9d6f17fa35977a667fc27428887bbbf38ffac6f5b8517f8e88
+Bundled: /exercise-motion/mw-dumbbell-farmer-walk.mp4
+SHA-256: a709e6816a609c9d6f17fa35977a667fc27428887bbbf38ffac6f5b8517f8e88
+Bundled: /exercise-motion/mw-dumbbell-farmer-walk.webp
+SHA-256: 422487d9eb5abfba0d2cd08c6cbeabff0fa65ddb8788423ca82408de8cc15258
+
+muscleWiki: dumbbell-feet-down-russian-twist
+Source: https://musclewiki.com/exercise/dumbbell-feet-down-russian-twist
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-feet-down-russian-twist-front.mp4
+Source SHA-256: d0be21774a5a4683688804292a1aecc4ac3f96d04d571bdad59893a4288418e0
+Bundled: /exercise-motion/mw-dumbbell-feet-down-russian-twist.mp4
+SHA-256: d0be21774a5a4683688804292a1aecc4ac3f96d04d571bdad59893a4288418e0
+Bundled: /exercise-motion/mw-dumbbell-feet-down-russian-twist.webp
+SHA-256: 4c6c5d0f25c0833d6e1384c01ecccca363e5faf0ac456c3aa90026ad1e095bd2
+
+muscleWiki: dumbbell-goblet-forward-lunge
+Source: https://musclewiki.com/exercise/dumbbell-goblet-forward-lunge
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-goblet-forward-lunge-front.mp4
+Source SHA-256: dcd821387a5a92dfe84957968cf6ded298f296cf36e73a2f796d053699d378c9
+Bundled: /exercise-motion/mw-dumbbell-goblet-forward-lunge.mp4
+SHA-256: dcd821387a5a92dfe84957968cf6ded298f296cf36e73a2f796d053699d378c9
+Bundled: /exercise-motion/mw-dumbbell-goblet-forward-lunge.webp
+SHA-256: 376508d6c627baf63c1d51e2202f47348cf86fdbf49b5dc47cc64df6036f2698
+
+muscleWiki: dumbbell-hand-side-plank
+Source: https://musclewiki.com/exercise/dumbbell-hand-side-plank
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hand-side-plank-front.mp4
+Source SHA-256: 8054d69f7bc3ec96292c25f41b7acb9dea76808cb5b300d8760005f6db073596
+Bundled: /exercise-motion/mw-dumbbell-hand-side-plank.mp4
+SHA-256: 8054d69f7bc3ec96292c25f41b7acb9dea76808cb5b300d8760005f6db073596
+Bundled: /exercise-motion/mw-dumbbell-hand-side-plank.webp
+SHA-256: 093b857376265f33c3dd3b6c284e5f7040c5a33fce70c8fcade6163a9c9a9f5d
+
+muscleWiki: dumbbell-incline-front-raise
+Source: https://musclewiki.com/exercise/dumbbell-incline-front-raise
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-front-raise-front.mp4
+Source SHA-256: ac26ba3e65aa37d0cf08d603c24269c1241118fb1aba18c59683e74d3cab8756
+Bundled: /exercise-motion/mw-dumbbell-incline-front-raise.mp4
+SHA-256: ac26ba3e65aa37d0cf08d603c24269c1241118fb1aba18c59683e74d3cab8756
+Bundled: /exercise-motion/mw-dumbbell-incline-front-raise.webp
+SHA-256: 7badceb85d659ffa94ebd36f2d95374175b6485ff4ff74513313b8f00741d9e1
+
+muscleWiki: dumbbell-offset-squat
+Source: https://musclewiki.com/exercise/dumbbell-offset-squat
+Video: https://musclewiki.com/api-next/videos/male-dumbbell-offset-squat-front.mp4
+Source SHA-256: f98055ecff5c001603ae9c2b160a47c983b57bb95cdaf266bc4ef5ed989e37f7
+Bundled: /exercise-motion/mw-dumbbell-offset-squat.mp4
+SHA-256: f98055ecff5c001603ae9c2b160a47c983b57bb95cdaf266bc4ef5ed989e37f7
+Bundled: /exercise-motion/mw-dumbbell-offset-squat.webp
+SHA-256: 7c8f3e51a44516af8868e92dd3262f376913b0de6d0a7866549826981ecc3a0b
+
+muscleWiki: dumbbell-plank-pullthrough
+Source: https://musclewiki.com/exercise/dumbbell-plank-pullthrough
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-plank-pullthrough-front.mp4
+Source SHA-256: dd064eb5f700594282e2d26162784416aa6c476d857158f3b3a49eae0537e8c5
+Bundled: /exercise-motion/mw-dumbbell-plank-pullthrough.mp4
+SHA-256: dd064eb5f700594282e2d26162784416aa6c476d857158f3b3a49eae0537e8c5
+Bundled: /exercise-motion/mw-dumbbell-plank-pullthrough.webp
+SHA-256: cc760572df2ec5948f49bd41e3afb5b28647e4ae1b778787945c0d0c8bf78b57
+
+muscleWiki: dumbbell-push-press
+Source: https://musclewiki.com/exercise/dumbbell-push-press
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-push-press-front.mp4
+Source SHA-256: 2fb3d571be69f3ac1c1586b28637878da2e4f01ac4c454d01ef4450edeb08ba0
+Bundled: /exercise-motion/mw-dumbbell-push-press.mp4
+SHA-256: 2fb3d571be69f3ac1c1586b28637878da2e4f01ac4c454d01ef4450edeb08ba0
+Bundled: /exercise-motion/mw-dumbbell-push-press.webp
+SHA-256: b106c4b07cc875e54ea26a3d45563e1aa9026e6196767fcd271e9e47279d5567
+
+muscleWiki: dumbbell-rear-delt-row
+Source: https://musclewiki.com/exercise/dumbbell-rear-delt-row
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rear-delt-row-front.mp4
+Source SHA-256: e7afa1eb3553d1d0ac948d990a086a7d07ad64dc0302c0144b63b6138dbf491b
+Bundled: /exercise-motion/mw-dumbbell-rear-delt-row.mp4
+SHA-256: e7afa1eb3553d1d0ac948d990a086a7d07ad64dc0302c0144b63b6138dbf491b
+Bundled: /exercise-motion/mw-dumbbell-rear-delt-row.webp
+SHA-256: 69e810c9d466b9cf1962efa4906211700c3074fe8923f11545fb4808487af59c
+
+muscleWiki: dumbbell-reverse-curl
+Source: https://musclewiki.com/exercise/dumbbell-reverse-curl
+Video: https://musclewiki.com/api-next/videos/female-Dumbbells-dumbbell-reverse-curl-front.mp4
+Source SHA-256: 0951ee93e4a0a8cc6352fa135e85760757bc2d8942fc51c2cb661cda3f29f596
+Bundled: /exercise-motion/mw-dumbbell-reverse-curl.mp4
+SHA-256: 0951ee93e4a0a8cc6352fa135e85760757bc2d8942fc51c2cb661cda3f29f596
+Bundled: /exercise-motion/mw-dumbbell-reverse-curl.webp
+SHA-256: 14ee21c69c58bdf9fd24948e8dbf73404736a8bc03745e61a2ecc81f1777b54e
+
+muscleWiki: dumbbell-seated-bent-arm-lateral-raise
+Source: https://musclewiki.com/exercise/dumbbell-seated-bent-arm-lateral-raise
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-bent-arm-lateral-raise-front.mp4
+Source SHA-256: fcf910def3052a30f88fdaf8eb86cd5f99b0cad1b4bf9ffe9c35f74f2a75d520
+Bundled: /exercise-motion/mw-dumbbell-seated-bent-arm-lateral-raise.mp4
+SHA-256: fcf910def3052a30f88fdaf8eb86cd5f99b0cad1b4bf9ffe9c35f74f2a75d520
+Bundled: /exercise-motion/mw-dumbbell-seated-bent-arm-lateral-raise.webp
+SHA-256: 1808c629f5917a3f999bf88c0350b7ef48b169b9d48ae5075e7a06b252a55642
+
+muscleWiki: dumbbell-seated-hammer-curl
+Source: https://musclewiki.com/exercise/dumbbell-seated-hammer-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-hammer-curl-front.mp4
+Source SHA-256: 2b088e64bee3eba858527c592a15f6c5f17b11c2596a5d7cd82b0c4ebc960cbd
+Bundled: /exercise-motion/mw-dumbbell-seated-hammer-curl.mp4
+SHA-256: 2b088e64bee3eba858527c592a15f6c5f17b11c2596a5d7cd82b0c4ebc960cbd
+Bundled: /exercise-motion/mw-dumbbell-seated-hammer-curl.webp
+SHA-256: e261a438a82f1fa22f0d5b1c928b37883a7a3790b01e03515559659dd6c05794
+
+muscleWiki: dumbbell-single-arm-floor-fly
+Source: https://musclewiki.com/exercise/dumbbell-single-arm-floor-fly
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-floor-fly-front.mp4
+Source SHA-256: e001c355082bfb702724fb24e71cdc0a04e2c38067403a539fbad02bb51326f6
+Bundled: /exercise-motion/mw-dumbbell-single-arm-floor-fly.mp4
+SHA-256: e001c355082bfb702724fb24e71cdc0a04e2c38067403a539fbad02bb51326f6
+Bundled: /exercise-motion/mw-dumbbell-single-arm-floor-fly.webp
+SHA-256: 84113bf870f8cc0b6a3e82202e5a834db316c75ea291ea3da845ee63e555b133
+
+muscleWiki: dumbbell-single-arm-incline-chest-press
+Source: https://musclewiki.com/exercise/dumbbell-single-arm-incline-chest-press
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-chest-press-front.mp4
+Source SHA-256: 7c1b681ed4767dcfbab9b3575991f535bccc369fece935edee4d9e5fd630a55a
+Bundled: /exercise-motion/mw-dumbbell-single-arm-incline-chest-press.mp4
+SHA-256: 7c1b681ed4767dcfbab9b3575991f535bccc369fece935edee4d9e5fd630a55a
+Bundled: /exercise-motion/mw-dumbbell-single-arm-incline-chest-press.webp
+SHA-256: e0f83060d14230c4551576d3db5b4c3aa49f1f7cc5680cfe266f8f49a0797a55
+
+muscleWiki: dumbbell-single-leg-calf-raise
+Source: https://musclewiki.com/exercise/dumbbell-single-leg-calf-raise
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-calf-raise-front.mp4
+Source SHA-256: 18d830895f645d884aec913db00e1b36c565c0111acb4eb79ab4a6dd7ef51427
+Bundled: /exercise-motion/mw-dumbbell-single-leg-calf-raise.mp4
+SHA-256: 18d830895f645d884aec913db00e1b36c565c0111acb4eb79ab4a6dd7ef51427
+Bundled: /exercise-motion/mw-dumbbell-single-leg-calf-raise.webp
+SHA-256: 1ae507548286525933e7dcacb1d99cb280e55f5e0b5b27a2cf79d14fa66d0269
+
+muscleWiki: dumbbell-single-leg-hip-thrust
+Source: https://musclewiki.com/exercise/dumbbell-single-leg-hip-thrust
+Video: https://musclewiki.com/api-next/videos/male-dumbbell-single-leg-hip-thrust-front.mp4
+Source SHA-256: a3956657b645c249f2c5054d51c747ad452eaf5c274f60d31947a9313fdb8049
+Bundled: /exercise-motion/mw-dumbbell-single-leg-hip-thrust.mp4
+SHA-256: a3956657b645c249f2c5054d51c747ad452eaf5c274f60d31947a9313fdb8049
+Bundled: /exercise-motion/mw-dumbbell-single-leg-hip-thrust.webp
+SHA-256: a1840c02418dd52be00fc0ee7597346c6cdc82878e121ff77bbcfd01c5e8c53e
+
+muscleWiki: dumbbell-standing-single-arm-curl
+Source: https://musclewiki.com/exercise/dumbbell-standing-single-arm-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-curl-front.mp4
+Source SHA-256: 7416d307918ec0cae09a68c6d1c3fb8eebbf4f24bfa88ba45cacb64698b4d72a
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-curl.mp4
+SHA-256: 7416d307918ec0cae09a68c6d1c3fb8eebbf4f24bfa88ba45cacb64698b4d72a
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-curl.webp
+SHA-256: 459c58f6160754180773bde5a40d5d727a4932ec2eece901c70ffdbdd73b80c9
+
+muscleWiki: dumbbell-standing-single-arm-hammer-curl
+Source: https://musclewiki.com/exercise/dumbbell-standing-single-arm-hammer-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-hammer-curl-front.mp4
+Source SHA-256: db07468a0ee88742bd0550afe875c4b98bb0e8e21e8bfd90d3460b06c18787e0
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-hammer-curl.mp4
+SHA-256: db07468a0ee88742bd0550afe875c4b98bb0e8e21e8bfd90d3460b06c18787e0
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-hammer-curl.webp
+SHA-256: 19d7961e94926469b35541bf4449059029f182f549c30d65e3010c1b0bd9b106
+
+muscleWiki: dumbbell-standing-single-arm-reverse-curl
+Source: https://musclewiki.com/exercise/dumbbell-standing-single-arm-reverse-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-reverse-curl-front.mp4
+Source SHA-256: 2038c8fbb9d724f227160440001c8e120830b117345915d554ed60fd4a058448
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-reverse-curl.mp4
+SHA-256: 2038c8fbb9d724f227160440001c8e120830b117345915d554ed60fd4a058448
+Bundled: /exercise-motion/mw-dumbbell-standing-single-arm-reverse-curl.webp
+SHA-256: 656a7741fa368f3b880ea2114162181f4ca0af7a246f6f1932f36a5eedb583de
+
+muscleWiki: dumbbell-swing
+Source: https://musclewiki.com/exercise/dumbbell-swing
+Video: https://musclewiki.com/api-next/videos/male-dumbbell-swing-front.mp4
+Source SHA-256: 46022ca3e430f1a0eed951ad7cfefdf4b0b3aedbb7fd58fe5b5feaebcb92db47
+Bundled: /exercise-motion/mw-dumbbell-swing.mp4
+SHA-256: 46022ca3e430f1a0eed951ad7cfefdf4b0b3aedbb7fd58fe5b5feaebcb92db47
+Bundled: /exercise-motion/mw-dumbbell-swing.webp
+SHA-256: 0782c9501a5c6a0dca2413fb1ca22471c3372fbbd32fd7d80e3b06f81b8e8e16
+
+muscleWiki: dumbbell-thruster
+Source: https://musclewiki.com/exercise/dumbbell-thruster
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-thruster-front.mp4
+Source SHA-256: 19b2a35d06633a3b1edbe94ebe53aca35d8aeb2e8272d75dbb0ec5f8530743db
+Bundled: /exercise-motion/mw-dumbbell-thruster.mp4
+SHA-256: 19b2a35d06633a3b1edbe94ebe53aca35d8aeb2e8272d75dbb0ec5f8530743db
+Bundled: /exercise-motion/mw-dumbbell-thruster.webp
+SHA-256: c876f0878fec69f35fd8b883821ec4fc476a3a1afd4040c18b9e828e30fe91c8
+
+muscleWiki: dumbbell-wrist-extension
+Source: https://musclewiki.com/exercise/dumbbell-wrist-extension
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-wrist-extension-front.mp4
+Source SHA-256: 16d3d36ccd965ad3e5bfd36899ac2ca76be843f8ea312215c5f57ec3f0b1db04
+Bundled: /exercise-motion/mw-dumbbell-wrist-extension.mp4
+SHA-256: 16d3d36ccd965ad3e5bfd36899ac2ca76be843f8ea312215c5f57ec3f0b1db04
+Bundled: /exercise-motion/mw-dumbbell-wrist-extension.webp
+SHA-256: 499e45b2466743bdff3d76d5a222c4dee260f4c85e001c8bb3da886cabe1ccea
+
+muscleWiki: ez-bar-close-grip-curl
+Source: https://musclewiki.com/exercise/ez-bar-close-grip-curl
+Video: https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-close-grip-curl-front.mp4
+Source SHA-256: 41a7508a9d8f3f838eb6466fac8dcd11fcee675efb9ca0a6aca86e6594e920b5
+Bundled: /exercise-motion/mw-ez-bar-close-grip-curl.mp4
+SHA-256: 41a7508a9d8f3f838eb6466fac8dcd11fcee675efb9ca0a6aca86e6594e920b5
+Bundled: /exercise-motion/mw-ez-bar-close-grip-curl.webp
+SHA-256: 9cb59e9bdf3dfa626765f5c1650c4d3a76cd8f017882b13afc1ceaec353a09b6
+
+muscleWiki: ez-bar-spider-curl
+Source: https://musclewiki.com/exercise/ez-bar-spider-curl
+Video: https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-spider-curl-front.mp4
+Source SHA-256: a3e442eacdd99843a2af4a45fca9167d16336b2983e7f002b2d9ada2d07fad91
+Bundled: /exercise-motion/mw-ez-bar-spider-curl.mp4
+SHA-256: a3e442eacdd99843a2af4a45fca9167d16336b2983e7f002b2d9ada2d07fad91
+Bundled: /exercise-motion/mw-ez-bar-spider-curl.webp
+SHA-256: 2ee87d31063df9c60966c78ffe20a7f05e0e7379613462478b24c981182d9b0c
+
+muscleWiki: ez-bar-upright-row
+Source: https://musclewiki.com/exercise/ez-bar-upright-row
+Video: https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-upright-row-front.mp4
+Source SHA-256: bce2a875e751ca4f591ebd32245f64cc35fd53519ccfec375cec060d8de19a0f
+Bundled: /exercise-motion/mw-ez-bar-upright-row.mp4
+SHA-256: bce2a875e751ca4f591ebd32245f64cc35fd53519ccfec375cec060d8de19a0f
+Bundled: /exercise-motion/mw-ez-bar-upright-row.webp
+SHA-256: eb85c29af2fe918ce6004c35db4c7d2dc1880152a7323f00118a235583e42ed1
+
+muscleWiki: forward-arm-circle
+Source: https://musclewiki.com/exercise/forward-arm-circle
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-forward-arm-circle-front.mp4
+Source SHA-256: 753e9a2acb79d3585d28632113851a0098df024b1b50cae57350d78f31a4038f
+Bundled: /exercise-motion/mw-forward-arm-circle.mp4
+SHA-256: 753e9a2acb79d3585d28632113851a0098df024b1b50cae57350d78f31a4038f
+Bundled: /exercise-motion/mw-forward-arm-circle.webp
+SHA-256: 3e72c89553af63c69241c7ff78efbc362a53bb247ae7988ffa5a5544a054ae71
+
+muscleWiki: frog-crunch
+Source: https://musclewiki.com/exercise/frog-crunch
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-frog-crunch-front.mp4
+Source SHA-256: 24b747feb478660ea987cc4438830e70185a3cb98d6632a8cbad0eb08e349d42
+Bundled: /exercise-motion/mw-frog-crunch.mp4
+SHA-256: 24b747feb478660ea987cc4438830e70185a3cb98d6632a8cbad0eb08e349d42
+Bundled: /exercise-motion/mw-frog-crunch.webp
+SHA-256: 98d49bf4b5e9d3a093633fe71b9675b4c47332da0280fed6f8f88939f7bb8540
+
+muscleWiki: half-lotus
+Source: https://musclewiki.com/exercise/half-lotus
+Video: https://musclewiki.com/api-next/videos/male-yoga-half-lotus-front.mp4
+Source SHA-256: a383a8a3b693db287de8c7fcdbb51cff997a9364a9b53ab10af8566f1d51e474
+Bundled: /exercise-motion/mw-half-lotus.mp4
+SHA-256: a383a8a3b693db287de8c7fcdbb51cff997a9364a9b53ab10af8566f1d51e474
+Bundled: /exercise-motion/mw-half-lotus.webp
+SHA-256: c036341babe824b1bb54f6beeb1ce230c4ff3fb18e309ba8acdcf9d3f3919e4b
+
+muscleWiki: hamstring-curl-standing-bodyweight-single-leg
+Source: https://musclewiki.com/exercise/hamstring-curl-standing-bodyweight-single-leg
+Video: https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-standing-bodyweight-single-leg-front.mp4
+Source SHA-256: db9d038ddd8ca66a6d17e27ba82f0ad43ede1a5459e8803215a22fb1186166bf
+Bundled: /exercise-motion/mw-hamstring-curl-standing-bodyweight-single-leg.mp4
+SHA-256: db9d038ddd8ca66a6d17e27ba82f0ad43ede1a5459e8803215a22fb1186166bf
+Bundled: /exercise-motion/mw-hamstring-curl-standing-bodyweight-single-leg.webp
+SHA-256: 2d2c00ec17c559dc38f46226c1a8afcc6848855e0a1e69e40aa9b565a72cf003
+
+muscleWiki: headstand
+Source: https://musclewiki.com/exercise/headstand
+Video: https://musclewiki.com/api-next/videos/male-yoga-headstand-front.mp4
+Source SHA-256: ab48c03c4337f0c1f0e27f9c1194a94a19c82aef556b3df40e42dd01ec25a35e
+Bundled: /exercise-motion/mw-headstand.mp4
+SHA-256: ab48c03c4337f0c1f0e27f9c1194a94a19c82aef556b3df40e42dd01ec25a35e
+Bundled: /exercise-motion/mw-headstand.webp
+SHA-256: 0b26270f22bfb6bf7b340f69e917c505469dcaf6c61954a5da6d891a64e5849d
+
+muscleWiki: kettlebell-bottoms-up-overhead-press
+Source: https://musclewiki.com/exercise/kettlebell-bottoms-up-overhead-press
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-overhead-press-front.mp4
+Source SHA-256: 3afbc985213cc2e2a057f8315885bb23775c1b173740133441f0549ef1e9f99b
+Bundled: /exercise-motion/mw-kettlebell-bottoms-up-overhead-press.mp4
+SHA-256: 3afbc985213cc2e2a057f8315885bb23775c1b173740133441f0549ef1e9f99b
+Bundled: /exercise-motion/mw-kettlebell-bottoms-up-overhead-press.webp
+SHA-256: 1af6bc84b7b2beeabe2256023a2e33d16c99f9a30782a89a697692874b8dc5e3
+
+muscleWiki: kettlebell-clean-and-press
+Source: https://musclewiki.com/exercise/kettlebell-clean-and-press
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-clean-and-press-front.mp4
+Source SHA-256: e487c0de78ed3b51aa90d827d999a2df563c558bd216c0a3222341903081a80c
+Bundled: /exercise-motion/mw-kettlebell-clean-and-press.mp4
+SHA-256: e487c0de78ed3b51aa90d827d999a2df563c558bd216c0a3222341903081a80c
+Bundled: /exercise-motion/mw-kettlebell-clean-and-press.webp
+SHA-256: 507d222a26ec3e4334bdd56bd2faa2efefcb807bac0bc4789bb4a4ebf2fb7a7f
+
+muscleWiki: kettlebell-concentration-curl
+Source: https://musclewiki.com/exercise/kettlebell-concentration-curl
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-concentration-curl-front.mp4
+Source SHA-256: a61e4dae26162e227d80cd33ec343d98c825b403a87561b89d782a64b4b09841
+Bundled: /exercise-motion/mw-kettlebell-concentration-curl.mp4
+SHA-256: a61e4dae26162e227d80cd33ec343d98c825b403a87561b89d782a64b4b09841
+Bundled: /exercise-motion/mw-kettlebell-concentration-curl.webp
+SHA-256: 2ecc65e455a1aa3311a021d7f750eafb71d194cd0f7068d4aee956d479658db8
+
+muscleWiki: kettlebell-curl
+Source: https://musclewiki.com/exercise/kettlebell-curl
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-curl-front.mp4
+Source SHA-256: 7498a9615c62b476f9d5a07de850ed9f4994df982061dc823fa2312e6c31a263
+Bundled: /exercise-motion/mw-kettlebell-curl.mp4
+SHA-256: 7498a9615c62b476f9d5a07de850ed9f4994df982061dc823fa2312e6c31a263
+Bundled: /exercise-motion/mw-kettlebell-curl.webp
+SHA-256: 0b5cb302d331cfe34f6ec35ad8e2e9f56dcc2e68a6da4dc2957fba533705633f
+
+muscleWiki: kettlebell-farmers-carry
+Source: https://musclewiki.com/exercise/kettlebell-farmers-carry
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-farmers-carry-front.mp4
+Source SHA-256: e660a42f9a4945e1ffcd74435048a3d22aa70ff67e86601239615fad50a8b90b
+Bundled: /exercise-motion/mw-kettlebell-farmers-carry.mp4
+SHA-256: e660a42f9a4945e1ffcd74435048a3d22aa70ff67e86601239615fad50a8b90b
+Bundled: /exercise-motion/mw-kettlebell-farmers-carry.webp
+SHA-256: 7aaa371025b13cea43f763eb6f2fce9807aba4181bbac3c70cf4cf0beb6f8709
+
+muscleWiki: kettlebell-floor-press
+Source: https://musclewiki.com/exercise/kettlebell-floor-press
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-floor-press-front.mp4
+Source SHA-256: ccc02256a1155a935a9d927b6e1a419b106b8e022b2ae23ddee3e69b0f0560b7
+Bundled: /exercise-motion/mw-kettlebell-floor-press.mp4
+SHA-256: ccc02256a1155a935a9d927b6e1a419b106b8e022b2ae23ddee3e69b0f0560b7
+Bundled: /exercise-motion/mw-kettlebell-floor-press.webp
+SHA-256: ad6b48a32835c979e6adf03dbcba163471a3d92875b75ad3d99922d632db2f63
+
+muscleWiki: kettlebell-front-raise
+Source: https://musclewiki.com/exercise/kettlebell-front-raise
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-raise-front.mp4
+Source SHA-256: 3df255de712535ae38288be2256eca6b15722595c61c42a5cd9964be9659caf6
+Bundled: /exercise-motion/mw-kettlebell-front-raise.mp4
+SHA-256: 3df255de712535ae38288be2256eca6b15722595c61c42a5cd9964be9659caf6
+Bundled: /exercise-motion/mw-kettlebell-front-raise.webp
+SHA-256: cccc9a4bd53299d7fbcacffa4d157a93e44bbc6a65a2c2a53c98e53dd973228f
+
+muscleWiki: kettlebell-glute-bridge
+Source: https://musclewiki.com/exercise/kettlebell-glute-bridge
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-glute-bridge-front.mp4
+Source SHA-256: 3196e8406b41290324730d034d176880732bd444c2b4f01f38caac5f8e6ab8fb
+Bundled: /exercise-motion/mw-kettlebell-glute-bridge.mp4
+SHA-256: 3196e8406b41290324730d034d176880732bd444c2b4f01f38caac5f8e6ab8fb
+Bundled: /exercise-motion/mw-kettlebell-glute-bridge.webp
+SHA-256: f44a421df63781484b8ac0ddc487e0bde76d7f727cbd2ea668c36cf64de59a46
+
+muscleWiki: kettlebell-goblet-cossack-squat
+Source: https://musclewiki.com/exercise/kettlebell-goblet-cossack-squat
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-goblet-cossack-squat-front.mp4
+Source SHA-256: d901099533853dc8261b4bf8db940dd9669f60e59b9a296e90834b06c847f590
+Bundled: /exercise-motion/mw-kettlebell-goblet-cossack-squat.mp4
+SHA-256: d901099533853dc8261b4bf8db940dd9669f60e59b9a296e90834b06c847f590
+Bundled: /exercise-motion/mw-kettlebell-goblet-cossack-squat.webp
+SHA-256: 029bb9ef1aee13f89c0aeb12f668e73ddf3fe97175a2c5d9071d539743de053c
+
+muscleWiki: kettlebell-gorilla-row
+Source: https://musclewiki.com/exercise/kettlebell-gorilla-row
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-gorilla-row-front.mp4
+Source SHA-256: 28b8b8f7fcce6a545027f1a5c86b0e8a486fbf38cf9372787541c33b5f6f9da3
+Bundled: /exercise-motion/mw-kettlebell-gorilla-row.mp4
+SHA-256: 28b8b8f7fcce6a545027f1a5c86b0e8a486fbf38cf9372787541c33b5f6f9da3
+Bundled: /exercise-motion/mw-kettlebell-gorilla-row.webp
+SHA-256: 4cebe2a24943a51d4b014869122c99df6f0e2429e7e56f3199190bfa4e91f19c
+
+muscleWiki: kettlebell-overhead-tricep-extension
+Source: https://musclewiki.com/exercise/kettlebell-overhead-tricep-extension
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-overhead-tricep-extension-front.mp4
+Source SHA-256: 2ac415bec770c3ff071ade9fda69baae6d88959453067df29fcca0ebfa286eaf
+Bundled: /exercise-motion/mw-kettlebell-overhead-tricep-extension.mp4
+SHA-256: 2ac415bec770c3ff071ade9fda69baae6d88959453067df29fcca0ebfa286eaf
+Bundled: /exercise-motion/mw-kettlebell-overhead-tricep-extension.webp
+SHA-256: cd52d5e3d2da8f786687a09ac2deaec9a943955a0752d45a010ae2faeaa7ae6b
+
+muscleWiki: kettlebell-pullover
+Source: https://musclewiki.com/exercise/kettlebell-pullover
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-pullover-front.mp4
+Source SHA-256: 6761aa7969f6cd2dafbc4e60458b80238d7fb46fe28e2ec5b4877eedc98c048c
+Bundled: /exercise-motion/mw-kettlebell-pullover.mp4
+SHA-256: 6761aa7969f6cd2dafbc4e60458b80238d7fb46fe28e2ec5b4877eedc98c048c
+Bundled: /exercise-motion/mw-kettlebell-pullover.webp
+SHA-256: b26c7d4aaeb9c49e4e28d517d7dac7c7120ed27be80c2ee33276645abf5cd89c
+
+muscleWiki: kettlebell-push-press
+Source: https://musclewiki.com/exercise/kettlebell-push-press
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-push-press-front.mp4
+Source SHA-256: fc3f2d555b43e76bd732d7b3db3dcbce9b8071283849fb8e5bd602395f0be0c4
+Bundled: /exercise-motion/mw-kettlebell-push-press.mp4
+SHA-256: fc3f2d555b43e76bd732d7b3db3dcbce9b8071283849fb8e5bd602395f0be0c4
+Bundled: /exercise-motion/mw-kettlebell-push-press.webp
+SHA-256: 9008c223f072349c4f37ba0167f9788f3327ee72a593af4ab064da9ea11db723
+
+muscleWiki: kettlebell-sumo-deadlift
+Source: https://musclewiki.com/exercise/kettlebell-sumo-deadlift
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-sumo-deadlift-front.mp4
+Source SHA-256: 4db3012efcf908f86efdf63b38a9a3fa09cf02260b796ee44c802cbe925391b4
+Bundled: /exercise-motion/mw-kettlebell-sumo-deadlift.mp4
+SHA-256: 4db3012efcf908f86efdf63b38a9a3fa09cf02260b796ee44c802cbe925391b4
+Bundled: /exercise-motion/mw-kettlebell-sumo-deadlift.webp
+SHA-256: d8e6b0f05375b492556e1121a472eb60e60e657349df7b69a1fe004c4bd9a494
+
+muscleWiki: kettlebell-z-press
+Source: https://musclewiki.com/exercise/kettlebell-z-press
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-z-press-front.mp4
+Source SHA-256: e4a7f439d5a4f4a79dec126481b0dfde723a47819b6956b1b68f30a03b9634e5
+Bundled: /exercise-motion/mw-kettlebell-z-press.mp4
+SHA-256: e4a7f439d5a4f4a79dec126481b0dfde723a47819b6956b1b68f30a03b9634e5
+Bundled: /exercise-motion/mw-kettlebell-z-press.webp
+SHA-256: 09a1b7d55cb94109ca052f7cd5a315cfa3e221057301c2479ba120af468b2659
+
+muscleWiki: landmine-hack-squat
+Source: https://musclewiki.com/exercise/landmine-hack-squat
+Video: https://musclewiki.com/api-next/videos/male-Barbell-landmine-hack-squat-front.mp4
+Source SHA-256: 4b96aac4317754310e2887cd4ac2f77eaa69cf7d7b7225590a1ce9c2a549cf10
+Bundled: /exercise-motion/mw-landmine-hack-squat.mp4
+SHA-256: 4b96aac4317754310e2887cd4ac2f77eaa69cf7d7b7225590a1ce9c2a549cf10
+Bundled: /exercise-motion/mw-landmine-hack-squat.webp
+SHA-256: a069c036d239ee1fc7d5aca3a3a6f43853bf159703c2268948abde7ebb1a6f75
+
+muscleWiki: landmine-lateral-raise
+Source: https://musclewiki.com/exercise/landmine-lateral-raise
+Video: https://musclewiki.com/api-next/videos/male-Barbell-landmine-lateral-raise-front.mp4
+Source SHA-256: dfefa5d5063d106c18eff4f13a91ef6d68b3cba2c497c3cedc504626e13050c2
+Bundled: /exercise-motion/mw-landmine-lateral-raise.mp4
+SHA-256: dfefa5d5063d106c18eff4f13a91ef6d68b3cba2c497c3cedc504626e13050c2
+Bundled: /exercise-motion/mw-landmine-lateral-raise.webp
+SHA-256: 828fb958e0f609678c7282c51480da301dc70d394d30d1bbe6c55ea709cb63bf
+
+muscleWiki: landmine-squat
+Source: https://musclewiki.com/exercise/landmine-squat
+Video: https://musclewiki.com/api-next/videos/male-Barbell-landmine-squat-front.mp4
+Source SHA-256: d56d9eaf35a37acdf239f0bc5de4af364320582e317c4ac45cc453aea7285745
+Bundled: /exercise-motion/mw-landmine-squat.mp4
+SHA-256: d56d9eaf35a37acdf239f0bc5de4af364320582e317c4ac45cc453aea7285745
+Bundled: /exercise-motion/mw-landmine-squat.webp
+SHA-256: ec4bf35db2a2ff48407d01b0ee90d680beeeefcab7591f55c608e83d172967b4
+
+muscleWiki: landmine-thruster
+Source: https://musclewiki.com/exercise/landmine-thruster
+Video: https://musclewiki.com/api-next/videos/male-Barbell-landmine-thruster-front.mp4
+Source SHA-256: 88dda09b98dc60ff616097d22d3b4f5d2435287e6e7d77fe096e24c6d126cec2
+Bundled: /exercise-motion/mw-landmine-thruster.mp4
+SHA-256: 88dda09b98dc60ff616097d22d3b4f5d2435287e6e7d77fe096e24c6d126cec2
+Bundled: /exercise-motion/mw-landmine-thruster.webp
+SHA-256: 6e8cee0e26114cc992089724bad15ce164092f317b0fa558317258bb4bcd9dfe
+
+muscleWiki: machine-bicep-curl
+Source: https://musclewiki.com/exercise/machine-bicep-curl
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-bicep-curl-front.mp4
+Source SHA-256: 9244e2548c2128d0f2d37b68760c8f5f768975eb3895dbe92b9ab78f7e92512f
+Bundled: /exercise-motion/mw-machine-bicep-curl.mp4
+SHA-256: 9244e2548c2128d0f2d37b68760c8f5f768975eb3895dbe92b9ab78f7e92512f
+Bundled: /exercise-motion/mw-machine-bicep-curl.webp
+SHA-256: 5e4b5e197dc877a5b33587f0ed8bb8fb0a33e4f65c464815beff318aecddc90a
+
+muscleWiki: machine-hip-abduction
+Source: https://musclewiki.com/exercise/machine-hip-abduction
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-hip-abduction-front.mp4
+Source SHA-256: 2808f0c2126d32f89a36d3a87d4d1f2843d3981a86dcf17b2becd5f0d943fb4f
+Bundled: /exercise-motion/mw-machine-hip-abduction.mp4
+SHA-256: 2808f0c2126d32f89a36d3a87d4d1f2843d3981a86dcf17b2becd5f0d943fb4f
+Bundled: /exercise-motion/mw-machine-hip-abduction.webp
+SHA-256: ea7dd957d368479eb1917adcec70c94bd6f4f468a54c5cbb3df1a7a2729b3bd8
+
+muscleWiki: machine-hip-adduction
+Source: https://musclewiki.com/exercise/machine-hip-adduction
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-hip-adduction-front.mp4
+Source SHA-256: 74ca4b27f8c7ea8de33a2ba9d92abd6d04566e40d39e31b4b1a32ff0711fb097
+Bundled: /exercise-motion/mw-machine-hip-adduction.mp4
+SHA-256: 74ca4b27f8c7ea8de33a2ba9d92abd6d04566e40d39e31b4b1a32ff0711fb097
+Bundled: /exercise-motion/mw-machine-hip-adduction.webp
+SHA-256: 33d22fbf37de7bdd63b5b80bd37d83554a0fd71783d5f2ed45d6ca75b0dfa754
+
+muscleWiki: machine-plate-loaded-pulldown
+Source: https://musclewiki.com/exercise/machine-plate-loaded-pulldown
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-pulldown-front.mp4
+Source SHA-256: a7a2ccc183690b50e925fdbdb20ea072f6aba215b14171bfe5831fc85d410e9a
+Bundled: /exercise-motion/mw-machine-plate-loaded-pulldown.mp4
+SHA-256: a7a2ccc183690b50e925fdbdb20ea072f6aba215b14171bfe5831fc85d410e9a
+Bundled: /exercise-motion/mw-machine-plate-loaded-pulldown.webp
+SHA-256: 21ec12c1ea1f15d15daf24606420884090dfabd8ebb1bcf113d44dc20fb6f96a
+
+muscleWiki: machine-pullover
+Source: https://musclewiki.com/exercise/machine-pullover
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-pullover-front.mp4
+Source SHA-256: cccb6fa36a38768db5dca649c776d2446e613a6966201ea0a2822acb6285c7b1
+Bundled: /exercise-motion/mw-machine-pullover.mp4
+SHA-256: cccb6fa36a38768db5dca649c776d2446e613a6966201ea0a2822acb6285c7b1
+Bundled: /exercise-motion/mw-machine-pullover.webp
+SHA-256: 2cfe73d65d43d0847c13095df5c0b3eb8aa1d89f4fc63904863a934bd260066a
+
+muscleWiki: machine-reverse-fly
+Source: https://musclewiki.com/exercise/machine-reverse-fly
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-fly-front.mp4
+Source SHA-256: a05920dc25dafb52f307b957c1fbe3bd38ebea594af230f1d6e71bdb8765c4d7
+Bundled: /exercise-motion/mw-machine-reverse-fly.mp4
+SHA-256: a05920dc25dafb52f307b957c1fbe3bd38ebea594af230f1d6e71bdb8765c4d7
+Bundled: /exercise-motion/mw-machine-reverse-fly.webp
+SHA-256: 85caf5a82e23914b14924867683b23e420337c11fd66e4611ad7c46539f7303f
+
+muscleWiki: machine-reverse-hyperextension
+Source: https://musclewiki.com/exercise/machine-reverse-hyperextension
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-front.mp4
+Source SHA-256: 6e6701564a16662c9426e964411e71ae776db9cd179879e3e9bbe516a44f8454
+Bundled: /exercise-motion/mw-machine-reverse-hyperextension.mp4
+SHA-256: 6e6701564a16662c9426e964411e71ae776db9cd179879e3e9bbe516a44f8454
+Bundled: /exercise-motion/mw-machine-reverse-hyperextension.webp
+SHA-256: 8380f6c4c4959a1b94b8be7f85feb50f89ba1a2f7fdf6f8cc9007236783443d6
+
+muscleWiki: machine-seated-calf-raises
+Source: https://musclewiki.com/exercise/machine-seated-calf-raises
+Video: https://musclewiki.com/api-next/videos/male-machine-seated-calf-raise-front.mp4
+Source SHA-256: 283c46a9d862a9d85f35fd69789911ce0fe9afd66e7152b3ecf884c8164a5172
+Bundled: /exercise-motion/mw-machine-seated-calf-raises.mp4
+SHA-256: 283c46a9d862a9d85f35fd69789911ce0fe9afd66e7152b3ecf884c8164a5172
+Bundled: /exercise-motion/mw-machine-seated-calf-raises.webp
+SHA-256: 95f516ffa84d69395c467a6a207d058fbba774dd3844634544c7b1b12fd47d3f
+
+muscleWiki: machine-seated-leg-curl
+Source: https://musclewiki.com/exercise/machine-seated-leg-curl
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-seated-leg-curl-front.mp4
+Source SHA-256: ca949dafe09c98cf1caca9d45c7246dc73fb6b2a26eb9b360036240ff974c282
+Bundled: /exercise-motion/mw-machine-seated-leg-curl.mp4
+SHA-256: ca949dafe09c98cf1caca9d45c7246dc73fb6b2a26eb9b360036240ff974c282
+Bundled: /exercise-motion/mw-machine-seated-leg-curl.webp
+SHA-256: 432f4b87521cedf50cb948161d934755436d1276b72873cdbe48209276c69d71
+
+muscleWiki: machine-standing-calf-raises
+Source: https://musclewiki.com/exercise/machine-standing-calf-raises
+Video: https://musclewiki.com/api-next/videos/male-machine-standing-calf-raises-front.mp4
+Source SHA-256: 57b6372c56a8f760f81aee150c632371623f02ce49735db341c8d13a8e52e4f8
+Bundled: /exercise-motion/mw-machine-standing-calf-raises.mp4
+SHA-256: 57b6372c56a8f760f81aee150c632371623f02ce49735db341c8d13a8e52e4f8
+Bundled: /exercise-motion/mw-machine-standing-calf-raises.webp
+SHA-256: 91f2fb01d3ec0bcf6893736037d4259026565e2fe1b5a7cd96c6f57d4fc41735
+
+muscleWiki: medicine-ball-push-up
+Source: https://musclewiki.com/exercise/medicine-ball-push-up
+Video: https://musclewiki.com/api-next/videos/male-Medicine-Ball-pushup-front.mp4
+Source SHA-256: b8bc6d732f23aa677284c9bf577bac840bb90fef2d4f57af286ac10aedada528
+Bundled: /exercise-motion/mw-medicine-ball-push-up.mp4
+SHA-256: b8bc6d732f23aa677284c9bf577bac840bb90fef2d4f57af286ac10aedada528
+Bundled: /exercise-motion/mw-medicine-ball-push-up.webp
+SHA-256: 6ee6e2837221176cfbd00fddd6eb0309e2dbb9bea798e142d76f124adf66c0b7
+
+muscleWiki: plate-front-raise
+Source: https://musclewiki.com/exercise/plate-front-raise
+Video: https://musclewiki.com/api-next/videos/male-plate-front-raise-front.mp4
+Source SHA-256: 8621b17755e328c274bb5096ac6ddcd0181a4f1d5ab53b962c56765658550cea
+Bundled: /exercise-motion/mw-plate-front-raise.mp4
+SHA-256: 8621b17755e328c274bb5096ac6ddcd0181a4f1d5ab53b962c56765658550cea
+Bundled: /exercise-motion/mw-plate-front-raise.webp
+SHA-256: 1a2eeb768e4c55d149237ee7f361cf1ef4811e2e850f83d1cdbdca7765457ac8
+
+muscleWiki: seated-box-jump
+Source: https://musclewiki.com/exercise/seated-box-jump
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-seated-box-jump-front.mp4
+Source SHA-256: abcd4756970294464fc077db954e429abbc9ee0e973d4ebded4500c9e2dc22c7
+Bundled: /exercise-motion/mw-seated-box-jump.mp4
+SHA-256: abcd4756970294464fc077db954e429abbc9ee0e973d4ebded4500c9e2dc22c7
+Bundled: /exercise-motion/mw-seated-box-jump.webp
+SHA-256: ebd2e1158efe812852130d8b6285caf2fe02059f09c5a286a8976851c544bd6d
+
+muscleWiki: seated-twist
+Source: https://musclewiki.com/exercise/seated-twist
+Video: https://musclewiki.com/api-next/videos/male-yoga-seated-twist-front.mp4
+Source SHA-256: 2a13014bdd91aef9dce86d1bf10c772682462048bd6b22f5cf6c672c5f7d0329
+Bundled: /exercise-motion/mw-seated-twist.mp4
+SHA-256: 2a13014bdd91aef9dce86d1bf10c772682462048bd6b22f5cf6c672c5f7d0329
+Bundled: /exercise-motion/mw-seated-twist.webp
+SHA-256: d0c584c69951408e57675b684e3177e0abc3af2401d3bc3f6579dcfdfbd015d5
+
+muscleWiki: single-leg-box-jump
+Source: https://musclewiki.com/exercise/single-leg-box-jump
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-single-leg-box-jump-front.mp4
+Source SHA-256: 358f0db3c4a85f4b7c612015371bf25f078fefa4ff9e3968a1fd18ce938368d2
+Bundled: /exercise-motion/mw-single-leg-box-jump.mp4
+SHA-256: 358f0db3c4a85f4b7c612015371bf25f078fefa4ff9e3968a1fd18ce938368d2
+Bundled: /exercise-motion/mw-single-leg-box-jump.webp
+SHA-256: 6a2b8fc924ddd58a85209d182c8b6cc2148bc2ace187d95143105c067809a6f1
+
+muscleWiki: smith-machine-split-squat
+Source: https://musclewiki.com/exercise/smith-machine-split-squat
+Video: https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-front.mp4
+Source SHA-256: 62fa2f312b98074f37976fa26aa03745783c999e5c13f78990a15b01996f1f2b
+Bundled: /exercise-motion/mw-smith-machine-split-squat.mp4
+SHA-256: 62fa2f312b98074f37976fa26aa03745783c999e5c13f78990a15b01996f1f2b
+Bundled: /exercise-motion/mw-smith-machine-split-squat.webp
+SHA-256: 9b51f5cf68c5121953d2c98de8f061920bb349c62d058d26b85709f41c096d84
+
+muscleWiki: stability-ball-reverse-hyperextension
+Source: https://musclewiki.com/exercise/stability-ball-reverse-hyperextension
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-front.mp4
+Source SHA-256: 179bf8ad5fa57889bd51d4576b5d55d29f05c5540acdc23570a5053bdeccc0dd
+Bundled: /exercise-motion/mw-stability-ball-reverse-hyperextension.mp4
+SHA-256: 179bf8ad5fa57889bd51d4576b5d55d29f05c5540acdc23570a5053bdeccc0dd
+Bundled: /exercise-motion/mw-stability-ball-reverse-hyperextension.webp
+SHA-256: f6f051c6a021c3028ce7c4c756458e47be3ff9814acac2a2b1a8dc98ad2f77f3
+
+muscleWiki: stability-ball-side-crunch
+Source: https://musclewiki.com/exercise/stability-ball-side-crunch
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-side-crunch-front.mp4
+Source SHA-256: b69d097b66ffe7d2a1c7fbb4eecd4b8c2880b107d23825e78d30ede9284ad557
+Bundled: /exercise-motion/mw-stability-ball-side-crunch.mp4
+SHA-256: b69d097b66ffe7d2a1c7fbb4eecd4b8c2880b107d23825e78d30ede9284ad557
+Bundled: /exercise-motion/mw-stability-ball-side-crunch.webp
+SHA-256: 03666da4d4c2c66f42d5e388666da7ec778e467e4e2076e74512aa94dd53cb99
+
+muscleWiki: trx-curl
+Source: https://musclewiki.com/exercise/trx-curl
+Video: https://musclewiki.com/api-next/videos/male-trx-curl-front.mp4
+Source SHA-256: 53a15e8dd20d681fd796f471d20dcacd8b26a6875b2e645563fbc45e273184ac
+Bundled: /exercise-motion/mw-trx-curl.mp4
+SHA-256: 53a15e8dd20d681fd796f471d20dcacd8b26a6875b2e645563fbc45e273184ac
+Bundled: /exercise-motion/mw-trx-curl.webp
+SHA-256: 3f8dc923bcbdcd576f2cb8d62955f9b74070def740f3aabeb93d575f25e997e0
+
+muscleWiki: trx-hammer-curl
+Source: https://musclewiki.com/exercise/trx-hammer-curl
+Video: https://musclewiki.com/api-next/videos/male-trx-hammer-curl-front.mp4
+Source SHA-256: ddda565dceedc48c70f724beb14fe088a03b718da6d347f7ce3594e7d743a923
+Bundled: /exercise-motion/mw-trx-hammer-curl.mp4
+SHA-256: ddda565dceedc48c70f724beb14fe088a03b718da6d347f7ce3594e7d743a923
+Bundled: /exercise-motion/mw-trx-hammer-curl.webp
+SHA-256: 8297d2b58c073230b87ec0f6e610f9049a79a0c05c3c33219950d2e7abd87ffe
+
+muscleWiki: trx-hamstring-curl
+Source: https://musclewiki.com/exercise/trx-hamstring-curl
+Video: https://musclewiki.com/api-next/videos/male-trx-hamstring-curl-front.mp4
+Source SHA-256: 59a6e7f6b69d4abdb7f275cd1c035bb9921b2c7ac64fa7977d6f938b8217d3f8
+Bundled: /exercise-motion/mw-trx-hamstring-curl.mp4
+SHA-256: 59a6e7f6b69d4abdb7f275cd1c035bb9921b2c7ac64fa7977d6f938b8217d3f8
+Bundled: /exercise-motion/mw-trx-hamstring-curl.webp
+SHA-256: 5ea1f4ab402789e7fcf4617481c0ac32d8db50bd83da440b498ead5f532a5558
+
+muscleWiki: trx-knee-tuck
+Source: https://musclewiki.com/exercise/trx-knee-tuck
+Video: https://musclewiki.com/api-next/videos/male-trx-knee-tuck-front.mp4
+Source SHA-256: 934cc5f604ac76d19a608ea1bd8069aa27a3f565501ab4b464982c2e02861ee9
+Bundled: /exercise-motion/mw-trx-knee-tuck.mp4
+SHA-256: 934cc5f604ac76d19a608ea1bd8069aa27a3f565501ab4b464982c2e02861ee9
+Bundled: /exercise-motion/mw-trx-knee-tuck.webp
+SHA-256: 84da3a0b529a1c2945bf68ad4ba3519b2138dc0d40cf184766b936346af117dc
+
+muscleWiki: trx-mountain-climber
+Source: https://musclewiki.com/exercise/trx-mountain-climber
+Video: https://musclewiki.com/api-next/videos/male-trx-mountain-climber-front.mp4
+Source SHA-256: 21a62e20eb98fbaee3b6b5f4215a8dd13af1846113972a72d85dd2db7eeaa4f6
+Bundled: /exercise-motion/mw-trx-mountain-climber.mp4
+SHA-256: 21a62e20eb98fbaee3b6b5f4215a8dd13af1846113972a72d85dd2db7eeaa4f6
+Bundled: /exercise-motion/mw-trx-mountain-climber.webp
+SHA-256: 100effcc03043e72aea86e4dd38f9904b4627877a8c58ac02d36829940dfd1a0
+
+muscleWiki: trx-pike
+Source: https://musclewiki.com/exercise/trx-pike
+Video: https://musclewiki.com/api-next/videos/male-trx-pike-front.mp4
+Source SHA-256: 0ef437da30b03ffa382981f22d327b67d5d2cf1a12d27d6f1199142eb401d3b8
+Bundled: /exercise-motion/mw-trx-pike.mp4
+SHA-256: 0ef437da30b03ffa382981f22d327b67d5d2cf1a12d27d6f1199142eb401d3b8
+Bundled: /exercise-motion/mw-trx-pike.webp
+SHA-256: ba11509019bae0cd48b695498bc3fb618378d82a1fd547e48578424cb841128a
+
+muscleWiki: trx-pushup
+Source: https://musclewiki.com/exercise/trx-pushup
+Video: https://musclewiki.com/api-next/videos/male-trx-pushup-front.mp4
+Source SHA-256: b1f91f6abb726eeff0da7dbe77b30f21a04b849155afe1957974f89fe87b5f54
+Bundled: /exercise-motion/mw-trx-pushup.mp4
+SHA-256: b1f91f6abb726eeff0da7dbe77b30f21a04b849155afe1957974f89fe87b5f54
+Bundled: /exercise-motion/mw-trx-pushup.webp
+SHA-256: 3bce1924b4c00ec8fcc13ef9853dc2499e24f6cfe4a05a0e8f29273863e8b643
+
+muscleWiki: trx-rear-delt-fly
+Source: https://musclewiki.com/exercise/trx-rear-delt-fly
+Video: https://musclewiki.com/api-next/videos/male-trx-rear-delt_fly-front.mp4
+Source SHA-256: 07e23f95257c3a56dd8446bb1b33e5e4051b3ee4a0bc193c8354fcd2d63cba39
+Bundled: /exercise-motion/mw-trx-rear-delt-fly.mp4
+SHA-256: 07e23f95257c3a56dd8446bb1b33e5e4051b3ee4a0bc193c8354fcd2d63cba39
+Bundled: /exercise-motion/mw-trx-rear-delt-fly.webp
+SHA-256: 7a10ee417a089fa15a60eefc02f396874b5aa39d8fa665f841867afc36ef78cb
+
+muscleWiki: trx-squat
+Source: https://musclewiki.com/exercise/trx-squat
+Video: https://musclewiki.com/api-next/videos/male-trx-squat-front.mp4
+Source SHA-256: c6aa441f5d95b1275fc4bf80c1a64ac8ec63b7c40caa9e23f827e1c19bb423de
+Bundled: /exercise-motion/mw-trx-squat.mp4
+SHA-256: c6aa441f5d95b1275fc4bf80c1a64ac8ec63b7c40caa9e23f827e1c19bb423de
+Bundled: /exercise-motion/mw-trx-squat.webp
+SHA-256: 193de074198989604e5ca183e9500f8f9f5eab1cfafa865b17f22ce533547127
+
+muscleWiki: wall-angels
+Source: https://musclewiki.com/exercise/wall-angels
+Video: https://musclewiki.com/api-next/videos/male-Recovery-wall-angels-front.mp4
+Source SHA-256: aa6decd899ab8220e9d628649a28216839ee45612bb6ebb449da12d928853775
+Bundled: /exercise-motion/mw-wall-angels.mp4
+SHA-256: aa6decd899ab8220e9d628649a28216839ee45612bb6ebb449da12d928853775
+Bundled: /exercise-motion/mw-wall-angels.webp
+SHA-256: 3fbffe31c02f5f2d880afe129dc8bd25b8a5ffd6fbf9aa12dab4815ccb24fde3
+
+wger: wger:374
+Source: https://wger.de/api/v2/video/43/
+Video: https://wger.de/media/exercise-video/374/5336822a-7803-45b3-a880-f2bbf37a28f2.MOV
+Source SHA-256: 631218201fd7ec1b30312be5d06ff196c904c3be8d6cd8f837fbfe53fc6ca13a
+Bundled: /exercise-motion/wger-43.mp4
+SHA-256: 6f9ced03ece0efc83cf8153f38e24ae8c5cb49a0fc60e2ba230dfc89d9ac1bd0
+Bundled: /exercise-motion/wger-43.webp
+SHA-256: d7e4558f195db8e7687cc2fa272de2bd408e68588869040b465472fdc4b4c41d
+
+wger: Barbell_Hip_Thrust
+Source: https://wger.de/api/v2/video/72/
+Video: https://wger.de/media/exercise-video/294/45bacf4b-1bb6-4d47-8bd1-9f00eddd4019.MOV
+Source SHA-256: 2d9af3456d9bf47f6f52ee31c8da2af883b58acdd02b161e32d23d90ab87a26b
+Bundled: /exercise-motion/wger-72.mp4
+SHA-256: c9a81f990331198e37bd9f5821d84fcecd676882fd912503ad4ed70b663e4879
+Bundled: /exercise-motion/wger-72.webp
+SHA-256: f87ff127ddcaf7f5b2206b36a3aef4b21e8d839e96768425fc67e972ccdd03e4
+
+wger: Seated_Cable_Rows
+Source: https://wger.de/api/v2/video/1/
+Video: https://wger.de/media/exercise-video/512/fff4c294-93f0-4926-b3a2-bf59ad4afaa5.MOV
+Source SHA-256: 623708fc1e5b1fb1be2b1647a0fa044d0208b2ebea2a5ed6bf1a77e9c1e21b90
+Bundled: /exercise-motion/wger-1.mp4
+SHA-256: 2226723f1be26c3d3aea87ed4ab00fabae958d684432796286448fa562b2f50c
+Bundled: /exercise-motion/wger-1.webp
+SHA-256: f397a505261446107f7d08c9d14e73e0581f75d6a829e977225f30617e1e343c
+
+wger: Seated_Calf_Raise
+Source: https://wger.de/api/v2/video/13/
+Video: https://wger.de/media/exercise-video/590/a325ae2e-686b-4a1f-aff2-ba37fa3fa157.MOV
+Source SHA-256: 81156e03df81f84c2ceef9f15ba5d4f55042600f6966365916cf5a3a20e7b65b
+Bundled: /exercise-motion/wger-13.mp4
+SHA-256: 4e493dccc94f560b57b2759fc30d8953a3d81d83900b2bcb9bcc1249684d0e29
+Bundled: /exercise-motion/wger-13.webp
+SHA-256: 6cf8a1a344de1117cefa901e66cb63468b3ede9cfb1610b794fd9582d4dacd3c
+
+
+Form 2.20 continuation — reviewed 2026-10-16
+Publisher: MuscleWiki
+License: non-profit / academic sharing terms, https://musclewiki.com/terms
+Original unmodified branded MP4s; thumbnails extracted at 40% with full frame and branding retained. No MuscleWiki website image assets copied. No OpenGym media copied.
+
+bodyweight-hip-abduction
+Source: https://musclewiki.com/exercise/bodyweight-hip-abduction
+Video: https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hip-abduction-front.mp4
+Source SHA-256: edbc71b354a2a57faa2a2262a3b40c5d29c2949e03656c67093a41b663d8db4c
+Bundled: /exercise-motion/mw-bodyweight-hip-abduction.mp4
+SHA-256: edbc71b354a2a57faa2a2262a3b40c5d29c2949e03656c67093a41b663d8db4c
+Bundled: /exercise-motion/mw-bodyweight-hip-abduction.webp
+SHA-256: 98ebf36412d0e76a32b95a027428f35ea7bb79af186cf7a6df0d4cd133d45fa6
+
+dumbbell-laying-curl
+Source: https://musclewiki.com/exercise/dumbbell-laying-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-curl-side.mp4
+Source SHA-256: 212611d8588b7d908fdb9d2021332bf0b68d2df934b15769228fe0e955fc2ff2
+Bundled: /exercise-motion/mw-dumbbell-laying-curl.mp4
+SHA-256: 212611d8588b7d908fdb9d2021332bf0b68d2df934b15769228fe0e955fc2ff2
+Bundled: /exercise-motion/mw-dumbbell-laying-curl.webp
+SHA-256: 3f32976e9f70d2d5ca2a765e2823247f2a335ef82a4e52e31d42aaa4d7dcd5a0
+
+kettlebell-goblet-curl
+Source: https://musclewiki.com/exercise/kettlebell-goblet-curl
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-goblet-curl-front.mp4
+Source SHA-256: 0c08583e37e0050d2ed77d321fbd0c37eda1986af4862645f66b26e5301ccc7f
+Bundled: /exercise-motion/mw-kettlebell-goblet-curl.mp4
+SHA-256: 0c08583e37e0050d2ed77d321fbd0c37eda1986af4862645f66b26e5301ccc7f
+Bundled: /exercise-motion/mw-kettlebell-goblet-curl.webp
+SHA-256: 78594d9974868647c2b90507d4e4f2c101348bb0ae8b355d0471d7d1a14719d9
+
+quads-stretch-variation-one
+Source: https://musclewiki.com/exercise/quads-stretch-variation-one
+Video: https://musclewiki.com/api-next/videos/male-quads-stretch-variation-1-front.mp4
+Source SHA-256: 5fd56e98239f015816dbd09f76e88059382b674a2a8646d76049bd2c2b0d95cc
+Bundled: /exercise-motion/mw-quads-stretch-variation-one.mp4
+SHA-256: 5fd56e98239f015816dbd09f76e88059382b674a2a8646d76049bd2c2b0d95cc
+Bundled: /exercise-motion/mw-quads-stretch-variation-one.webp
+SHA-256: 1ac504a09e7bd2f638e8b2ab6b8b8c8b238450f57d6d5333262121c9f6c34db1
+
+soleus-stretch-static
+Source: https://musclewiki.com/exercise/soleus-stretch-static
+Video: https://musclewiki.com/api-next/videos/male-Recovery-soleus-stretch-static-front.mp4
+Source SHA-256: 1dae987cf3a6a0fbfa1d0f3842e152bc514ff9db85aef42c7dde016105bfda25
+Bundled: /exercise-motion/mw-soleus-stretch-static.mp4
+SHA-256: 1dae987cf3a6a0fbfa1d0f3842e152bc514ff9db85aef42c7dde016105bfda25
+Bundled: /exercise-motion/mw-soleus-stretch-static.webp
+SHA-256: d98d5eb3dd16a200d477de7d73fa2a9046c336bd4be632d7a37306978135aa38
+
+cobra-stretch-2
+Source: https://musclewiki.com/exercise/cobra-stretch-2
+Video: https://musclewiki.com/api-next/videos/male-Recovery-cobra-stretch-2-front.mp4
+Source SHA-256: c535493229eda2b875c367e5ca52d7787e56fc9f3a3c86a76566610daac73a26
+Bundled: /exercise-motion/mw-cobra-stretch-2.mp4
+SHA-256: c535493229eda2b875c367e5ca52d7787e56fc9f3a3c86a76566610daac73a26
+Bundled: /exercise-motion/mw-cobra-stretch-2.webp
+SHA-256: a40eb7f4ff597dc6c8654c18cfc8152fecd7a5d093b17c33fc92d5efacb1035c
+
+side-lying-external-rotator-cuff-stretch
+Source: https://musclewiki.com/exercise/side-lying-external-rotator-cuff-stretch
+Video: https://musclewiki.com/api-next/videos/male-Recovery-rotator-cuff-stretch-external-side-lying-side.mp4
+Source SHA-256: 15f282ed6e2f150c6b4eee5c9e78e81afea29a3a072241902e63209001ab92cf
+Bundled: /exercise-motion/mw-side-lying-external-rotator-cuff-stretch.mp4
+SHA-256: 15f282ed6e2f150c6b4eee5c9e78e81afea29a3a072241902e63209001ab92cf
+Bundled: /exercise-motion/mw-side-lying-external-rotator-cuff-stretch.webp
+SHA-256: 710820eb375c3b677237b27cccbf040eed2efb76fdfcc0b330ea71ce2a803bd5
+
+gastrocnemius-stretch-bilateral-on-box
+Source: https://musclewiki.com/exercise/gastrocnemius-stretch-bilateral-on-box
+Video: https://musclewiki.com/api-next/videos/male-Recovery-gastrocnemius-stretch-bilateral-on-box-side.mp4
+Source SHA-256: 04bc90617400801517520653150a8e6db83e9cd5f256ac0c2d2852b5ac111c3d
+Bundled: /exercise-motion/mw-gastrocnemius-stretch-bilateral-on-box.mp4
+SHA-256: 04bc90617400801517520653150a8e6db83e9cd5f256ac0c2d2852b5ac111c3d
+Bundled: /exercise-motion/mw-gastrocnemius-stretch-bilateral-on-box.webp
+SHA-256: b52e93207fea5a5f8d483a29fd267e3e66926cc68b86ed3705a96c8566024cc0
+
+lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel
+Source: https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel
+Video: https://musclewiki.com/api-next/videos/male-Recovery-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel-side.mp4
+Source SHA-256: f99697c7f8e88ad43f1ac537f250cd86f7006e2702d1d41c8cb9b10f57ee17a0
+Bundled: /exercise-motion/mw-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel.mp4
+SHA-256: f99697c7f8e88ad43f1ac537f250cd86f7006e2702d1d41c8cb9b10f57ee17a0
+Bundled: /exercise-motion/mw-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel.webp
+SHA-256: 54e3f0fd5ce083bb3cd02350a6677a3a30be8837a26aac5318fb22f2a5f374f0
+
+glute-hip-rotator-stretch-3-seated
+Source: https://musclewiki.com/exercise/glute-hip-rotator-stretch-3-seated
+Video: https://musclewiki.com/api-next/videos/male-Recovery-glute-hip-rotator-stretch-3-seated-side.mp4
+Source SHA-256: 07bb3a64555c4ad5275950bb95ae766afeb3a864dc4617484b7c0edd80255e53
+Bundled: /exercise-motion/mw-glute-hip-rotator-stretch-3-seated.mp4
+SHA-256: 07bb3a64555c4ad5275950bb95ae766afeb3a864dc4617484b7c0edd80255e53
+Bundled: /exercise-motion/mw-glute-hip-rotator-stretch-3-seated.webp
+SHA-256: 2e994adc4e43c0b35d2895f09a2808b29112e48ab00ef6fb4cc7f8bfbb661773
+
+quads-stretch-variation-four
+Source: https://musclewiki.com/exercise/quads-stretch-variation-four
+Video: https://musclewiki.com/api-next/videos/male-quads-stretch-variation-4-front.mp4
+Source SHA-256: ca93d25a82373994beec9450ac39470bbd48a12710935fb548bf58e07b439047
+Bundled: /exercise-motion/mw-quads-stretch-variation-four.mp4
+SHA-256: ca93d25a82373994beec9450ac39470bbd48a12710935fb548bf58e07b439047
+Bundled: /exercise-motion/mw-quads-stretch-variation-four.webp
+SHA-256: 00247e9fa449625ee19b0bbd24dc269404ccd76e0b0985df5cab5f603b81a155
+
+bosu-ball-lateral-lunge
+Source: https://musclewiki.com/exercise/bosu-ball-lateral-lunge
+Video: https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-front.mp4
+Source SHA-256: 0c9baa5c43b12349cad1b2f40f0ed0fd84225533471221b65eec61138cf97d83
+Bundled: /exercise-motion/mw-bosu-ball-lateral-lunge.mp4
+SHA-256: 0c9baa5c43b12349cad1b2f40f0ed0fd84225533471221b65eec61138cf97d83
+Bundled: /exercise-motion/mw-bosu-ball-lateral-lunge.webp
+SHA-256: 8b4f93137c9d531fb591ccbadfe9059770e5081493022982389d35cb09c7f68d
+
+bosu-ball-pushup
+Source: https://musclewiki.com/exercise/bosu-ball-pushup
+Video: https://musclewiki.com/api-next/videos/male-Bosu-Ball-pushup-front.mp4
+Source SHA-256: 8ef7ed64c2fdbbaa6dfa6b9b8736620a47e6161d6b3f4f4ac8818170263bdadc
+Bundled: /exercise-motion/mw-bosu-ball-pushup.mp4
+SHA-256: 8ef7ed64c2fdbbaa6dfa6b9b8736620a47e6161d6b3f4f4ac8818170263bdadc
+Bundled: /exercise-motion/mw-bosu-ball-pushup.webp
+SHA-256: 5e7535cfb45449c61fd619267c46b01a1eee2f44eac33f978a1c6901b03e4c89
+
+kettlebell-staggered-deadlift-single
+Source: https://musclewiki.com/exercise/kettlebell-staggered-deadlift-single
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-staggered-deadlift-single-front.mp4
+Source SHA-256: dd718ba2de128e852845be48f4e7d85b1fc3042966f45089d22eac39b87d0342
+Bundled: /exercise-motion/mw-kettlebell-staggered-deadlift-single.mp4
+SHA-256: dd718ba2de128e852845be48f4e7d85b1fc3042966f45089d22eac39b87d0342
+Bundled: /exercise-motion/mw-kettlebell-staggered-deadlift-single.webp
+SHA-256: c5c4ab71904752b9219c842a0cae7a40084aee39c280dd38e6f339744c802644
+
+barbell-front-raise
+Source: https://musclewiki.com/exercise/barbell-front-raise
+Video: https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-raise-front.mp4
+Source SHA-256: b1d9aa561894f7fccce04d923dfdee9b228240565950a413b234f7d3bac871a5
+Bundled: /exercise-motion/mw-barbell-front-raise.mp4
+SHA-256: b1d9aa561894f7fccce04d923dfdee9b228240565950a413b234f7d3bac871a5
+Bundled: /exercise-motion/mw-barbell-front-raise.webp
+SHA-256: dd0eb92c317f485a8ddb2d793b04987b9c3657c96f6c572d32b7c27c9066380a
+
+barbell-lateral-lunge
+Source: https://musclewiki.com/exercise/barbell-lateral-lunge
+Video: https://musclewiki.com/api-next/videos/male-barbell-lateral-lunge-front.mp4
+Source SHA-256: a4d9c2faa1cb26c49aa0c8d9a97155c7d625de8f96dd544a46521411a97edef6
+Bundled: /exercise-motion/mw-barbell-lateral-lunge.mp4
+SHA-256: a4d9c2faa1cb26c49aa0c8d9a97155c7d625de8f96dd544a46521411a97edef6
+Bundled: /exercise-motion/mw-barbell-lateral-lunge.webp
+SHA-256: 4f9dea4e60978dbd04f00d030429e2ce0738fea287eaaae20412cd4c8815852c
+
+dumbbell-single-arm-lateral-raise
+Source: https://musclewiki.com/exercise/dumbbell-single-arm-lateral-raise
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-lateral-raise-front.mp4
+Source SHA-256: 5889d166acb3deca667b5dec77131699cb2743b9e0717237eb06dff0898a70d0
+Bundled: /exercise-motion/mw-dumbbell-single-arm-lateral-raise.mp4
+SHA-256: 5889d166acb3deca667b5dec77131699cb2743b9e0717237eb06dff0898a70d0
+Bundled: /exercise-motion/mw-dumbbell-single-arm-lateral-raise.webp
+SHA-256: 7b45684fe043f44608b0ea6bf1493d357ec46bbd8caf3c4dfb5e7a44a941d243
+
+mini-band-squat
+Source: https://musclewiki.com/exercise/mini-band-squat
+Video: https://musclewiki.com/api-next/videos/male-Band-mini-band-squat-side.mp4
+Source SHA-256: afd136d438f7ad08ab8216a94b45d6b7ca9501b55337747424f05cfc11584538
+Bundled: /exercise-motion/mw-mini-band-squat.mp4
+SHA-256: afd136d438f7ad08ab8216a94b45d6b7ca9501b55337747424f05cfc11584538
+Bundled: /exercise-motion/mw-mini-band-squat.webp
+SHA-256: 893652784fada8b7cf89e2139ecbfc6b9cfd6eff8a796241c9b1d1df864df9aa
+
+side-lunges
+Source: https://musclewiki.com/exercise/side-lunges
+Video: https://musclewiki.com/api-next/videos/male-bodyweight-side-lunge-front.mp4
+Source SHA-256: f375ec7a171cbff9e73c98a3630f4a9f17b9392cfde78677b9b1818a5bee350a
+Bundled: /exercise-motion/mw-side-lunges.mp4
+SHA-256: f375ec7a171cbff9e73c98a3630f4a9f17b9392cfde78677b9b1818a5bee350a
+Bundled: /exercise-motion/mw-side-lunges.webp
+SHA-256: a79f8b920e9274b231eec4d2002a8b95a1b3329d153b28bb325c811e485648b6
+
+dumbbell-pullover
+Source: https://musclewiki.com/exercise/dumbbell-pullover
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-pullover-front.mp4
+Source SHA-256: 4e86d0d0bb96e5cce417d5e3969f90b1f3f2c1a256344bd38932f2571107af86
+Bundled: /exercise-motion/mw-dumbbell-pullover.mp4
+SHA-256: 4e86d0d0bb96e5cce417d5e3969f90b1f3f2c1a256344bd38932f2571107af86
+Bundled: /exercise-motion/mw-dumbbell-pullover.webp
+SHA-256: 187fc3d7e17ec4d9609886b5bdee4583e94600767c8f4b51e4fbfc55e140659d
+
+kettlebell-alternating-swing
+Source: https://musclewiki.com/exercise/kettlebell-alternating-swing
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-alternating-swing-side.mp4
+Source SHA-256: d3334f7738a7f29af1626bc64187f362f5afd07055691185c951eddf1041aa37
+Bundled: /exercise-motion/mw-kettlebell-alternating-swing.mp4
+SHA-256: d3334f7738a7f29af1626bc64187f362f5afd07055691185c951eddf1041aa37
+Bundled: /exercise-motion/mw-kettlebell-alternating-swing.webp
+SHA-256: 0064d2d43b96265f788f59b167b210d40bba5ccf8ccbfae63c461f487a34f726
+
+kettlebell-single-leg-deadlift
+Source: https://musclewiki.com/exercise/kettlebell-single-leg-deadlift
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-leg-deadlift-front.mp4
+Source SHA-256: 1d95e087803a9771cf4c99c501189791c53c2d9ab5deae3c395187ef8959160e
+Bundled: /exercise-motion/mw-kettlebell-single-leg-deadlift.mp4
+SHA-256: 1d95e087803a9771cf4c99c501189791c53c2d9ab5deae3c395187ef8959160e
+Bundled: /exercise-motion/mw-kettlebell-single-leg-deadlift.webp
+SHA-256: 505fd463aa2ad6d746b7e997943b37e6ef29c1bec427065d71db990a66eaaa8b
+
+triceps-stretch-variation-one
+Source: https://musclewiki.com/exercise/triceps-stretch-variation-one
+Video: https://musclewiki.com/api-next/videos/male-triceps-stretch-variation-1-front.mp4
+Source SHA-256: 13ae9e11bc78041d91865e6a98e68ad9ed4e848b8ca06d905787cff4692dfd2f
+Bundled: /exercise-motion/mw-triceps-stretch-variation-one.mp4
+SHA-256: 13ae9e11bc78041d91865e6a98e68ad9ed4e848b8ca06d905787cff4692dfd2f
+Bundled: /exercise-motion/mw-triceps-stretch-variation-one.webp
+SHA-256: 086916119e1f25e4e4da4990dd6e1401715f3fa5ca1161e02dc02f8466d6f1fc
+
+calves-stretch-variation-one
+Source: https://musclewiki.com/exercise/calves-stretch-variation-one
+Video: https://musclewiki.com/api-next/videos/male-calves-stretch-variation-1-front.mp4
+Source SHA-256: 0d44dd4394233b329660eb3801d5a6160f286ad1d2e8247d8c60ea373c418d06
+Bundled: /exercise-motion/mw-calves-stretch-variation-one.mp4
+SHA-256: 0d44dd4394233b329660eb3801d5a6160f286ad1d2e8247d8c60ea373c418d06
+Bundled: /exercise-motion/mw-calves-stretch-variation-one.webp
+SHA-256: 7055f7ca8e0c89a8b3d8f11089d3522aa2372c9559f6a0c861a749fb6549b4d6
+
+hamstring-stretch-seated-single-leg
+Source: https://musclewiki.com/exercise/hamstring-stretch-seated-single-leg
+Video: https://musclewiki.com/api-next/videos/male-Recovery-hamstring-stretch-seated-single-leg-front.mp4
+Source SHA-256: 152b74ebcfee92bb47095b2fe3fd00bb02b69b1e66a484f98fc0dece1ae3895f
+Bundled: /exercise-motion/mw-hamstring-stretch-seated-single-leg.mp4
+SHA-256: 152b74ebcfee92bb47095b2fe3fd00bb02b69b1e66a484f98fc0dece1ae3895f
+Bundled: /exercise-motion/mw-hamstring-stretch-seated-single-leg.webp
+SHA-256: c7a6cb94b0ff5806bdab4c2b3b04e901504f3081e254a99dce7a7cf484626189
+
+kettlebells-single-arm-snatch
+Source: https://musclewiki.com/exercise/kettlebells-single-arm-snatch
+Video: https://musclewiki.com/api-next/videos/male-Kettlebells-single-arm-snatch-side.mp4
+Source SHA-256: a5f8cf951f1f9cc3c844882dcdaa8e79ddf713a8c73736cd9898491dccc1c828
+Bundled: /exercise-motion/mw-kettlebells-single-arm-snatch.mp4
+SHA-256: a5f8cf951f1f9cc3c844882dcdaa8e79ddf713a8c73736cd9898491dccc1c828
+Bundled: /exercise-motion/mw-kettlebells-single-arm-snatch.webp
+SHA-256: 3275c8b72dcb8f99716280e4137d2f4678b466c2fef7f6c7cc8dd4593fee8b6c
+
+machine-pec-fly
+Source: https://musclewiki.com/exercise/machine-pec-fly
+Video: https://musclewiki.com/api-next/videos/male-Machine-machine-pec-fly-side.mp4
+Source SHA-256: f673866e0fc7c0fe5836d28cb0274b985a2932e71280f94c7accefebfd974b9f
+Bundled: /exercise-motion/mw-machine-pec-fly.mp4
+SHA-256: f673866e0fc7c0fe5836d28cb0274b985a2932e71280f94c7accefebfd974b9f
+Bundled: /exercise-motion/mw-machine-pec-fly.webp
+SHA-256: d1e2aa0261fc8f7cde1ca7635dc3407289a2233b35f0022ac3c1fa68f4b2f33c
+
+dumbbell-preacher-curl
+Source: https://musclewiki.com/exercise/dumbbell-preacher-curl
+Video: https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-preacher-curl-side.mp4
+Source SHA-256: a556209ef71f89756bb7c942b46de5f61b0d3aa68d55a7b2b798950466589e53
+Bundled: /exercise-motion/mw-dumbbell-preacher-curl.mp4
+SHA-256: a556209ef71f89756bb7c942b46de5f61b0d3aa68d55a7b2b798950466589e53
+Bundled: /exercise-motion/mw-dumbbell-preacher-curl.webp
+SHA-256: 1879e28978da094e51a4e4a35c5f8d43f2698354903fcc2826d33abbf3cac05a
+
+standing-forward-bend
+Source: https://musclewiki.com/exercise/standing-forward-bend
+Video: https://musclewiki.com/api-next/videos/male-yoga-standing-forward-bend-front.mp4
+Source SHA-256: 2c4d9d1d9b33950c717b3ca9167d89b30d6bf18f78de372d06b02c9571a7daf6
+Bundled: /exercise-motion/mw-standing-forward-bend.mp4
+SHA-256: 2c4d9d1d9b33950c717b3ca9167d89b30d6bf18f78de372d06b02c9571a7daf6
+Bundled: /exercise-motion/mw-standing-forward-bend.webp
+SHA-256: 985515a5653a747cc8b4bd2c170c63b13b363c6a8577eb69ea4477a87659ba5c
+
+single-leg-bosu-ball-balance-2
+Source: https://musclewiki.com/exercise/single-leg-bosu-ball-balance-2
+Video: https://musclewiki.com/api-next/videos/male-Recovery-balance-4-single-leg-bosu-ball-front.mp4
+Source SHA-256: 1a259a3fdc930462a450b44c323a611f8083ba67eb2f6af5a4aa7f1894c845c1
+Bundled: /exercise-motion/mw-single-leg-bosu-ball-balance-2.mp4
+SHA-256: 1a259a3fdc930462a450b44c323a611f8083ba67eb2f6af5a4aa7f1894c845c1
+Bundled: /exercise-motion/mw-single-leg-bosu-ball-balance-2.webp
+SHA-256: 6fc320d6c6c8ba7c0ee735890789044e0af0a570d6ed9cb51def5cc5cc378b7d
+
+trap-bar-squat
+Source: https://musclewiki.com/exercise/trap-bar-squat
+Video: https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-squat-side.mp4
+Source SHA-256: 62e30d5bcdd99f9baf5df2019061762c90c47c39ad721fc893558f6c63e42f27
+Bundled: /exercise-motion/mw-trap-bar-squat.mp4
+SHA-256: 62e30d5bcdd99f9baf5df2019061762c90c47c39ad721fc893558f6c63e42f27
+Bundled: /exercise-motion/mw-trap-bar-squat.webp
+SHA-256: edb5a03518db2ca341e04c8ba097a817c75d76942db8fe2455610d1ed5385964

@@ -17,6 +17,7 @@ export function CompletedSetList({ items, exercises }: CompletedSetListProps) {
       {items.map((item) => (
         <section key={item.exerciseId}>
           <h4>{exercises.find((exercise) => matchesExerciseId(exercise, item.exerciseId))?.name ?? item.exerciseId}</h4>
+          {item.notes && <p className="exercise-note">{item.notes}</p>}
           {item.performedSets ? (
             <ul>
               {item.performedSets.map((set, position) => (

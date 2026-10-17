@@ -4,9 +4,9 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#f6f7f2",
-  "theme_color": "#454f29",
-  "description": "Exercise library, custom routines, and a daily workout journal.",
+  "background_color": "#f5f6f3",
+  "theme_color": "#263e2d",
+  "description": "Exercise demonstrations, custom workouts, and your complete training record.",
   "icons": [
     {
       "src": "/icon-192.png",

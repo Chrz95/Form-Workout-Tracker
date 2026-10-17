@@ -1,0 +1,3437 @@
+{
+  "checkedAt": "2026-10-15",
+  "sourceCommit": "f1ee538be7ce6726dc23f75d927a38310937a313",
+  "discoveredUrls": 3223,
+  "comparedVisible": 1272,
+  "checkedPages": 335,
+  "enrichedExercises": 238,
+  "guideCount": 299,
+  "linkedVideos": 188,
+  "providerCounts": {
+    "MuscleWiki": 137,
+    "Muscle & Strength": 162
+  },
+  "accepted": [
+    {
+      "exerciseId": "everkinetic:0274",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Band Calf Raise",
+        "url": "https://musclewiki.com/exercise/band-calf-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b2f897721efdb425751c0d1c3ced8a673bbc308e40f890ffb7a640ce06e74629"
+    },
+    {
+      "exerciseId": "guide:banded-face-pull",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Band Face Pull",
+        "url": "https://musclewiki.com/exercise/band-face-pull",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "bfe6c3b6170f4a93def6318b8542b8dbc3f4a333fc546b5903c511002bc07721"
+    },
+    {
+      "exerciseId": "Band_Good_Morning",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Band Good Morning",
+        "url": "https://musclewiki.com/exercise/band-good-morning",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "16009f4bf8b6bac37373909fa3a58d3c2d3be147bd6e438de8810239676a3997"
+    },
+    {
+      "exerciseId": "Band_Pull_Apart",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Band Pull Apart",
+        "url": "https://musclewiki.com/exercise/band-pull-apart",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "49991e4ec2e324b4637a08d1d5122c2381114f99a6bd2e9388ce55073f3b6e76"
+    },
+    {
+      "exerciseId": "everkinetic:0094",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Band Upright Row",
+        "url": "https://musclewiki.com/exercise/band-upright-row",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1fb6406a42a60e98ce2aa3e0e9736cf7f3ed857424a9decc192581c594c9eaee"
+    },
+    {
+      "exerciseId": "Barbell_Shrug_Behind_The_Back",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Behind The Back Shrug",
+        "url": "https://musclewiki.com/exercise/barbell-behind-the-back-shrug",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "68ae53e855b888cb599e56bf32df7994eb587bd2801c54d40597f77dad44f44a"
+    },
+    {
+      "exerciseId": "wger:1638",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Clean And Press",
+        "url": "https://musclewiki.com/exercise/barbell-clean-and-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "695a9dc05adfcdf53f172fe69c80b57935389788dd8902ff13bdef800c6ae378"
+    },
+    {
+      "exerciseId": "Close-Grip_Barbell_Bench_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Close Grip Bench Press",
+        "url": "https://musclewiki.com/exercise/barbell-close-grip-bench-press",
+        "videoUrl": "https://www.youtube.com/watch?v=tHHeuZewjjs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1f1eb4e9a22c063fa1d18afdb05b49f5722393bc000c792b35b9b7f35e1074bd"
+    },
+    {
+      "exerciseId": "Barbell_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Curl",
+        "url": "https://musclewiki.com/exercise/barbell-curl",
+        "videoUrl": "https://www.youtube.com/watch?v=Fci4s0CC0mE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6061bfab1eeb95dbf1f86ac6ff99ce3ee97ea7186a24089c9a9e2fb147dcd39f"
+    },
+    {
+      "exerciseId": "Barbell_Deadlift",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Deadlift",
+        "url": "https://musclewiki.com/exercise/barbell-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=UJz0x2tLvRk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1c7876ecc15a616abbfb586e4b60f37a57b9311b07481df4497a2878e2f49512"
+    },
+    {
+      "exerciseId": "Decline_Barbell_Bench_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Decline Bench Press",
+        "url": "https://musclewiki.com/exercise/barbell-decline-bench-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7c946515a46726a47bb7203be648685114c1c6c066d0ae16ac249610bb825448"
+    },
+    {
+      "exerciseId": "hasan:0038",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Drag Curl",
+        "url": "https://musclewiki.com/exercise/barbell-drag-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1ceccc9d74c906775ec7e2c4ae27909eeb2b6558c10698e03c9314c46d80124d"
+    },
+    {
+      "exerciseId": "Floor_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Floor Press",
+        "url": "https://musclewiki.com/exercise/barbell-floor-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0df0fa7f09b2e1949edf97be7e2b6abcf94daa8537486d76763fce1f00dcf234"
+    },
+    {
+      "exerciseId": "Barbell_Glute_Bridge",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Glute Bridge",
+        "url": "https://musclewiki.com/exercise/barbell-glute-bridge",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1dcf261668d04e6f4bf7d04c11cbbee24afe431ab29800777b12caadfa9bda07"
+    },
+    {
+      "exerciseId": "Barbell_Hip_Thrust",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Hip Thrust",
+        "url": "https://musclewiki.com/exercise/barbell-hip-thrust",
+        "videoUrl": "https://www.youtube.com/watch?v=tTXFD0R11aQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "07463dbbea961f855fdf9b9e0fa6ccd3b30ea731746812586806bd1528fe7096"
+    },
+    {
+      "exerciseId": "wger:538",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Incline Bench Press",
+        "url": "https://musclewiki.com/exercise/barbell-incline-bench-press",
+        "videoUrl": "https://www.youtube.com/watch?v=Q5oKabCPV8k",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "dbcbb1fe966d8c8cb15a37d8d6e909f57052ffa8fa1e7bbc2cd0bd79a0aff4e0"
+    },
+    {
+      "exerciseId": "Muscle_Snatch",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Muscle Snatch",
+        "url": "https://musclewiki.com/exercise/barbell-muscle-snatch",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9b3976ac39b70a33a6df09470e967e84a88543a62cb2962832d1b52003bc4bca"
+    },
+    {
+      "exerciseId": "wger:1893",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Overhead Press",
+        "url": "https://musclewiki.com/exercise/barbell-overhead-press",
+        "videoUrl": "https://www.youtube.com/watch?v=wDVMJW5XL8o",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4712ca08058eadd0bd551116015ccfdaa6c44fabb30aedd9115bb01fac7b8aae"
+    },
+    {
+      "exerciseId": "Power_Snatch",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Power Snatch",
+        "url": "https://musclewiki.com/exercise/barbell-power-snatch",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b6457ef6c45e4597cee48b04d9c6b7f5be34b4314f346aad6e2d9438bf3a6d5e"
+    },
+    {
+      "exerciseId": "Reverse_Barbell_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Reverse Curl",
+        "url": "https://musclewiki.com/exercise/barbell-reverse-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a1bc51008a88f1c0e1bd956544e3dcf7e1289d5ef5d4351c44f1213b80186a49"
+    },
+    {
+      "exerciseId": "hasan:0085",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Romanian Deadlift",
+        "url": "https://musclewiki.com/exercise/barbell-romanian-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=PIt6QP_Dcf8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "790eacdd336c267163ccbaae195727adef0e8e327bb5f791a47ac53b736a7d26"
+    },
+    {
+      "exerciseId": "Barbell_Seated_Calf_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Seated Calf Raise",
+        "url": "https://musclewiki.com/exercise/barbell-seated-calf-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "eba80d84caabe5caf6b8529a385cfac2ff263319c4e1d1404aebc2f4764edf54"
+    },
+    {
+      "exerciseId": "Barbell_Shrug",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Shrug",
+        "url": "https://musclewiki.com/exercise/barbell-shrug",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "acec80346fb629dba42c52d8139f5a851a1b0ea840d72237b440a60b0823a9bf"
+    },
+    {
+      "exerciseId": "Snatch",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Snatch",
+        "url": "https://musclewiki.com/exercise/barbell-snatch",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ffb344b84188a96ba4d0a11525eaa0339c4fbb7dc300d478a98deb625615cac2"
+    },
+    {
+      "exerciseId": "Split_Jerk",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Split Jerk",
+        "url": "https://musclewiki.com/exercise/barbell-split-jerk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "956592f12a63af9a86633b5e0f073b5832a0ed5dbea8cb3ea81e1a3c5329e8b5"
+    },
+    {
+      "exerciseId": "hasan:0117",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Sumo Deadlift",
+        "url": "https://musclewiki.com/exercise/barbell-sumo-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=UJz0x2tLvRk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "37c491f5b83e07aa96011e980e769cc447283e5fb9d1bbaa7371c0a0ac6aa1a6"
+    },
+    {
+      "exerciseId": "Upright_Barbell_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Barbell Upright Row",
+        "url": "https://musclewiki.com/exercise/barbell-upright-row",
+        "videoUrl": "https://www.youtube.com/watch?v=Vfmo9cfeOJc",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ba77e8862937717f4d346b854abf6e45ba7479257b1e4c461a2c1a4e40fd7527"
+    },
+    {
+      "exerciseId": "wger:1572",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Bird Dog",
+        "url": "https://musclewiki.com/exercise/bird-dog",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "08865af389aabb945067e4ec3296a009ba8235eaca3e73775d014fbd02ca6389"
+    },
+    {
+      "exerciseId": "guide:single-leg-calf-raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Bodyweight Single Leg Calf Raise",
+        "url": "https://musclewiki.com/exercise/bodyweight-single-leg-calf-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "860216e3bfed8d4bebb076768671d3b80bfe83c714d89958a6057c506fabbddc"
+    },
+    {
+      "exerciseId": "Bodyweight_Squat",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Bodyweight Squat",
+        "url": "https://musclewiki.com/exercise/bodyweight-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=D_CUqVqW4F8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "25832d0723160e4550c22d3dde90f2870d10ff89a604cd634ab7230cf4093915"
+    },
+    {
+      "exerciseId": "hasan:1307",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Bosu Ball Pushup",
+        "url": "https://musclewiki.com/exercise/bosu-ball-pushup",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "03a9c8180158cbe4d9910ad7a2e323586179ffd5a840b52482bf11e4fcd0c473"
+    },
+    {
+      "exerciseId": "hasan:1160",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Burpee",
+        "url": "https://musclewiki.com/exercise/burpee",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "838a03784ed81fe1767b3a053ba3ab161b3076db81c04e1cb339cf1f22147d61"
+    },
+    {
+      "exerciseId": "Cable_Chest_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Chest Press",
+        "url": "https://musclewiki.com/exercise/cable-chest-press",
+        "videoUrl": "https://www.youtube.com/watch?v=2maZ-VtpVyU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8bee3596c07a49eb7bf4c39bec125f9d82aea16c2c2f0c9ae6a03492f1d1a0db"
+    },
+    {
+      "exerciseId": "External_Rotation_with_Cable",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable External Rotation",
+        "url": "https://musclewiki.com/exercise/cable-external-rotation",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "fe45ce167a0778da31901446ebce19725b0979ee54af815188570fb7b365d16e"
+    },
+    {
+      "exerciseId": "Cable_Internal_Rotation",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Internal Rotation",
+        "url": "https://musclewiki.com/exercise/cable-internal-rotation",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "04bbffdb7a9afd73f5ce58570c77cd4c3f46b9c8b549cb03e8f005c82a0440ba"
+    },
+    {
+      "exerciseId": "wger:1751",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Pull Through",
+        "url": "https://musclewiki.com/exercise/cable-pull-through",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "78fbfd742189e4d5f19f353f82373c9c83f726fa71862ee032692f46a2451959"
+    },
+    {
+      "exerciseId": "hasan:0165",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Rope Hammer Curl",
+        "url": "https://musclewiki.com/exercise/cable-rope-hammer-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2ea8ba8ccc09c5ae95f21d403eefd86c756f70f33757f7f15cfcb0875b05d354"
+    },
+    {
+      "exerciseId": "Cable_Rope_Overhead_Triceps_Extension",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Rope Overhead Tricep Extension",
+        "url": "https://musclewiki.com/exercise/cable-rope-overhead-tricep-extension",
+        "videoUrl": "https://www.youtube.com/watch?v=HmNadC4YvNY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "566f6b53a45099e713cec0ae4047cdd4e78cd170416c02d2616aa1f5fbcac512"
+    },
+    {
+      "exerciseId": "zenith:0200",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Rope Pushdown",
+        "url": "https://musclewiki.com/exercise/cable-rope-pushdown",
+        "videoUrl": "https://www.youtube.com/watch?v=tHHeuZewjjs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a60f7c2328402b3d52e6f17ab702f2342aab440a7c90d6f1826a83ca4d8ca269"
+    },
+    {
+      "exerciseId": "Standing_Rope_Crunch",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Rope Standing Crunch",
+        "url": "https://musclewiki.com/exercise/cable-rope-standing-crunch",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8d500b65839f180909cc5df8ec35ea06a063f933f966dc1dafddb60692f4eb8e"
+    },
+    {
+      "exerciseId": "guide:cable-standing-hip-abduction",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Standing Hip Abduction",
+        "url": "https://musclewiki.com/exercise/cable-standing-hip-abduction",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "212324c65d7d31c36451b58269bdb730422efd25c08bd7489ec696d39ad75792"
+    },
+    {
+      "exerciseId": "Upright_Cable_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Upright Row",
+        "url": "https://musclewiki.com/exercise/cable-upright-row",
+        "videoUrl": "https://www.youtube.com/watch?v=v7nsz05s9oM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3ff468e0eb4ef2c478b8e4c0d881f77a53a979c1f4c6e9fd916007e48127a6ef"
+    },
+    {
+      "exerciseId": "Cable_Wrist_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Cable Wrist Curl",
+        "url": "https://musclewiki.com/exercise/cable-wrist-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b3eb320c29094af6703b2faa24c60d402f443ad620dae45f3aa870f3de043347"
+    },
+    {
+      "exerciseId": "rthepen:bodyweight_calf_raises",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Calf Raises",
+        "url": "https://musclewiki.com/exercise/calf-raises",
+        "videoUrl": "https://www.youtube.com/watch?v=qVqTCzHFePk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "91d4c8d851d5617f0669e2464d69db424f8499df3f639bf6a7572390e868497d"
+    },
+    {
+      "exerciseId": "commons:chair",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Chair Pose",
+        "url": "https://musclewiki.com/exercise/chair-pose",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "387b8424674b99756992f452d02e2b471808cfd706bff4c796f7b3fea60dd199"
+    },
+    {
+      "exerciseId": "rthepen:bodyweight_curtsy_lunges",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Curtsy Lunge",
+        "url": "https://musclewiki.com/exercise/curtsy-lunge",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7c704feb8296e6833a0299636ca94b70f1ca15e9bcc38c4ea22045e37bd4d9fc"
+    },
+    {
+      "exerciseId": "Dead_Bug",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dead Bug",
+        "url": "https://musclewiki.com/exercise/dead-bug",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "89d8e2705ddb49e61bb3c405d5fb9e00c015f202bd44829ad1aa66e1eb798744"
+    },
+    {
+      "exerciseId": "rthepen:monkey_bars_dead_hang",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dead Hang",
+        "url": "https://musclewiki.com/exercise/dead-hang",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0d8265c48f42025c4b109073aa4cb2db7d32b2f584286cd765ca0bf86f4b4565"
+    },
+    {
+      "exerciseId": "wger:386",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Diamond Push Ups",
+        "url": "https://musclewiki.com/exercise/diamond-push-ups",
+        "videoUrl": "https://www.youtube.com/watch?v=lxufUii4fd4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "57040ccc8b63cc899027c64310a77db18be537645dc0bbde839c5392f533984b"
+    },
+    {
+      "exerciseId": "Arnold_Dumbbell_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Arnold Press",
+        "url": "https://musclewiki.com/exercise/dumbbell-arnold-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7ce77feb4892ef6eadf5643148a2046495970e45eb96d0474cc46fec900938d2"
+    },
+    {
+      "exerciseId": "glow:dumbbell_bulgarian_split_squat",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Bulgarian Split Squat",
+        "url": "https://musclewiki.com/exercise/dumbbell-bulgarian-split-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=UaoMSDN1j0A",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "dc98bd080f332da5aebac3de86a34483263d79a2d20e9930b06b3080cd0c5dab"
+    },
+    {
+      "exerciseId": "wger:202",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Concentration Curl",
+        "url": "https://musclewiki.com/exercise/dumbbell-concentration-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b03f7a2408011b8ec84025277a31de0935cb07f117b25d24d66459087e2a317b"
+    },
+    {
+      "exerciseId": "Dumbbell_Bicep_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Curl",
+        "url": "https://musclewiki.com/exercise/dumbbell-curl",
+        "videoUrl": "https://www.youtube.com/watch?v=Fci4s0CC0mE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "cd507a8853df41d33ce1dd5b2c1b85494a6ebda663c5bba9a3c354318102a72f"
+    },
+    {
+      "exerciseId": "Decline_Dumbbell_Bench_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Decline Bench Press",
+        "url": "https://musclewiki.com/exercise/dumbbell-decline-bench-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "26f6369013097198a17eaee18ae4d07dfdb5927b73f3eae4a7d3275c42013421"
+    },
+    {
+      "exerciseId": "Dumbbell_Floor_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Floor Press",
+        "url": "https://musclewiki.com/exercise/dumbbell-floor-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1081a42ab297d54b7943b32c7df50be6b11af0bb3af5416ba53c3acbbb92b50f"
+    },
+    {
+      "exerciseId": "Front_Dumbbell_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Front Raise",
+        "url": "https://musclewiki.com/exercise/dumbbell-front-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2cbf0d8972dd93917f81d1037bb3eb949bb2d7c3bf6e35fec529bdb3808e3280"
+    },
+    {
+      "exerciseId": "wger:203",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Goblet Squat",
+        "url": "https://musclewiki.com/exercise/dumbbell-goblet-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=FefW39U5FbY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "91104c6aac2914f16da86e5335a8b72d96221553d2917aceef6385629a99a0e5"
+    },
+    {
+      "exerciseId": "hasan:0313",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Hammer Curl",
+        "url": "https://musclewiki.com/exercise/dumbbell-hammer-curl",
+        "videoUrl": "https://www.youtube.com/watch?v=2VvIzDY4yVI",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "dabfa331422207314045110d41f9ace17994db46d1521cb1c44b7d8c79d5d122"
+    },
+    {
+      "exerciseId": "wger:1642",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Hip Thrust",
+        "url": "https://musclewiki.com/exercise/dumbbell-hip-thrust",
+        "videoUrl": "https://www.youtube.com/watch?v=tTXFD0R11aQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b9871d779b79bf66162e80d67db3aed3a06cd9d7851974aba7cf95da1fd3e809"
+    },
+    {
+      "exerciseId": "Incline_Dumbbell_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Incline Bench Press",
+        "url": "https://musclewiki.com/exercise/dumbbell-incline-bench-press",
+        "videoUrl": "https://www.youtube.com/watch?v=YzA3rsX3znQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c2829b40fcac8b4ec576d13b1b28a87df3946cb133164f0331358bce87bc2ddd"
+    },
+    {
+      "exerciseId": "Incline_Dumbbell_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Incline Curl",
+        "url": "https://musclewiki.com/exercise/dumbbell-incline-curl",
+        "videoUrl": "https://www.youtube.com/watch?v=Fci4s0CC0mE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "fa5f543cb0522ee6c7a9b59b3f4dc3690a4544a7b02bed190efe744e42eb20c4"
+    },
+    {
+      "exerciseId": "Front_Incline_Dumbbell_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Incline Front Raise",
+        "url": "https://musclewiki.com/exercise/dumbbell-incline-front-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7314497f327ac0b90a579429deeccd84e138e7b5bc7a5fcc72e0f8c138f4e453"
+    },
+    {
+      "exerciseId": "hasan:0334",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Lateral Raise",
+        "url": "https://musclewiki.com/exercise/dumbbell-lateral-raise",
+        "videoUrl": "https://www.youtube.com/watch?v=TOKQbh6FPkU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3363f013af301e5dd9bae9a93917cf59050c537545b1b0cef8448439f846a2ef"
+    },
+    {
+      "exerciseId": "rthepen:dumbbells_db_overhead_tricep_extension",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Overhead Tricep Extension",
+        "url": "https://musclewiki.com/exercise/dumbbell-overhead-tricep-extension",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "94643525480aa34c77f53612dc74c030a0da227e0b7e4acbebad60a88a3373bf"
+    },
+    {
+      "exerciseId": "wger:1227",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Rear Delt Row",
+        "url": "https://musclewiki.com/exercise/dumbbell-rear-delt-row",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "d3640fb45c518ad5041f9f36e7a8fa0cdb66f59a7b9e8d22a39ea88ef85ab8a7"
+    },
+    {
+      "exerciseId": "wger:1652",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Romanian Deadlift",
+        "url": "https://musclewiki.com/exercise/dumbbell-romanian-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=PIt6QP_Dcf8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5a62047ad8ca5d7756506076d4db3e75f79f3c331f8e6f788e71c8186aab0718"
+    },
+    {
+      "exerciseId": "wger:1620",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Seated Calf Raise",
+        "url": "https://musclewiki.com/exercise/dumbbell-seated-calf-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "522c8d5e572ff5ad1b13450e0031c92080381b68359e50c4e07282c1a42f60a9"
+    },
+    {
+      "exerciseId": "Seated_Dumbbell_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Seated Curl",
+        "url": "https://musclewiki.com/exercise/dumbbell-seated-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f093c9fd925f012bd4ebf79b748e8e19c8b1e8b046a3f9b8dcdedbfc402644da"
+    },
+    {
+      "exerciseId": "hasan:0405",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Seated Overhead Press",
+        "url": "https://musclewiki.com/exercise/dumbbell-seated-overhead-press",
+        "videoUrl": "https://www.youtube.com/watch?v=s_aK83TWYkA",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4dcecd59feb5c2b6db483ecacf9664398541bdf7d1034d0d98fb3d70406323bb"
+    },
+    {
+      "exerciseId": "Seated_Triceps_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Seated Overhead Tricep Extension",
+        "url": "https://musclewiki.com/exercise/dumbbell-seated-overhead-tricep-extension",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2f364580aca17bd5095a13999642734bd988be5ff71489391737259ffb0afd8d"
+    },
+    {
+      "exerciseId": "Dumbbell_Shrug",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Shrug",
+        "url": "https://musclewiki.com/exercise/dumbbell-shrug",
+        "videoUrl": "https://www.youtube.com/watch?v=Vfmo9cfeOJc",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "189f98cc564bbe2ca58a0be5234f30100ba9b5523abb13ffe5af2f7de5170249"
+    },
+    {
+      "exerciseId": "Dumbbell_Side_Bend",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Side Bend",
+        "url": "https://musclewiki.com/exercise/dumbbell-side-bend",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8a613c4260da8967da1832b7d128931b30087b70223b4ab67074bc7b91dc2864"
+    },
+    {
+      "exerciseId": "One_Arm_Dumbbell_Preacher_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Single Arm Preacher Curl",
+        "url": "https://musclewiki.com/exercise/dumbbell-single-arm-preacher-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e860224b55201f1488a3830baf1112b7a425576721878f86f7a5a7dec210df52"
+    },
+    {
+      "exerciseId": "One-Arm_Dumbbell_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Single Arm Row",
+        "url": "https://musclewiki.com/exercise/dumbbell-single-arm-row",
+        "videoUrl": "https://www.youtube.com/watch?v=H72k2iGxX_g",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "21d711484c1ea8895806b41cd6c6af47eb80a480d68452639001c018afe78431"
+    },
+    {
+      "exerciseId": "Dumbbell_One-Arm_Upright_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Single Arm Upright Row",
+        "url": "https://musclewiki.com/exercise/dumbbell-single-arm-upright-row",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9c36fb2bfb2aff9a096c62973b4df4d9b9e639a20b6ca070bc7e60f3598f83b0"
+    },
+    {
+      "exerciseId": "wger:245",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Skullcrusher",
+        "url": "https://musclewiki.com/exercise/dumbbell-skullcrusher",
+        "videoUrl": "https://www.youtube.com/watch?v=tHHeuZewjjs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ab383e42a491f9a0d1c949d166b3d46cddb2771dccadab3676c8bae60c89db45"
+    },
+    {
+      "exerciseId": "Split_Squat_with_Dumbbells",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Split Squat",
+        "url": "https://musclewiki.com/exercise/dumbbell-split-squat",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "90cd6b85b0944b1840ff802167002b7cc844cc4daae229512ed19e53647805e8"
+    },
+    {
+      "exerciseId": "hasan:0431",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Step Up",
+        "url": "https://musclewiki.com/exercise/dumbbell-step-up",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3010e84fed8f4404c78e45f517f1c37bd3a5d630493717647b179ff2a60db636"
+    },
+    {
+      "exerciseId": "zenith:new-dumbbell-sumo-squat",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Sumo Squat",
+        "url": "https://musclewiki.com/exercise/dumbbell-sumo-squat",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "71265d962c8a125810eb9bf57b983d1c8c848f69bf9d2b992851cff2faa95e22"
+    },
+    {
+      "exerciseId": "Tricep_Dumbbell_Kickback",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Dumbbell Tricep Kickback",
+        "url": "https://musclewiki.com/exercise/dumbbell-tricep-kickback",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "618aa28508dfcd5746b6403763fb06cf763a230eb034b121770737cdca55ddb6"
+    },
+    {
+      "exerciseId": "Elliptical_Trainer",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Elliptical",
+        "url": "https://musclewiki.com/exercise/elliptical",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1fb882410a73cb73148efafd02a83bd2d61d6180826c3251ae549d18fffc6a78"
+    },
+    {
+      "exerciseId": "Close-Grip_EZ_Bar_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Ez Bar Close Grip Curl",
+        "url": "https://musclewiki.com/exercise/ez-bar-close-grip-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e0e62a3966f290d55fb5bb4ec808a5918401aa4304730058a746e95b7de0e0ec"
+    },
+    {
+      "exerciseId": "Preacher_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "EZ Bar Preacher Curl",
+        "url": "https://musclewiki.com/exercise/ez-bar-preacher-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ac2378bc12769b8b706f494283f6fa523b76b3171dfbdb4bac6f70606bbfec00"
+    },
+    {
+      "exerciseId": "Frog_Sit-Ups",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Frog Sit Up",
+        "url": "https://musclewiki.com/exercise/frog-sit-up",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0e63f9c4ec70d8c06535de55398dfedab22f3d7f63e43ade8f219e5bafdb45d3"
+    },
+    {
+      "exerciseId": "wger:297",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Hollow Hold",
+        "url": "https://musclewiki.com/exercise/hollow-hold",
+        "videoUrl": "https://www.youtube.com/watch?v=gD7rdimyXBU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "69718f1c71293d18ecbcd8647ba7926d9e3bd0996b9b58fa22755649aa2ec4ac"
+    },
+    {
+      "exerciseId": "Inchworm",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Inchworm",
+        "url": "https://musclewiki.com/exercise/inchworm",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c78f379222f5b6c6071dbaa81e817fd2a4dc61d1256862912e8cef4bd7f2c4ef"
+    },
+    {
+      "exerciseId": "hasan:2612",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Jump Rope",
+        "url": "https://musclewiki.com/exercise/jump-rope",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3006eedaee4f3e01354db7c1307082440e5e631decd8c0935262aa567a2c40a3"
+    },
+    {
+      "exerciseId": "hasan:0514",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Jump Squats",
+        "url": "https://musclewiki.com/exercise/jump-squats",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "221b22ef3c6d0c139e76f1184d783d6ae63c2e95264b6e77458e3aceb3ff0279"
+    },
+    {
+      "exerciseId": "Alternating_Kettlebell_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Alternating Row",
+        "url": "https://musclewiki.com/exercise/kettlebell-alternating-row",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8154bb3582281b46bdaac24f8f8d7802dc1b98572c1ff91f24b5ac118f242a17"
+    },
+    {
+      "exerciseId": "guide:kettlebell-romanian-deadlift",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Romanian Deadlift",
+        "url": "https://musclewiki.com/exercise/kettlebell-romanian-deadlift",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8ee7d92a900e73c34489db46abddc72e44fe30e204cb640a4175194c205bcc59"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Clean_and_Jerk",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Single Arm Clean And Jerk",
+        "url": "https://musclewiki.com/exercise/kettlebell-single-arm-clean-and-jerk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8f50d753fc4f12dd3d5ffaaa0e64630f06e37b766f8896e2888bd021c812c710"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Floor_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Single Arm Floor Press",
+        "url": "https://musclewiki.com/exercise/kettlebell-single-arm-floor-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c62d8a8d43d78191d7749e590940f6997db806157819daecfc1e66dacde61051"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Push_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Single Arm Push Press",
+        "url": "https://musclewiki.com/exercise/kettlebell-single-arm-push-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "304efbb1ce9071cecd42f8980772aaafa67263c97d86892bb70ca19420605a2a"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Single Arm Row",
+        "url": "https://musclewiki.com/exercise/kettlebell-single-arm-row",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7f9855e95b8fc510341827661110e63ad1ca99c36a679b4dc7bbda4491c506d7"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Swings",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Single Arm Swing",
+        "url": "https://musclewiki.com/exercise/kettlebell-single-arm-swing",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "acd59d3dedf1a179d88e4d20502e66de3128d4d75812c82f7961040bd230b8be"
+    },
+    {
+      "exerciseId": "Double_Kettlebell_Snatch",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Snatch (Double)",
+        "url": "https://musclewiki.com/exercise/kettlebell-snatch-double",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7e721bbcf78c08f2d0c8ce72da980af1d9f58ff572f97997314b5d641cefa647"
+    },
+    {
+      "exerciseId": "wger:331",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Swing",
+        "url": "https://musclewiki.com/exercise/kettlebell-swing",
+        "videoUrl": "https://www.youtube.com/watch?v=sSee1htl2Ww",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1544641b9afb44fa8e406f6b2647758934dce7b8e5b58beb336466b639d80061"
+    },
+    {
+      "exerciseId": "Kettlebell_Thruster",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Thruster",
+        "url": "https://musclewiki.com/exercise/kettlebell-thruster",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "726babf88a9b777e56a70f529ed2b8b6a52e3d0647dd382d4fe3d5877c9ec541"
+    },
+    {
+      "exerciseId": "Kettlebell_Windmill",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Windmill",
+        "url": "https://musclewiki.com/exercise/kettlebell-windmill",
+        "videoUrl": "https://www.youtube.com/watch?v=nwAhVIt0YIo",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e3770a38dbd3e481b2a3b2b99c000e81694abc496b52559c30e8e387311f3027"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Snatch",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Kettlebell Single Arm Snatch",
+        "url": "https://musclewiki.com/exercise/kettlebells-single-arm-snatch",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e77dcc4e0f2b930f5b2614207db85ac1ce3b9e927e616ed9dbd09161a0be9a8a"
+    },
+    {
+      "exerciseId": "wger:1741",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "L Sit Pull Up",
+        "url": "https://musclewiki.com/exercise/l-sit-pull-up",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "eaffe06f13894f8f83ab36e1bf2731d538a62590535da20afdaa97a0ddb1cf51"
+    },
+    {
+      "exerciseId": "guide:landmine-romanian-deadlift",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Landmine Romanian Deadlift",
+        "url": "https://musclewiki.com/exercise/landmine-romanian-deadlift",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "250eadce910dccb869f1dd9427f011e7ed67dfc525bafef73b7c8e1a36510f17"
+    },
+    {
+      "exerciseId": "Machine_Bicep_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Bicep Curl",
+        "url": "https://musclewiki.com/exercise/machine-bicep-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "747eaa50043d4fdc213c9f7288e9fdf6c3a9faeea3b9dab35757edc4a6acd702"
+    },
+    {
+      "exerciseId": "Dip_Machine",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Dips",
+        "url": "https://musclewiki.com/exercise/machine-dips",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "07ac9bcfc1c6326396e8b343ab703453523d8dbf5c01048a19849206b09f5a71"
+    },
+    {
+      "exerciseId": "wger:1748",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Hip Abduction",
+        "url": "https://musclewiki.com/exercise/machine-hip-abduction",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a4ebd7658024cca11bb46e2b194e6b13f8aaf0a19a240e77e06a04525874a5d9"
+    },
+    {
+      "exerciseId": "Leg_Extensions",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Leg Extension",
+        "url": "https://musclewiki.com/exercise/machine-leg-extension",
+        "videoUrl": "https://www.youtube.com/watch?v=FefW39U5FbY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "89caf5269dbde78741cb36bd46f501285301034b3d9339786cf030f407af9349"
+    },
+    {
+      "exerciseId": "zenith:drv-cable-bar-lateral-pulldown-wide-shoulder-grip",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Pulldown",
+        "url": "https://musclewiki.com/exercise/machine-pulldown",
+        "videoUrl": "https://www.youtube.com/watch?v=wo_gGRjVrrw",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5d126e4ab8b2abc8d1e51183ef583978a4f277b39b521911534ede36ac08f66d"
+    },
+    {
+      "exerciseId": "Reverse_Machine_Flyes",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Reverse Fly",
+        "url": "https://musclewiki.com/exercise/machine-reverse-fly",
+        "videoUrl": "https://www.youtube.com/watch?v=dY4LduyY8H0",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1a742ec9924b678cb24388ac2a80998b21dbf869f6a6e6f2680615e9e2209980"
+    },
+    {
+      "exerciseId": "Reverse_Hyperextension",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Reverse Hyperextension",
+        "url": "https://musclewiki.com/exercise/machine-reverse-hyperextension",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ca70bf0656a27428d493331840bc1c0a8dbac1ec49827c4f30dd9b9f20528411"
+    },
+    {
+      "exerciseId": "Seated_Calf_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Seated Calf Raises",
+        "url": "https://musclewiki.com/exercise/machine-seated-calf-raises",
+        "videoUrl": "https://www.youtube.com/watch?v=qVqTCzHFePk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "44d2038b20b934d58d37060881c7638d2aae814c369161f71f692cd088583333"
+    },
+    {
+      "exerciseId": "Seated_Leg_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Seated Leg Curl",
+        "url": "https://musclewiki.com/exercise/seated-leg-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ad4701735e1674daa3c2caaa720b2ad66cc41d795f250fd172776665845c1d8d"
+    },
+    {
+      "exerciseId": "Standing_Calf_Raises",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Standing Calf Raises",
+        "url": "https://musclewiki.com/exercise/machine-standing-calf-raises",
+        "videoUrl": "https://www.youtube.com/watch?v=qVqTCzHFePk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "27d368b5c3620ac22b08527bfe437697ddd20ddaf97dc247fb70f6378c575b7c"
+    },
+    {
+      "exerciseId": "Standing_Leg_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Machine Standing Hamstring Curl",
+        "url": "https://musclewiki.com/exercise/machine-standing-hamstring-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "802b02d83f749f1e32b04634dcfe2bc2d6e7114036f2ceb61d3128b2afc3189d"
+    },
+    {
+      "exerciseId": "hasan:0630",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Mountain Climber",
+        "url": "https://musclewiki.com/exercise/mountain-climber",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9379b1846a09714c7f81dcb29e3a251f2757c43961dcede38bd20d0bfe03e36e"
+    },
+    {
+      "exerciseId": "rthepen:partner_nordic_hamstring_curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Nordic Hamstring Curl",
+        "url": "https://musclewiki.com/exercise/nordic-hamstring-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7122cd4bc8f8f2d38d7187b1cb1c76f9eb6d84ae33a5b1a10e98574ae75cb0b5"
+    },
+    {
+      "exerciseId": "Front_Plate_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Plate Front Raise",
+        "url": "https://musclewiki.com/exercise/plate-front-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2d9beff223d729a2b0d36a7d945ad9800e617a2f9a11b95569f1477a29908fd1"
+    },
+    {
+      "exerciseId": "Pushups",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Push Up",
+        "url": "https://musclewiki.com/exercise/push-up",
+        "videoUrl": "https://www.youtube.com/watch?v=YzA3rsX3znQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "19fcbe897bf7db5e8f39a2b6a99a669b8169c349e80db2fe07cc9458e163097f"
+    },
+    {
+      "exerciseId": "Scissor_Kick",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Scissor Kick",
+        "url": "https://musclewiki.com/exercise/scissor-kick",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "52114156a0c37f8506fcecdd1ab25822a50c895bbdd2f26e44ebc1dc43cf7b1e"
+    },
+    {
+      "exerciseId": "Seated_Side_Lateral_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Seated Lateral Raise",
+        "url": "https://musclewiki.com/exercise/seated-lateral-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b80e5bedc979fbcb7d6ee817b2dcc6eb85690e5a856750b67801d0f2c5a8418f"
+    },
+    {
+      "exerciseId": "guide:skater-squat",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Skater Squat",
+        "url": "https://musclewiki.com/exercise/skater-squat",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0e8b25d06bfabeb6eb7591efeea15a1c37275cc1b1d63ed9cca098d9cde764a9"
+    },
+    {
+      "exerciseId": "Smith_Machine_Bench_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Bench Press",
+        "url": "https://musclewiki.com/exercise/smith-machine-bench-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f69da6e9e0e20cae415e6e57e0892cfe5d8eec464bd9fe60f917458220dfe3dd"
+    },
+    {
+      "exerciseId": "Smith_Machine_Calf_Raise",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Calf Raise",
+        "url": "https://musclewiki.com/exercise/smith-machine-calf-raise",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1e2957b01c3f2e8c7d1dcb06c41e20f5589521ef7b99e4479bb8e05495043ba7"
+    },
+    {
+      "exerciseId": "Smith_Machine_Close-Grip_Bench_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Close Grip Bench Press",
+        "url": "https://musclewiki.com/exercise/smith-machine-close-grip-bench-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0e97cf6b4c47b3b662fc6bb45af103d86900b5688a5c23c982d5ae679dc3b776"
+    },
+    {
+      "exerciseId": "Smith_Machine_Incline_Bench_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Incline Bench Press",
+        "url": "https://musclewiki.com/exercise/smith-machine-incline-bench-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9e8b9c321a8e04939e134ff43d6c4596bb34f7507a0b9af7fec969fb75bfd3c0"
+    },
+    {
+      "exerciseId": "Smith_Machine_Leg_Press",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Leg Press",
+        "url": "https://musclewiki.com/exercise/smith-machine-leg-press",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f8cb09e50d99332800d3313b899a04187983ea33808537b027f0b62b93721f83"
+    },
+    {
+      "exerciseId": "guide:smith-machine-reverse-lunge",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Reverse Lunge",
+        "url": "https://musclewiki.com/exercise/smith-machine-reverse-lunge",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7b1e30be467883834a02216d30a6ce39fc8b8b33695d59e66dfc03110f8df184"
+    },
+    {
+      "exerciseId": "Smith_Machine_Squat",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Squat",
+        "url": "https://musclewiki.com/exercise/smith-machine-squat",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6798229b408fa2f51540262fa85aaab26f431b4fdeb8e81676ac8791cc5f385a"
+    },
+    {
+      "exerciseId": "Smith_Machine_Upright_Row",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Smith Machine Upright Row",
+        "url": "https://musclewiki.com/exercise/smith-machine-upright-row",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "632320a8fd0df0bc231252c16d680b633e12f03d0c56094a6b5c5303072eea56"
+    },
+    {
+      "exerciseId": "wger:1810",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Sphinx Pose",
+        "url": "https://musclewiki.com/exercise/sphinx-pose",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "cb60978ce8deadc01abced6624aa3fc77ba964e0b600146b5b7491eb050b5b55"
+    },
+    {
+      "exerciseId": "Split_Squats",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Split Squat",
+        "url": "https://musclewiki.com/exercise/split-squat",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "63a9f8e7c7c7691dea08eb7fd7b86f283bbfcb1b4a535de768c72124369fcf8c"
+    },
+    {
+      "exerciseId": "Ball_Leg_Curl",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Stability Ball Hamstring Curl",
+        "url": "https://musclewiki.com/exercise/stability-ball-hamstring-curl",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9f581d3a59a6e3218d5b82e9488a8385e56238ef25aca59c909aec3b01180876"
+    },
+    {
+      "exerciseId": "everkinetic:0105",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Supermans",
+        "url": "https://musclewiki.com/exercise/supermans",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8e2aeafbe76240465ee88f81af4e7676bc7edf3f0c0dbb25a1656fef1087958d"
+    },
+    {
+      "exerciseId": "Running_Treadmill",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Treadmill Sprint",
+        "url": "https://musclewiki.com/exercise/treadmill-sprint",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a24579f6e3c8434b4c5042e7f17553671cc81d7dd4591353f93175d4e4a1ca64"
+    },
+    {
+      "exerciseId": "commons:tree",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Tree Pose",
+        "url": "https://musclewiki.com/exercise/tree-pose",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "56ad7411272efcea8129168fbe7bd98c59a19ec274446afffd2e1c210b17cec8"
+    },
+    {
+      "exerciseId": "wger:1408",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Wall Sit",
+        "url": "https://musclewiki.com/exercise/wall-sit",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "447675df1e1bbb7d9dcb822c106aa9198dc350f3c7f4a3e636fff90b55dd6856"
+    },
+    {
+      "exerciseId": "Weighted_Pull_Ups",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Weighted Pull Ups",
+        "url": "https://musclewiki.com/exercise/weighted-pull-ups",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8fb7bf65f155bea88b51f785a45bcf5544e507030219e2bf3f1e3c40f25759f6"
+    },
+    {
+      "exerciseId": "wger:1902",
+      "guide": {
+        "provider": "MuscleWiki",
+        "title": "Weighted Push Ups",
+        "url": "https://musclewiki.com/exercise/weighted-push-ups",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "d85960ea22d63fa77ee314d1f57b9cd3cc10ab66887c0567239439cce228c96b"
+    },
+    {
+      "exerciseId": "Leg_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Leg Press",
+        "url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+        "videoUrl": "https://www.youtube.com/watch?v=sEM_zo9w2ss",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c107f4622f6c489f33f1b47c566186ce82521f38b5cdd1bfd4872f04f8bdcd33"
+    },
+    {
+      "exerciseId": "Alternate_Incline_Dumbbell_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Alternating Incline Dumbbell Curl",
+        "url": "https://www.muscleandstrength.com/exercises/alternate-incline-dumbbell-curl.html",
+        "videoUrl": "https://vimeo.com/756794367",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "507fd8c1d8b594c231166106b7782040046423ad84c00a1117621cb5e441a1c6"
+    },
+    {
+      "exerciseId": "Anti-Gravity_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Anti-Gravity Press",
+        "url": "https://www.muscleandstrength.com/exercises/anti-gravity-press",
+        "videoUrl": "https://www.youtube.com/watch?v=NveB9Ovyj2g",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "fa139a67dd50f2e2558679c843a91b1d2c89dc96a920f122faeb118a869ca40f"
+    },
+    {
+      "exerciseId": "Arm_Circles",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Arm Circles",
+        "url": "https://www.muscleandstrength.com/exercises/arm-circles",
+        "videoUrl": "https://www.youtube.com/watch?v=6ls8aY83FL0",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2db8d53c7c549ae9454ce154b9504eddd18182b9884d9f63a5b801ef0f90d10a"
+    },
+    {
+      "exerciseId": "Band_Pull_Apart",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Band Pull Apart",
+        "url": "https://www.muscleandstrength.com/exercises/band-pull-apart",
+        "videoUrl": "https://www.youtube.com/watch?v=nMB_zabRo74",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0fcac799715ea32e66e27996d5519fb80f3c8be04173e8f552c91c0b12f3539c"
+    },
+    {
+      "exerciseId": "hasan:0038",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Drag Curl",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-drag-curl.html",
+        "videoUrl": "https://vimeo.com/1086770204",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "54a7e99f24af123c6c1086d6e20ceba5de6f5fa37348e74fcc9fc76df2bdd18e"
+    },
+    {
+      "exerciseId": "Barbell_Glute_Bridge",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Glute Bridge",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-glute-bridge",
+        "videoUrl": "https://www.youtube.com/watch?v=QWXttb8-n50",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "25ce35d64c7a520a570e78ae4c446eff25bd35caeb21e0b12e04c3b9c9fa30b4"
+    },
+    {
+      "exerciseId": "Barbell_Hack_Squat",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Hack Squat",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-hack-squat.html",
+        "videoUrl": "https://www.youtube.com/watch?v=cSId0_Q9fdM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b7610d2983c5245bc016889e49ecb16c60faa959d79f4cb2c928e921178c83c2"
+    },
+    {
+      "exerciseId": "Barbell_Hip_Thrust",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Hip Thrust",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-hip-thrust",
+        "videoUrl": "https://www.youtube.com/watch?v=lAnqN0J_p5A",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c3600c27a619da45200e5fc7fc7f50b3026a6433b9232dfc3bee8a161efc5e6e"
+    },
+    {
+      "exerciseId": "Barbell_Lunge",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Lunge",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-lunge.html",
+        "videoUrl": "https://vimeo.com/877885592",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c9756fd7fab2dc301a0d048b9ba36c895f7f2e6431ce32de377b4242258de5cb"
+    },
+    {
+      "exerciseId": "Barbell_Shrug",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-shrug.html",
+        "videoUrl": "https://www.youtube.com/watch?v=6hNudn7Peco",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0b632450d6690bc852ff5230acfa87db0825b4de327d13d96e1555e47906f31c"
+    },
+    {
+      "exerciseId": "Barbell_Step_Ups",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Step Ups",
+        "url": "https://www.muscleandstrength.com/exercises/barbell-step-ups.html",
+        "videoUrl": "https://www.youtube.com/watch?v=_uzlVEERPyM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5f9a8a9da927327fba25604284344d00851484956d1a0eaab4a0660ae82c791e"
+    },
+    {
+      "exerciseId": "Barbell_Shrug_Behind_The_Back",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Behind-The-Back Barbell Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/behind-the-back-barbell-shrug.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "53c2e42f41221b6a23ab298d0928a1e9f300757e1e360f4c3292c4230f1a3d65"
+    },
+    {
+      "exerciseId": "Push_Press_-_Behind_the_Neck",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Behind The Neck Push Press",
+        "url": "https://www.muscleandstrength.com/exercises/behind-the-neck-push-press",
+        "videoUrl": "https://www.youtube.com/watch?v=Ff1Sk0Xu4xM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c6b9ab89871ad26d8a1849ea77e035806abfa072bf7c68aa4816f658445ec92c"
+    },
+    {
+      "exerciseId": "hasan:0293",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Bent Over Dumbbell Row",
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html",
+        "videoUrl": "https://www.youtube.com/watch?v=DhewkuU_95s",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ac0d20514f4ad028eaa4186feef520a13a7a69a1836efea31a1f5d9a0a8fbb7c"
+    },
+    {
+      "exerciseId": "Machine_Bicep_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Machine Bicep Curl",
+        "url": "https://www.muscleandstrength.com/exercises/bicep-machine-curl.html",
+        "videoUrl": "https://vimeo.com/760001918",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c1f443724c7e254f8c8456a58e35b07b48cd2e30fe997cadb76825250ec4efc9"
+    },
+    {
+      "exerciseId": "Bodyweight_Walking_Lunge",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Bodyweight Walking Lunge",
+        "url": "https://www.muscleandstrength.com/exercises/bodyweight-walking-lunge.html",
+        "videoUrl": "https://vimeo.com/877885520",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a0a99963c301da15ecda92b790241c4cef21ebb5702680b1f09ec6192bc0ccae"
+    },
+    {
+      "exerciseId": "hasan:1307",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Bosu Ball Push Up",
+        "url": "https://www.muscleandstrength.com/exercises/bosu-ball-push-up",
+        "videoUrl": "https://www.youtube.com/watch?v=tl-FyuAvSBs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "592f3abc495849dfa0122c89cc4161ccef6167f955c2feb911a3529888edee43"
+    },
+    {
+      "exerciseId": "Cable_Chest_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Chest Press",
+        "url": "https://www.muscleandstrength.com/exercises/cable-chest-press.html",
+        "videoUrl": "https://www.youtube.com/watch?v=n4CEULDvATA",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4128cd76b4a755748e0428184eecfbfd1bbdd52c944d81660704661948e5ca8a"
+    },
+    {
+      "exerciseId": "wger:1109",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Concentration Curl",
+        "url": "https://www.muscleandstrength.com/exercises/cable-concentration-curl.html",
+        "videoUrl": "https://vimeo.com/760001654",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "d362f2123453a584de0d40f843e7b8adb9e1b7dc7002a4a277e1182e1ae4ae7d"
+    },
+    {
+      "exerciseId": "External_Rotation_with_Cable",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable External Rotation",
+        "url": "https://www.muscleandstrength.com/exercises/cable-external-rotation",
+        "videoUrl": "https://www.youtube.com/watch?v=i47zHCiGTxE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "829d4fe0970401a83d538c6589f5d406ead93c45787a1bff8b8d9235e6a42c1c"
+    },
+    {
+      "exerciseId": "Face_Pull",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Face Pull",
+        "url": "https://www.muscleandstrength.com/exercises/cable-face-pull",
+        "videoUrl": "https://www.youtube.com/watch?v=7ZvpXA_mFpQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7ac582ac43eb5ad0081f30521a51e59b9baad00dd72a83ba7baca3bd75086a5c"
+    },
+    {
+      "exerciseId": "Cable_Hip_Adduction",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Hip Adduction",
+        "url": "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html",
+        "videoUrl": "https://vimeo.com/760008232",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1ab3c033e6f0f9391824283d76867951743724fb76b5175c35ecfb5123e23309"
+    },
+    {
+      "exerciseId": "Cable_Internal_Rotation",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Internal Rotation",
+        "url": "https://www.muscleandstrength.com/exercises/cable-internal-rotation",
+        "videoUrl": "https://www.youtube.com/watch?v=RpDuA5rUByk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "70767fc628f3f0c28c82aff83f9b5a66b115e0afd59410b315afd2cbc257ddf1"
+    },
+    {
+      "exerciseId": "Cable_Shrugs",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/cable-shrug.html",
+        "videoUrl": "https://www.youtube.com/watch?v=LwTq3v2GUF4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "195d32d91b651054c65d06146a3d115ebdec93e4cda4491940d9b7e09b2d31e7"
+    },
+    {
+      "exerciseId": "Upright_Cable_Row",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Cable Upright Row",
+        "url": "https://www.muscleandstrength.com/exercises/cable-upright-row.html",
+        "videoUrl": "https://www.youtube.com/watch?v=kZpdmn_djFI",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "086af88996a102bb92267344820173a2ea62804f5eae1cbd0b2cc9a3d19379ad"
+    },
+    {
+      "exerciseId": "Clean",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Clean",
+        "url": "https://www.muscleandstrength.com/exercises/clean",
+        "videoUrl": "https://www.youtube.com/watch?v=wKSJOLL5NU4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "98fc208ef9720d22dd0d7b1d4effbd422926c365bc1a950f884e56ebb19dfa75"
+    },
+    {
+      "exerciseId": "Clean_Shrug",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Clean Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/clean-shrug",
+        "videoUrl": "https://www.youtube.com/watch?v=_E_XmZkQAkA",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "40bc44f30a243b3870ee380ccd722d79cdfebe672d2300b0128a0a4816f9e332"
+    },
+    {
+      "exerciseId": "Close-Grip_Dumbbell_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Close Grip Dumbbell Press (AKA Crush Press)",
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-dumbbell-press.html",
+        "videoUrl": "https://www.youtube.com/watch?v=XZ3XSwmk1Os",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a44e937af11a832330fd7960db943b1bea3b8bbd4cf62a030053edaf5a7c036b"
+    },
+    {
+      "exerciseId": "Close-Grip_EZ_Bar_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Close Grip EZ Bar Curl",
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-curl.html",
+        "videoUrl": "https://vimeo.com/756794039",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "d7b20cbe2f62c0a6d083459c50a043dd90f0260a7c199dbea67d1dd6e713aef1"
+    },
+    {
+      "exerciseId": "Close-Grip_EZ-Bar_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Close Grip EZ Bar Press",
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-press",
+        "videoUrl": "https://www.youtube.com/watch?v=LduzOtuJ3uA",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0765598d8b7f4b930d12b36f19cd9b4d4eb14c9f2ce1e789a7f20560eb8940e1"
+    },
+    {
+      "exerciseId": "Close-Grip_Standing_Barbell_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Close Grip Standing Barbell Curl",
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-standing-barbell-curl.html",
+        "videoUrl": "https://www.youtube.com/watch?v=exqx_2Uyopw",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c10d73832963ed575529f8397b2b25dcce4f0febde6db7d62b878f3d67e08311"
+    },
+    {
+      "exerciseId": "rthepen:bodyweight_curtsy_lunges",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Curtsy Lunge (AKA Drop Lunge)",
+        "url": "https://www.muscleandstrength.com/exercises/curtsy-lunge",
+        "videoUrl": "https://www.youtube.com/watch?v=Vi4aMmn-Hv4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e0c848579f4aa4912b658c3e89c192afae380d81aa0b92583b67038b4fab9bc2"
+    },
+    {
+      "exerciseId": "Dead_Bug",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dead Bug",
+        "url": "https://www.muscleandstrength.com/exercises/dead-bug",
+        "videoUrl": "https://www.youtube.com/watch?v=eEhoSeBFoBk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f0356b4b1420c51afadc0d352d511297d9afcc0b6f9e3bc30f09a499dc39f7b5"
+    },
+    {
+      "exerciseId": "wger:1889",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Decline Bench Leg Raise",
+        "url": "https://www.muscleandstrength.com/exercises/decline-bench-leg-raise.html",
+        "videoUrl": "https://vimeo.com/877880681",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f46dced340db1fcfb2332f70c8118de486f26b05130c57acf6b63f38236b5a84"
+    },
+    {
+      "exerciseId": "Decline_Dumbbell_Bench_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Decline Dumbbell Bench Press",
+        "url": "https://www.muscleandstrength.com/exercises/decline-dumbbell-bench-press.html",
+        "videoUrl": "https://www.youtube.com/watch?v=5pDbtYmX5fM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "df053805095f785151caa5029bd8880e886821f15b27c14d40ad2e39ae458eda"
+    },
+    {
+      "exerciseId": "Deficit_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Deficit Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/deficit-deadlifts",
+        "videoUrl": "https://www.youtube.com/watch?v=9jVdbOPkFdU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c9e6e27410513e132925d6b871023c49462c06e4f978ef415a0734045de0cb28"
+    },
+    {
+      "exerciseId": "Donkey_Calf_Raises",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Donkey Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/donkey-calf-raise.html",
+        "videoUrl": "https://vimeo.com/756793723",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5c28d2b384373a606778996d043d458c9dc73e0a8c6948aaba024d581d687687"
+    },
+    {
+      "exerciseId": "wger:1409",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dragon Flag",
+        "url": "https://www.muscleandstrength.com/exercises/dragon-flag",
+        "videoUrl": "https://www.youtube.com/watch?v=kaUqM0JSlGU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3c45483fa58984f7afdc2dbf97bcc81944f3ec898225b85ba6f0069a810917ff"
+    },
+    {
+      "exerciseId": "Dumbbell_Floor_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Floor Press",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-floor-press.html",
+        "videoUrl": "https://www.youtube.com/watch?v=gaBOfLlIXjs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7b1bbc0116863f675245b7fb6ecb732c5ae98fd1584730d051886f675f4e6491"
+    },
+    {
+      "exerciseId": "everkinetic:0056",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Flys",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-flys.html",
+        "videoUrl": "https://www.youtube.com/watch?v=-lcbvOddoi8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1c852c0d6be526ead5cc87b93069b3a2e5a986883f75cc59fdf0b9213086ab3b"
+    },
+    {
+      "exerciseId": "wger:203",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Goblet Squat",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-goblet-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=5Y3KW5rWMh4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1782bb51d17319e55c17c89e44216c949c2ae3e5adbce5d338efa0f8e36f2f34"
+    },
+    {
+      "exerciseId": "everkinetic:0240",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Hammer Preacher Curl",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-hammer-preacher-curl.html",
+        "videoUrl": "https://www.youtube.com/watch?v=ZdcFOgFi1Dg",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "bba0c8990a5c3d0ef96f7c890a26ec0381036ef05ed440c9b9e94cc950711e68"
+    },
+    {
+      "exerciseId": "hasan:0334",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Lateral Raise",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-lateral-raise.html",
+        "videoUrl": "https://vimeo.com/760008500",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c778fcaf7a019b3126a99b07a74d44bd1fd26a6b709e07488742b41a5b92db88"
+    },
+    {
+      "exerciseId": "Dumbbell_Lunges",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Lunge",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-lunge.html",
+        "videoUrl": "https://vimeo.com/877881961",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c50c472ad37c36bf1a6d05ba0907b38ec4f4987fb330717208a5351dc219c1f1"
+    },
+    {
+      "exerciseId": "Dumbbell_Rear_Lunge",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Rear Lunge",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-rear-lunge.html",
+        "videoUrl": "https://www.youtube.com/watch?v=Ix9QZ3Pnneo",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "32f0c6a3310e8e8610ea8734ce134e25fb7f6eeec1710c32e9cfece663db1257"
+    },
+    {
+      "exerciseId": "Dumbbell_Shrug",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-shrugs.html",
+        "videoUrl": "https://www.youtube.com/watch?v=dj2Gm628kas",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b625d2d80dd71043542f2e2f504750deefb422d66be0da1db8c9300a8de67e00"
+    },
+    {
+      "exerciseId": "Split_Squat_with_Dumbbells",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Split Squat",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-split-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=EByFmf2LfY8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "be07c516fc6fd3814e94f1643778dac68c6c4781133b6c0c6483f8c95f6e95fb"
+    },
+    {
+      "exerciseId": "Dumbbell_Squat",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Squat",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-squat.html",
+        "videoUrl": "https://vimeo.com/1077314446",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "174d3f2d98251160d3c5bcbc43126392b9ac6c18fc6a03cb1a3de75ad94009aa"
+    },
+    {
+      "exerciseId": "hasan:0431",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Step Up",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-step-up.html",
+        "videoUrl": "https://vimeo.com/877882016",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2d956effc0bf68271d296371f7ce8a54fb3369f1139123c2a16a713aa71177ba"
+    },
+    {
+      "exerciseId": "wger:206",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Dumbbell Walking Lunge",
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-walking-lunge.html",
+        "videoUrl": "https://www.youtube.com/watch?v=uRSsOoZG9z8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3e64a263bf55753882aa388df2e90518a16b605187b5bddc1de75ebc22c3ebdd"
+    },
+    {
+      "exerciseId": "Preacher_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "EZ Bar Preacher Curl",
+        "url": "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b4bab907159dcaa75d620e072d44e1a1a2aff1666661b7672f84e0512743c6f9"
+    },
+    {
+      "exerciseId": "EZ-Bar_Skullcrusher",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "EZ Bar Skullcrusher",
+        "url": "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html",
+        "videoUrl": "https://www.youtube.com/watch?v=K6MSN4hCDM4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "66da6c18e4c54c18846ceff80fcafdfdc61e261fff54ae6b2c1d03edf5b4c729"
+    },
+    {
+      "exerciseId": "everkinetic:0057",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Flat Bench Cable Flys",
+        "url": "https://www.muscleandstrength.com/exercises/flat-bench-cable-flys.html",
+        "videoUrl": "https://www.youtube.com/watch?v=ZC_whx-bNfU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5af352b2d8359c1f407fd1f84ad4349982d5328f9513dc4307a89c893e92ae2f"
+    },
+    {
+      "exerciseId": "Frog_Sit-Ups",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Frog Sit Up",
+        "url": "https://www.muscleandstrength.com/exercises/frog-sit-up",
+        "videoUrl": "https://www.youtube.com/watch?v=BFBjfwAkhhY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6e8820701adbcc8d86a548960b50b9a627c1a44b113d28a570cd008a86ae724b"
+    },
+    {
+      "exerciseId": "guide:front-foot-elevated-split-squat",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Front Foot Elevated Dumbbell Split Squat",
+        "url": "https://www.muscleandstrength.com/exercises/front-foot-elevated-dumbbell-split-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=9ASBIqbm6Fo",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ecd4e201a7f8ea7f1ea2c7a413ff324becfb35d0bc6483232317ae77f007c931"
+    },
+    {
+      "exerciseId": "wger:257",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Front Squat",
+        "url": "https://www.muscleandstrength.com/exercises/front-squat.html",
+        "videoUrl": "https://www.youtube.com/watch?v=9xAkoz95IFE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6d9a4a342ac7e0ac03a3b845465c866e6a45b2e5443b39e1dbc34f1d454a65b7"
+    },
+    {
+      "exerciseId": "Hang_Clean",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Hang Clean",
+        "url": "https://www.muscleandstrength.com/exercises/hang-clean",
+        "videoUrl": "https://www.youtube.com/watch?v=Pz1q5pceH5E",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b52b6e0f448074d5dda52abc69ceb09068d09af3cbf990f9db3498e29c4f1097"
+    },
+    {
+      "exerciseId": "Hanging_Leg_Raise",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Hanging Leg Raise",
+        "url": "https://www.muscleandstrength.com/exercises/hanging-leg-raise.html",
+        "videoUrl": "https://vimeo.com/1082967611",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "dd2a6586f9dd3dd9e031cbdd7d01ee90957259020f7de75ac7529a21541d1676"
+    },
+    {
+      "exerciseId": "wger:1748",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Hip Abduction Machine",
+        "url": "https://www.muscleandstrength.com/exercises/hip-abduction-machine.html",
+        "videoUrl": "https://www.youtube.com/watch?v=7pbZA7ncuq8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ca8312a4013a97cb579eac4f30ec4c47ee7ccb8d3d9519d3a2ec41616c8efbc8"
+    },
+    {
+      "exerciseId": "Inchworm",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Inchworm",
+        "url": "https://www.muscleandstrength.com/exercises/inchworm",
+        "videoUrl": "https://www.youtube.com/watch?v=FRiUEJqvB6A",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a5b50805598fbd4298bbc154fe03c74ba6e74e99f896b32da92bdba5cb065029"
+    },
+    {
+      "exerciseId": "Incline_Cable_Chest_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Incline Cable Chest Press",
+        "url": "https://www.muscleandstrength.com/exercises/incline-cable-chest-press",
+        "videoUrl": "https://www.youtube.com/watch?v=Z8qjy7FAMuE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7723a1ef985470daf32276bc3478fc64405a233124ea447560b4cf39f784d7c1"
+    },
+    {
+      "exerciseId": "Cable_Incline_Triceps_Extension",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Incline Cable Tricep Extension",
+        "url": "https://www.muscleandstrength.com/exercises/incline-cable-tricep-extension.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "72fa6e8fd6ad5217322692d3fc53e402ad487add3d86c242917ad44f3d4874b4"
+    },
+    {
+      "exerciseId": "Incline_Dumbbell_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Incline Dumbbell Bench Press",
+        "url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html",
+        "videoUrl": "https://www.youtube.com/watch?v=8nNi8jbbUPE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "bb0e75d4ee714ec41dc92d9bffe690fac2005ce72db80fdba9bdefdca35f6e81"
+    },
+    {
+      "exerciseId": "Incline_Dumbbell_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Incline Dumbbell Curl",
+        "url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-curl.html",
+        "videoUrl": "https://www.youtube.com/watch?v=UeleXjsE-98",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b7b966856234615cee9ccef17dce63b58eb8fbe57151b35745b328f15fc93820"
+    },
+    {
+      "exerciseId": "Incline_Dumbbell_Flyes_-_With_A_Twist",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Incline Dumbbell Twist Fly",
+        "url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-twist-fly",
+        "videoUrl": "https://www.youtube.com/watch?v=7YmAS5FffxA",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7daf22a98edeaf87b6070bb7a195bb85d53e1a0bb63585819d41f67fce7ad71e"
+    },
+    {
+      "exerciseId": "Incline_Hammer_Curls",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Incline Hammer Curl",
+        "url": "https://www.muscleandstrength.com/exercises/incline-hammer-curl.html",
+        "videoUrl": "https://vimeo.com/756794332",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1a5aa89de2aa0dc28b4e452b8cc4a9d91579cb858a3ed1baec0e9d77d7681535"
+    },
+    {
+      "exerciseId": "Smith_Machine_Incline_Bench_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Incline Bench Press",
+        "url": "https://www.muscleandstrength.com/exercises/incline-smith-machine-bench-press.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ab3981716c1139574621a59a85cc49a8fbbe25179de6de41d6f460be9625c5b2"
+    },
+    {
+      "exerciseId": "Jerk_Balance",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Jerk Balance",
+        "url": "https://www.muscleandstrength.com/exercises/jerk-balance",
+        "videoUrl": "https://www.youtube.com/watch?v=sINEIuhGTF0",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ffcae90340891fce21e8c39d78b30dec4ac6923011405449c91799fef61a345b"
+    },
+    {
+      "exerciseId": "hasan:2612",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Jump Rope",
+        "url": "https://www.muscleandstrength.com/exercises/jump-rope",
+        "videoUrl": "https://www.youtube.com/watch?v=XSqj0O6ARMs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6af30d4d2d811ef56106333443596bccf6957101f99feebc4f0b9d069dc048e8"
+    },
+    {
+      "exerciseId": "guide:kettlebell-romanian-deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Kettlebell Romanian Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-romanian-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=Hv2M23ZfipA",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a758e5c1cb36939a702994648c598f017032d0a3a5a10efa590b18d5877c655a"
+    },
+    {
+      "exerciseId": "wger:331",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Kettlebell Swing",
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-swing",
+        "videoUrl": "https://www.youtube.com/watch?v=wMBWFIn4ddg",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f8dd056726655b8a625341133af1a4948dfef275f61ebfc23913abeb7ed59987"
+    },
+    {
+      "exerciseId": "Kettlebell_Thruster",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Kettlebell Thruster",
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-thruster",
+        "videoUrl": "https://www.youtube.com/watch?v=nyOUYEYd2VQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "130c50b434f21154dbc2c3a8d19dd2136ad3c13054edac29ae57b2a4be436cfa"
+    },
+    {
+      "exerciseId": "Kettlebell_Windmill",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Kettlebell Windmill",
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-windmill",
+        "videoUrl": "https://www.youtube.com/watch?v=cKKG70sF9uM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "44a0c5a97c126398c5ab8b865fd86ae48fa6a8060704a33fc066e113a5cdde16"
+    },
+    {
+      "exerciseId": "wger:1218",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Knee Push-Up",
+        "url": "https://www.muscleandstrength.com/exercises/knee-pushups.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e04cc582492a238311a04ca4da13351eccb8d5fa137483703f101bb11b89a14c"
+    },
+    {
+      "exerciseId": "wger:1741",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "L-Sit Pull Up",
+        "url": "https://www.muscleandstrength.com/exercises/l-sit-pull-up",
+        "videoUrl": "https://www.youtube.com/watch?v=D_QW34ynrKM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a4327d15ab9c19a5eeb5b276dc39d70e756322b91ba2a00b92ac24acb0068edf"
+    },
+    {
+      "exerciseId": "wger:364",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Leg Curl",
+        "url": "https://www.muscleandstrength.com/exercises/leg-curl.html",
+        "videoUrl": "https://vimeo.com/877881471",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "76e745de3908e24788d83d429ed9e6b945d7ded22453e8e9e99a60b9d9303035"
+    },
+    {
+      "exerciseId": "Leg_Extensions",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Leg Extension",
+        "url": "https://www.muscleandstrength.com/exercises/leg-extension.html",
+        "videoUrl": "https://www.youtube.com/watch?v=0fl1RRgJ83I",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f4593d4bc2d32ef5cac68129f2bb10e05c255a64f0a0e1560d36209aab23cd35"
+    },
+    {
+      "exerciseId": "Cable_Lying_Triceps_Extension",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Lying Cable Tricep Extension",
+        "url": "https://www.muscleandstrength.com/exercises/lying-cable-tricep-extension.html",
+        "videoUrl": "https://vimeo.com/756788144",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f2b61addb857b8c500259401dcfb2b67b06dfedbe595090736db5f5c99691861"
+    },
+    {
+      "exerciseId": "wger:1654",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Lateral Raise Machine",
+        "url": "https://www.muscleandstrength.com/exercises/machine-lateral-raise.html",
+        "videoUrl": "https://vimeo.com/1082966892",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ea24c2023b8c1b1ac54cedfa9f2cc5a2856e3939fd80d28ca4206af8efb71d96"
+    },
+    {
+      "exerciseId": "Reverse_Machine_Flyes",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Machine Reverse Fly",
+        "url": "https://www.muscleandstrength.com/exercises/machine-reverse-fly",
+        "videoUrl": "https://www.youtube.com/watch?v=_hbHNJtkB8s",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "34bd3e4d977a7b8f8d2bc3b35941da47fd9320b988fee8d152dcafc1161e9137"
+    },
+    {
+      "exerciseId": "kinetic:daebe8a5-3a9b-4a64-acb1-c097260acb43",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Machine Row",
+        "url": "https://www.muscleandstrength.com/exercises/machine-row.html",
+        "videoUrl": "https://vimeo.com/877881179",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "50f50e6bd4c37da1859bdf7aaefac2a402c2da932eca5535c1a8ed69404d0fd0"
+    },
+    {
+      "exerciseId": "Leverage_Shrug",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Machine Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/machine-shrug",
+        "videoUrl": "https://www.youtube.com/watch?v=1xRJYoiUu-8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4d613a684d63322fd5dabd4cc2eeb97b85804db8cbf33fcb954a58e03bab54df"
+    },
+    {
+      "exerciseId": "Machine_Triceps_Extension",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Machine Tricep Extension",
+        "url": "https://www.muscleandstrength.com/exercises/machine-tricep-extension",
+        "videoUrl": "https://www.youtube.com/watch?v=T_7KWFtNna4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "3b7f4bc7c7fb9b91c87c47dc06f8c775000710bf7d2c53c6a8a2b20dca43d1cd"
+    },
+    {
+      "exerciseId": "wger:1304",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Meadows Row",
+        "url": "https://www.muscleandstrength.com/exercises/meadows-row",
+        "videoUrl": "https://www.youtube.com/watch?v=lPPNLJhgZWE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "cae5b9897a3c85100aad59f13f3d883603bc85cbd2ec28438e7bda3d52f53a10"
+    },
+    {
+      "exerciseId": "Muscle_Snatch",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Muscle Snatch",
+        "url": "https://www.muscleandstrength.com/exercises/muscle-snatch",
+        "videoUrl": "https://www.youtube.com/watch?v=vTPel_ZSJ10",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "fe3f043cef3328de73c70d586aa6c5e197f9433f1dd94a7c1a36878f28786e12"
+    },
+    {
+      "exerciseId": "Muscle_Up",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Muscle Up",
+        "url": "https://www.muscleandstrength.com/exercises/muscle-up",
+        "videoUrl": "https://www.youtube.com/watch?v=OYxGWpYpxqE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "bf700a34b4df745149d48069876480b933f73bbb326a72130ed5fee8b096a9f3"
+    },
+    {
+      "exerciseId": "Standing_One-Arm_Cable_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One-Arm Cable Curl",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-curl.html",
+        "videoUrl": "https://vimeo.com/760001492",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "deba1bb79fad2f1b655a3f3a00fe6d38d0c824dfc359275b5233c7e268b26267"
+    },
+    {
+      "exerciseId": "One_Arm_Chin-Up",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One Arm Chin Up",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-chin-up",
+        "videoUrl": "https://www.youtube.com/watch?v=otFRs2HM_ME",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "eb0891212abb965eef68a753b10c15ab3fdd00604b7ecf52c34cba0f0ab06960"
+    },
+    {
+      "exerciseId": "One_Arm_Dumbbell_Bench_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One-Arm Dumbbell Bench Press",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-bench-press.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4da42bb733223e7007d4eb787a7daf623d4dc95592011023abf791c8f0bd3cf9"
+    },
+    {
+      "exerciseId": "One-Arm_Dumbbell_Row",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One Arm Dumbbell Row",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html",
+        "videoUrl": "https://www.youtube.com/watch?v=YZgVEy6cmaY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "7c1ed5bf12fa05759ecbf8d5d4313a281cc1e99fb6c26b24df20c8a3bc45f49d"
+    },
+    {
+      "exerciseId": "Dumbbell_One-Arm_Upright_Row",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One-Arm Dumbbell Upright Row",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-upright-row.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f931bd3f8393603ba8e872a7b36133466a75f16d95c78422b903cd90d3f48f0d"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Floor_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One Arm Kettlebell Floor Press",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-floor-press",
+        "videoUrl": "https://www.youtube.com/watch?v=fdg6zUZ9YlQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6ec6346c83bff7797ad0a6b2a99ea8b637043f49a6c6cd7aded298b12cf68b2a"
+    },
+    {
+      "exerciseId": "One-Arm_Kettlebell_Swings",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One Arm Kettlebell Swing",
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-swing",
+        "videoUrl": "https://www.youtube.com/watch?v=uY3sOWqDYsc",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6bdeda001853ff88626ef326fcd51a4f3d506a82061c22fbca0cdc5edb1fc3ba"
+    },
+    {
+      "exerciseId": "Dumbbell_Seated_One-Leg_Calf_Raise",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "One-Leg Seated Dumbbell Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/one-leg-seated-dumbbell-calf-raise.html",
+        "videoUrl": "https://vimeo.com/756793707",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9e34c11f95f89e4f1faf0d9b04ac0eb337ea51a74941b6e43983050064b78428"
+    },
+    {
+      "exerciseId": "Pallof_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Pallof Press",
+        "url": "https://www.muscleandstrength.com/exercises/pallof-press",
+        "videoUrl": "https://www.youtube.com/watch?v=SFJprbDnaS0",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4190e7c33f37832574e25706624a53141f78182bf89af071633ac1412c0e1c44"
+    },
+    {
+      "exerciseId": "Pallof_Press_With_Rotation",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Pallof Press with Rotation",
+        "url": "https://www.muscleandstrength.com/exercises/pallof-press-with-rotation",
+        "videoUrl": "https://www.youtube.com/watch?v=GW1G_SchrCE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c7fab0997195c9609f541d7bbeb87a61c4a6a5f956f35d265fe9fcb827a611b2"
+    },
+    {
+      "exerciseId": "Power_Clean",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Power Clean",
+        "url": "https://www.muscleandstrength.com/exercises/power-clean",
+        "videoUrl": "https://www.youtube.com/watch?v=rDw2ToBMx0o",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "303bdace58d0f9edfdae60146f6b703c429542303aa08e85419e0e88e32255e1"
+    },
+    {
+      "exerciseId": "Power_Clean_from_Blocks",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Power Clean from Blocks",
+        "url": "https://www.muscleandstrength.com/exercises/power-clean-from-blocks",
+        "videoUrl": "https://www.youtube.com/watch?v=xObDxN1BHcQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c7cf28fd670b65c74cdd42a86efdc1c295a4f6efbbb1e677c3e5069cba7d6f9b"
+    },
+    {
+      "exerciseId": "Power_Jerk",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Power Jerk",
+        "url": "https://www.muscleandstrength.com/exercises/power-jerk",
+        "videoUrl": "https://www.youtube.com/watch?v=slz3LcUQ0W8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "d26502e9d2735af0ac07d50adb12e0e3d76d1f7afa0ee506457634cead659d33"
+    },
+    {
+      "exerciseId": "Power_Snatch",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Power Snatch",
+        "url": "https://www.muscleandstrength.com/exercises/power-snatch",
+        "videoUrl": "https://www.youtube.com/watch?v=sd-inNX-LdU",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "cae9e90fcb4414bbcb4b5b4571056f4c6f5ef12bb3a305b03c6ea412631904d3"
+    },
+    {
+      "exerciseId": "everkinetic:0225",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Prone Incline Dumbbell Curl",
+        "url": "https://www.muscleandstrength.com/exercises/prone-incline-dumbbell-curl.html",
+        "videoUrl": "https://vimeo.com/756794413",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "30dc97fa8c51e42ec036e02d6d7ff651128884d979efcc4cef68227c7e8bf523"
+    },
+    {
+      "exerciseId": "Push_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Push Press",
+        "url": "https://www.muscleandstrength.com/exercises/push-press",
+        "videoUrl": "https://www.youtube.com/watch?v=zwy8skLFtVY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8cd695d7fa7fef2ce6999e9cf6c40475c3ed59d0216376dac07bea96d5a9db7b"
+    },
+    {
+      "exerciseId": "Push_Up_to_Side_Plank",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Push Up to Side Plank",
+        "url": "https://www.muscleandstrength.com/exercises/push-up-to-side-plank",
+        "videoUrl": "https://www.youtube.com/watch?v=TofAe7c45Zk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "0bcf37382b4744c766176d62342a4595bbdd97bdc6a43a7e256940fc3f1382cf"
+    },
+    {
+      "exerciseId": "Pushups",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Push Up",
+        "url": "https://www.muscleandstrength.com/exercises/push-up.html",
+        "videoUrl": "https://www.youtube.com/watch?v=KEFQyLkDYtI",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "235915a9031b8126cee8970743f882cd1f4b21f88d3639431fb199143048cfb5"
+    },
+    {
+      "exerciseId": "Reverse_Band_Box_Squat",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Reverse Band Box Squat",
+        "url": "https://www.muscleandstrength.com/exercises/reverse-band-box-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=9wHlvAilKAI",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9589a9e77067c4c010362eccd5ffbae278bdc7e79b462a127c603ddae086f872"
+    },
+    {
+      "exerciseId": "Reverse_Band_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Reverse Band Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/reverse-band-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=j1-Nlu3PZao",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2aef5e54aba4c81288e22f6c5799ee5a3e6419810733bc73f4ec21b91048e53e"
+    },
+    {
+      "exerciseId": "Reverse_Band_Sumo_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Reverse Band Sumo Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/reverse-band-sumo-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=P2jr-cJEDf8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4ca9d5aa3727798892dc83d21e280e8d5cd529035f4d3e2bcaeede5401ae1423"
+    },
+    {
+      "exerciseId": "Reverse_Grip_Bent-Over_Rows",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Reverse Grip Bent Over Row",
+        "url": "https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-row.html",
+        "videoUrl": "https://vimeo.com/1082967592",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "fc1a9c05edade9b06b15e14bea63a54e11458f41979b1036b438f459f64b381f"
+    },
+    {
+      "exerciseId": "Incline_Push-Up_Reverse_Grip",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Reverse Grip Incline Push Up",
+        "url": "https://www.muscleandstrength.com/exercises/reverse-grip-incline-push-up",
+        "videoUrl": "https://www.youtube.com/watch?v=TvYN0XAIsLc",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2001910e92a610589722c621c588afa869b73588a42ef6575dfc1f3d5276d8a7"
+    },
+    {
+      "exerciseId": "Reverse_Hyperextension",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Reverse Hyperextension",
+        "url": "https://www.muscleandstrength.com/exercises/reverse-hyperextension",
+        "videoUrl": "https://www.youtube.com/watch?v=qcHF-uATSY8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b8e3bab517835ee53753f31cb6aacf4758ad422998def64330945eb810861349"
+    },
+    {
+      "exerciseId": "Ring_Dips",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Ring Dip",
+        "url": "https://www.muscleandstrength.com/exercises/ring-dip",
+        "videoUrl": "https://www.youtube.com/watch?v=rLFLal3vQww",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b5fc4319367c94bb2311567b83ada3b40784947f4a20af9b2b013a49d83c98e5"
+    },
+    {
+      "exerciseId": "Rocking_Standing_Calf_Raise",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Rocking Standing Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/rocking-standing-calf-raise.html",
+        "videoUrl": "https://vimeo.com/756793784",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9e17738e31d5ea3d54d091799eae9d40d996f53fb54ca52b3f023f05c9c17e68"
+    },
+    {
+      "exerciseId": "Romanian_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Romanian Deadlift (AKA RDL)",
+        "url": "https://www.muscleandstrength.com/exercises/romanian-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=-m45n1_x32E",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5ece888f13b7213fb34dd8550725f8a3f51f9ced25067b79edf5694a0d8fafb1"
+    },
+    {
+      "exerciseId": "Rope_Climb",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Rope Climb",
+        "url": "https://www.muscleandstrength.com/exercises/rope-climb",
+        "videoUrl": "https://www.youtube.com/watch?v=KWyPeqJKQec",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a1ee91f7ec45ad99fd3d23eacad3cd260039a4f34d7a1a683948131615e77ae7"
+    },
+    {
+      "exerciseId": "zenith:0200",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Rope Tricep Extension",
+        "url": "https://www.muscleandstrength.com/exercises/rope-tricep-extension.html",
+        "videoUrl": "https://www.youtube.com/watch?v=LzwgB15UdO8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "af9415317403f8ded2c6997bae71b2b2af69d0764c78e63d3fe5466464234ec1"
+    },
+    {
+      "exerciseId": "Barbell_Seated_Calf_Raise",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Barbell Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/seated-barbell-calf-raise.html",
+        "videoUrl": "https://vimeo.com/756793477",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "00052ece0c496e578b50d2fe7235ba731fd5330da018203a7f4d846f5fae094b"
+    },
+    {
+      "exerciseId": "Seated_Barbell_Twist",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Barbell Twist",
+        "url": "https://www.muscleandstrength.com/exercises/seated-barbell-twist.html",
+        "videoUrl": "https://vimeo.com/877885279",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8ba788dd1948c3cb29598229a5f75af26afaffbd05a2eaba366b6df0cd2a6c2c"
+    },
+    {
+      "exerciseId": "Cable_Seated_Crunch",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Cable Crunch",
+        "url": "https://www.muscleandstrength.com/exercises/seated-cable-crunch.html",
+        "videoUrl": "https://vimeo.com/760008273",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c30d438039f871b6dccd404236fd38226fcc230a7c991981f187665075f7f867"
+    },
+    {
+      "exerciseId": "Seated_Calf_Raise",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/seated-calf-raise.html",
+        "videoUrl": "https://www.youtube.com/watch?v=Yh5TXz99xwY",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9c674ba5695ecf6909ec6fc1e5007cea2585faea259ef14259a09e9012d21a44"
+    },
+    {
+      "exerciseId": "wger:1620",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Dumbbell Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/seated-dumbbell-calf-raise.html",
+        "videoUrl": "https://vimeo.com/756793478",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4fe4665442ffcdcd8000af365c6344c01b344bfd370089f31cd05bdcc52c4e6b"
+    },
+    {
+      "exerciseId": "Seated_Good_Mornings",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Good Mornings",
+        "url": "https://www.muscleandstrength.com/exercises/seated-good-mornings.html",
+        "videoUrl": "https://www.youtube.com/watch?v=XZ7mDHLBQCs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "effbb76541b533f8a61f70672e2fe207c0a64273fc917f57778cc99bb1c25731"
+    },
+    {
+      "exerciseId": "Kettlebell_Seated_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Kettlebell Press",
+        "url": "https://www.muscleandstrength.com/exercises/seated-kettlebell-press",
+        "videoUrl": "https://www.youtube.com/watch?v=DC27E8lT43A",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "b39e6c8250bba57e0c1b3357184b2e35c41addfa1795a34db3a4dfa71bff14a8"
+    },
+    {
+      "exerciseId": "Seated_Leg_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Seated Leg Curl",
+        "url": "https://www.muscleandstrength.com/exercises/seated-leg-curl",
+        "videoUrl": "https://www.youtube.com/watch?v=3BWiLFc8Dbg",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "cc227934b975fc550af2eaa3e335fb8c0e888c3e0d30a90cd12cb5eea4978f8d"
+    },
+    {
+      "exerciseId": "hasan:0699",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Shoulder Tap Push Up",
+        "url": "https://www.muscleandstrength.com/exercises/shoulder-tap-push-up",
+        "videoUrl": "https://www.youtube.com/watch?v=DpGtoJTRCFE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "e2b47e890eb366735bdd582aecb6792dfaf860b5b182124ca429d0d3f4ad9123"
+    },
+    {
+      "exerciseId": "wger:576",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Side Crunch (AKA Oblique Crunch)",
+        "url": "https://www.muscleandstrength.com/exercises/side-crunch.html",
+        "videoUrl": "https://www.youtube.com/watch?v=dRhloYXeE3E",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9c3cae13d7c1a84525e2016f0001dd485fca175f7c4d5536a5153349524b1e3c"
+    },
+    {
+      "exerciseId": "hasan:1489",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Sissy Squat",
+        "url": "https://www.muscleandstrength.com/exercises/sissy-squat.html",
+        "videoUrl": "https://vimeo.com/877881940",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "53c80a289609715dd7fd0e1c652ae71b74463126a8526a72d44ca3a020cc6d20"
+    },
+    {
+      "exerciseId": "Sit-Up",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Sit Up",
+        "url": "https://www.muscleandstrength.com/exercises/sit-up.html",
+        "videoUrl": "https://www.youtube.com/watch?v=MQDopvLZOS8",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "af23749d8ddb97297f084c05aee5b770eee859bbaa8038e18be98cc10efa4986"
+    },
+    {
+      "exerciseId": "Smith_Machine_Bench_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Bench Press",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-bench-press.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "dedbd85ca61c0aafec2d1dfac99732caea0b50b1fd8ae631e5f5c4cc7c5c168c"
+    },
+    {
+      "exerciseId": "Smith_Machine_Bent_Over_Row",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Bent-Over Row",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-bent-over-row.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1c3fd042817d4019e7c2cfa952f3b4aec3b4cd2ffa8e78099413a27dbecf62d2"
+    },
+    {
+      "exerciseId": "Smith_Machine_Calf_Raise",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-calf-raise.html",
+        "videoUrl": "https://vimeo.com/877881498",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f0f59e7ff0e5f3add3f3c929eab638891c602533e4263b98df54a638a57c7471"
+    },
+    {
+      "exerciseId": "Smith_Machine_Close-Grip_Bench_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Close Grip Bench Press",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-close-grip-bench-press.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f568bb163376b404ba43ee44711bad49286bb1dcf476c2dc2abc0682dd68d0fd"
+    },
+    {
+      "exerciseId": "Smith_Machine_Leg_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Leg Press",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-leg-press",
+        "videoUrl": "https://www.youtube.com/watch?v=RBEVNRumJH4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a94449a5772c40bc4caea1bf97335795a8b31d510d229ea822913b5537b4e543"
+    },
+    {
+      "exerciseId": "Smith_Machine_Squat",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Squat",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-squat.html",
+        "videoUrl": "https://www.youtube.com/watch?v=BtfMX4WqUBo",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "35ae46344edcf976418f79da8328242bdd8d8262feec8600c9e4ab7f659668e1"
+    },
+    {
+      "exerciseId": "Smith_Machine_Upright_Row",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Smith Machine Upright Row",
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-upright-row.html",
+        "videoUrl": "https://www.youtube.com/watch?v=MeuEww_fjnk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "bdcb073e6fd60b8712aeadfc926d449f6675fbb3d31d9a3f6c034d9bd0097489"
+    },
+    {
+      "exerciseId": "Snatch",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Snatch",
+        "url": "https://www.muscleandstrength.com/exercises/snatch",
+        "videoUrl": "https://www.youtube.com/watch?v=LPIra6bSv0I",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "bb9c32014f8dff141cb92c16e7ec52d29da3c32e26d352c229b129da6b7677b6"
+    },
+    {
+      "exerciseId": "Snatch_Balance",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Snatch Balance",
+        "url": "https://www.muscleandstrength.com/exercises/snatch-balance",
+        "videoUrl": "https://www.youtube.com/watch?v=iGH2zTQ5IKk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "f98ca7dcacf8018fb26a9775d08f11c6b4dfc794b097f9ba7f94ae21e9443235"
+    },
+    {
+      "exerciseId": "Snatch_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Snatch Grip Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/snatch-grip-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=OCuawmNbo4E",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "fc1f991d80db508bdb3b54e6b0d651879c70b8bb7e20f783e928fc47abba111e"
+    },
+    {
+      "exerciseId": "Snatch_Shrug",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Snatch Shrug",
+        "url": "https://www.muscleandstrength.com/exercises/snatch-shrug",
+        "videoUrl": "https://www.youtube.com/watch?v=afkmMhd16u4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "686f516b3f81f7e4af42eea7de94dfb6b208ab4c034c98de36e14dc1ae346b5b"
+    },
+    {
+      "exerciseId": "Spider_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Spider Curl",
+        "url": "https://www.muscleandstrength.com/exercises/spider-curl.html",
+        "videoUrl": "https://vimeo.com/756793887",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5c58e9afd317e367e176e9e98e11033a111c52be0f9b1989643f48c154353667"
+    },
+    {
+      "exerciseId": "Split_Clean",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Split Clean",
+        "url": "https://www.muscleandstrength.com/exercises/split-clean",
+        "videoUrl": "https://www.youtube.com/watch?v=OWcfv7uq8Fs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "18283759c6927b12d661f5874c2a144bbe77e1adedbe835307b88857567e3369"
+    },
+    {
+      "exerciseId": "Split_Jerk",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Split Jerk",
+        "url": "https://www.muscleandstrength.com/exercises/split-jerk",
+        "videoUrl": "https://www.youtube.com/watch?v=YqSivv9cpIs",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a48add4b32b768294e6a720aacd9ea926125c4e2fa7133f4347381490da410b7"
+    },
+    {
+      "exerciseId": "Split_Snatch",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Split Snatch",
+        "url": "https://www.muscleandstrength.com/exercises/split-snatch",
+        "videoUrl": "https://www.youtube.com/watch?v=E1KxzIx8UTM",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2363b130f553dafd898723bb7b235a6dd95cebd6f8e49bfb490f91b4cde97b29"
+    },
+    {
+      "exerciseId": "Split_Squats",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Split Squat",
+        "url": "https://www.muscleandstrength.com/exercises/split-squat",
+        "videoUrl": "https://www.youtube.com/watch?v=M8SnHDKz010",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4be47f8397a474e1a551e85d6b74ca8c310c1e3e30106c021061f1ca63bd9096"
+    },
+    {
+      "exerciseId": "Standing_Dumbbell_Reverse_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Standing Dumbbell Reverse Curl",
+        "url": "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html",
+        "videoUrl": "https://www.youtube.com/watch?v=i5h3myNHVFk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "49cf34a946cc243ae48b64b7d7ab90cd4e31ebbcd19cf782a6191701a47280ca"
+    },
+    {
+      "exerciseId": "Standing_Calf_Raises",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Standing Machine Calf Raise",
+        "url": "https://www.muscleandstrength.com/exercises/standing-machine-calf-raise",
+        "videoUrl": "https://www.youtube.com/watch?v=RBslMmWqzzE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a9184ebdd1bb0661a86567c3ac6cd1ce2ef827a2d4ae03039a9a5f08f97d6a0b"
+    },
+    {
+      "exerciseId": "Sumo_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Sumo Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/sumo-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=o4gIucBC4ls",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "6b238e3c2fe39c4dc688b30ae538e51e697e6fc89b3b2daad53f06be91f12f09"
+    },
+    {
+      "exerciseId": "Superman",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Superman",
+        "url": "https://www.muscleandstrength.com/exercises/superman",
+        "videoUrl": "https://www.youtube.com/watch?v=D07urmRplHQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "8086a43d8cf1650a3992d5955288cf707e308028893d3a31d34738727c0191c3"
+    },
+    {
+      "exerciseId": "Tate_Press",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Tate Press",
+        "url": "https://www.muscleandstrength.com/exercises/tate-press.html",
+        "videoUrl": "https://vimeo.com/1082966438",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c876ec3f402ef395aa3efabc470ccf8be0969e940266891a6554cf22d1a28956"
+    },
+    {
+      "exerciseId": "Tire_Flip",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Tire Flip",
+        "url": "https://www.muscleandstrength.com/exercises/tire-flip",
+        "videoUrl": "https://www.youtube.com/watch?v=Kg80f16cWG4",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "1b90491bd1bff49de2a14dee14820b0d6c79fa71c169334369ac1ac36e9a2051"
+    },
+    {
+      "exerciseId": "Trap_Bar_Deadlift",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Trap Bar Deadlift",
+        "url": "https://www.muscleandstrength.com/exercises/trap-bar-deadlift",
+        "videoUrl": "https://www.youtube.com/watch?v=-bSCG8ARHSk",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "c499dc9b286349ec935740ec2fd4b1692d17f6e2a2337f917be6474a4113ddf9"
+    },
+    {
+      "exerciseId": "everkinetic:0096",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "V-Bar Pull Down",
+        "url": "https://www.muscleandstrength.com/exercises/v-bar-pull-down",
+        "videoUrl": "https://www.youtube.com/watch?v=7wEpfpKAiQ0",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "a0b9fb286988a57ce9ca2382667b36ed88d84dae4d16b67c6f67743f0f27d82d"
+    },
+    {
+      "exerciseId": "V-Bar_Pullup",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "V-Bar Pull Up",
+        "url": "https://www.muscleandstrength.com/exercises/v-bar-pull-up.html",
+        "videoUrl": "https://vimeo.com/877881231",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "ee43f4aee926a815f0e00ffe630a8ac6dc35f9d84128f780f0c2299302f36db9"
+    },
+    {
+      "exerciseId": "Barbell_Walking_Lunge",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Barbell Walking Lunge",
+        "url": "https://www.muscleandstrength.com/exercises/walking-barbell-lunge.html",
+        "videoUrl": "https://www.youtube.com/watch?v=Kt6pWpaCMGE",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "204e9bc96c6b2cbd10d70f5c706f170ae63c4469300baefcfc75e04a4662c7eb"
+    },
+    {
+      "exerciseId": "wger:713",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Wall Push Up",
+        "url": "https://www.muscleandstrength.com/exercises/wall-push-up",
+        "videoUrl": "https://www.youtube.com/watch?v=-VmCZ7BuAbQ",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5ec69c638de3ee4e654c966bbb7d9f20b28bdbb426f3e7d3b89849d641667cc7"
+    },
+    {
+      "exerciseId": "Weighted_Bench_Dip",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Weighted Bench Dip",
+        "url": "https://www.muscleandstrength.com/exercises/weighted-bench-dips.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "d6b2cb2a812e0c1db17d0503b1169a068510dfb26076c22444dc46eb33278e23"
+    },
+    {
+      "exerciseId": "Weighted_Pull_Ups",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Weighted Pull Up",
+        "url": "https://www.muscleandstrength.com/exercises/weighted-pull-up",
+        "videoUrl": "https://www.youtube.com/watch?v=y90HR4gRvyg",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "2f6db35cea4d0efa2538385d0bc9015e2438cb6bddff110f59b97ae324301c05"
+    },
+    {
+      "exerciseId": "Weighted_Sissy_Squat",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Weighted Sissy Squat",
+        "url": "https://www.muscleandstrength.com/exercises/weighted-sissy-squat.html",
+        "videoUrl": "https://vimeo.com/877882084",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "4f2f70506cf98f06d24a3ae02dffe81491e1eecc0792c6ec08e9f716cc8106e9"
+    },
+    {
+      "exerciseId": "everkinetic:0091",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Wide Grip Chin Up",
+        "url": "https://www.muscleandstrength.com/exercises/wide-grip-chin-up.html",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "644a5dce4ded3c3274b0e5d47525905fba179b3e8df4004ac8d70938c8b9040a"
+    },
+    {
+      "exerciseId": "Wide-Grip_Standing_Barbell_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Wide Grip Standing Barbell Curl",
+        "url": "https://www.muscleandstrength.com/exercises/wide-grip-standing-barbell-curl.html",
+        "videoUrl": "https://vimeo.com/756794014",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "86dd0072e5b906292235443f017907b1760fc4d21d99d3209222cf3f905181b5"
+    },
+    {
+      "exerciseId": "Zottman_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Zottman Curl",
+        "url": "https://www.muscleandstrength.com/exercises/zottman-curl.html",
+        "videoUrl": "https://www.youtube.com/watch?v=rVEwDJdHE2c",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "5b63b3a368523c612683c68228b68d23854203a859e624ea524bc90e1fa1cdce"
+    },
+    {
+      "exerciseId": "Zottman_Preacher_Curl",
+      "guide": {
+        "provider": "Muscle & Strength",
+        "title": "Zottman Preacher Curl",
+        "url": "https://www.muscleandstrength.com/exercises/zottman-preacher-curl.html",
+        "videoUrl": "https://www.youtube.com/watch?v=7yPINa6H47o",
+        "checkedAt": "2026-10-15"
+      },
+      "sha256": "9222bbb2a6303fd6ebeac0a5755b5ba8f3e20fbf1ac4e70383ec8efbc0b258b0"
+    }
+  ],
+  "rejected": [
+    {
+      "url": "https://musclewiki.com/exercise/bench-press",
+      "exerciseId": "Barbell_Bench_Press_-_Medium_Grip",
+      "title": "Vitruvian Bench Press",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/dumbbell-squat-to-bench.html",
+      "exerciseId": "Dumbbell_Squat_To_A_Bench",
+      "title": "Dumbbell Box Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/front-squat",
+      "exerciseId": "wger:257",
+      "title": "Vitruvian Front Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/one-leg-barbell-squat.html",
+      "exerciseId": "One_Leg_Barbell_Squat",
+      "title": "Barbell Bulgarian Split Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/speed-squats.html",
+      "exerciseId": "Speed_Squats",
+      "title": "Barbell Speed Squats",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/barbell-side-split-squat.html",
+      "exerciseId": "Barbell_Side_Split_Squat",
+      "title": "Barbell Lateral Split Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/hack-squat.html",
+      "exerciseId": "Hack_Squat",
+      "title": "Machine Hack Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/bodyweight-squat.html",
+      "exerciseId": "Bodyweight_Squat",
+      "title": "Prisoner Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/weighted-squat.html",
+      "exerciseId": "Weighted_Squat",
+      "title": "Belt Squat",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/romanian-deadlift",
+      "exerciseId": "Romanian_Deadlift",
+      "title": "Vitruvian Romanian Deadlift",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/landmine-romanian-deadlift",
+      "exerciseId": "guide:landmine-romanian-deadlift",
+      "title": "Landmine RDL",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/single-arm-row",
+      "exerciseId": "wger:1637",
+      "title": "Vitruvian Single Arm Row",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/hammer-curl",
+      "exerciseId": "Hammer_Curls",
+      "title": "Vitruvian Hammer Curl",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/preacher-curl.html",
+      "exerciseId": "Preacher_Curl",
+      "title": "Barbell Preacher Curl",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/reverse-barbell-curl.html",
+      "exerciseId": "Reverse_Barbell_Curl",
+      "title": "Reverse Grip Barbell Curl",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/reverse-cable-curl.html",
+      "exerciseId": "Reverse_Cable_Curl",
+      "title": "Reverse Grip Cable Curl",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/exercise-ball-hamstring-curl",
+      "exerciseId": "Ball_Leg_Curl",
+      "title": "Exercise Ball Leg Curl (SHELC)",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/seated-shoulder-press.html",
+      "exerciseId": "hasan:0405",
+      "title": "Seated Barbell Shoulder Press",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/standing-dumbbell-press.html",
+      "exerciseId": "Standing_Dumbbell_Press",
+      "title": "Standing Dumbbell Shoulder Press",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/alternate-standing-dumbbell-press.html",
+      "exerciseId": "Standing_Alternating_Dumbbell_Press",
+      "title": "Alternating Standing Dumbbell Shoulder Press",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/standing-palms-in-dumbbell-press.html",
+      "exerciseId": "Standing_Palms-In_Dumbbell_Press",
+      "title": "Standing Neutral Grip Dumbbell Shoulder Press",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/lateral-raise",
+      "exerciseId": "wger:348",
+      "title": "Vitruvian Lateral Raise",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/seated-calf-raise",
+      "exerciseId": "Seated_Calf_Raise",
+      "title": "Vitruvian Seated Calf Raise",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/standing-calf-raise",
+      "exerciseId": "Standing_Calf_Raises",
+      "title": "Vitruvian Standing Calf Raise",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/standing-calf-raise.html",
+      "exerciseId": "Standing_Calf_Raises",
+      "title": "Standing Barbell Calf Raise",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/dumbbell-front-raise.html",
+      "exerciseId": "Front_Dumbbell_Raise",
+      "title": "Standing Dumbbell Front Raise",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-lateral-raise.html",
+      "exerciseId": "wger:1378",
+      "title": "Single Arm Cable Lateral Raise (Crossbody)",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/plank",
+      "exerciseId": "Plank",
+      "title": "Medicine Ball Plank",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://musclewiki.com/exercise/reverse-lunge",
+      "exerciseId": "wger:999",
+      "title": "Medicine Ball Reverse Lunge",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/decline-situp.html",
+      "exerciseId": "hasan:0282",
+      "title": "Decline Bench Sit Up",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/seated-leg-tucks.html",
+      "exerciseId": "Seated_Leg_Tucks",
+      "title": "Seated Knee Tucks",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/farmers-walk",
+      "exerciseId": "Farmers_Walk",
+      "title": "Dumbbell Farmers Carry",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/good-morning-off-pins",
+      "exerciseId": "Good_Morning_off_Pins",
+      "title": "Good Mornings Off Pins",
+      "reason": "actual_title_variant_mismatch"
+    },
+    {
+      "url": "https://www.muscleandstrength.com/exercises/clean-and-jerk",
+      "exerciseId": "Clean_and_Jerk",
+      "title": "Clean & Jerk",
+      "reason": "actual_title_variant_mismatch"
+    }
+  ],
+  "existingFieldsSha256": "7bc56998e01c71e328d526abfc88f2526a19152a775fff5c25d4d39df680535a",
+  "discoveredCounts": {
+    "visible": 335,
+    "archived": 256,
+    "ambiguous": 66,
+    "unmatched": 2566
+  },
+  "providerDiscovery": {
+    "musclewiki": {
+      "visible": 149,
+      "archived": 133,
+      "ambiguous": 33,
+      "unmatched": 1670
+    },
+    "muscleandstrength": {
+      "unmatched": 896,
+      "visible": 186,
+      "ambiguous": 33,
+      "archived": 123
+    }
+  },
+  "snapshotHashes": {
+    "mw-sitemap.xml": "0e3958a6dd7dc531220ddb10e8639661b4677cf180ca3cb0689bab57140fe37d",
+    "ms-sitemap.xml": "66b4fb017352fe69b1ea73fece25a31607f7620ab19b433ef4322f0955997a40",
+    "ms-sitemap-1.xml": "60befba95752fa6ff22544d816a0eafe6f1a63beda2d56e5a14413f15c58be07",
+    "ms-sitemap-2.xml": "85c353ddc230666bdaf56585e52c7fe6d6cbe606ccdc6a20945a7cc4227c9ddd",
+    "mw-robots.txt": "f88b393b0d3ef92bdba3b02e6ef6dec11703b2fa6291d7c954c94aad7391a11a",
+    "ms-robots.txt": "07a7a6f7c658ee37fe2ec1953780471f00d4f07c9213faf7dcc36649298c5e53"
+  },
+  "policy": "External references only; no publisher instruction blocks, thumbnails, images or video files bundled. Candidate labels are unverified slugs; unmatched does not mean confirmed new.",
+  "sourceUrls": [
+    "https://musclewiki.com/workout-builder",
+    "https://musclewiki.com/exercises",
+    "https://musclewiki.com/sitemap.xml",
+    "https://www.muscleandstrength.com/exercises",
+    "https://www.muscleandstrength.com/sitemap.xml"
+  ]
+}

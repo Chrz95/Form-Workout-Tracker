@@ -45,7 +45,19 @@ export function ExerciseSource({ exercise }: ExerciseSourceProps) {
       </a>
       {exercise.media?.map((asset) => (
         <p key={asset.url}>
-          Image by {asset.author} ·{" "}
+          Image by{" "}
+          {asset.author === "PTPioneer" ? (
+            <a
+              href="https://www.ptpioneer.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              PTPioneer
+            </a>
+          ) : (
+            asset.author
+          )}
+          {" · "}
           <a
             href={asset.licenseUrl}
             target="_blank"

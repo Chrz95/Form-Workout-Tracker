@@ -1,6 +1,9 @@
+import { ResponsiveDisclosure } from "../../components/ui/ResponsiveDisclosure";
+import { ExerciseMuscles } from "./ExerciseMuscles";
+import { ExerciseGuides } from "./ExerciseGuides";
 import { matchesExerciseId } from "../../../../shared/exerciseIdentity";
 import { ICON_SIZE } from "../../../../shared/constants";
-import { Plus, ArrowUpRight } from "lucide-react";
+import { Plus } from "lucide-react";
 import type { Exercise } from "../../../../shared/contracts";
 import type { Studio } from "../../app/useStudio";
 import { Modal } from "../../components/ui/Modal";
@@ -9,7 +12,6 @@ import { ExerciseVideos } from "./ExerciseVideos";
 import { ExerciseSource } from "./ExerciseSource";
 import { CustomExerciseActions } from "./custom/CustomExerciseActions";
 import { ExerciseAlternatives } from "./alternatives/ExerciseAlternatives";
-const VIDEO_SEARCH_URL = "https://www.youtube.com/results?search_query=";
 interface ExerciseDetailProps {
   exercise: Exercise;
   studio: Studio;
@@ -24,6 +26,7 @@ export function ExerciseDetail({ exercise, studio }: ExerciseDetailProps) {
   const isAdded = studio.draftSelectedItems.some((item) => matchesExerciseId(exercise, item.exerciseId));
   return (
     <Modal
+      className="exercise-detail"
       title={exercise.name}
       onClose={() => studio.setSelectedExercise(null)}
       isWide
@@ -33,12 +36,15 @@ export function ExerciseDetail({ exercise, studio }: ExerciseDetailProps) {
         <span>{exercise.equipment ?? "No equipment"}</span>
         <span>{exercise.category}</span>
       </div>
+      <p className="detail-primary-muscles">{exercise.primaryMuscles.join(" · ")}</p>
       {exercise.isArchived && <p>This entry is retained for saved workouts; its image guide is unavailable.</p>}
       <Demonstration exercise={exercise} />
       {!exercise.videos?.some((video) => video.codec === "h264") && <ExerciseVideos exercise={exercise} />}
       <div className="detail-columns">
-        <section>
-          <h3>How to move</h3>
+        <ResponsiveDisclosure
+          className="technique-section"
+          summary={`How to move${exercise.instructions.length ? ` · ${exercise.instructions.length} steps` : ""}`}
+        >
           {!exercise.instructions.length && (
             <p>Detailed steps were not supplied by this source. Open the technique-video search.</p>
           )}
@@ -47,34 +53,15 @@ export function ExerciseDetail({ exercise, studio }: ExerciseDetailProps) {
               <li key={instruction}>{instruction}</li>
             ))}
           </ol>
-        </section>
-        <section className="muscle-panel">
-          <h3>Muscles at work</h3>
-          <small>PRIMARY</small>
-          <p>{exercise.primaryMuscles.join(", ") || "Not supplied by source"}</p>
-          {exercise.secondaryMuscles.length > 0 && (
-            <div>
-              <small>SUPPORTING</small>
-              <p>{exercise.secondaryMuscles.join(", ")}</p>
-            </div>
-          )}
-          <p className="movement-note">
-            Move with control. Choose a load and range of motion you can manage comfortably.
-          </p>
-          <a
-            href={`${VIDEO_SEARCH_URL}${encodeURIComponent(`${exercise.name} exercise technique`)}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Find technique videos <ArrowUpRight size={ICON_SIZE.miniature} />
-          </a>
-        </section>
+        </ResponsiveDisclosure>
+        <ExerciseMuscles exercise={exercise} />
       </div>
       <ExerciseAlternatives
         exercise={exercise}
         studio={studio}
       />
       <CustomExerciseActions studio={studio} />
+      <ExerciseGuides exercise={exercise} />
       <ExerciseSource exercise={exercise} />
       <div className="modal-actions">
         <button

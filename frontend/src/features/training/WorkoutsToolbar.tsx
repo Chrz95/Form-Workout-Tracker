@@ -11,7 +11,7 @@ import { ImportCsvButton } from "./import/ImportCsvButton";
 export function WorkoutsToolbar({ studio }: StudioProps) {
   return (
     <div className="section-toolbar">
-      <p>{studio.workouts.length} saved workouts · built by you</p>
+      <p>{studio.workouts.length} saved routines</p>
       <ExportCsvButton input={{ kind: "workouts", records: studio.workouts, exercises: studio.exercises }} />
       <ImportCsvButton
         studio={studio}

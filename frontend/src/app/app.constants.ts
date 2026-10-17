@@ -16,11 +16,11 @@ export const PAGE_TITLES = {
 } as const;
 /** Page labels and descriptions. */
 export const PAGE_DESCRIPTIONS = {
-  calendar: "Make room for movement. See your plans and your progress.",
-  library: "Find your next movement. Make it your own.",
-  workouts: "A little structure. A lot of possibility.",
-  journal: "Show up. Put in the work. Keep the record.",
-  progress: "Every session is a step forward.",
+  calendar: "Plan your week. Keep your training in view.",
+  library: "Discover the movements behind your next great session.",
+  workouts: "Your routines, organized and ready to train.",
+  journal: "Every session, every set. Your complete training record.",
+  progress: "A clear view of the work you put in.",
 } as const;
 /** Session time conversion. */
 export const MINUTES_PER_HOUR = 60;

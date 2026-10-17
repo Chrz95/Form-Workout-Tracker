@@ -1,0 +1,296 @@
+{
+  "checkedAt": "2026-10-15",
+  "baselineSourceCommit": "1c79aa06f9cf205440bb11d57a3b49e4621b52ee",
+  "baselineVisible": 1284,
+  "visible": 1287,
+  "archived": 2384,
+  "before": [
+    {
+      "name": "Face Pull",
+      "force": "pull",
+      "level": "intermediate",
+      "mechanic": "compound",
+      "equipment": "cable",
+      "primaryMuscles": ["shoulders"],
+      "secondaryMuscles": ["middle back"],
+      "instructions": [
+        "Facing a high pulley with a rope or dual handles attached, pull the weight directly towards your face, separating your hands as you do so. Keep your upper arms parallel to the ground."
+      ],
+      "category": "strength",
+      "images": ["/exercises/Face_Pull/0.webp", "/exercises/Face_Pull/1.webp"],
+      "id": "Face_Pull",
+      "legacyIds": ["rthepen:cable_face_pull"],
+      "aliases": ["Cable Machine Face Pull", "Face Pull", "Cable Face Pull"],
+      "guides": [
+        {
+          "provider": "Muscle & Strength",
+          "title": "Cable Face Pull",
+          "url": "https://www.muscleandstrength.com/exercises/cable-face-pull",
+          "videoUrl": "https://www.youtube.com/watch?v=7ZvpXA_mFpQ",
+          "checkedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Rear Lunge",
+      "force": "push",
+      "level": "intermediate",
+      "mechanic": "compound",
+      "equipment": "dumbbell",
+      "primaryMuscles": ["quadriceps"],
+      "secondaryMuscles": ["calves", "glutes", "hamstrings"],
+      "instructions": [
+        "Stand with your torso upright holding two dumbbells in your hands by your sides. This will be your starting position.",
+        "Step backward with your right leg around two feet or so from the left foot and lower your upper body down, while keeping the torso upright and maintaining balance. Inhale as you go down. Tip: As in the other exercises, do not allow your knee to go forward beyond your toes as you come down, as this will put undue stress on the knee joint. Make sure that you keep your front shin perpendicular to the ground. Keep the torso upright during the lunge; flexible hip flexors are important. A long lunge emphasizes the Gluteus Maximus; a short lunge emphasizes Quadriceps.",
+        "Push up and go back to the starting position as you exhale. Tip: Use the ball of your feet to push in order to accentuate the quadriceps. To focus on the glutes, press with your heels.",
+        "Now repeat with the opposite leg."
+      ],
+      "category": "strength",
+      "images": ["/exercises/Dumbbell_Rear_Lunge/0.webp", "/exercises/Dumbbell_Rear_Lunge/1.webp"],
+      "id": "Dumbbell_Rear_Lunge",
+      "guides": [
+        {
+          "provider": "Muscle & Strength",
+          "title": "Dumbbell Rear Lunge",
+          "url": "https://www.muscleandstrength.com/exercises/dumbbell-rear-lunge.html",
+          "videoUrl": "https://www.youtube.com/watch?v=Ix9QZ3Pnneo",
+          "checkedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "wger:1637",
+      "name": "Single arm row",
+      "level": "unspecified",
+      "equipment": "cable machine + incline bench",
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": [],
+      "category": "back",
+      "aliases": [],
+      "instructions": [
+        "Sitting on the ground, use a high cable in a single grip, to do lat pulldowns with a focus on a long stretch in the lats."
+      ],
+      "images": ["/exercises/wger/577.webp"],
+      "source": {
+        "name": "wger Community Exercise Catalog",
+        "url": "https://wger.de/api/v2/exerciseinfo/1637/",
+        "license": "CC-BY-SA 4",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "attribution": "Rottekongen",
+        "changes": "English translation retained; HTML removed and muscle/equipment labels normalized. ShareAlike license preserved."
+      },
+      "media": [
+        {
+          "url": "/exercises/wger/577.webp",
+          "sourceUrl": "https://wger.de/media/exercise-images/1637/a1fbe83a-a3e5-49f6-a2c2-5d5b533c2be8.png",
+          "author": "Rottekongen",
+          "license": "CC-BY-SA 4",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+        }
+      ]
+    }
+  ],
+  "restoredBefore": {
+    "id": "glow:kettlebell_calf_raise",
+    "name": "kettlebell calf raise",
+    "level": "unspecified",
+    "equipment": "body only",
+    "category": "strength",
+    "primaryMuscles": ["other"],
+    "secondaryMuscles": [],
+    "instructions": [
+      "A calf raise holding a kettlebell for added resistance. The extra load increases the strength demand on the gastrocnemius and soleus for greater calf development.",
+      "Hold the kettlebell at the side or in a goblet position.",
+      "Perform on a step edge for a full range of motion.",
+      "Squeeze the calf at the top and lower the heel fully below the step."
+    ],
+    "images": [],
+    "aliases": [],
+    "source": {
+      "name": "Glowupp Open ExerciseDB",
+      "url": "https://github.com/Glowupp-app/open-exercisedb",
+      "attribution": "Copyright (c) 2026 Glowupp-app",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/Glowupp-app/open-exercisedb/blob/main/LICENSE",
+      "changes": "Display names, muscle/equipment labels and text formatting normalized. Source instructions retained. No source media copied."
+    },
+    "isArchived": true
+  },
+  "decisions": [
+    {
+      "id": "Cable_Crossover",
+      "name": "Standing Cable Pec Fly",
+      "action": "already_enriched_2.17"
+    },
+    {
+      "id": "Face_Pull",
+      "name": "Cable Rope Face Pull",
+      "action": "enriched_existing",
+      "images": "Existing bundled images retained; no duplicate identity."
+    },
+    {
+      "id": "Dumbbell_Rear_Lunge",
+      "name": "Dumbbell Reverse Lunge",
+      "action": "enriched_existing",
+      "images": "Existing bundled images retained; no duplicate identity."
+    },
+    {
+      "id": "wger:1637",
+      "name": "Seated Single-Arm High Pulley Row",
+      "action": "enriched_existing",
+      "images": "Existing bundled images retained; no duplicate identity."
+    },
+    {
+      "id": "glow:kettlebell_calf_raise",
+      "name": "Kettlebell Single-Arm Calf Raise",
+      "action": "restored_archived",
+      "images": "Genuine source-video GIF and extracted still; unmodified MP4 also included."
+    },
+    {
+      "id": "guide:kettlebell-lateral-lunge",
+      "name": "Kettlebell Lateral Lunge",
+      "action": "new_distinct_variation",
+      "images": "Genuine source-video GIF and extracted still; unmodified MP4 also included."
+    },
+    {
+      "id": "guide:dumbbell-standing-single-arm-twisting-curl",
+      "name": "Dumbbell Standing Single-Arm Twisting Curl",
+      "action": "new_distinct_variation",
+      "images": "Genuine source-video GIF and extracted still; unmodified MP4 also included."
+    },
+    {
+      "name": "Biceps",
+      "action": "muscle_group",
+      "reason": "Use the biceps muscle filter; no exercise named only Biceps is created."
+    }
+  ],
+  "clips": [
+    {
+      "slug": "dumbbell-standing-single-arm-twisting-curl",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-front.mp4",
+      "resolvedUrl": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-front.mp4",
+      "bytes": 382724,
+      "sha256": "1341ec1cb03f08c095182e713594f280198e18ef8188d1348317696a5f4969c4",
+      "duration": 8.25,
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frameCount": 83,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl.mp4",
+          "bytes": 382724,
+          "sha256": "1341ec1cb03f08c095182e713594f280198e18ef8188d1348317696a5f4969c4"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl.gif",
+          "bytes": 450423,
+          "sha256": "ab6e7077355872588dd297d2266aa2e2b694b26602d964e654b3200dc5e5417d"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl-still.webp",
+          "bytes": 25320,
+          "sha256": "15bad97e616ed1c0ca87bd9779912cc7d807d8fd21f8f6dedc31b27b9de126d6"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-dumbbell-standing-single-arm-twisting-curl.webp",
+          "bytes": 25320,
+          "sha256": "15bad97e616ed1c0ca87bd9779912cc7d807d8fd21f8f6dedc31b27b9de126d6"
+        }
+      ],
+      "exerciseId": "guide:dumbbell-standing-single-arm-twisting-curl",
+      "pageSha256": "91271910214ff5dcc72534c46fb74411a9c7a579543401ef8bd154444b8fb696"
+    },
+    {
+      "slug": "kettlebell-lateral-lunge-single",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-lateral-lunge-single-front.mp4",
+      "resolvedUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-lateral-lunge-single-front.mp4",
+      "bytes": 498913,
+      "sha256": "9967473c6d0401af2fe7aca8a402a204aa6b0bda4d7e03397bed46b6c0e91830",
+      "duration": 6.166667,
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frameCount": 62,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-lateral-lunge-single.mp4",
+          "bytes": 498913,
+          "sha256": "9967473c6d0401af2fe7aca8a402a204aa6b0bda4d7e03397bed46b6c0e91830"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-lateral-lunge-single.gif",
+          "bytes": 886687,
+          "sha256": "c33759012cda857ac3e05abae97e984d8145b16a31e73e57f917559828bec571"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-lateral-lunge-single-still.webp",
+          "bytes": 20090,
+          "sha256": "12a2d85e23dd8f25744853fd85eac003a8383ec5136e5c6035ac32e5477e70a8"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-lateral-lunge-single.webp",
+          "bytes": 20090,
+          "sha256": "12a2d85e23dd8f25744853fd85eac003a8383ec5136e5c6035ac32e5477e70a8"
+        }
+      ],
+      "exerciseId": "guide:kettlebell-lateral-lunge",
+      "pageSha256": "009f07630a7088989a7e88bb8d850633feb5ed8bb5cf44ec84cc492112ac7c95"
+    },
+    {
+      "slug": "kettlebell-single-arm-calf-raise",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-calf-raise-front.mp4",
+      "resolvedUrl": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-calf-raise-front.mp4",
+      "bytes": 405955,
+      "sha256": "dabe22959aaf7f9a01056a22c1eedb2355e7d22aa930afcb88fc2f36af67c8fd",
+      "duration": 7.283333,
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frameCount": 73,
+      "assets": [
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-single-arm-calf-raise.mp4",
+          "bytes": 405955,
+          "sha256": "dabe22959aaf7f9a01056a22c1eedb2355e7d22aa930afcb88fc2f36af67c8fd"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-single-arm-calf-raise.gif",
+          "bytes": 821628,
+          "sha256": "d9e10f793cfede932ac5c044f98691e2b2625646209c9e22891a0c2a8dbc115c"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-single-arm-calf-raise-still.webp",
+          "bytes": 15426,
+          "sha256": "696d5b23d726cc2580922ceb5106d51af4089240ffc42d8889b6920999049327"
+        },
+        {
+          "localUrl": "/exercise-motion/mw-kettlebell-single-arm-calf-raise.webp",
+          "bytes": 15426,
+          "sha256": "696d5b23d726cc2580922ceb5106d51af4089240ffc42d8889b6920999049327"
+        }
+      ],
+      "exerciseId": "glow:kettlebell_calf_raise",
+      "pageSha256": "e0b1d29b71d177167d43ce3dcc8b7c7ed1d21fe584445ce7d3337d2194e604d4"
+    }
+  ],
+  "mediaTerms": {
+    "url": "https://musclewiki.com/terms",
+    "checkedAt": "2026-10-15",
+    "scope": "Personal, non-profit workout application. Preserve MuscleWiki branding and links. This is not an open commercial-use media license. No publisher image assets were copied; stills are extracted from the shared source videos."
+  },
+  "duplicateReview": [
+    {
+      "requested": "Seated Single-Arm High Pulley Row",
+      "decision": "Reuse wger:1637, which has a seated high-cable photo and high-pulley instructions. Keep kneeling and low-pulley rows separate."
+    },
+    {
+      "requested": "Kettlebell Lateral Lunge",
+      "decision": "New low-held stepping variation; preserve archived rthepen:kettlebell_lateral_lunge goblet/Cossack identity."
+    },
+    {
+      "requested": "Dumbbell Standing Single Arm Twisting Curl",
+      "decision": "New single-dumbbell rotating variation. Preserve fixed-supination hasan:1670 and two-dumbbell alternating curl identities."
+    }
+  ]
+}

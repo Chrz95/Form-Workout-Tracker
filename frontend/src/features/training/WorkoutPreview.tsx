@@ -50,14 +50,12 @@ export function WorkoutPreview({ studio }: StudioProps) {
   }
   return (
     <Modal
+      className="workout-preview"
       title={`Review: ${input?.name ?? "Workout"}`}
       onClose={() => studio.setWorkoutPreviewId(null)}
       isWide
     >
-      <p className="modal-description">
-        Full exercise order and planned targets from your current connected records. Click a movement to review its
-        guide. Starting creates an independent live session.
-      </p>
+      <p className="modal-description">Tap a movement for its guide or expand its targets. Start when you’re ready.</p>
       {input?.notes && <p>{input.notes}</p>}
       {error ? (
         <p

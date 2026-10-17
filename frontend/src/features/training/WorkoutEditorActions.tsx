@@ -1,3 +1,4 @@
+import { ExercisePicker } from "./ExercisePicker";
 import { workoutInputSchema } from "../../../../shared/contracts";
 import { Play, Save } from "lucide-react";
 import { ICON_SIZE } from "../../../../shared/constants";
@@ -26,11 +27,8 @@ export function WorkoutEditorActions({ studio }: StudioProps) {
     }
   }
   return (
-    <div className="modal-actions builder-actions">
-      <span>
-        {studio.draftItems.length} direct exercises · {studio.draftWorkoutIds.length} component workouts
-      </span>
-      <div>
+    <>
+      <div className="builder-secondary-actions">
         <button
           type="button"
           className="text-button"
@@ -47,15 +45,23 @@ export function WorkoutEditorActions({ studio }: StudioProps) {
           <Play size={ICON_SIZE.miniature} />
           Start workout
         </button>
-        <button
-          className="button primary"
-          disabled={studio.isPending}
-          type="submit"
-        >
-          <Save size={ICON_SIZE.standard} />
-          {studio.isPending ? "Saving…" : "Save workout"}
-        </button>
       </div>
-    </div>
+      <div className="workout-save-bar">
+        <span>
+          {studio.draftItems.length} direct exercises · {studio.draftWorkoutIds.length} component workouts
+        </span>
+        <div className="workout-dock-actions">
+          <ExercisePicker studio={studio} />
+          <button
+            className="button primary"
+            disabled={studio.isPending}
+            type="submit"
+          >
+            <Save size={ICON_SIZE.standard} />
+            {studio.isPending ? "Saving…" : "Save workout"}
+          </button>
+        </div>
+      </div>
+    </>
   );
 }

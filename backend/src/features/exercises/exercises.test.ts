@@ -70,7 +70,7 @@ describe("Authenticated custom exercise contracts", () => {
     const archived = { ...movement, id: "historical-row", isArchived: true, images: [] };
     const alias = { ...movement, id: "old-press", canonicalId: movement.id };
     repository.list = vi.fn(async () => [movement, archived, alias]);
-    expect(await new ExerciseService(repository).list()).toEqual([movement]);
+    expect(await new ExerciseService(repository).list()).toEqual([{ ...movement, name: "My Band Row" }]);
     expect(repository.remove).not.toHaveBeenCalled();
     expect(await repository.list()).toContain(archived);
   });

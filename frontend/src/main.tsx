@@ -6,6 +6,7 @@ import "./styles/globals.css";
 import "./styles/theme.css";
 import "./styles/workoutEditor.css";
 import "./styles/mobile.css";
+import "./styles/studio.css";
 /** Starts the PWA with an explicit mount guard. */
 function mountApplication() {
   const root = document.getElementById("root");

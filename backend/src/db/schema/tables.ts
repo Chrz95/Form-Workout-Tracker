@@ -25,6 +25,7 @@ export const workoutItems = pgTable(
       .notNull()
       .references(() => exercises.id),
     plannedSets: jsonb("planned_sets").$type<WorkoutItem["plannedSets"]>(),
+    notes: text("notes").notNull().default(""),
     position: integer("position").notNull(),
     sets: integer("sets").notNull(),
     reps: integer("reps").notNull(),
@@ -59,6 +60,7 @@ export const sessionItems = pgTable(
     exerciseId: text("exercise_id")
       .notNull()
       .references(() => exercises.id),
+    notes: text("notes").notNull().default(""),
     position: integer("position").notNull(),
     sets: integer("sets").notNull(),
     reps: integer("reps").notNull(),

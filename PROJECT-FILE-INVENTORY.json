@@ -1,6 +1,6 @@
 {
-  "version": "2.28.0",
-  "sourceCommit": "a9cb39646a3b49ff806c4a0013ba34a7f9b172c4",
+  "version": "2.29.0",
+  "sourceCommit": "33ef998eb2b1f482d8e9e6ef5a868d8b1293f4ee",
   "files": [
     {
       "path": ".dockerignore",
@@ -9,8 +9,8 @@
     },
     {
       "path": ".env.docker.example",
-      "bytes": 668,
-      "sha256": "f38161b2c603f3981785929abbf6fd687c8145a7b1a5728c4166632d195d7618"
+      "bytes": 714,
+      "sha256": "e872520518130f1291cae0f657afe6b1ab4aeced661245b0262831e9cee958f6"
     },
     {
       "path": ".env.example",
@@ -54,8 +54,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 71024,
-      "sha256": "71cc16b0fd96b77d90fdfb88dfbca8bfd791d44059cef18dfbc9bb3edc19c3f4"
+      "bytes": 71360,
+      "sha256": "8d71f428ea69fb875b276e1b81ee75c69363f0943df2903a85eb29a5a0ee99b0"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -74,8 +74,8 @@
     },
     {
       "path": "backend/src/app/config/dockerProxy.test.ts",
-      "bytes": 4570,
-      "sha256": "4decd3217d1362ccf1e94ef8e15d0627f7490715f668f5bb3c19bf13eee9af39"
+      "bytes": 7526,
+      "sha256": "9d18eed07d521d88d0524d138cecad06c3feae8cbcca61177ccdb90648fe58aa"
     },
     {
       "path": "backend/src/app/config/environment.ts",
@@ -434,8 +434,8 @@
     },
     {
       "path": "compose.app.yaml",
-      "bytes": 3822,
-      "sha256": "4d51cdffefd9de9be4eda524b6988e978412a71a6405bd9a262f16e1e292cb6b"
+      "bytes": 3891,
+      "sha256": "9dacb6e0eeca6eff702db0dbb38945340a3c6f9c400e4e8df95a0d18fc8b7404"
     },
     {
       "path": "compose.db.yaml",
@@ -469,8 +469,8 @@
     },
     {
       "path": "docker/web-entrypoint.sh",
-      "bytes": 2236,
-      "sha256": "8d759b648b50ec925c58eae6ee45c0a7a7b78a1c7e3e6417d066ebd59c30c29e"
+      "bytes": 3011,
+      "sha256": "4b2c1c6ad612c9a88afa91b16521849b09aabf1edfae7346df210e96e172e9f0"
     },
     {
       "path": "docs/CATALOG-SOURCES.md",
@@ -606,6 +606,11 @@
       "path": "docs/RELEASE-2.28.md",
       "bytes": 1527,
       "sha256": "ee7b4a811e4597d617b7b07ede8608459f9ef676636fff8ac6d0dec5baf6be95"
+    },
+    {
+      "path": "docs/RELEASE-2.29.md",
+      "bytes": 3522,
+      "sha256": "facc08b48e21f5db6f18180ece78f6adb00c4707a2052ad55905e6ae9330beee"
     },
     {
       "path": "docs/RELEASE-2.3.md",
@@ -16595,7 +16600,7 @@
     {
       "path": "package.json",
       "bytes": 3690,
-      "sha256": "a5d5e09c5b566c8cbe6d8fd97397b6cc82702c247ba3b15676e67f0d413b2322"
+      "sha256": "f326ddc01c7c9d12645b9f50e503e9aad94c538a43acfd871949dba5c0954eba"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -16634,8 +16639,8 @@
     },
     {
       "path": "scripts/docker-init.mjs",
-      "bytes": 1159,
-      "sha256": "4cb1ce3244cb72659702df164b2c37532cce95accb3fcbbe0727345c66b63a91"
+      "bytes": 1212,
+      "sha256": "4df602542e798ae5c3a855fcd090a313d517bb8000d02de87ce40daccc5d1584"
     },
     {
       "path": "scripts/docker-up.sh",
@@ -16784,8 +16789,8 @@
     },
     {
       "path": "START-HERE.md",
-      "bytes": 1666,
-      "sha256": "2fc7d144244adf75ee9039672a85f27d6a5c308d421b60ed427f9474890a3056"
+      "bytes": 1705,
+      "sha256": "0690006adfb0030a4454f0de8f8dbc54ab8084e2c27ce385397b6f36720bf89f"
     },
     {
       "path": "verify-project.mjs",

@@ -1,5 +1,11 @@
 # Form — Workout Studio
 
+## Multiple app addresses (2.29)
+
+Docker now supports a comma-separated frontend address allowlist. The supplied Compose publishes both
+http://rpi5:2324 and http://rpi5.nord:4983 through one frontend and the same backend/database.
+See [RELEASE-2.29.md](docs/RELEASE-2.29.md) for the image-based Compose update and compatibility notes.
+
 ## Inline set controls (2.28)
 
 Mobile set rows place the set label and a bin icon directly beside the equal-width repetitions and weight

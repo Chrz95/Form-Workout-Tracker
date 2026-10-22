@@ -1,5 +1,15 @@
 # Form — Workout Studio
 
+## Inline set controls (2.28)
+
+Mobile set rows place the set label and a bin icon directly beside the equal-width repetitions and weight
+fields. The icon keeps an accessible label and a 44px touch target. See [RELEASE-2.28.md](docs/RELEASE-2.28.md).
+
+## Wider mobile set inputs (2.27)
+
+Repetitions and weight now share the available mobile row width equally, with the set label and Remove
+button on a separate row. Inputs are taller and numbers larger. See [RELEASE-2.27.md](docs/RELEASE-2.27.md).
+
 ## Personal collection and review editing (2.26)
 
 My exercises includes custom exercises and movements used in saved workouts or the current draft.

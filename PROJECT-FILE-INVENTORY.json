@@ -1,6 +1,6 @@
 {
-  "version": "2.26.0",
-  "sourceCommit": "136228f9c1ef6fba3f989244d50f225bc9cf3062",
+  "version": "2.28.0",
+  "sourceCommit": "a9cb39646a3b49ff806c4a0013ba34a7f9b172c4",
   "files": [
     {
       "path": ".dockerignore",
@@ -54,8 +54,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 70525,
-      "sha256": "a968f67ff857f04519133284d82c0b84662b987993036ec0c115f94c488e42c2"
+      "bytes": 71024,
+      "sha256": "71cc16b0fd96b77d90fdfb88dfbca8bfd791d44059cef18dfbc9bb3edc19c3f4"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -596,6 +596,16 @@
       "path": "docs/RELEASE-2.26.md",
       "bytes": 3423,
       "sha256": "3c9dee04e90c49574e0d87b139602d4bef68d47842875607db6660fca25aade5"
+    },
+    {
+      "path": "docs/RELEASE-2.27.md",
+      "bytes": 1514,
+      "sha256": "b763574149e26d545de77e7a172d24bd20eec4d4da546066bfb0a40c190fa6e1"
+    },
+    {
+      "path": "docs/RELEASE-2.28.md",
+      "bytes": 1527,
+      "sha256": "ee7b4a811e4597d617b7b07ede8608459f9ef676636fff8ac6d0dec5baf6be95"
     },
     {
       "path": "docs/RELEASE-2.3.md",
@@ -15989,8 +15999,8 @@
     },
     {
       "path": "frontend/src/features/training/PlannedSetsEditor.tsx",
-      "bytes": 3552,
-      "sha256": "5e25e4fb43ea7ebd519dba1c951166de3d3e8d348682c87aa21392b5893b7313"
+      "bytes": 3623,
+      "sha256": "1a53f55bdb29ca43e4f65eaee2c61115636d0ac8a06e165ba961395e8a0efb6e"
     },
     {
       "path": "frontend/src/features/training/PrescriptionOptions.tsx",
@@ -16434,8 +16444,8 @@
     },
     {
       "path": "frontend/src/styles/studioCompact.css",
-      "bytes": 10578,
-      "sha256": "c8267b4ca6a5d1e484869c953277b594f5fbb7c7b09580e579202661baec19dd"
+      "bytes": 11715,
+      "sha256": "1f61e8c293a2c693386e5237256273f3538f8024e1c0edaf4bf0a0a4cfa6e918"
     },
     {
       "path": "frontend/src/styles/studioDialogs.css",
@@ -16585,7 +16595,7 @@
     {
       "path": "package.json",
       "bytes": 3690,
-      "sha256": "87ea1ff045fdbb9cab6c1b5fea8dac9be7f46c5677c1cc5097352c27cfd88891"
+      "sha256": "a5d5e09c5b566c8cbe6d8fd97397b6cc82702c247ba3b15676e67f0d413b2322"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -16774,8 +16784,8 @@
     },
     {
       "path": "START-HERE.md",
-      "bytes": 1869,
-      "sha256": "d6314db6f539ff86fea07db433a284d8dcd039c2e0d585fa9234ff327dbb4a38"
+      "bytes": 1666,
+      "sha256": "2fc7d144244adf75ee9039672a85f27d6a5c308d421b60ed427f9474890a3056"
     },
     {
       "path": "verify-project.mjs",

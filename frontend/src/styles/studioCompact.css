@@ -71,6 +71,21 @@
   padding-block: 10px;
   font-variant-numeric: tabular-nums;
 }
+.planned-set-row > .set-remove-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  color: var(--text-muted);
+}
+.planned-set-row > .set-remove-button:hover:not(:disabled) {
+  color: var(--text-danger);
+}
 @media (max-width: 680px) {
   .main-content {
     padding-top: 20px;
@@ -320,13 +335,48 @@
     gap: 6px;
   }
   .modal .planned-set-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 44px;
     padding: 8px;
-    gap: 6px;
+    gap: 6px 8px;
     align-items: end;
   }
-  .modal .planned-set-row > button {
-    min-height: 44px;
+  .modal .planned-set-row > span {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: end;
+    justify-self: center;
+    white-space: nowrap;
     font-size: 11px;
+    font-weight: 600;
+  }
+  .modal .planned-set-row > button {
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: end;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 0;
+  }
+  .modal .planned-set-row > label {
+    grid-row: 1 / span 2;
+    min-width: 0;
+    font-size: 12px;
+  }
+  .modal .planned-set-row > label:first-of-type {
+    grid-column: 1;
+  }
+  .modal .planned-set-row > label:nth-of-type(2) {
+    grid-column: 2;
+  }
+  .modal .planned-set-row input {
+    width: 100%;
+    min-width: 0;
+    min-height: 52px;
+    height: 52px;
+    padding: 12px;
+    font-size: 18px;
   }
   .editor-extras {
     border: 1px solid var(--border);

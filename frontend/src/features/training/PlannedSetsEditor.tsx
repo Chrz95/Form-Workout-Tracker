@@ -1,3 +1,4 @@
+import { Trash2 } from "lucide-react";
 import { ResponsiveDisclosure } from "../../components/ui/ResponsiveDisclosure";
 import { targetSummary } from "./targetSummary";
 import { createUuid } from "../../../../shared/createUuid";
@@ -71,7 +72,7 @@ export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
             ))}
             <button
               type="button"
-              className="text-button"
+              className="text-button set-remove-button"
               disabled={sets.length === 1}
               aria-label={`Remove set ${index + 1}`}
               onClick={() =>
@@ -81,7 +82,7 @@ export function PlannedSetsEditor({ item, studio }: PlannedSetsEditorProps) {
                 )
               }
             >
-              Remove
+              <Trash2 size={18} />
             </button>
           </div>
         ))}

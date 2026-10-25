@@ -1,5 +1,7 @@
 # Form — Workout Studio
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q1J229F1AG)
+
 ## Multiple app addresses (2.29)
 
 Docker now supports a comma-separated frontend address allowlist. The supplied Compose publishes both
